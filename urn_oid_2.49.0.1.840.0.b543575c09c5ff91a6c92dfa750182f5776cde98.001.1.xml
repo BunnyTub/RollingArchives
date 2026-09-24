@@ -1,0 +1,92 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.b543575c09c5ff91a6c92dfa750182f5776cde98.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-23T15:49:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-23T15:49:00-08:00</effective>
+        <onset>2026-09-23T17:00:00-08:00</onset>
+        <expires>2026-09-24T06:00:00-08:00</expires>
+        <senderName>NWS Fairbanks AK</senderName>
+        <headline>Gale Warning issued September 23 at 3:49PM AKDT until September 24 at 5:00PM AKDT by NWS Fairbanks AK</headline>
+        <description>Northwestern Alaska Coastal Waters out 100 NM
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent the average of the highest one-
+third of the combined wind-wave and swell height.
+
+.TONIGHT...SE winds 35 kt. Seas 5 ft building to 7 ft.
+.THU...E winds 40 kt. Seas 8 ft. Rain showers.
+.THU NIGHT...SE winds 30 kt. Seas 8 ft.
+.FRI...E winds 35 kt. Seas 7 ft.
+.FRI NIGHT...NE winds 25 kt. Seas 7 ft. Rain showers.
+.SAT...NW winds 20 kt. Seas 5 ft.
+.SAT NIGHT...NW winds 15 kt. Seas 3 ft.
+.SUN...NW winds 20 kt. Seas 4 ft.
+.MON...NW winds 20 kt. Seas 4 ft.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CWFWCZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK52 PAFG 232349</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING IN EFFECT FROM LATE TONIGHT THROUGH THURSDAY AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.PAFG.GL.W.3024.260924T0100Z-260925T0100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T17:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Etolin Strait to Dall Point out to 15 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058801</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ801</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
