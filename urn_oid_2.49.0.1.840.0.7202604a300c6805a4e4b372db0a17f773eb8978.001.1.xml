@@ -1,0 +1,113 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.7202604a300c6805a4e4b372db0a17f773eb8978.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T21:14:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-24T21:14:00-05:00</effective>
+        <onset>2026-09-24T21:14:00-05:00</onset>
+        <expires>2026-09-24T22:00:00-05:00</expires>
+        <senderName>NWS Midland/Odessa TX</senderName>
+        <headline>Special Weather Statement issued September 24 at 9:14PM CDT by NWS Midland/Odessa TX</headline>
+        <description>At 914 PM CDT, Doppler radar was tracking a strong thunderstorm 9
+miles north of Terlingua, or 17 miles northeast of Lajitas, moving
+north at 10 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+This storm will remain over mainly rural areas of west central
+Brewster County.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.
+
+Frequent cloud to ground lightning is occurring with this storm.
+Lightning can strike 10 miles away from a thunderstorm. Seek a safe
+shelter inside a building or vehicle.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSMAF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS84 KMAF 250214</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A STRONG THUNDERSTORM WILL IMPACT WEST CENTRAL BREWSTER COUNTY THROUGH 1000 PM CDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T02:14:00-00:00...storm...196DEG...11KT...29.45,-103.59</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>55 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.50</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Central Brewster County; Lower Brewster County</areaDesc>
+            <polygon>29.38,-103.5 29.43,-103.71 29.67,-103.66 29.61,-103.37 29.38,-103.5</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048043</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ279</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ282</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
