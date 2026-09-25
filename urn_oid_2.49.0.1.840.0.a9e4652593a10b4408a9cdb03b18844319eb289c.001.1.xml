@@ -1,0 +1,98 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a9e4652593a10b4408a9cdb03b18844319eb289c.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T21:39:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.33f49536c0b28feef7cdbed54b8f640d7c6105a9.001.1,2026-09-24T18:41:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5d6209e62ed99db1f79e506420271468aedfb017.001.1,2026-09-24T19:12:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T21:39:00-06:00</effective>
+        <onset>2026-09-24T21:39:00-06:00</onset>
+        <expires>2026-09-24T21:49:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 9:39PM MDT until September 24 at 9:45PM MDT by NWS Albuquerque NM</headline>
+        <description>Light rain will continue over the area and flows of water in arroyos
+as well as ponding of water in low spots may persist. However, the
+heavy rain has ended, and flash flooding is no longer expected to
+pose a threat. Please continue to heed any remaining road closures.
+
+A Flood Watch remains in effect until 600 AM MDT Friday for portions
+of central, east central, and southeast New Mexico.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 250339</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING WILL EXPIRE AT 945 PM MDT THIS EVENING FOR SOUTHWESTERN ROOSEVELT AND NORTHEASTERN CHAVES COUNTIES</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KABQ.FF.W.0188.000000T0000Z-260925T0345Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T21:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves, NM; Roosevelt, NM</areaDesc>
+            <polygon>33.68,-103.72 33.7,-103.88 33.82,-103.91 34.03,-103.84 34.06,-103.75 34.05,-103.71 33.95,-103.61 33.68,-103.71 33.68,-103.72</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035041</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC041</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
