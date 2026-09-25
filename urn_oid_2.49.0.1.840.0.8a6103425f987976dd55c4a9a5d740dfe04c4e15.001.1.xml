@@ -1,0 +1,91 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8a6103425f987976dd55c4a9a5d740dfe04c4e15.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T05:29:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T05:29:00-06:00</effective>
+        <onset>2026-09-25T05:29:00-06:00</onset>
+        <expires>2026-09-25T05:39:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 5:29AM MDT until September 25 at 5:30AM MDT by NWS Albuquerque NM</headline>
+        <description>The heavy rain has ended. Flash flooding is no longer expected to
+pose a threat. Please continue to heed any remaining road closures.
+
+A Flood Watch remains in effect until 1200 AM MDT Saturday for
+portions of central, east central, and southeast New Mexico.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 251129</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING WILL EXPIRE AT 530 AM MDT EARLY THIS MORNING FOR SOUTHWESTERN CHAVES COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KABQ.FF.W.0191.000000T0000Z-260925T1130Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T05:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.38ccf3f709b366de6ba41a5e9d79fd5f3a525dac.001.1,2026-09-25T04:09:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f24a0a735c93e876f74150fe5ae6c147c0ce874c.001.1,2026-09-25T02:25:00-06:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves, NM</areaDesc>
+            <polygon>32.98,-105.32 32.87,-104.84 32.52,-104.84 32.52,-105.35 32.96,-105.35 32.96,-105.32 32.98,-105.32</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC005</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
