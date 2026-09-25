@@ -1,0 +1,99 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a153679dff06fcf16a7fdd0588c1471aef39bd29.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T19:33:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T19:33:00-05:00</effective>
+        <onset>2026-09-24T19:33:00-05:00</onset>
+        <expires>2026-09-24T21:30:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Flood Advisory issued September 24 at 7:33PM CDT until September 24 at 9:30PM CDT by NWS Amarillo TX</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Southeastern Deaf Smith County in the panhandle of Texas...
+
+* WHEN...Until 930 PM CDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+- At 733 PM CDT, Doppler radar and automated rain gauges indicated
+heavy rain due to thunderstorms. Minor flooding is ongoing or
+expected to begin shortly in the advisory area. Between 0.5 and 1
+inch of rain has fallen.
+- Some locations that will experience flooding include...
+Hereford and Dawn.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KAMA 250033</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 930 PM CDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KAMA.FA.Y.0088.260925T0033Z-260925T0230Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T21:30:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Deaf Smith, TX</areaDesc>
+            <polygon>34.75,-102.89 34.81,-102.71 34.87,-102.48 34.97,-102.32 34.96,-102.27 34.92,-102.2 34.86,-102.19 34.75,-102.3 34.75,-102.89</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048117</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC117</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
