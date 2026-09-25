@@ -1,0 +1,93 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.fc111aaaa41c28139c295e33352f4f92008752f0.011.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T06:37:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2aa968b596be4136a2518d5d207851e21779d141.001.2,2026-09-25T00:51:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4000b7477a8850ac1a96dda41f7de87ba2913fa6.011.1,2026-09-25T04:13:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T06:37:00-04:00</effective>
+        <onset>2026-09-25T06:37:00-04:00</onset>
+        <expires>2026-09-25T15:00:00-04:00</expires>
+        <senderName>NWS Wakefield VA</senderName>
+        <headline>Small Craft Advisory issued September 25 at 6:37AM EDT until September 26 at 6:00PM EDT by NWS Wakefield VA</headline>
+        <description>* WHAT...North winds 15 to 25 kt with gusts up to 30 kt and
+waves 2 to 4 ft expected.
+
+* WHERE...James River from JRB to HRBT, Including the Elizabeth
+River.
+
+* WHEN...Until 6 PM EDT Saturday.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWAKQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KAKQ 251037</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 6 PM EDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KAKQ.SC.Y.0092.000000T0000Z-260926T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T18:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9e0e60908e87ff5d9ec0014027fe2df924dd269f.001.1,2026-09-23T06:50:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f97b3bbcd5a4d0c1ebf7df9a92023e30b8df3d93.001.1,2026-09-23T06:03:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a35bfe6126fbc563a7f9c96570adc73cc2eeaf79.004.1,2026-09-23T01:57:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d53ce56758df659b98e5865569f0d5c4972ccff7.005.1,2026-09-22T21:04:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f17cdf480bc3e9db14fa9967b32ee09afc20c6c4.007.1,2026-09-22T14:58:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0ee0f9ff64899c40032c3b2079c3a516bfa761ca.007.1,2026-09-22T09:35:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b720e415d67fd1a611a44d86d452146017732533.007.1,2026-09-22T06:25:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.010dd9eefd61fba089ad832b4bcceb1639fbac97.007.1,2026-09-22T01:58:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>James River from JRB to HRBT, Including the Elizabeth River</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073639</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ639</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
