@@ -1,0 +1,127 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.60e01b93efbbab5b544717c78c2918848c715cca.002.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T10:28:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Red Flag Warning</event>
+        <responseType>Prepare</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FWW</value>
+        </eventCode>
+        <effective>2026-09-24T10:28:00-07:00</effective>
+        <onset>2026-09-25T12:00:00-07:00</onset>
+        <expires>2026-09-25T10:30:00-07:00</expires>
+        <senderName>NWS Reno NV</senderName>
+        <headline>Red Flag Warning issued September 24 at 10:28AM PDT until September 25 at 10:00PM PDT by NWS Reno NV</headline>
+        <description>The National Weather Service in Reno has issued a Red Flag
+Warning for gusty winds and low humidity, which is in effect from
+noon to 10 PM PDT Friday. The Fire Weather Watch is no longer in
+effect.
+
+* CHANGES...Fire Weather Watch upgraded to a Red Flag Warning.
+
+* Affected Area...Fire Weather Zone 423 West Humboldt Basin in
+Pershing County, Fire Weather Zone 429 Lahontan Basin
+including Churchill and Eastern Mineral Counties.
+
+* Winds...Southwest to west winds 15 to 25 mph with gusts up to 40
+mph. Winds shift northerly/northwesterly in the evening and
+overnight.
+
+* Humidity...As low as 12 to 17 percent in the afternoon.
+
+* Duration...4 to 7 hours.
+
+* Impacts...The combination of gusty winds and low humidity can
+cause fire to rapidly grow in size and intensity before first
+responders can contain them.
+</description>
+        <instruction>Avoid outdoor activities that can cause a spark near dry
+vegetation, such as yard work, target shooting, or campfires.
+Follow local fire restrictions. Check weather.gov/reno for
+updates and livingwithfire.info for preparedness tips.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>RFWREV</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KREV 241728</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>RED FLAG WARNING IN EFFECT FROM NOON TO 10 PM PDT FRIDAY FOR GUSTY WINDS AND LOW HUMIDITY FOR THE LAHONTAN AND WEST HUMBOLDT BASINS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KREV.FW.W.0013.260925T1900Z-260926T0500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T22:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>West Humboldt Basin - Pershing County; Lahontan Basin - Churchill and Eastern Mineral Counties</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>032001</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>032027</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>032015</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>032019</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>032021</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>032031</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NVZ423</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NVZ429</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

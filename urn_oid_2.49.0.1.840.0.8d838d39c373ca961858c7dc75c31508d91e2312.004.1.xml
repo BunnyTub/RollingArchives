@@ -1,0 +1,138 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8d838d39c373ca961858c7dc75c31508d91e2312.004.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T12:45:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.004.1,2026-09-23T12:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3fcd6956f22aa6abe15ff3ea3b77e47b80861a5a.006.1,2026-09-23T21:05:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <effective>2026-09-24T12:45:00-05:00</effective>
+        <onset>2026-09-25T13:00:00-05:00</onset>
+        <expires>2026-09-26T00:45:00-05:00</expires>
+        <senderName>NWS St Louis MO</senderName>
+        <headline>Flood Warning issued September 24 at 12:45PM CDT until September 27 at 1:00PM CDT by NWS St Louis MO</headline>
+        <description>...The Flood Warning is extended for the following rivers in
+Illinois...Missouri...
+
+Mississippi River at Louisiana.
+
+Mississippi River at Clarksville.
+
+Mississippi River at Hannibal.
+
+Mississippi River at Saverton.
+
+Mississippi River at Winfield.
+
+...The Flood Warning is cancelled for the following rivers in
+Illinois...Missouri...
+
+Mississippi River at Canton.
+
+River forecasts are based on observed precipitation and forecast
+precipitation for the next 24 hours.
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...Mississippi River at Hannibal.
+
+* WHEN...From Friday afternoon to Sunday afternoon.
+
+* IMPACTS...At 17.0 feet, John Hay Recreation Area on east side
+(inside the Illinois Sny Levee) begins flooding.
+
+* ADDITIONAL DETAILS...
+- At 12:15 PM CDT Thursday the stage was 16.5 feet.
+- Forecast...The river is expected to rise to a crest of 17.0 feet
+early tomorrow afternoon. It will then fall below flood stage
+Saturday morning.
+- Flood stage is 17.0 feet.
+</description>
+        <instruction>
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+This product, along with additional weather and stream information,
+is available at https://water.noaa.gov/wfo/lsx</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSLSX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS83 KLSX 241745</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING NOW IN EFFECT FROM FRIDAY AFTERNOON TO SUNDAY AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KLSX.FL.W.0113.260925T1800Z-260927T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T13:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8fe949ec5217f832497d8e294d5d734b414e723b.003.1,2026-09-22T21:50:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a1b16de6cf7028f823f1524b17e40688b47de376.004.1,2026-09-22T11:55:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.05e7edfc5f88abfad026f7bceca55b91d6c46d80.005.1,2026-09-21T21:48:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fc8a11ba326c79f672df73360dba31f069465968.005.1,2026-09-21T12:23:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e06ffb7641854d68b5c353b32b438a353657b64a.005.1,2026-09-20T21:21:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.005.1,2026-09-20T11:48:00-05:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Pike, IL; Marion, MO</areaDesc>
+            <polygon>39.83,-91.48 39.83,-91.35 39.74,-91.21 39.67,-91.32 39.69,-91.34 39.68,-91.39 39.71,-91.36 39.83,-91.48</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>017149</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>029127</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ILC149</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MOC127</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
