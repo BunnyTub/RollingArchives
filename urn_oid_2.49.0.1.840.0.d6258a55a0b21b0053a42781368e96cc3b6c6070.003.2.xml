@@ -1,0 +1,95 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.d6258a55a0b21b0053a42781368e96cc3b6c6070.003.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T13:12:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Hazardous Seas Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SEW</value>
+        </eventCode>
+        <effective>2026-09-24T13:12:00-07:00</effective>
+        <onset>2026-09-25T14:00:00-07:00</onset>
+        <expires>2026-09-25T05:15:00-07:00</expires>
+        <senderName>NWS Portland OR</senderName>
+        <headline>Hazardous Seas Warning issued September 24 at 1:12PM PDT until September 25 at 8:00PM PDT by NWS Portland OR</headline>
+        <description>* WHAT...For the Gale Warning, seas 10 to 15 ft at 10 seconds and
+south winds 20 to 30 kt with gusts up to 35 kt expected. For the
+Hazardous Seas Warning, very steep and hazardous seas 10 to 14
+ft at 9 seconds and west winds 20 to 25 kt with gusts up to 30
+kt expected.
+
+* WHERE...In the Main Channel of the Columbia River Bar.
+
+* WHEN...Gale Warning, from 11 PM this evening to 2 PM PDT
+Friday. Hazardous Seas Warning, from 2 PM to 8 PM PDT Friday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>A Gale Warning means winds of 34 to 47 knots are imminent or
+occurring. Operating a vessel in gale conditions requires
+experience and properly equipped vessels. It is highly
+recommended that mariners without the proper experience seek safe
+harbor prior to the onset of gale conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWPQR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KPQR 242012</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING REMAINS IN EFFECT FROM 11 PM THIS EVENING TO 2 PM PDT FRIDAY... ...HAZARDOUS SEAS WARNING IN EFFECT FROM 2 PM TO 8 PM PDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KPQR.SE.W.0012.260925T2100Z-260926T0300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T20:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Columbia River Bar</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057210</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ210</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
