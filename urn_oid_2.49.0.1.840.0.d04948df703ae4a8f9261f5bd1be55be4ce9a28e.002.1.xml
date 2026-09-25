@@ -1,0 +1,90 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.d04948df703ae4a8f9261f5bd1be55be4ce9a28e.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T02:37:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.da0b550e64017ffd0a7349c6e02ea4e411e05548.001.2,2026-09-23T20:24:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-24T02:37:00-07:00</effective>
+        <onset>2026-09-24T18:00:00-07:00</onset>
+        <expires>2026-09-24T10:45:00-07:00</expires>
+        <senderName>NWS Los Angeles/Oxnard CA</senderName>
+        <headline>Small Craft Advisory issued September 24 at 2:37AM PDT until September 26 at 3:00AM PDT by NWS Los Angeles/Oxnard CA</headline>
+        <description>* WHAT...Hazardous sea conditions.
+
+* WHERE...Point Piedras Blancas to Point Sal from 10 to 60 NM.
+
+* WHEN...From 6 PM this evening to 3 AM PDT Saturday.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+
+* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFLOX)
+for more.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWLOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KLOX 240937</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 6 PM THIS EVENING TO 3 AM PDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KLOX.SC.Y.0139.260925T0100Z-260926T1000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T03:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Point Piedras Blancas to Point Sal from 10 to 60 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057670</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ670</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
