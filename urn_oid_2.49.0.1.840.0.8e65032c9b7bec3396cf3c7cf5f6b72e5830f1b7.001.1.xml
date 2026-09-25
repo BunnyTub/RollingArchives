@@ -1,0 +1,100 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8e65032c9b7bec3396cf3c7cf5f6b72e5830f1b7.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T12:31:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>High Wind Warning</event>
+        <responseType>Prepare</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <effective>2026-09-25T12:31:00-06:00</effective>
+        <onset>2026-09-25T20:00:00-06:00</onset>
+        <expires>2026-09-26T03:45:00-06:00</expires>
+        <senderName>NWS Great Falls MT</senderName>
+        <headline>High Wind Warning issued September 25 at 12:31PM MDT until September 26 at 6:00AM MDT by NWS Great Falls MT</headline>
+        <description>* WHAT...West winds 30 to 40 mph with gusts up to 60 mph expected.
+
+* WHERE...Bears Paw Mountains and Southern Blaine.
+
+* WHEN...From 8 PM this evening to 6 AM MDT Saturday.
+
+* IMPACTS...Damaging winds will blow down trees and power lines.
+Widespread power outages are expected. Travel will be difficult,
+especially for high profile vehicles.
+</description>
+        <instruction>People are urged to secure loose objects that could be blown around
+or damaged by the wind.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWTFX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS75 KTFX 251831</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH WIND WARNING IN EFFECT FROM 8 PM THIS EVENING TO 6 AM MDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXB.KTFX.HW.W.0032.260926T0200Z-260926T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T06:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Bears Paw Mountains and Southern Blaine</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030041</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030015</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ311</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
