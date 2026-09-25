@@ -1,0 +1,115 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.15308f8482f1ebe6ac3d6eae6bd45e3aa303b47a.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T14:47:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ea884348afe0c4667a454d8ad9aa4e41a56b463d.002.1,2026-09-24T02:32:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.79eec8c06ce408826c8cb4f972dc52e4450b55b8.001.1,2026-09-24T13:56:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.79eec8c06ce408826c8cb4f972dc52e4450b55b8.003.1,2026-09-24T13:56:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4f9364e648233f4cdc93ea8de1dc56591adff48f.002.1,2026-09-24T14:04:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5c34d3d8b0d656b3e85cf8a175bacaaf73101451.001.1,2026-09-24T14:37:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5c34d3d8b0d656b3e85cf8a175bacaaf73101451.003.1,2026-09-24T14:37:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Advisory</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFY</value>
+        </eventCode>
+        <effective>2026-09-24T14:47:00-04:00</effective>
+        <onset>2026-09-24T17:00:00-04:00</onset>
+        <expires>2026-09-25T05:00:00-04:00</expires>
+        <senderName>NWS Jacksonville FL</senderName>
+        <headline>Coastal Flood Advisory issued September 24 at 2:47PM EDT until September 25 at 11:00AM EDT by NWS Jacksonville FL</headline>
+        <description>* WHAT...Minor coastal flooding expected.
+
+* WHERE...Eastern Clay, Trout River, South Central Duval and
+Western St. Johns Counties.
+
+* WHEN...Until 11 AM EDT Friday.
+
+* IMPACTS...Flooding of lots, parks, and roads with only
+isolated road closures expected.
+</description>
+        <instruction>If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWJAX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KJAX 241847</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD ADVISORY REMAINS IN EFFECT UNTIL 11 AM EDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KJAX.CF.Y.0002.260924T2100Z-260925T1500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T11:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6a63aa9a0a6bebce5a3847af38f55d9616367aae.002.1,2026-09-23T15:20:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Eastern Clay; Trout River; South Central Duval; Western St. Johns</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012019</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012031</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012109</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ132</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ225</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ325</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ633</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
