@@ -1,0 +1,148 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.ef37b9d2a514bb379c3040a5f469d36a606670ac.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T05:28:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0ed2d3836a3c7db59ea936c1ae9ab925cfcd2fd6.001.1,2026-09-24T22:41:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAA</value>
+        </eventCode>
+        <effective>2026-09-25T05:28:00-06:00</effective>
+        <onset>2026-09-25T05:28:00-06:00</onset>
+        <expires>2026-09-25T13:00:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flood Watch issued September 25 at 5:28AM MDT until September 26 at 12:00AM MDT by NWS Albuquerque NM</headline>
+        <description>* WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...Portions of central, east central, and southeast New
+Mexico, including the following areas, in central New Mexico,
+Eastern Lincoln County and South Central Mountains. In east central
+New Mexico, Curry County and Roosevelt County. In southeast New
+Mexico, Chaves County Plains and Southwest Chaves County.
+
+* WHEN...Through this evening.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+creeks, streams, and other low-lying and flood-prone locations.
+Creeks and streams may rise out of their banks. Flooding may occur
+in poor drainage and urban areas. Low-water crossings may be
+flooded.
+
+* ADDITIONAL DETAILS...
+- A swath of heavy rain over the past 24 hours from near Ruidoso
+through Roswell up to Clovis of 2 to 6 inches of rain will allow
+any new storm passing over this area to threaten flash flooding
+through today and this evening.
+- Rapid runoff and flash flooding will be most likely in complex
+terrain, below recent burn scars, low-lying areas, urban areas,
+normally dry arroyos, near rivers and streams, and in locations
+where the ground is already saturated from recent heavy rainfall.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>You should monitor later forecasts and be prepared to take action
+should Flash Flood Warnings be issued. Never drive through flood
+waters. Most flash flood deaths occur in automobiles.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFAABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS65 KABQ 251128</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WATCH NOW IN EFFECT THROUGH THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KABQ.FA.A.0024.000000T0000Z-260926T0600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T00:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.be0d640522d65ee8a5cb741fc0340bcbb6c4c7a0.001.1,2026-09-24T12:24:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a2e4f4e03ee8ec1920fb71c8714778368b0d13e6.002.1,2026-09-24T05:35:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1ba53492bc416f03b86daba964c05efbb990a84e.003.1,2026-09-24T01:36:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1ba53492bc416f03b86daba964c05efbb990a84e.001.1,2026-09-24T01:36:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.40527291e4b5119595a8a97135446dc847c7c1f8.003.1,2026-09-23T20:38:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.40527291e4b5119595a8a97135446dc847c7c1f8.002.1,2026-09-23T20:38:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1eb68ac6c531972ee1663789d8a2644738a44471.001.1,2026-09-23T13:03:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82f4230f5f5149c0e14e4fb4a34a29b12e361428.003.1,2026-09-23T13:11:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82f4230f5f5149c0e14e4fb4a34a29b12e361428.002.1,2026-09-23T13:11:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c772a8501888f88c5d14598a53e6da4684ae7a1c.002.1,2026-09-23T02:00:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c772a8501888f88c5d14598a53e6da4684ae7a1c.001.1,2026-09-23T02:00:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.72abc9365a5ae9f14055e0f06ce1934634ad9843.001.1,2026-09-22T11:57:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8fc016a4b9ec1707d18193d617968f63442ff884.002.1,2026-09-22T01:02:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5d5a0a0d75628f12e23f2eacf1c58d9903408030.001.1,2026-09-21T14:23:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e30c65b86489bfb60ede387d77cf5a40887bf1f8.001.1,2026-09-21T01:02:00-06:00</value>
+        </parameter>
+        <area>
+            <areaDesc>South Central Mountains; Curry County; Roosevelt County; Chaves County Plains; Eastern Lincoln County; Southwest Chaves County</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035027</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035041</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ226</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ235</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ236</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ238</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ239</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ240</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
