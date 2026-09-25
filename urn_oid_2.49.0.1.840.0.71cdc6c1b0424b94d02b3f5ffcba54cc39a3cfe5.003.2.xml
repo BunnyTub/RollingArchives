@@ -1,0 +1,121 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.71cdc6c1b0424b94d02b3f5ffcba54cc39a3cfe5.003.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T16:13:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e35f904ae6edd7b838aec1d199449d6e83f185c9.003.1,2026-09-24T15:42:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>High Surf Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SUY</value>
+        </eventCode>
+        <effective>2026-09-24T16:13:00-04:00</effective>
+        <onset>2026-09-24T16:13:00-04:00</onset>
+        <expires>2026-09-25T00:15:00-04:00</expires>
+        <senderName>NWS Upton NY</senderName>
+        <headline>High Surf Advisory issued September 24 at 4:13PM EDT until September 26 at 8:00PM EDT by NWS Upton NY</headline>
+        <description>* WHAT...For the High Surf Advisory, large breaking waves of 7
+to 9 feet in the surf zone. For the High Rip Current Risk,
+dangerous rip currents. For the Coastal Flood Statement, up to
+one half foot of inundation above ground level expected in
+vulnerable areas near the waterfront and shoreline.
+
+* WHERE...Kings (Brooklyn) and Southern Queens Counties.
+
+* WHEN...For the High Rip Current Risk, through Saturday
+evening. For the High Surf Advisory, until 8 PM EDT Saturday.
+For the Coastal Flood Statement, through Friday morning.
+
+* IMPACTS...Minor flooding in the more vulnerable locations near
+the waterfront and shoreline. Some roads and low lying
+properties including parking lots, parks, lawns, and homes and
+businesses with basements near the waterfront will experience
+minor flooding. Dangerous swimming and surfing conditions and
+localized beach erosion. Life-threatening rip currents are
+likely for all people entering the surf zone. Anyone visiting
+the beaches should stay out of the surf. Rip currents can
+sweep even the best swimmers away from shore into deeper water.
+
+* ADDITIONAL DETAILS...Additional minor to even moderate coastal
+flooding possible for Friday PM and Saturday AM high tide
+cycles.
+</description>
+        <instruction>Do not drive through flooded roadways.
+
+Inexperienced swimmers should remain out of the water due to
+dangerous surf conditions.
+
+If you enter the surf zone, always have a flotation device with
+you and swim near a lifeguard. If caught in a rip current, relax
+and float, and do not swim against the current. If able, swim in
+a direction following the shoreline. If unable to escape, face
+the shore and yell or wave for help.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWOKX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KOKX 242013</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH RIP CURRENT RISK NOW IN EFFECT THROUGH SATURDAY EVENING... ...HIGH SURF ADVISORY REMAINS IN EFFECT UNTIL 8 PM EDT SATURDAY... ...COASTAL FLOOD STATEMENT REMAINS IN EFFECT THROUGH FRIDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KOKX.SU.Y.0003.000000T0000Z-260927T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Kings (Brooklyn); Southern Queens</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036047</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036081</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYZ075</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYZ178</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
