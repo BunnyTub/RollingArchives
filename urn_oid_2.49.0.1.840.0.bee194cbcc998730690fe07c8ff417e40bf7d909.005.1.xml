@@ -1,0 +1,99 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.bee194cbcc998730690fe07c8ff417e40bf7d909.005.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T09:19:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3f3440b315e9a0bc32b0fcdd7d77341f6bcf056d.002.1,2026-09-25T00:11:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b135db312124c237378f2ee045687ae4e322a1fe.003.1,2026-09-25T01:50:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.de37338e476e114da8134f20147d7ea2a3e267ea.003.1,2026-09-25T07:44:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f7aa709f5439ea856dd50d19226135c8f26c4876.003.1,2026-09-25T08:03:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>WIY</value>
+        </eventCode>
+        <effective>2026-09-25T09:19:00-07:00</effective>
+        <onset>2026-09-25T09:19:00-07:00</onset>
+        <expires>2026-09-25T20:00:00-07:00</expires>
+        <senderName>NWS Portland OR</senderName>
+        <headline>Wind Advisory issued September 25 at 9:19AM PDT until September 25 at 8:00PM PDT by NWS Portland OR</headline>
+        <description>* WHAT...Southwest winds 20 to 30 mph with gusts up to 50 mph
+expected.
+
+* WHERE...Upper Hood River Valley, particularly areas west of Oregon
+Route 281.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Gusty winds will blow around unsecured objects. Tree
+limbs could be blown down and widely scattered power outages are
+expected.
+
+* ADDITIONAL DETAILS...Full leaf cover on trees may result in trees
+or limbs suffering wind damage at lower wind speeds than usual.
+</description>
+        <instruction>Use extra caution when driving, especially if operating a high
+profile vehicle. Secure outdoor objects such as garbage cans and
+other objects that can easily blow around.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWPQR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS76 KPQR 251619</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>WIND ADVISORY REMAINS IN EFFECT UNTIL 8 PM PDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KPQR.WI.Y.0003.000000T0000Z-260926T0300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T20:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ddd8380c4495d4bf8ee84221a11dc10855208432.002.1,2026-09-24T18:00:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8809d91348fbf4eb208c9531efede2eb7fd0641e.001.1,2026-09-24T09:47:00-07:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Upper Hood River Valley</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>041027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ORZ121</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
