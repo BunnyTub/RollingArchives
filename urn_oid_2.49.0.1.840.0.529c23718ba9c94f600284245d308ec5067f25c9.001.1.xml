@@ -1,0 +1,113 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.529c23718ba9c94f600284245d308ec5067f25c9.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T04:30:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T04:30:00-06:00</effective>
+        <onset>2026-09-25T04:30:00-06:00</onset>
+        <expires>2026-09-25T05:00:00-06:00</expires>
+        <senderName>NWS Midland/Odessa TX</senderName>
+        <headline>Special Weather Statement issued September 25 at 4:30AM MDT by NWS Midland/Odessa TX</headline>
+        <description>At 430 AM MDT, Doppler radar was tracking a strong thunderstorm near
+Malaga, or 17 miles southeast of Carlsbad, moving northeast at 25
+mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+Locations impacted include...
+Carlsbad, Loving, Malaga, Otis, and Cavern City Air Terminal.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSMAF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS84 KMAF 251030</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A STRONG THUNDERSTORM WILL IMPACT SOUTHEASTERN EDDY...SOUTHWESTERN LEA AND NORTHEASTERN CULBERSON COUNTIES THROUGH 500 AM MDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T10:30:00-00:00...storm...234DEG...23KT...32.17,-104.1</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.25</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Eddy County Plains; Southern Lea County</areaDesc>
+            <polygon>32.65,-104.08 32.22,-103.4 32.0,-104.03 32.0,-104.14 32.18,-104.35 32.65,-104.08</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035015</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035025</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ028</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ034</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
