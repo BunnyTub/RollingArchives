@@ -1,0 +1,122 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.c8afe447d736bf28d9ed203c063fa4d5710d2019.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T02:48:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2c6451ceb95c336c033551dbf68e512182a36a11.001.1,2026-09-24T14:58:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2c6451ceb95c336c033551dbf68e512182a36a11.002.1,2026-09-24T14:58:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-25T02:48:00-04:00</effective>
+        <onset>2026-09-25T02:48:00-04:00</onset>
+        <expires>2026-09-25T16:00:00-04:00</expires>
+        <senderName>NWS Upton NY</senderName>
+        <headline>Gale Warning issued September 25 at 2:48AM EDT until September 25 at 6:00AM EDT by NWS Upton NY</headline>
+        <description>* WHAT...For the Gale Warning, northeast winds 25 to 35 kt with
+gusts up to 45 kt and seas 12 to 16 feet. For the Storm
+Warning, northeast winds 30 to 50 kt with gusts up to 60 kt
+and seas 20 to 25 feet expected.
+
+* WHERE...Waters from Sandy Hook NJ to Montauk Point NY from 20
+to 60 nm, and Moriches Inlet NY to Montauk Point NY out 20 NM.
+
+* WHEN...For the Gale Warning, until 6 AM EDT early this
+morning. For the Storm Warning, from 6 AM this morning to 6 AM
+EDT Sunday.
+
+* IMPACTS...Storm force winds and hazardous seas will capsize or
+damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should remain in port, alter course, and/or secure the
+vessel for severe conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWOKX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KOKX 250648</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING REMAINS IN EFFECT UNTIL 6 AM EDT EARLY THIS MORNING... ...STORM WARNING NOW IN EFFECT FROM 6 AM THIS MORNING TO 6 AM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KOKX.GL.W.0014.000000T0000Z-260925T1000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T06:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6140d32178f74c3f8fcf0cad5e12be6b7a8cc03e.003.1,2026-09-24T02:39:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6140d32178f74c3f8fcf0cad5e12be6b7a8cc03e.002.1,2026-09-24T02:39:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f56eb8031d3bf13b6f154cab5744889966b6f9c2.002.1,2026-09-23T16:07:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f56eb8031d3bf13b6f154cab5744889966b6f9c2.001.1,2026-09-23T16:07:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d96786b1e7f6a44baf9620875b26031da360ca5a.003.1,2026-09-23T02:37:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d96786b1e7f6a44baf9620875b26031da360ca5a.002.1,2026-09-23T02:37:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf536ccb608b9287901028b07b7f1cb54caecdf8.003.1,2026-09-22T14:59:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf536ccb608b9287901028b07b7f1cb54caecdf8.001.2,2026-09-22T14:59:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.875b453528c08745248e34d4921e3210ef7570cd.003.2,2026-09-22T02:42:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.875b453528c08745248e34d4921e3210ef7570cd.001.3,2026-09-22T02:42:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Moriches Inlet NY to Montauk Point NY out 20 NM; Waters from Moriches Inlet NY to Montauk Point NY from 20 to 60 NM; Waters from Fire Island Inlet NY to Moriches Inlet NY from 20 to 60 NM; Waters from Sandy Hook NJ to Fire Island Inlet NY out 20 to 60 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073350</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073380</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073383</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073385</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ350</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ380</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ383</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ385</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
