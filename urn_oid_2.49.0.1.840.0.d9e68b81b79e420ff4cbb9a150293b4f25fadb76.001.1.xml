@@ -1,0 +1,104 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.d9e68b81b79e420ff4cbb9a150293b4f25fadb76.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T15:29:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T15:29:00-06:00</effective>
+        <onset>2026-09-25T15:29:00-06:00</onset>
+        <expires>2026-09-25T16:00:00-06:00</expires>
+        <senderName>NWS Pueblo CO</senderName>
+        <headline>Special Weather Statement issued September 25 at 3:29PM MDT by NWS Pueblo CO</headline>
+        <description>At 329 PM MDT, Doppler radar was tracking a strong thunderstorm over
+Model, or 19 miles northeast of Trinidad, moving east at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+Locations impacted include...
+Model.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSPUB</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KPUB 252129</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A STRONG THUNDERSTORM WILL IMPACT CENTRAL LAS ANIMAS COUNTY THROUGH 400 PM MDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T21:29:00-00:00...storm...267DEG...15KT...37.33,-104.21</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.88</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Trinidad Vicinity/Western Las Animas County Below 7500 Ft; Eastern Las Animas County</areaDesc>
+            <polygon>37.3,-104.25 37.35,-104.26 37.49,-104.04 37.23,-104.01 37.3,-104.25</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COZ088</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COZ094</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
