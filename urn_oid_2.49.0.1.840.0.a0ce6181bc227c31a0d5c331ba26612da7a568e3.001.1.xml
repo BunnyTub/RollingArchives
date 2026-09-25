@@ -1,0 +1,147 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a0ce6181bc227c31a0d5c331ba26612da7a568e3.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T14:01:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T14:01:00-04:00</effective>
+        <onset>2026-09-24T14:01:00-04:00</onset>
+        <expires>2026-09-24T16:30:00-04:00</expires>
+        <senderName>NWS San Juan PR</senderName>
+        <headline>Flood Advisory issued September 24 at 2:01PM AST until September 24 at 4:30PM AST by NWS San Juan PR</headline>
+        <description>* WHAT...Urban area and small stream flooding caused by excessive
+rainfall is expected.
+
+* WHERE...Aguadilla in Puerto Rico...
+Camuy in Puerto Rico...
+Isabela in Puerto Rico...
+Moca in Puerto Rico...
+Quebradillas in Puerto Rico...
+San Sebastian in Puerto Rico...
+
+* WHEN...Until 430 PM AST.
+
+* IMPACTS...Rises in small streams and normally dry arroyos.
+Dangerous flows over low-water crossings. Water over roadways.
+
+* ADDITIONAL DETAILS...
+- At 200 PM AST, Doppler radar indicated heavy rain due to
+thunderstorms. These thunderstorms are moving northwestward
+towards Aguadilla. This will cause urban and small stream
+flooding. Up to 1.5 inches of rain have fallen.
+- Additional rainfall amounts of 1 to 2 inches are expected over
+the area. This additional rain will result in minor flooding.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Please report observed flooding to local emergency services or law
+enforcement and request they pass this information to the National
+Weather Service when you can do so safely.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSSJU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGCA82 TJSJ 241801</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 430 PM AST THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.TJSJ.FA.Y.0284.260924T1801Z-260924T2030Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T16:30:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Aguadilla, PR; Camuy, PR; Isabela, PR; Moca, PR; Quebradillas, PR; San Sebastian, PR</areaDesc>
+            <polygon>18.4,-67.15 18.48,-67.17 18.51,-67.14 18.52,-67.09 18.51,-67.02 18.49,-66.99 18.48,-66.92 18.49,-66.85 18.47,-66.83 18.39,-66.81 18.37,-66.81 18.35,-66.82 18.34,-66.82 18.37,-66.89 18.32,-66.91 18.26,-66.91 18.28,-67.03 18.31,-67.05 18.32,-67.13 18.39,-67.13 18.4,-67.15</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072027</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072071</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072099</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072115</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072131</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC099</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC115</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC131</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
