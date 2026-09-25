@@ -1,0 +1,137 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.7aef1e8e605d4d8feab9a1068787bf78dc6962e1.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T21:24:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c58834d2a6ce0f05bdf9fe17609d5fec5249b275.001.1,2026-09-24T10:21:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.65df56039280661f951e9aa424a83ae67403cc23.001.1,2026-09-24T16:02:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <effective>2026-09-24T21:24:00-05:00</effective>
+        <onset>2026-09-24T21:24:00-05:00</onset>
+        <expires>2026-09-25T09:30:00-05:00</expires>
+        <senderName>NWS Milwaukee/Sullivan WI</senderName>
+        <headline>Flood Warning issued September 24 at 9:24PM CDT until September 25 at 12:00PM CDT by NWS Milwaukee/Sullivan WI</headline>
+        <description>...The Flood Warning is extended for the following rivers in
+Illinois...Wisconsin...
+
+Fox River Lower Near New Munster affecting Lake and Kenosha
+Counties.
+
+* WHAT...Minor flooding is occurring and minor flooding is forecast.
+
+* WHERE...Fox River Lower near New Munster.
+
+* WHEN...Until Noon Friday.
+
+* IMPACTS...At 11.5 feet, Water is in the yards of some homes in the
+Village of Salem Lakes and Town of Wheatland areas, including
+Riverside Dr and Shorewood Dr. There are 3-4 inches of water over
+77th Street in the Town of Wheatland.
+
+* ADDITIONAL DETAILS...
+- At 9:00 PM CDT Thursday the stage was 11.4 feet.
+- Bankfull stage is 10.0 feet.
+- Recent Activity...The maximum river stage in the 24 hours ending
+at 9:00 PM CDT Thursday was 11.9 feet.
+- Forecast...The river is expected to fall below flood stage late
+tomorrow morning and continue falling to 8.5 feet Thursday,
+October 01.
+- Flood stage is 11.0 feet.
+- Flood History...This crest compares to a previous crest of 11.5
+feet on 06/05/2002.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Motorists should not attempt to drive around barricades or drive cars
+through flooded areas.
+
+Caution is urged when walking near riverbanks.
+
+Additional information is available at www.weather.gov.
+
+The next statement will be issued Friday morning at 930 AM CDT.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSMKX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS83 KMKX 250224</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING NOW IN EFFECT UNTIL NOON FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KMKX.FL.W.0045.000000T0000Z-260925T1700Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T12:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac27a9331e447edbb6ed6ae078eb192786840c4b.001.1,2026-09-24T04:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f4c64e3dcf0d4504595b9dcd0ecfeae5f2819a23.001.1,2026-09-23T22:10:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.81272846dca5e402176406648b1a8adf0faaf1c8.001.1,2026-09-23T16:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7e0ab5cf1df7e79ed708215414049eb184763853.001.1,2026-09-23T10:31:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ed93c2dee5f2a4511edc2af85dba5d85aab8e99.001.1,2026-09-23T03:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a9179074df57993da3819eaade785d7151afb1bc.001.1,2026-09-22T22:53:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f806029b7240c9febd44850da6a41c6671ce45a0.001.1,2026-09-22T10:18:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2c1703a1890450c1e95418354a1b25ddd2b0ec7f.002.1,2026-09-22T03:24:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f533d47365928c60a1f8f1885482e52e22fce2b5.002.1,2026-09-21T21:48:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a4964a7b411580b5d52b38cac5d212c1bfc696ea.002.1,2026-09-21T15:43:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c976c2275e72d1d9b03ea83b02d2ffd6980de77d.001.1,2026-09-21T10:13:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cab109e795556dcd0cd8a9dd0f967588941bedf2.002.1,2026-09-21T03:58:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aeb8dec89c07f9265e97c8958184fce325e13ad7.002.1,2026-09-20T21:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ba5468cad89bb448c63c8b92f42ded5067564e42.002.1,2026-09-20T15:35:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.59d4a4222baa9398474395e5bb3f808c23c7e938.001.1,2026-09-20T09:35:00-05:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Lake, IL; Kenosha, WI</areaDesc>
+            <polygon>42.62,-88.3 42.62,-88.17 42.55,-88.14 42.46,-88.14 42.46,-88.22 42.55,-88.24 42.62,-88.3</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>017097</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055059</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ILC097</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIC059</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
