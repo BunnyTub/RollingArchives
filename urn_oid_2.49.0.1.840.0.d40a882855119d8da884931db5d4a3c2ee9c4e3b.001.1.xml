@@ -1,0 +1,132 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.d40a882855119d8da884931db5d4a3c2ee9c4e3b.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-23T23:15:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.24d2bd17865c52f9442732d35243b23883465114.001.1,2026-09-23T13:16:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e348febcb61fc009ba178d84c01621427c0af480.001.1,2026-09-23T23:07:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAA</value>
+        </eventCode>
+        <effective>2026-09-23T23:15:00-05:00</effective>
+        <onset>2026-09-23T23:15:00-05:00</onset>
+        <expires>2026-09-24T12:00:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Flood Watch issued September 23 at 11:15PM CDT until September 25 at 7:00AM CDT by NWS Amarillo TX</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...The western and central Oklahoma Panhandle, along with the
+northwest Texas Panhandle.
+
+* WHEN...Through Friday morning.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+creeks, streams, and other low-lying and flood-prone locations.
+
+* ADDITIONAL DETAILS...
+- Repeat rounds of heavy rain could result in flooding and flash
+flooding in the northwest combined Panhandles.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFAAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS64 KAMA 240415</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WATCH REMAINS IN EFFECT THROUGH FRIDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KAMA.FA.A.0002.000000T0000Z-260925T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T07:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Cimarron; Texas; Dallam; Sherman; Hartley</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>040025</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>040139</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048111</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048421</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048205</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>OKZ001</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>OKZ002</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ001</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ002</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ006</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
