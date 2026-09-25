@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.43220fe952893e7ff306d7a4e2ef97d0a0a8db88.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T12:59:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T12:59:00-07:00</effective>
+        <onset>2026-09-24T12:59:00-07:00</onset>
+        <expires>2026-09-24T15:00:00-07:00</expires>
+        <senderName>NWS Tucson AZ</senderName>
+        <headline>Flood Advisory issued September 24 at 12:59PM MST until September 24 at 3:00PM MST by NWS Tucson AZ</headline>
+        <description>* WHAT...Urban area and small stream flooding caused by excessive
+rainfall is expected.
+
+* WHERE...East Central Pima County in southeastern Arizona...
+
+* WHEN...Until 300 PM MST.
+
+* IMPACTS...Dangerous flows over low-water crossings. Some low-water
+crossings may become impassable.
+
+* ADDITIONAL DETAILS...
+- At 1258 PM MST, Doppler radar indicated heavy rain due to
+thunderstorms. This  will cause urban and small stream flooding.
+Between 0.4 and 0.7 inches of rain have fallen.
+- Some locations that will experience flooding include...
+Corona De Tucson.
+- This includes the following Flash Flood Prone Locations...
+Houghton Rd from I-10 &amp; Sahuarita Rd and Sahuarita Rd west of
+Wilmot Rd.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSTWC</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS85 KTWC 241959</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 3 PM MST THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KTWC.FA.Y.0189.260924T1959Z-260924T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T15:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Pima, AZ</areaDesc>
+            <polygon>32.01,-110.89 31.9,-110.89 31.9,-110.76 32.02,-110.76 32.03,-110.89 32.01,-110.89</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>004019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AZC019</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

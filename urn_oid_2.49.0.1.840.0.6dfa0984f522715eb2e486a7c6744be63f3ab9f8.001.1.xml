@@ -1,0 +1,82 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.6dfa0984f522715eb2e486a7c6744be63f3ab9f8.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T08:35:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-24T08:35:00-08:00</effective>
+        <onset>2026-09-24T08:35:00-08:00</onset>
+        <expires>2026-09-25T07:00:00-08:00</expires>
+        <senderName>NWS Fairbanks AK</senderName>
+        <headline>Special Weather Statement issued September 24 at 8:35AM AKDT by NWS Fairbanks AK</headline>
+        <description>A strong low southeast of Hooper Bay will provide southeasterly
+winds through Saturday. This will likely result in minor erosion
+on the Bay side of Hooper Bay as well as minor water rises to
+around 1 to 2 feet above the normal high tide line with each high
+tide cycle from Thursday afternoon to Saturday morning. Strongest
+wind gusts, up to 55 mph are expected to occur between 7 AM and 10
+PM Thursday. There may be a gust to 60 mph but it would be
+infrequent. After 10 PM Thursday, winds will mainly weaken and be
+less than 50 mph Friday and Saturday.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSWCZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWAK82 PAFG 241635</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>Minor Water Level Rises and Gusty Winds in Hooper Bay</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Yukon Delta Coast</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002158</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ825</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
