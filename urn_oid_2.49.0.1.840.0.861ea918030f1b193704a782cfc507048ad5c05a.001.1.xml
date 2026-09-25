@@ -1,0 +1,85 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.861ea918030f1b193704a782cfc507048ad5c05a.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T17:43:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.653cd3dddbbeb250f17d297a768a05922280cca8.001.1,2026-09-24T14:38:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a383dae3c2539b57f56955b7e604b7e59973bc37.001.1,2026-09-24T16:09:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T17:43:00-07:00</effective>
+        <onset>2026-09-24T17:43:00-07:00</onset>
+        <expires>2026-09-24T17:53:00-07:00</expires>
+        <senderName>NWS Las Vegas NV</senderName>
+        <headline>Flood Advisory issued September 24 at 5:43PM PDT until September 24 at 5:45PM PDT by NWS Las Vegas NV</headline>
+        <description>The Flood Advisory will expire at 545 PM PDT this afternoon for a
+portion of southern California, including the following area, San
+Bernardino.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSVEF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS85 KVEF 250043</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY WILL EXPIRE AT 545 PM PDT THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KVEF.FA.Y.0095.000000T0000Z-260925T0045Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T17:45:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>San Bernardino, CA</areaDesc>
+            <polygon>34.34,-115.71 34.04,-115.74 34.03,-116.0 34.08,-116.0 34.08,-116.04 34.11,-116.04 34.11,-116.05 34.12,-116.05 34.12,-116.26 34.08,-116.26 34.08,-116.41 34.33,-116.37 34.34,-115.71</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>006071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CAC071</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
