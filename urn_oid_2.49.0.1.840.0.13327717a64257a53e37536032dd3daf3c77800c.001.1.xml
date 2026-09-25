@@ -1,0 +1,111 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.13327717a64257a53e37536032dd3daf3c77800c.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T13:40:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.14157bb530223ce4acda3833dc5d47c63e642e16.001.1,2026-09-24T13:05:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T13:40:00-07:00</effective>
+        <onset>2026-09-24T13:40:00-07:00</onset>
+        <expires>2026-09-24T15:00:00-07:00</expires>
+        <senderName>NWS Tucson AZ</senderName>
+        <headline>Flash Flood Warning issued September 24 at 1:40PM MST until September 24 at 3:00PM MST by NWS Tucson AZ</headline>
+        <description>At 140 PM MST, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 1 and 1.5 inches of rain have
+fallen. A gauge at Corona de Tucson reported 1.42 inches of rainfall
+in less than 1 hour. Flash flooding is ongoing or expected to begin
+shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+Some locations that will experience flash flooding include...
+Corona De Tucson.
+
+This includes the following Flash Flood Prone Locations...
+Houghton Rd from I-10 &amp; Sahuarita Rd and Sahuarita Rd west of Wilmot
+Rd.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSTWC</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KTWC 242040</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 3 PM MST THIS AFTERNOON FOR EAST CENTRAL PIMA COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KTWC.FF.W.0230.000000T0000Z-260924T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T15:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Pima, AZ</areaDesc>
+            <polygon>32.01,-110.89 31.9,-110.89 31.9,-110.76 32.02,-110.76 32.03,-110.89 32.01,-110.89</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>004019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AZC019</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
