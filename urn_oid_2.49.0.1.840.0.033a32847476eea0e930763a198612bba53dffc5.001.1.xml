@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.033a32847476eea0e930763a198612bba53dffc5.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T12:20:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <effective>2026-09-25T12:20:00-04:00</effective>
+        <onset>2026-09-26T11:24:00-04:00</onset>
+        <expires>2026-09-26T00:30:00-04:00</expires>
+        <senderName>NWS Albany NY</senderName>
+        <headline>Flood Warning issued September 25 at 12:20PM EDT until September 26 at 8:00PM EDT by NWS Albany NY</headline>
+        <description>* WHAT...Minor flooding is forecast.
+
+* WHERE...Hudson River near Poughkeepsie.
+
+* WHEN...From Saturday morning to Saturday evening.
+
+* ADDITIONAL DETAILS...
+- At 11:45 AM EDT Friday the stage was 2.9 feet.
+- Forecast...The river will oscillate around flood stage with a
+maximum value of 4.7 feet early tomorrow afternoon.
+- Flood stage is 4.2 feet.
+- http://www.weather.gov/safety/flood
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLWALY</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS41 KALY 251620</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING IN EFFECT FROM SATURDAY MORNING TO SATURDAY EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KALY.FL.W.0022.260926T1524Z-260927T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Dutchess, NY; Ulster, NY</areaDesc>
+            <polygon>41.94,-74.02 41.95,-73.85 41.59,-73.88 41.6,-74.03 41.94,-74.02</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036027</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036111</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYC027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYC111</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
