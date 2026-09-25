@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.32f00905e1ab0f7f9866d05afc8d008eb4904e53.006.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T12:37:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.19bd578ee9e78b957ab80ef2a338220f969838f2.006.1,2026-09-25T01:38:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Storm Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SRW</value>
+        </eventCode>
+        <effective>2026-09-25T12:37:00-04:00</effective>
+        <onset>2026-09-25T14:00:00-04:00</onset>
+        <expires>2026-09-26T01:45:00-04:00</expires>
+        <senderName>NWS Boston/Norton MA</senderName>
+        <headline>Storm Warning issued September 25 at 12:37PM EDT until September 26 at 8:00PM EDT by NWS Boston/Norton MA</headline>
+        <description>* WHAT...Northeast winds 20 to 25 kt with gusts up to 50 kt and
+waves around 3 feet expected.
+
+* WHERE...In Massachusetts coastal waters, Boston Harbor. In
+Rhode Island coastal waters, Narragansett Bay.
+
+* WHEN...Until 8 PM EDT Saturday.
+
+* IMPACTS...Storm force winds and hazardous waves will capsize
+or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should remain in port, alter course, and/or secure the
+vessel for severe conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWBOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KBOX 251637</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>STORM WARNING REMAINS IN EFFECT UNTIL 8 PM EDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KBOX.SR.W.0005.260925T1800Z-260927T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3a33e92bbaf9c392bd610915e7916278e86ce406.006.3,2026-09-24T12:06:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Boston Harbor; Narragansett Bay</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073230</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073236</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ230</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ236</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
