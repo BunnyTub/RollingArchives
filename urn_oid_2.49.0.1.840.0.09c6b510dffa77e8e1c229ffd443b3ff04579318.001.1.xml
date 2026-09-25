@@ -1,0 +1,111 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.09c6b510dffa77e8e1c229ffd443b3ff04579318.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T07:12:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.74035b9a139c5e6aab6beb735830be7683bad4f1.001.1,2026-09-24T04:46:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T07:12:00-06:00</effective>
+        <onset>2026-09-24T07:12:00-06:00</onset>
+        <expires>2026-09-24T10:45:00-06:00</expires>
+        <senderName>NWS Goodland KS</senderName>
+        <headline>Flash Flood Warning issued September 24 at 7:12AM MDT until September 24 at 10:45AM MDT by NWS Goodland KS</headline>
+        <description>At 712 AM MDT /812 AM CDT/, gauge reports indicated thunderstorms
+producing heavy rain across the warned area. Between 2.5 and 4 inches
+of rain have fallen. Additional rainfall amounts up to 0.5 inches are
+possible in the warned area. Flash flooding is ongoing or expected to
+begin shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Gauges reported.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+Some locations that will experience flash flooding include...
+Leoti, Tribune, Horace, Selkirk, Lydia and Marienthal.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSGLD</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS73 KGLD 241312</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 1045 AM MDT /1145 AM CDT/ THIS MORNING FOR GREELEY AND WICHITA COUNTIES</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KGLD.FF.W.0014.000000T0000Z-260924T1645Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T10:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Greeley, KS; Wichita, KS</areaDesc>
+            <polygon>38.26,-101.97 38.57,-101.82 38.7,-101.71 38.7,-101.13 38.26,-101.13 38.26,-101.97</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020071</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020203</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC203</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
