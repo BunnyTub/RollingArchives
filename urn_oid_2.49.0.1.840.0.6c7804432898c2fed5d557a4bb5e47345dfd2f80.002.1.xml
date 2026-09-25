@@ -1,0 +1,106 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.6c7804432898c2fed5d557a4bb5e47345dfd2f80.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T09:06:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b53b246fa1b75886ca3daffe7fe31cfdfb868152.001.2,2026-09-24T08:28:00-08:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>High Wind Warning</event>
+        <responseType>Prepare</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <effective>2026-09-24T09:06:00-08:00</effective>
+        <onset>2026-09-24T09:06:00-08:00</onset>
+        <expires>2026-09-24T17:00:00-08:00</expires>
+        <senderName>NWS Anchorage AK</senderName>
+        <headline>High Wind Warning issued September 24 at 9:06AM AKDT until September 25 at 1:00AM AKDT by NWS Anchorage AK</headline>
+        <description>* WHAT...Southeast winds 40 to 50 mph with gusts up to 70 mph
+expected. Localized wind gusts up to 75 mph near Cape Newenham.
+
+* WHERE...Kuskokwim Delta Coast and Nunivak Island and Western Capes.
+
+* WHEN...Until 1 AM AKDT Friday.
+
+* IMPACTS...Gusty winds will blow around unsecured objects and a few
+power outages may result.
+
+* ADDITIONAL DETAILS...A strong front moving inland from the eastern
+Bering will bring gusty southeasterly winds to the Kuskokwim Delta
+coast and the Western Capes through this morning. Winds are
+expected to peak around noon today, then steadily diminish through
+this evening. Following this system, another round of gusty
+southerly winds are expected Friday morning, with wind gusts as
+high as 50 mph.
+</description>
+        <instruction>People are urged to secure loose objects that could be blown around
+or damaged by the wind. Prepare for the possibility of widespread
+power outages. Use caution if you must drive.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWALU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWAK72 PAFC 241706</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH WIND WARNING REMAINS IN EFFECT UNTIL 1 AM AKDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PAFC.HW.W.0009.000000T0000Z-260925T0900Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T01:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Kuskokwim Delta Coast and Nunivak Island; Western Capes</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002050</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ755</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ757</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
