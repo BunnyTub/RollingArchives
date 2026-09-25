@@ -1,0 +1,114 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.32f17db245954ed017e8e6918a2b871e873766dc.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T16:07:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-24T16:07:00-07:00</effective>
+        <onset>2026-09-24T16:07:00-07:00</onset>
+        <expires>2026-09-24T16:30:00-07:00</expires>
+        <senderName>NWS Phoenix AZ</senderName>
+        <headline>Special Weather Statement issued September 24 at 4:07PM MST by NWS Phoenix AZ</headline>
+        <description>At 407 PM MST, Doppler radar was tracking a cluster of strong
+thunderstorms extending from 6 miles north of Superior to 6 miles
+south of Superior, moving west at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor damage to outdoor objects is
+possible.
+
+Locations impacted include...
+Superior, Boyce Thompson Arboretum and Queen Valley.
+</description>
+        <instruction>Monitor the weather situation closely and be alert for threatening
+weather conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSPSR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KPSR 242307</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A LINE OF STRONG THUNDERSTORMS WILL IMPACT  UNTIL 430 PM MST</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.25</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Superior; Apache Junction/Gold Canyon; Pinal/Superstition Mountains</areaDesc>
+            <polygon>33.32,-111.33 33.45,-111.27 33.45,-111.13 33.4,-111.01 33.31,-111.06 33.2,-111.01 33.18,-111.05 33.12,-111.26 33.29,-111.34 33.32,-111.33</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>004021</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>004007</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>004013</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AZZ552</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AZZ555</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AZZ558</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
