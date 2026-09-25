@@ -1,0 +1,129 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.545f2d2e024b283cb08f4caf29c86bc4c07c336a.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T21:39:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T21:39:00-05:00</effective>
+        <onset>2026-09-24T21:39:00-05:00</onset>
+        <expires>2026-09-25T00:45:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Flood Advisory issued September 24 at 9:39PM CDT until September 25 at 12:45AM CDT by NWS Amarillo TX</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Northwestern Armstrong County in the panhandle of Texas...
+Southwestern Carson County in the panhandle of Texas...
+Southeastern Potter County in the panhandle of Texas...
+Northeastern Randall County in the panhandle of Texas...
+
+* WHEN...Until 1245 AM CDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+Ponding of water in urban or other areas is occurring or is
+imminent.
+
+* ADDITIONAL DETAILS...
+- At 939 PM CDT, Doppler radar and automated rain gauges indicated
+heavy rain due to thunderstorms. Minor flooding is ongoing or
+expected to begin shortly in the advisory area. Between 0.5 and 1
+inch of rain has fallen.
+- Some locations that will experience flooding include...
+Amarillo, Canyon, Lake Tanglewood, Washburn, Palo Duro Canyon,
+Mescalero Park, Timbercreek Canyon and Pantex.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KAMA 250239</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 1245 AM CDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KAMA.FA.Y.0089.260925T0239Z-260925T0545Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T00:45:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Armstrong, TX; Carson, TX; Potter, TX; Randall, TX</areaDesc>
+            <polygon>35.18,-101.86 35.21,-101.83 35.36,-101.74 35.44,-101.62 35.48,-101.53 35.42,-101.43 35.27,-101.42 35.16,-101.39 35.03,-101.39 34.94,-101.43 34.87,-101.52 34.87,-101.69 34.89,-101.92 34.96,-101.98 35.02,-101.99 35.11,-101.94 35.18,-101.86</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048011</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048065</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048375</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048381</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC011</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC065</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC375</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC381</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
