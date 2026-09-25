@@ -1,13 +1,13 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.6140d32178f74c3f8fcf0cad5e12be6b7a8cc03e.002.1</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.7570a6ba634bda5fa0fbe0de5582bd65f6604b3f.006.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T02:39:00-04:00</sent>
+    <sent>2026-09-24T09:57:00-04:00</sent>
     <status>Actual</status>
     <msgType>Update</msgType>
     <source>211803 v2.3.0</source>
     <scope>Public</scope>
     <code>IPAWSv1.0</code>
-    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f56eb8031d3bf13b6f154cab5744889966b6f9c2.002.1,2026-09-23T16:07:00-04:00</references>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.977253ab7696fceec1d0c0a9cff731735cfbdc43.006.1,2026-09-24T02:01:00-04:00</references>
     <info>
         <language>en-US</language>
         <category>Met</category>
@@ -24,17 +24,17 @@
             <valueName>NationalWeatherService</valueName>
             <value>GLW</value>
         </eventCode>
-        <effective>2026-09-24T02:39:00-04:00</effective>
-        <onset>2026-09-24T02:39:00-04:00</onset>
-        <expires>2026-09-24T16:00:00-04:00</expires>
-        <senderName>NWS Upton NY</senderName>
-        <headline>Gale Warning issued September 24 at 2:39AM EDT until September 25 at 6:00PM EDT by NWS Upton NY</headline>
-        <description>* WHAT...Northeast winds 25 to 35 kt with gusts up to 45 kt and
-seas 9 to 14 feet.
+        <effective>2026-09-24T09:57:00-04:00</effective>
+        <onset>2026-09-24T09:57:00-04:00</onset>
+        <expires>2026-09-24T22:00:00-04:00</expires>
+        <senderName>NWS Newport/Morehead City NC</senderName>
+        <headline>Gale Warning issued September 24 at 9:57AM EDT until September 25 at 8:00PM EDT by NWS Newport/Morehead City NC</headline>
+        <description>* WHAT...North winds 20 to 30 kt with gusts up to 45 kt and very
+rough waters.
 
-* WHERE...Sandy Hook NJ to Montauk Point NY out 20 nm.
+* WHERE...Pamlico Sound.
 
-* WHEN...Until 6 PM EDT Friday.
+* WHEN...Until 8 PM EDT Friday.
 
 * IMPACTS...Strong winds will cause hazardous seas which could
 capsize or damage vessels and reduce visibility.
@@ -45,15 +45,15 @@ vessel for hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWOKX</value>
+            <value>MWWMHX</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHUS71 KOKX 240639</value>
+            <value>WHUS72 KMHX 241357</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>GALE WARNING NOW IN EFFECT UNTIL 6 PM EDT FRIDAY</value>
+            <value>GALE WARNING REMAINS IN EFFECT UNTIL 8 PM EDT FRIDAY</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,11 +65,11 @@ vessel for hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.EXT.KOKX.GL.W.0014.000000T0000Z-260925T2200Z/</value>
+            <value>/O.CON.KMHX.GL.W.0026.000000T0000Z-260926T0000Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-04:00</value>
+            <value>2026-09-25T20:00:00-04:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -77,33 +77,17 @@ vessel for hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>expiredReferences</valueName>
-            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d96786b1e7f6a44baf9620875b26031da360ca5a.002.1,2026-09-23T02:37:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf536ccb608b9287901028b07b7f1cb54caecdf8.001.2,2026-09-22T14:59:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.875b453528c08745248e34d4921e3210ef7570cd.001.3,2026-09-22T02:42:00-04:00</value>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bf33c9676eeff7f6c81087bd8a3588e0604a8557.006.1,2026-09-23T15:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.17dfc6372c5704e277ca7f3f17a72c4a83481af9.005.1,2026-09-23T03:06:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.061d5a4196007926089641f27f75e6b5d2ef3cf0.006.1,2026-09-23T02:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bcfd206785581a656ba8ed4bd6817c7f2bf98ca7.006.1,2026-09-22T14:33:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf63c6fb6024c5155958c1bba1c5eeed4fc0d39f.001.1,2026-09-22T05:46:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7fa8dde9ec9421c085fc3fb489744b086adfea50.004.2,2026-09-22T03:00:00-04:00</value>
         </parameter>
         <area>
-            <areaDesc>Moriches Inlet NY to Montauk Point NY out 20 NM; Fire Island Inlet NY to Moriches Inlet NY out 20 NM; Sandy Hook NJ to Fire Island Inlet NY out 20 NM</areaDesc>
+            <areaDesc>Pamlico Sound</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>073350</value>
-            </geocode>
-            <geocode>
-                <valueName>SAME</valueName>
-                <value>073353</value>
-            </geocode>
-            <geocode>
-                <valueName>SAME</valueName>
-                <value>073355</value>
+                <value>075135</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>ANZ350</value>
-            </geocode>
-            <geocode>
-                <valueName>UGC</valueName>
-                <value>ANZ353</value>
-            </geocode>
-            <geocode>
-                <valueName>UGC</valueName>
-                <value>ANZ355</value>
+                <value>AMZ135</value>
             </geocode>
         </area>
     </info>

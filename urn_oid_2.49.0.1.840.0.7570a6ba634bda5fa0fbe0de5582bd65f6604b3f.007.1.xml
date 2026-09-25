@@ -1,13 +1,13 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.e9b4ff91923ae353d4d307fe60fcbd53b22bf0e5.002.1</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.7570a6ba634bda5fa0fbe0de5582bd65f6604b3f.007.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T02:50:00-04:00</sent>
+    <sent>2026-09-24T09:57:00-04:00</sent>
     <status>Actual</status>
     <msgType>Update</msgType>
     <source>211803 v2.3.0</source>
     <scope>Public</scope>
     <code>IPAWSv1.0</code>
-    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2805dbe57ab75cab31161da9d35917250360bad8.002.1,2026-09-23T02:31:00-04:00</references>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.977253ab7696fceec1d0c0a9cff731735cfbdc43.007.1,2026-09-24T02:01:00-04:00</references>
     <info>
         <language>en-US</language>
         <category>Met</category>
@@ -24,18 +24,17 @@
             <valueName>NationalWeatherService</valueName>
             <value>SCY</value>
         </eventCode>
-        <effective>2026-09-24T02:50:00-04:00</effective>
-        <onset>2026-09-24T14:00:00-04:00</onset>
-        <expires>2026-09-26T08:00:00-04:00</expires>
-        <senderName>NWS Melbourne FL</senderName>
-        <headline>Small Craft Advisory issued September 24 at 2:50AM EDT until September 26 at 8:00AM EDT by NWS Melbourne FL</headline>
-        <description>* WHAT...North winds 15 to 25 knots with gusts up to 30 knots
-and seas 7 to 10 feet expected.
+        <effective>2026-09-24T09:57:00-04:00</effective>
+        <onset>2026-09-24T09:57:00-04:00</onset>
+        <expires>2026-09-24T22:00:00-04:00</expires>
+        <senderName>NWS Newport/Morehead City NC</senderName>
+        <headline>Small Craft Advisory issued September 24 at 9:57AM EDT until September 25 at 2:00PM EDT by NWS Newport/Morehead City NC</headline>
+        <description>* WHAT...North winds 15 to 25 kt with occasional gusts up to 35
+kt and rough waters.
 
-* WHERE...Volusia-Brevard County Line to Sebastian Inlet 0-20 nm
-and Volusia-Brevard County Line to Sebastian Inlet 20-60 nm.
+* WHERE...Pamlico, Pungo, Neuse, and Bay Rivers.
 
-* WHEN...From 2 PM this afternoon to 8 AM EDT Saturday.
+* WHEN...Until 2 PM EDT Friday.
 
 * IMPACTS...Conditions will be hazardous to small craft.
 </description>
@@ -44,15 +43,15 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWMLB</value>
+            <value>MWWMHX</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHUS72 KMLB 240650</value>
+            <value>WHUS72 KMHX 241357</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT FROM 2 PM THIS AFTERNOON TO 8 AM EDT SATURDAY</value>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 2 PM EDT FRIDAY</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -64,33 +63,37 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.EXT.KMLB.SC.Y.0031.260924T1800Z-260926T1200Z/</value>
+            <value>/O.CON.KMHX.SC.Y.0084.000000T0000Z-260925T1800Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-26T08:00:00-04:00</value>
+            <value>2026-09-25T14:00:00-04:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bf33c9676eeff7f6c81087bd8a3588e0604a8557.007.1,2026-09-23T15:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.17dfc6372c5704e277ca7f3f17a72c4a83481af9.007.1,2026-09-23T03:06:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.061d5a4196007926089641f27f75e6b5d2ef3cf0.007.1,2026-09-23T02:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bcfd206785581a656ba8ed4bd6817c7f2bf98ca7.007.1,2026-09-22T14:33:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf63c6fb6024c5155958c1bba1c5eeed4fc0d39f.007.1,2026-09-22T05:46:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7fa8dde9ec9421c085fc3fb489744b086adfea50.012.1,2026-09-22T03:00:00-04:00</value>
+        </parameter>
         <area>
-            <areaDesc>Volusia-Brevard County Line to Sebastian Inlet 0-20 nm; Volusia-Brevard County Line to Sebastian Inlet 20-60 nm</areaDesc>
+            <areaDesc>Pamlico and Pungo Rivers; Neuse and Bay Rivers</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>075552</value>
+                <value>075136</value>
             </geocode>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>075572</value>
+                <value>075137</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>AMZ552</value>
+                <value>AMZ136</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>AMZ572</value>
+                <value>AMZ137</value>
             </geocode>
         </area>
     </info>
