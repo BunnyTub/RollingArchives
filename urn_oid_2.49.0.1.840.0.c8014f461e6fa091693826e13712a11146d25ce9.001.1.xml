@@ -1,0 +1,113 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.c8014f461e6fa091693826e13712a11146d25ce9.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T20:12:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T20:12:00-05:00</effective>
+        <onset>2026-09-24T20:12:00-05:00</onset>
+        <expires>2026-09-24T22:00:00-05:00</expires>
+        <senderName>NWS Lubbock TX</senderName>
+        <headline>Flash Flood Warning issued September 24 at 8:12PM CDT until September 24 at 10:00PM CDT by NWS Lubbock TX</headline>
+        <description>FFWLUB
+
+The National Weather Service in Lubbock has issued a
+
+* Flash Flood Warning for...
+Northwestern Parmer County...
+
+* Until 1000 PM CDT.
+
+* At 812 PM CDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 2 and 3 inches of rain
+have fallen. The expected rainfall rate is 0.5 to 1 inch in 1 hour.
+Additional rainfall amounts of 1 to 2 inches are possible in the
+warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+Friona, Bovina, Farwell, Rhea and Black.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWLUB</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS54 KLUB 250112</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KLUB.FF.W.0064.260925T0112Z-260925T0300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T22:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Parmer, TX</areaDesc>
+            <polygon>34.31,-103.04 34.67,-103.04 34.7,-102.86 34.75,-102.82 34.75,-102.53 34.31,-103.04</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048369</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC369</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
