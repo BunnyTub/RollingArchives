@@ -1,0 +1,112 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.67dcbd0639acbde4620157cfdf09402b55a8193b.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T07:34:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T07:34:00-05:00</effective>
+        <onset>2026-09-25T07:34:00-05:00</onset>
+        <expires>2026-09-25T10:30:00-05:00</expires>
+        <senderName>NWS Midland/Odessa TX</senderName>
+        <headline>Flash Flood Warning issued September 25 at 7:34AM CDT until September 25 at 10:30AM CDT by NWS Midland/Odessa TX</headline>
+        <description>FFWMAF
+
+The National Weather Service in Midland/Odessa has issued a
+
+* Flash Flood Warning for...
+Gaines County in western Texas...
+
+* Until 1030 AM CDT.
+
+* At 734 AM CDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 0.5 and 1 inch of rain
+has fallen. Additional rainfall amounts of 1 to 2 inches are
+possible in the warned area. Flash flooding is ongoing or expected
+to begin shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+Seminole, Seagraves, Gaines County Airport, Seagraves Airport,
+Paynes Corner, Gaines County Park, Higginbotham and Loop.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWMAF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS54 KMAF 251234</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KMAF.FF.W.0209.260925T1234Z-260925T1530Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T10:30:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Gaines, TX</areaDesc>
+            <polygon>32.96,-102.35 32.92,-102.35 32.76,-102.42 32.65,-102.56 32.64,-102.6 32.61,-102.64 32.61,-102.67 32.6,-102.67 32.55,-102.79 32.53,-102.81 32.52,-103.06 32.96,-103.06 32.96,-102.35</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048165</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC165</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
