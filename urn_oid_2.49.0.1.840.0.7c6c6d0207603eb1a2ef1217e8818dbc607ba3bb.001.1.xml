@@ -1,0 +1,155 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.7c6c6d0207603eb1a2ef1217e8818dbc607ba3bb.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T13:17:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T13:17:00-06:00</effective>
+        <onset>2026-09-25T13:17:00-06:00</onset>
+        <expires>2026-09-25T19:30:00-06:00</expires>
+        <senderName>NWS Great Falls MT</senderName>
+        <headline>Special Weather Statement issued September 25 at 1:17PM MDT by NWS Great Falls MT</headline>
+        <description>Gusty to strong westerly winds will develop over much of central
+and north-central Montana by this evening. The combination of the
+frontal passage with isolated shower and thunderstorm activity
+will result in brief instances of wind gusts exceeding 50 mph.
+
+These winds may cause more damage to trees and power lines than
+what is normally observed due to most trees being fully leafed out
+and some trees being weakened by previous storms. Additionally,
+any damaged tree branches may break loose and become projectiles.
+
+Pedestrians and those outdoors should watch for flying debris and
+avoid being near trees if possible during times of stronger
+winds. Also, those traveling along north to south oriented
+roadways should be prepared for strong cross winds.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSTFX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KTFX 251917</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A Strong Pacific Cold Front Will Bring Gusty to Strong Winds Over Central and North-central Montana This Evening</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Eastern Toole and Liberty; Hill County; Northern Blaine County; Eastern Pondera and Eastern Teton; Western and Central Chouteau County; Cascade County below 5000ft; Judith Basin County and Judith Gap; Fergus County below 4500ft; Snowy and Judith Mountains</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030101</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030051</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030041</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030073</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030099</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030015</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030013</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030045</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ304</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ305</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ306</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ309</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ310</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ312</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ313</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ314</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ318</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
