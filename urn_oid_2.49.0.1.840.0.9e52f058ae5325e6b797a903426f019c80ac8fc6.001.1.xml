@@ -1,0 +1,86 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9e52f058ae5325e6b797a903426f019c80ac8fc6.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T05:53:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Dense Fog Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FGY</value>
+        </eventCode>
+        <effective>2026-09-25T05:53:00-08:00</effective>
+        <onset>2026-09-25T05:53:00-08:00</onset>
+        <expires>2026-09-25T10:00:00-08:00</expires>
+        <senderName>NWS Juneau AK</senderName>
+        <headline>Dense Fog Advisory issued September 25 at 5:53AM AKDT until September 25 at 10:00AM AKDT by NWS Juneau AK</headline>
+        <description>* WHAT...Visibility as low as a quarter of a mile in dense fog.
+
+* WHERE...Western Kupreanof Island and Kuiu Island.
+
+* WHEN...Until 10 AM AKDT this morning.
+
+* IMPACTS...Low visibility could make travel conditions hazardous.
+</description>
+        <instruction>If driving, slow down, use your headlights, and leave plenty of
+distance ahead of you.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWAJK</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWAK77 PAJK 251353</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>DENSE FOG ADVISORY IN EFFECT UNTIL 10 AM AKDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXA.PAJK.FG.Y.0034.000000T0000Z-260925T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T10:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Western Kupreanof and Kuiu Island</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002198</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ327</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

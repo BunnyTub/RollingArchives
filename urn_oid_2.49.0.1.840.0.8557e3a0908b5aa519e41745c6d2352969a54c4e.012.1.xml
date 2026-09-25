@@ -1,0 +1,181 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8557e3a0908b5aa519e41745c6d2352969a54c4e.012.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T04:59:00-10:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4ddc2b465ec1aed8541c9a2013ad70c4bced1b08.012.1,2026-09-24T23:00:00-10:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Tropical Storm Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>TRA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>TRA</value>
+        </eventCode>
+        <effective>2026-09-25T04:59:00-10:00</effective>
+        <onset>2026-09-25T04:59:00-10:00</onset>
+        <expires>2026-09-25T13:00:00-10:00</expires>
+        <senderName>NWS Honolulu HI</senderName>
+        <headline>Tropical Storm Watch issued September 25 at 4:59AM HST by NWS Honolulu HI</headline>
+        <description>* LOCATIONS AFFECTED
+- Lahaina
+- Olowalu
+- Napili
+
+* WIND
+- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
+- Peak Wind Forecast: 30-40 mph with gusts to 50 mph
+- Window for Tropical Storm force winds: until early Sunday
+morning
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39
+to 57 mph
+- The wind threat has remained nearly steady from the
+previous assessment.
+- PLAN: Plan for hazardous wind of equivalent tropical storm
+force.
+- PREPARE: Last minute efforts to protect property should now
+be complete. The area remains subject to limited wind
+damage.
+- ACT: Now is the time to shelter from hazardous wind.
+
+- POTENTIAL IMPACTS: Unfolding
+- Potential impacts from the main wind event are unfolding.
+
+* STORM SURGE
+- No storm surge inundation forecast
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Little to no storm
+surge flooding
+- The storm surge threat has remained nearly steady from the
+previous assessment.
+- PLAN: There is little to no threat of storm surge flooding.
+Rough surf, coastal erosion, and life-threatening rip
+currents are possible.
+- PREPARE: Little to no preparations for storm surge flooding
+are needed.
+- ACT: Follow the instructions of local officials. Monitor
+forecasts.
+
+- POTENTIAL IMPACTS: Little to None
+- Little to no potential impacts from storm surge flooding.
+
+* FLOODING RAIN
+- LATEST LOCAL FORECAST: Flood Watch is in effect
+- Peak Rainfall Amounts: No additional significant rainfall
+forecast
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for
+moderate flooding rain
+- The flooding rain threat has remained nearly steady from
+the previous assessment.
+- PLAN: Emergency plans should include the potential for
+moderate flooding from heavy rain. Evacuations and rescues
+are possible.
+- PREPARE: Consider protective actions if you are in an area
+vulnerable to flooding.
+- ACT: Heed any flood watches and warnings. Failure to take
+action may result in serious injury or loss of life.
+
+- POTENTIAL IMPACTS: Significant
+- Moderate rainfall flooding may prompt several evacuations
+and rescues.
+- Rivers and tributaries may quickly become swollen with
+swifter currents and overspill their banks in a few places,
+especially in usually vulnerable spots. Small streams,
+creeks, canals, arroyos, and ditches overflow.
+- Flood waters can enter some structures or weaken
+foundations. Several places may experience expanded areas
+of rapid inundation at underpasses, low-lying spots, and
+poor drainage areas. Some streets and parking lots take on
+moving water as storm drains and retention ponds overflow.
+Driving conditions become hazardous. Some road and bridge
+closures.
+
+* TORNADO
+- LATEST LOCAL FORECAST:
+- Situation is unfavorable for tornadoes
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Tornadoes not expected
+- The tornado threat has remained nearly steady from the
+previous assessment.
+- PLAN: Tornadoes are not expected. Showers and thunderstorms
+with gusty winds may still occur.
+- PREPARE: Little to no preparations needed to protect
+against tornadoes at this time. Keep informed of the latest
+tornado situation.
+- ACT: Listen for changes in the forecast.
+
+- POTENTIAL IMPACTS: Little to None
+- Little to no potential impacts from tornadoes.
+
+* FOR MORE INFORMATION:
+- https://www.weather.gov/hfo
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>TCVHFO</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WTHW80 PHFO 251459</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>TROPICAL STORM WATCH REMAINS IN EFFECT</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PHFO.TR.A.2015.000000T0000Z-000000T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c7c48b3a72ac7ab3a795372b13d94f0820f4b52d.012.1,2026-09-24T16:53:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3126c4ccaa67bc07dfa47e9cdbf46d65f9328cf.012.1,2026-09-24T11:19:00-10:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Maui Leeward West</areaDesc>
+            <polygon>21.006,-156.662 20.967,-156.641 20.895,-156.640 20.831,-156.616 20.816,-156.584 20.815,-156.542 20.776,-156.530 20.794,-156.566 20.797,-156.586 20.810,-156.605 20.810,-156.623 20.826,-156.631 20.837,-156.647 20.884,-156.687 20.904,-156.684 20.917,-156.696 20.929,-156.697 20.950,-156.691 20.998,-156.666 21.008,-156.667 21.006,-156.662</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>015009</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ018</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
