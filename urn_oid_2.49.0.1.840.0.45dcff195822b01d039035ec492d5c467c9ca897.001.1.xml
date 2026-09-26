@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.45dcff195822b01d039035ec492d5c467c9ca897.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T16:25:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5e7e42205f43b25088057da1157095ac711d13f7.001.1,2026-09-25T14:25:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-25T16:25:00-06:00</effective>
+        <onset>2026-09-25T16:25:00-06:00</onset>
+        <expires>2026-09-25T17:30:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flood Advisory issued September 25 at 4:25PM MDT until September 25 at 5:30PM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Northeastern Otero County in south central New Mexico...
+
+* WHEN...Until 530 PM MDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+- At 425 PM MDT, Doppler radar indicated heavy rain due to
+thunderstorms. Minor flooding is ongoing or expected to begin
+shortly in the advisory area. Between 1 and 1.5 inches of rain
+have fallen.
+- Some locations that will experience flooding include...
+Mainly rural areas of Northeastern Otero County.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Flooding is occurring or is imminent. It is important to know where
+you are relative to streams, rivers, or creeks which can become
+killers in heavy rains. Campers and hikers should avoid streams or
+creeks.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KEPZ 252225</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY NOW IN EFFECT UNTIL 530 PM MDT THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KEPZ.FA.Y.0379.000000T0000Z-260925T2330Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T17:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Otero, NM</areaDesc>
+            <polygon>33.24,-105.32 33.22,-105.34 33.22,-105.41 33.24,-105.47 33.3,-105.42 33.3,-105.32 33.24,-105.32</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035035</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC035</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
