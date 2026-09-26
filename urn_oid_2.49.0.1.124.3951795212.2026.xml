@@ -1,0 +1,477 @@
+<SharpAlertSource>NAADS Primary</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.124.3951795212.2026</identifier>
+    <sender>cap-pac@canada.ca</sender>
+    <sent>2026-09-26T03:05:29-00:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>Env. Can. - Can. Met. Ctr. – Montréal</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.0</code>
+    <code>layer:EC-MSC-SMC:1.1</code>
+    <code>layer:SOREM:2.0</code>
+    <note>Service Notice – July 2026: The Environment and Climate Change Canada (ECCC) CAP Service undergoes changes from time to time as the business of alerting evolves. For Spring 2026, changes are expected to include... 1) ECCC's deployment to introduce free-form polygons to represent the true threat area of a weather hazard, which was originally scheduled for June 2026, is delayed. We will communicate the new date when it is available. Monitor https://dd.weather.gc.ca/doc/genots/ for notifications on the new launch date. Information about free-form polygons representing the true threat area of a weather hazard remains under media embargo until launch, 2) marine alerts will now be issued for smaller zone splits in certain areas of Atlantic and Pacific waters and 3) other minor improvements and corrections. For more information on these changes: https://comm.collab.science.gc.ca/mailman3/hyperkitty/list/dd_info@comm.collab.science.gc.ca/ | Notification de service – juillet 2026: Le service du PAC d’Environnement et Changement climatique Canada (ECCC) subit périodiquement des changements à mesure que le système d’alerte évolue. Pour le printemps 2026, il y aura des changements incluant... 1) Le déploiement par ECCC visant à introduire des polygones de forme libre pour représenter la zone réelle de menace d’un aléa météorologique, qui était initialement prévu pour juin 2026, est retardé. Nous communiquerons la nouvelle date lorsqu’elle sera disponible. Surveiller https://dd.weather.gc.ca/doc/genots/ pour les notifications concernant la nouvelle date de lancement. Les informations concernant les polygones de forme libre représentant la zone réelle de menace d’un aléa météorologique demeurent sous embargo médiatique jusqu’au lancement, 2) les alertes marines seront désormais émises pour des subdivisions de zones plus petites dans certaines régions des eaux de l’Atlantique et du Pacifique et 3) d’autres améliorations et corrections mineures. Pour plus d’informations sur ces changements: https://comm.collab.science.gc.ca/mailman3/hyperkitty/list/dd_info@comm.collab.science.gc.ca/</note>
+    <references />
+    <info>
+        <language>en-CA</language>
+        <category>Met</category>
+        <event>thunderstorm</event>
+        <responseType>Monitor</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVR</value>
+        </eventCode>
+        <effective>2026-09-26T03:05:29-00:00</effective>
+        <onset>2026-09-26T03:04:00-00:00</onset>
+        <expires>2026-09-26T05:01:29-00:00</expires>
+        <senderName>Environment Canada</senderName>
+        <headline>yellow warning - severe thunderstorm - in effect</headline>
+        <description>
+At 9:02 p.m. MDT, a severe thunderstorm is located near Canoe Lake. This severe thunderstorm is moving quickly to the northeast at 70 km/h. Damaging wind gusts, up to quarter size hail and heavy rain are possible.
+
+
+
+
+###
+
+Severe thunderstorm warnings are issued when imminent or occurring thunderstorms are expected to produce damaging hail, wind or rain.
+</description>
+        <instruction>
+Take immediate cover if a thunderstorm approaches. If outside, protect yourself from flying debris and hail.
+</instruction>
+        <web>https://weather.gc.ca/</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>warning</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20260926030529772/AB_00_01_LAND/STW/303172871899343753202609260501_AB_00_01_LAND/actual/en_proper_complete_c-fr_proper_complete_c/NinJoWEL</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:23902 M:123108 C:142333</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>yellow warning - severe thunderstorm</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Alberta</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Text</valueName>
+            <value>At 9:05 p.m. Mountain Daylight Time Friday, Environment Canada has issued a severe thunderstorm warning for East Central and Northeastern Alberta. Extra care and attention should be exercised in and around the following localities: Janvier South, Winefred Lake and Cold Lake Air Weapons Range. Environment Canada meteorologists are tracking very dangerous thunderstorms capable of producing one or more of the following: destructive winds or baseball size or greater hail. Take cover immediately if threatening weather approaches. Intense lightning is likely and tornadoes are possible with any thunderstorm that develops.</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>AB_00_01_LAND</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value>075116,079242,079243</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Event_End_Time</valueName>
+            <value>2026-09-26T04:02:00.000Z</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:MSC_Risk_Tiered_Ranking</valueName>
+            <value>8</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:MSC_Impact</valueName>
+            <value>moderate</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:MSC_Confidence</valueName>
+            <value>high</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Colour</valueName>
+            <value>yellow</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Speed</valueName>
+            <value>69.45016 km/h</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Direction</valueName>
+            <value>24.182436</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Geometry_Type</valueName>
+            <value>ISOLATED_CELL</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Point</valueName>
+            <value>55.107494,-110.402527</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Time</valueName>
+            <value>20260926030200000</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Motion_Description</valueName>
+            <value>quickly to the northeast at 70 km/h</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Position_Description</valueName>
+            <value>near Canoe Lake</value>
+        </parameter>
+        <area>
+            <areaDesc>M.D. of Bonnyville including Cold Lake Air Weapons Range</areaDesc>
+            <polygon>54.7624,-110.455 54.754,-110.8931 54.7624,-111.2447 54.7624,-111.303 54.9366,-111.303 55.3308,-111.3032 55.3392,-110.8682 55.3304,-110.4681 55.3371,-110.4676 55.3442,-110.4653 55.343,-110.4136 55.3741,-110.4166 55.373,-110.3116 55.4621,-110.325 55.5494,-110.317 55.5476,-110.0057 55.1443,-109.9809 54.7623,-110.0057 54.7624,-110.455</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>075116</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4812037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Lac La Biche Co. near Wiau Winefred and Grist Lakes</areaDesc>
+            <polygon>55.373,-110.3116 55.3741,-110.4166 55.343,-110.4136 55.3442,-110.4653 55.3371,-110.4658 55.3304,-110.4681 55.3205,-110.8705 55.3308,-111.3032 55.3311,-111.3925 55.4607,-111.3878 55.4607,-111.402 55.461,-111.402 55.5491,-111.4012 55.5557,-110.8438 55.5494,-110.317 55.4648,-110.3033 55.373,-110.3116</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>079242</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4812037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>R.M. of Wood Buffalo near Janvier South and Conklin</areaDesc>
+            <polygon>55.9844,-111.4127 55.9843,-110.0057 55.7554,-109.9804 55.5476,-110.0057 55.5494,-110.317 55.5455,-110.8451 55.5491,-111.4012 55.689,-111.4136 55.8101,-111.3987 55.8097,-111.4063 55.8101,-111.4126 55.8979,-111.4126 55.9844,-111.4127</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>079243</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816817</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>new active threat area</areaDesc>
+            <polygon>55.070541,-110.259125 55.023354,-110.346725 55.025372,-110.46685 55.07542,-110.549469 55.144279,-110.546196 55.771336,-110.318024 55.69088504672502,-110.00575365302235 55.59121027773227,-110.00576683107437 55.54777671642239,-110.00577227017402 55.2863678032316,-110.00574079120446 55.261275431510406,-110.00575376712825 55.070541,-110.259125</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:DLC:1.1</valueName>
+                <value>issued</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4812037</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Met</category>
+        <event>orages</event>
+        <responseType>Monitor</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVR</value>
+        </eventCode>
+        <effective>2026-09-26T03:05:29-00:00</effective>
+        <onset>2026-09-26T03:04:00-00:00</onset>
+        <expires>2026-09-26T05:01:29-00:00</expires>
+        <senderName>Environnement Canada</senderName>
+        <headline>alerte jaune - orages violents - en vigueur</headline>
+        <description>
+À 21h02 HAR, un orage violent se situe près du lac Canoe. Cet orage violent se déplace rapidement vers le nord-est à 70 km/h. Des rafales causant des dommages, de la grêle pouvant atteindre la taille d’une pièce de vingt-cinq cents et de la pluie forte sont possibles.
+
+
+
+###
+
+Les alertes d'orages violents sont émises lorsque des orages imminents ou en cours risquent de produire de la pluie, de la grêle ou des vents destructeurs.
+</description>
+        <instruction>
+Mettez-vous immédiatement à l'abri si un orage approche. Si vous êtes à l'extérieur, protégez-vous des débris volants et de la grêle.
+</instruction>
+        <web>https://meteo.gc.ca/</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>warning</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20260926030529772/AB_00_01_LAND/STW/303172871899343753202609260501_AB_00_01_LAND/actual/en_proper_complete_c-fr_proper_complete_c/NinJoWEL</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:23902 M:123108 C:142333</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>alerte jaune - orages violents</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Alberta</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Text</valueName>
+            <value>À 21h05 heure avancée des Rocheuses le vendredi, Environnement Canada a émis une alerte d'orages violents pour le centre-est et le nord-est  de l'Alberta. Une attention et des précautions additionnelles devraient être exercées près et autour des localités suivantes: Janvier South, le lac Winefred et le polygone de tir aérien de Cold Lake. Les météorologues d’Environnement Canada surveillent l'évolution d'orages violents très dangereux pouvant produire un ou plus des éléments suivants : vents destructeurs ou grêle de la taille d'une balle de baseball ou plus. Mettez-vous immédiatement à l'abri si un phénomène météorologique menaçant s'approche. De nombreux éclairs sont probables et il y a toujours un risque de tornade avec un orage.</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>AB_00_01_LAND</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value>075116,079242,079243</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Event_End_Time</valueName>
+            <value>2026-09-26T04:02:00.000Z</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:MSC_Risk_Tiered_Ranking</valueName>
+            <value>8</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:MSC_Impact</valueName>
+            <value>modéré</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:MSC_Confidence</valueName>
+            <value>élevée</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Colour</valueName>
+            <value>jaune</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Speed</valueName>
+            <value>69.45016 km/h</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Direction</valueName>
+            <value>24.182436</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Geometry_Type</valueName>
+            <value>ISOLATED_CELL</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Point</valueName>
+            <value>55.107494,-110.402527</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Time</valueName>
+            <value>20260926030200000</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Motion_Description</valueName>
+            <value>rapidement vers le nord-est à 70 km/h</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Storm_Position_Description</valueName>
+            <value>près du lac Canoe</value>
+        </parameter>
+        <area>
+            <areaDesc>d.m. de Bonnyville incluant le polygone de tir aérien de Cold Lake</areaDesc>
+            <polygon>54.7624,-110.455 54.754,-110.8931 54.7624,-111.2447 54.7624,-111.303 54.9366,-111.303 55.3308,-111.3032 55.3392,-110.8682 55.3304,-110.4681 55.3371,-110.4676 55.3442,-110.4653 55.343,-110.4136 55.3741,-110.4166 55.373,-110.3116 55.4621,-110.325 55.5494,-110.317 55.5476,-110.0057 55.1443,-109.9809 54.7623,-110.0057 54.7624,-110.455</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>075116</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4812037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>cté de Lac La Biche près des lacs Wiau Winefred et Grist</areaDesc>
+            <polygon>55.373,-110.3116 55.3741,-110.4166 55.343,-110.4136 55.3442,-110.4653 55.3371,-110.4658 55.3304,-110.4681 55.3205,-110.8705 55.3308,-111.3032 55.3311,-111.3925 55.4607,-111.3878 55.4607,-111.402 55.461,-111.402 55.5491,-111.4012 55.5557,-110.8438 55.5494,-110.317 55.4648,-110.3033 55.373,-110.3116</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>079242</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4812037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>m.r. de Wood Buffalo près de Janvier South et Conklin</areaDesc>
+            <polygon>55.9844,-111.4127 55.9843,-110.0057 55.7554,-109.9804 55.5476,-110.0057 55.5494,-110.317 55.5455,-110.8451 55.5491,-111.4012 55.689,-111.4136 55.8101,-111.3987 55.8097,-111.4063 55.8101,-111.4126 55.8979,-111.4126 55.9844,-111.4127</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>079243</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816817</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>new active threat area</areaDesc>
+            <polygon>55.070541,-110.259125 55.023354,-110.346725 55.025372,-110.46685 55.07542,-110.549469 55.144279,-110.546196 55.771336,-110.318024 55.69088504672502,-110.00575365302235 55.59121027773227,-110.00576683107437 55.54777671642239,-110.00577227017402 55.2863678032316,-110.00574079120446 55.261275431510406,-110.00575376712825 55.070541,-110.259125</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:DLC:1.1</valueName>
+                <value>issued</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4816037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4812037</value>
+            </geocode>
+        </area>
+    </info>
+<Signature Id="NAADS Signature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>Mbpvcr//6YvOIvv0qpohwRpxva1rcpjHijT82aItEGU=</DigestValue></Reference></SignedInfo><SignatureValue>DiEnC1Lca4JtZSvNieE+elCpZVI3bEe58486fOb3DLJptQNkqCnp+pwmjlH/2LX6G0/XPc7acHK+vrmf7hI9FbqtYD/Fi0fcWxWuB+0k6HYjPn6qzMt4nZS2WdLdh7EflCXPfkAlQlqKNDLJDlaqGDGhJngWJzL/NRLdfRpI3cOhddvQklUY2S0hkKoc3GSgPSt16D5tzv831Yfpc43sfVTwvUtM2l4N1tz7O0jrTaPogl3zq3IzMZ0UbMNCTNstZxlF/wmi2QXHmg7I2rdA+Pm+9huRPwO7fRxBojG+fRIXKHWPFYd9glB3xVoWu8sT27+Veml69wfGRooggYM+KQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo><Object xmlns=""><SignatureProperties><SignatureProperty Id="NAADS-DSS1" Target="https://dss1.naad-adna.pelmorex.com"><xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" /></SignatureProperty><SignatureProperty Id="NAADS-DSS2" Target="https://dss2.naad-adna.pelmorex.com"><xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" /></SignatureProperty></SignatureProperties></Object></Signature><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Environment Canada">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<DigestValue>Mbpvcr//6YvOIvv0qpohwRpxva1rcpjHijT82aItEGU=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>C0w7Pogv3JShanDXYwwOUFMTeNB/NqTLVUMSJjm1VdGcIQc4nVZlWGfV2bm0rXxw
+OX6eqd5CnsPiI0Q09qgHl/kjGjHkRTa77Ixqo0SG9K+x2WMrJAzdTvbUYKtJfaFW
+LOCIv9XnyUWV/Ote7T3+vQvisONf0iDsQSqpgCcwEs/jbzFGrse/yur8yc+g9BaS
+5qeEONSmiz8zPVfdTQXVY/2LjJnbIZkxs7JbicIc8AJbxy34KqbwzTXuNFc+PkxB
+QIhOg89TC53uoR7MoXfYxO0VjI1icYLmlgd1wvRrmzM+P8NcdR/n8x524HzFv7xs
+8Y/D/HEAaprNN37I1Y4r6A==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHDDCCBfSgAwIBAgIQM2dJyev0XEPJoQlSaOQgYDANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+NDA0MTkwOTQ3MDZaFw0yNTA1MTkwOTQ3MDRaMGwxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIEwZRdWViZWMxETAPBgNVBAcTCEdhdGluZWF1MR8wHQYDVQQKExZTaGFyZWQg
+U2VydmljZXMgQ2FuYWRhMRgwFgYDVQQDDA8qLndlYXRoZXIuZ2MuY2EwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDARd6fBVAjKlOvocp442ydQbSCoxHW
+91i1r5TkucsGLkzm92HQsj4eVNCl6Uti3hd3yYL1QxFTImdyUs2ETlDoU/hVFEey
+IevKo3m3ufuv9YryXGtoRcthMITEPrIy6vOyNbGaxJw1J6/AkOs7oAm3kUlx6PS8
+vOnuoyik1r6Q9qx1XP9Z05cIyyIBhsyjdS124Jj01quCjz5COPMXKU1LlaU8LeSA
+qILe9DyC3XWluZGxZH+tGiw42mpiCD3JGlCsXQujU5y4jg2fq8/ePsM3OUzM/Dxs
+kGMMN7LAG9/H4CINJ+aXZQvlgTfIZp2eWLvHy5dnsbi3VAJOEtgRVzedAgMBAAGj
+ggNZMIIDVTAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSSLKB4osVSIvgfhk+6NayJ
+BDAXuDAfBgNVHSMEGDAWgBSConB03bxTP8971PfNf6dgxgpMvzBoBggrBgEFBQcB
+AQRcMFowIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVudHJ1c3QubmV0MDMGCCsG
+AQUFBzAChidodHRwOi8vYWlhLmVudHJ1c3QubmV0L2wxay1jaGFpbjI1Ni5jZXIw
+MwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5ldC9sZXZlbDFr
+LmNybDCBnQYDVR0RBIGVMIGSgg8qLndlYXRoZXIuZ2MuY2GCDXdlYXRoZXIuZ2Mu
+Y2GCC21ldGVvLmdjLmNhgg0qLm1ldGVvLmdjLmNhghUqLmFscGhhLndlYXRoZXIu
+Z2MuY2GCEyouYWxwaGEubWV0ZW8uZ2MuY2GCFCouYmV0YS53ZWF0aGVyLmdjLmNh
+ghIqLmJldGEubWV0ZW8uZ2MuY2EwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjATBgNVHSAEDDAKMAgGBmeBDAECAjCCAYAGCisG
+AQQB1nkCBAIEggFwBIIBbAFqAHYAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzE
+uVCkR+cAAAGO9cCizQAABAMARzBFAiEA7hlkvyyYsnhbas5WDwoTkdGWf92Ukckw
+rGyUqMPZQjkCID8oQlHWS11haifx+i9tBr0epmrzkh2/bbneb9WNrlUvAHcATnWj
+J1yaEMM4W2zU3z9S6x3w4I4bjWnAsfpksWKaOd8AAAGO9cCi2AAABAMASDBGAiEA
+iE1jLaXrlPxrkIiq7NU0gH/sDiUlHCmMrT79KUy2V+YCIQCb2GrTID6NO3hb8bGs
+ctd8ipYRuu1FnDY8X3MGVDcWnAB3AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocy
+Hf0eN45QAAABjvXAovkAAAQDAEgwRgIhALRWB9aVOe3Zi9j6MEVKJl1NKQKIycr3
+8IfKeHxckblpAiEA85xjN3iBFvEVT4yIxO4qKRelbpFGomgSrYnfwTSUwHIwDQYJ
+KoZIhvcNAQELBQADggEBADGEK5tU92TqoTWPh1lfSRTDVCpk5qhqmIuaTeYQMonV
+AgHF5rktrUhXmMzRJEef8XRwLvApT4zOn+TV+NOUpi8q6tDWxx7dE8+moIf6tXq8
+d4OQ+VDO/C6nz/xA8FqvxAbPfqCJ6DqgitSyXhF01XkNMfVcknGAzhc/HemuukI1
+3DTuaATlbaXkHjSp+O0mXCykCIgH/9eMuOoFMzhdQhtJiLf2MMVclJ72/YzgVveA
+XrSTVE5F4BYdp9hX+0BTg5zNgg1wwvVVOwuIOTFqSSJCzGHjl/1i8IyyPLKB3ilt
+B+0V7IdmIxlvPbL//qNkzyUVufkewAoLMqCOUIZA0eY=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></alert>
