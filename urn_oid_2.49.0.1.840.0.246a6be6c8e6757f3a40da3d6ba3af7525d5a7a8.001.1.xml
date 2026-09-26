@@ -1,0 +1,137 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.246a6be6c8e6757f3a40da3d6ba3af7525d5a7a8.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T07:48:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T07:48:00-05:00</effective>
+        <onset>2026-09-24T07:48:00-05:00</onset>
+        <expires>2026-09-24T13:45:00-05:00</expires>
+        <senderName>NWS Goodland KS</senderName>
+        <headline>Flood Advisory issued September 24 at 7:48AM CDT until September 24 at 1:45PM CDT by NWS Goodland KS</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Western Sheridan County in northwestern Kansas...
+Thomas County in northwestern Kansas...
+Northwestern Gove County in west central Kansas...
+Logan County in west central Kansas...
+Southeastern Wallace County in west central Kansas...
+
+* WHEN...Until 145 PM CDT /1245 PM MDT/.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+Rises in small streams and normally dry arroyos. Some low-water
+crossings may become impassable.
+
+* ADDITIONAL DETAILS...
+- At 747 AM CDT /647 AM MDT/, emergency management reported heavy
+rain in the advisory area due to thunderstorms. Minor flooding is
+ongoing or expected to begin shortly. Between 1 and 3 inches of
+rain have fallen.
+- Additional rainfall amounts up to 1.5 inches are expected over
+the area. This additional rain will result in minor flooding.
+- Some locations that will experience flooding include...
+Colby, Oakley, Grinnell, Levant, Rexford, Selden, Winona,
+Monument, Gem, Menlo, Wallace, Russell Springs, Mingo, Halford,
+Angelus and Seguin.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSGLD</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS83 KGLD 241248</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 145 PM CDT /1245 PM MDT/ THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KGLD.FA.Y.0046.260924T1248Z-260924T1845Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T13:45:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Gove, KS; Logan, KS; Sheridan, KS; Thomas, KS; Wallace, KS</areaDesc>
+            <polygon>38.7,-101.71 39.13,-101.48 39.13,-101.44 39.14,-101.39 39.3,-101.39 39.56,-101.25 39.57,-100.69 39.57,-100.36 38.7,-100.82 38.7,-101.71</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020063</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020109</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020179</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020193</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020199</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC063</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC109</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC179</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC193</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC199</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
