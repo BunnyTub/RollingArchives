@@ -1,0 +1,118 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.da18bfa19e0b57840628096eb438082d34f44263.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T02:44:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Advisory</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFY</value>
+        </eventCode>
+        <effective>2026-09-24T02:44:00-04:00</effective>
+        <onset>2026-09-24T17:00:00-04:00</onset>
+        <expires>2026-09-26T04:00:00-04:00</expires>
+        <senderName>NWS Melbourne FL</senderName>
+        <headline>Coastal Flood Advisory issued September 24 at 2:44AM EDT until September 25 at 11:00AM EDT by NWS Melbourne FL</headline>
+        <description>* WHAT...For the High Surf Advisory, large breaking waves of 4
+to 8 feet expected in the surf zone. For the High Rip Current
+Risk, dangerous rip currents expected. For the Coastal Flood
+Advisory, minor coastal flooding expected.
+
+* WHERE...Coastal Volusia County.
+
+* WHEN...For the High Surf Advisory, from 8 AM this morning to 4
+AM EDT Saturday. For the High Rip Current Risk, from 8 AM EDT
+this morning through late Friday night. For the Coastal Flood
+Advisory, from 5 PM this afternoon to 11 AM EDT Friday.
+
+* IMPACTS...Some flooding of low-lying lots, parks and roadways
+may occur near the shoreline. Only isolated road closures are
+expected. Dangerous swimming and surfing conditions and
+localized beach erosion. Rip currents can sweep even the best
+swimmers away from shore into deeper water.
+
+* ADDITIONAL DETAILS...A strong, southward flowing longshore
+current is expected to develop in the surf zone, in addition to
+the other hazards.
+</description>
+        <instruction>Onshore winds and above normal tides will combine to generate
+flooding of low areas along the shore. Do not drive around
+barricades or through water of unknown depth. Take the necessary
+actions to protect flood-prone property.
+
+High surf will affect the beaches in the advisory area, producing
+localized beach erosion and dangerous swimming conditions.
+Swimmers should remain out of the water due to large breaking
+waves and dangerous surf conditions.
+
+Rip currents are powerful channels of water flowing quickly away
+from shore, which occur most often at low spots or breaks in the
+sandbar and in the vicinity of structures such as jetties and
+piers. Heed the advice of lifeguards, beach patrol flags and
+signs.
+
+Entering the surf is strongly discouraged. If caught in a rip
+current, relax and float. Don't swim against the current. If
+able, swim in a direction following the shoreline. If unable to
+escape, face the shore and call or wave for help.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWMLB</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KMLB 240644</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH SURF ADVISORY IN EFFECT FROM 8 AM THIS MORNING TO 4 AM EDT SATURDAY... ...HIGH RIP CURRENT RISK IN EFFECT FROM 8 AM EDT THIS MORNING THROUGH LATE FRIDAY NIGHT... ...COASTAL FLOOD ADVISORY IN EFFECT FROM 5 PM THIS AFTERNOON TO 11 AM EDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KMLB.CF.Y.0001.260924T2100Z-260925T1500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T11:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal Volusia</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012127</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ141</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
