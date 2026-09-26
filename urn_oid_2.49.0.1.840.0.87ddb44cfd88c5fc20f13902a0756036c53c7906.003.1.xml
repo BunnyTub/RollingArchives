@@ -1,0 +1,107 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.87ddb44cfd88c5fc20f13902a0756036c53c7906.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T14:50:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Advisory</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFY</value>
+        </eventCode>
+        <effective>2026-09-26T14:50:00-04:00</effective>
+        <onset>2026-09-26T19:00:00-04:00</onset>
+        <expires>2026-09-26T23:00:00-04:00</expires>
+        <senderName>NWS Baltimore MD/Washington DC</senderName>
+        <headline>Coastal Flood Advisory issued September 26 at 2:50PM EDT until September 28 at 11:00AM EDT by NWS Baltimore MD/Washington DC</headline>
+        <description>* WHAT...Up to one foot of inundation above ground level expected
+in low lying areas due to tidal flooding.
+
+* WHERE...Shoreline in the City of Alexandria and Arlington
+County.
+
+* WHEN...From 7 PM this evening to 11 AM EDT Monday, especially
+around the time of high tide.
+
+* IMPACTS...Water is expected to come up through storm drains,
+approaching businesses on Dock Street in Annapolis. Water is
+expected to approach the Maritime Museum and begin to cover
+Bowyer Road at the Naval Academy. Shoreline inundation up to one
+foot above ground is likely in other low lying areas..
+
+* ADDITIONAL DETAILS...Tides one and a half to two feet above
+normal. The next high tide at Alexandria is at 8:55 PM and 9:19
+AM.
+</description>
+        <instruction>If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWLWX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KLWX 261850</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD ADVISORY IN EFFECT FROM 7 PM THIS EVENING TO 11 AM EDT MONDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXB.KLWX.CF.Y.0044.260926T2300Z-260928T1500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-28T11:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Arlington/Falls Church/Alexandria</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>051013</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>051510</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>051610</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>VAZ054</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
