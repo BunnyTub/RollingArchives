@@ -1,0 +1,100 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9c62a486e876b3074e63605147514dbbce46ee08.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T09:21:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a00153dfbf60a0cfde1b601f8adbda9be03cb425.002.1,2026-09-24T01:43:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Moderate</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLA</value>
+        </eventCode>
+        <effective>2026-09-24T09:21:00-07:00</effective>
+        <onset>2026-09-25T08:00:00-07:00</onset>
+        <expires>2026-09-24T17:30:00-07:00</expires>
+        <senderName>NWS Seattle WA</senderName>
+        <headline>Gale Watch issued September 24 at 9:21AM PDT until September 26 at 5:00AM PDT by NWS Seattle WA</headline>
+        <description>* WHAT...West winds 20 to 30 kt with gusts up to 40 kt possible.
+
+* WHERE...Central U. S. Waters Strait Of Juan De Fuca and East
+Entrance U. S. Waters Strait Of Juan De Fuca.
+
+* WHEN...From Friday morning through late Friday night.
+
+* IMPACTS...Strong winds can cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>A Gale Watch is issued when the risk of gale force winds of 34 to
+47 knots has significantly increased, but the specific timing
+and/or location is still uncertain. It is intended to provide
+additional lead time for mariners who may wish to consider
+altering their plans.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWSEW</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KSEW 241621</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WATCH REMAINS IN EFFECT FROM FRIDAY MORNING THROUGH LATE FRIDAY NIGHT</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KSEW.GL.A.0020.260925T1500Z-260926T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T05:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Central U.S. Waters Strait Of Juan De Fuca; East Entrance U.S. Waters Strait Of Juan De Fuca</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057131</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057132</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ131</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ132</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
