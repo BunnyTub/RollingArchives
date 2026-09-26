@@ -1,0 +1,117 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.90114c7a090d618c8090ad0953ab6b5353ac297d.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T14:31:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1b062662abd94fb6b99a7a066cba6e53334595bf.001.1,2026-09-24T00:47:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93f072ed78f3712a6d7ebdc695f2074743b928b7.001.1,2026-09-24T11:15:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93f072ed78f3712a6d7ebdc695f2074743b928b7.002.1,2026-09-24T11:15:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>High Wind Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HWA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>HWA</value>
+        </eventCode>
+        <effective>2026-09-24T14:31:00-06:00</effective>
+        <onset>2026-09-25T18:00:00-06:00</onset>
+        <expires>2026-09-25T06:15:00-06:00</expires>
+        <senderName>NWS Great Falls MT</senderName>
+        <headline>High Wind Watch issued September 24 at 2:31PM MDT until September 26 at 9:00AM MDT by NWS Great Falls MT</headline>
+        <description>* WHAT...Westerly winds 30 to 50 mph with gusts up to 70 mph
+possible.
+
+* WHERE...Eastern Glacier, Western Toole, and Central Pondera,
+Northern High Plains, and Southern High Plains.
+
+* WHEN...From Friday evening through Saturday morning.
+
+* IMPACTS...Travel could be difficult, especially for high profile or
+light weight vehicles.
+</description>
+        <instruction>Monitor the latest forecasts and warnings for updates.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWTFX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS75 KTFX 242031</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH WIND WATCH REMAINS IN EFFECT FROM FRIDAY EVENING THROUGH SATURDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KTFX.HW.A.0028.260926T0000Z-260926T1500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T09:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Northern High Plains; Eastern Glacier, Western Toole, and Central Pondera; Southern High Plains</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030035</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030073</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030101</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030049</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030099</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ302</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ303</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ308</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
