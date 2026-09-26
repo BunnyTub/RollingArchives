@@ -1,0 +1,116 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.b0c8e88523b1e8215c333110833e64002302b449.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T17:19:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b01896fa0b8b528ecbad5e0669dc563ccb3f1b76.001.1,2026-09-25T15:49:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T17:19:00-06:00</effective>
+        <onset>2026-09-25T17:19:00-06:00</onset>
+        <expires>2026-09-25T18:45:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 5:19PM MDT until September 25 at 6:45PM MDT by NWS Albuquerque NM</headline>
+        <description>At 519 PM MDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Up to 1.25 inches of rain have fallen.
+Additional rainfall amounts up to 0.75 inches are possible in the
+warned area. Flash flooding is ongoing or expected to begin shortly.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Radar indicated.
+
+IMPACT...Life threatening flash flooding of creeks and streams, urban
+areas, highways, streets and underpasses.
+
+Some locations that will experience flash flooding include...
+Tinnie, Hondo and Sunset.
+
+This includes Highway 380 between Mile Markers 106 and 107.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+In hilly or mountainous terrain there are numerous low water
+crossings which are potentially dangerous in heavy rain. Do not
+attempt to cross flooded roads. Find an alternate route.
+
+Do not enter or cross flowing water or water of unknown depth.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 252319</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 645 PM MDT THIS EVENING FOR SOUTHEASTERN LINCOLN COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.FF.W.0197.000000T0000Z-260926T0045Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T18:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Lincoln, NM</areaDesc>
+            <polygon>33.41,-105.28 33.31,-105.32 33.3,-105.12 33.33,-105.03 33.37,-105.06 33.44,-105.19 33.41,-105.28</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC027</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
