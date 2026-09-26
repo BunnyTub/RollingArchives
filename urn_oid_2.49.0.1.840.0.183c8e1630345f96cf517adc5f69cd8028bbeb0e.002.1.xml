@@ -1,0 +1,123 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.183c8e1630345f96cf517adc5f69cd8028bbeb0e.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T14:21:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f9cd321308bb4280fe06f37fe8c5ce2895ba2b6a.001.1,2026-09-25T14:12:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Severe Thunderstorm Warning</event>
+        <responseType>Shelter</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SVW</value>
+        </eventCode>
+        <effective>2026-09-25T14:21:00-06:00</effective>
+        <onset>2026-09-25T14:21:00-06:00</onset>
+        <expires>2026-09-25T14:45:00-06:00</expires>
+        <senderName>NWS Pueblo CO</senderName>
+        <headline>Severe Thunderstorm Warning issued September 25 at 2:21PM MDT until September 25 at 2:45PM MDT by NWS Pueblo CO</headline>
+        <description>At 221 PM MDT, a severe thunderstorm was located near Aguilar, or 18
+miles north of Trinidad, moving east at 10 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, siding, and trees.
+
+This severe thunderstorm will remain over mainly rural areas of
+central Las Animas County.
+</description>
+        <instruction>A tornado watch remains in effect for the warned area. Tornadoes can
+develop quickly from severe thunderstorms. Although a tornado is not
+immediately likely, if one is spotted act quickly and move to a place
+of safety inside a sturdy structure, such as a basement or small
+interior room.
+
+For your protection move to an interior room on the lowest floor of a
+building.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SVSPUB</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS55 KPUB 252021</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 245 PM MDT FOR CENTRAL LAS ANIMAS COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T20:21:00-00:00...storm...280DEG...11KT...37.44,-104.56</value>
+        </parameter>
+        <parameter>
+            <valueName>windThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>60 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>hailThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>1.00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KPUB.SV.W.0365.000000T0000Z-260925T2045Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T14:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Las Animas, CO</areaDesc>
+            <polygon>37.4,-104.63 37.5,-104.61 37.52,-104.39 37.28,-104.5 37.4,-104.63</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC071</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
