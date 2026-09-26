@@ -1,0 +1,128 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.3539c3859e35fda5aa32eb048e64d0a748d198d3.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T17:27:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e2af4ee57c0ca7c6ec107a4c85a66ff5cb196bb5.001.1,2026-09-24T16:35:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T17:27:00-06:00</effective>
+        <onset>2026-09-24T17:27:00-06:00</onset>
+        <expires>2026-09-24T19:45:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 5:27PM MDT until September 24 at 7:45PM MDT by NWS Albuquerque NM</headline>
+        <description>At 527 PM MDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 1 and 4 inches of rain have
+fallen. Additional rainfall amounts up to 1.5 inches are possible in
+the warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+Some locations that will experience flash flooding include...
+Mainly rural areas of Southeastern De Baca, West Central Roosevelt
+and Northern Chaves Counties.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Arroyos, streams, and normally dry rivers can become raging killer
+currents in a matter of minutes. Water in arroyos can travel many
+miles and take hours to reach your location from upstream rain areas.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 242327</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 745 PM MDT THIS EVENING FOR SOUTHEASTERN DE BACA, WEST CENTRAL ROOSEVELT AND NORTHERN CHAVES COUNTIES</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.FF.W.0182.000000T0000Z-260925T0145Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T19:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves, NM; De Baca, NM; Roosevelt, NM</areaDesc>
+            <polygon>34.16,-103.95 34.3,-103.9 34.3,-103.7 34.22,-103.69 34.12,-103.8 34.08,-103.84 34.08,-103.95 34.16,-103.95</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035011</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035041</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC011</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC041</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
