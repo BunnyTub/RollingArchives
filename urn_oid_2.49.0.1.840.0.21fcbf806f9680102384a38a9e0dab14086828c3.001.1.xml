@@ -1,0 +1,112 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.21fcbf806f9680102384a38a9e0dab14086828c3.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T19:55:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.374f766d4ba9c9a33bbb71a1d50c041487505e0b.001.1,2026-09-25T17:05:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.03f87d55c25d83030e4862addd7c3c91f8132862.001.1,2026-09-25T18:42:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T19:55:00-06:00</effective>
+        <onset>2026-09-25T19:55:00-06:00</onset>
+        <expires>2026-09-25T21:00:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 7:55PM MDT until September 25 at 9:00PM MDT by NWS Albuquerque NM</headline>
+        <description>FFWABQ
+
+The National Weather Service in Albuquerque has extended the
+
+* Flash Flood Warning for...
+West Central Socorro County in central New Mexico...
+
+* Until 900 PM MDT.
+
+* At 755 PM MDT, trained weather spotters reported flash flooding on
+Highway 169 northwest of Magdalena. Up to 2.5 inches of rain have
+fallen. Flash flooding is ongoing.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Trained spotters reported.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+Magdalena and New Mexico Highway 169.
+
+This includes Highway 60 between Mile Markers 100 and 119.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS55 KABQ 260155</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>OBSERVED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KABQ.FF.W.0198.000000T0000Z-260926T0300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T21:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Socorro, NM</areaDesc>
+            <polygon>34.12,-107.14 34.19,-107.25 34.15,-107.42 34.06,-107.46 34.01,-107.45 34.02,-107.29 34.08,-107.13 34.12,-107.14</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035053</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC053</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
