@@ -1,0 +1,115 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.aec8548d7ad1ac7a119cf3d2b230ce0a7f04947e.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T16:00:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-26T16:00:00-05:00</effective>
+        <onset>2026-09-26T16:00:00-05:00</onset>
+        <expires>2026-09-26T18:00:00-05:00</expires>
+        <senderName>NWS Midland/Odessa TX</senderName>
+        <headline>Flash Flood Warning issued September 26 at 4:00PM CDT until September 26 at 6:00PM CDT by NWS Midland/Odessa TX</headline>
+        <description>FFWMAF
+
+The National Weather Service in Midland/Odessa has issued a
+
+* Flash Flood Warning for...
+Northeastern Pecos County in southwestern Texas...
+
+* Until 600 PM CDT.
+
+* At 400 PM CDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 0.5 and 1.5 inches of
+rain have fallen. The expected rainfall rate is 2 to 3 inches in 1
+hour. Flash flooding is ongoing or expected to begin shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+Bakersfield.
+
+This includes the following streams and drainages...
+Tunas Creek.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Please report observed flooding to local emergency services or law
+enforcement and request they pass this information to the National
+Weather Service when you can do so safely.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWMAF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS54 KMAF 262100</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KMAF.FF.W.0211.260926T2100Z-260926T2300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T18:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Pecos, TX</areaDesc>
+            <polygon>30.94,-102.54 30.98,-102.36 30.89,-102.29 30.82,-102.33 30.81,-102.45 30.87,-102.53 30.94,-102.54</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048371</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC371</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
