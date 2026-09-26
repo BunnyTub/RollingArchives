@@ -1,7 +1,7 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.4076f625693e8853125da63722026443b979b59e.030.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T15:09:00-08:00</sent>
     <status>Actual</status>
     <msgType>Alert</msgType>
     <source>211803 v2.3.0</source>
@@ -23,37 +23,37 @@
             <valueName>NationalWeatherService</valueName>
             <value>SCY</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
-        <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <effective>2026-09-24T15:09:00-08:00</effective>
+        <onset>2026-09-25T05:00:00-08:00</onset>
+        <expires>2026-09-25T04:00:00-08:00</expires>
+        <senderName>NWS Anchorage AK</senderName>
+        <headline>Small Craft Advisory issued September 24 at 3:09PM AKDT until September 26 at 5:00AM AKDT by NWS Anchorage AK</headline>
+        <description>Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
 
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
-
-* IMPACTS...Conditions will be hazardous to small craft.
+.TONIGHT...SE wind 25 kt. Seas 15 ft. Rain showers.
+.FRI...SW wind 30 kt. Seas 20 ft. Rain showers.
+.FRI NIGHT...SW wind 30 kt. Seas 19 ft.
+.SAT AND SAT NIGHT...NW wind 25 kt. Seas 12 ft.
+.SUN...NW wind 25 kt. Seas 8 ft.
+.MON THROUGH TUE...NW wind 15 kt. Seas 5 ft.
 </description>
-        <instruction>Inexperienced mariners, especially those operating smaller
-vessels, should avoid navigating in hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>CWFALU</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>FZAK52 PAFC 242309</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>SMALL CRAFT ADVISORY THROUGH FRIDAY NIGHT</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +65,25 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.NEW.PAFC.SC.Y.1413.260925T1300Z-260926T1300Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-26T05:00:00-08:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>Pribilof Islands Nearshore Waters</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>058766</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>PKZ766</value>
             </geocode>
         </area>
     </info>

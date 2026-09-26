@@ -1,7 +1,7 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.8639e82c08df5e4750a4980442ba0a69ee577db0.006.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T20:35:00-04:00</sent>
     <status>Actual</status>
     <msgType>Alert</msgType>
     <source>211803 v2.3.0</source>
@@ -10,10 +10,10 @@
     <info>
         <language>en-US</language>
         <category>Met</category>
-        <event>Small Craft Advisory</event>
+        <event>Beach Hazards Statement</event>
         <responseType>Avoid</responseType>
         <urgency>Expected</urgency>
-        <severity>Minor</severity>
+        <severity>Moderate</severity>
         <certainty>Likely</certainty>
         <eventCode>
             <valueName>SAME</valueName>
@@ -21,39 +21,42 @@
         </eventCode>
         <eventCode>
             <valueName>NationalWeatherService</valueName>
-            <value>SCY</value>
+            <value>BHS</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
-        <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <effective>2026-09-24T20:35:00-04:00</effective>
+        <onset>2026-09-25T08:00:00-04:00</onset>
+        <expires>2026-09-25T08:45:00-04:00</expires>
+        <senderName>NWS Newport/Morehead City NC</senderName>
+        <headline>Beach Hazards Statement issued September 24 at 8:35PM EDT until September 25 at 8:00PM EDT by NWS Newport/Morehead City NC</headline>
+        <description>* WHAT...Dangerous rip currents.
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
+* WHERE...Onslow County beaches.
 
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
+* WHEN...From 8 AM EDT Friday through Friday evening.
 
-* IMPACTS...Conditions will be hazardous to small craft.
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into deeper water.
+
+* ADDITIONAL DETAILS...The most likely time for strong rip
+currents to occur is a couple hours either side of low tide,
+which will occur around 1:20 PM Friday.
 </description>
-        <instruction>Inexperienced mariners, especially those operating smaller
-vessels, should avoid navigating in hazardous conditions.</instruction>
+        <instruction>Life-threatening rip currents. If caught in a rip current, remain
+calm. Swim in a direction following the shoreline. If tired,
+float or tread water until out of the rip current. If unable to
+escape, face the shore and call or wave for help.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>CFWMHX</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>WHUS42 KMHX 250035</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>BEACH HAZARDS STATEMENT IN EFFECT FROM 8 AM EDT FRIDAY THROUGH FRIDAY EVENING</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +68,25 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.NEW.KMHX.BH.S.0065.260925T1200Z-260926T0000Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-25T20:00:00-04:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>Coastal Onslow</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>037133</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>NCZ199</value>
             </geocode>
         </area>
     </info>

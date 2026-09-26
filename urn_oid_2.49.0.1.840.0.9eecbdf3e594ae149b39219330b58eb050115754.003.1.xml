@@ -1,7 +1,7 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.9eecbdf3e594ae149b39219330b58eb050115754.003.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T22:11:00-04:00</sent>
     <status>Actual</status>
     <msgType>Alert</msgType>
     <source>211803 v2.3.0</source>
@@ -23,37 +23,43 @@
             <valueName>NationalWeatherService</valueName>
             <value>SCY</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
-        <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <effective>2026-09-24T22:11:00-04:00</effective>
+        <onset>2026-09-24T22:11:00-04:00</onset>
+        <expires>2026-09-25T11:00:00-04:00</expires>
+        <senderName>NWS Mount Holly NJ</senderName>
+        <headline>Small Craft Advisory issued September 24 at 10:11PM EDT until September 25 at 6:00AM EDT by NWS Mount Holly NJ</headline>
+        <description>* WHAT...For the Small Craft Advisory, northeast winds 20 to 25 kt
+with gusts up to 30 kt and rough waters. For the Gale Watch,
+north winds 20 to 35 kt with gusts up to 40 kt and very rough
+waters possible.
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
+* WHERE...Delaware Bay waters south of East Point NJ to
+Slaughter Beach DE.
 
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
+* WHEN...For the Small Craft Advisory, until 6 AM EDT Friday.
+For the Gale Watch, from 6 AM EDT Friday through Saturday
+afternoon.
 
-* IMPACTS...Conditions will be hazardous to small craft.
+* IMPACTS...Strong winds can cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+
+* ADDITIONAL DETAILS...
 </description>
-        <instruction>Inexperienced mariners, especially those operating smaller
-vessels, should avoid navigating in hazardous conditions.</instruction>
+        <instruction>Mariners should consider altering plans to avoid possible
+hazardous conditions.  Remain in port, seek safe harbor, alter
+course, and/or secure the vessel for severe wind and seas.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>MWWPHI</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>WHUS71 KPHI 250211</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>SMALL CRAFT ADVISORY IN EFFECT UNTIL 6 AM EDT FRIDAY... ...GALE WATCH REMAINS IN EFFECT FROM 6 AM EDT FRIDAY THROUGH SATURDAY AFTERNOON</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +71,25 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.EXA.KPHI.SC.Y.0078.000000T0000Z-260925T1000Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-25T06:00:00-04:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>Delaware Bay waters south of East Point NJ to Slaughter Beach DE</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>073431</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>ANZ431</value>
             </geocode>
         </area>
     </info>

@@ -1,7 +1,7 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.cc912dd56d0d1b7f23d1ba78ccf527802f0894e2.008.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T15:49:00-08:00</sent>
     <status>Actual</status>
     <msgType>Alert</msgType>
     <source>211803 v2.3.0</source>
@@ -23,37 +23,39 @@
             <valueName>NationalWeatherService</valueName>
             <value>SCY</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
-        <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <effective>2026-09-24T15:49:00-08:00</effective>
+        <onset>2026-09-24T15:00:00-08:00</onset>
+        <expires>2026-09-25T06:00:00-08:00</expires>
+        <senderName>NWS Fairbanks AK</senderName>
+        <headline>Small Craft Advisory issued September 24 at 3:49PM AKDT until September 25 at 5:00AM AKDT by NWS Fairbanks AK</headline>
+        <description>Northwestern Alaska Coastal Waters out 100 NM
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent the average of the highest one-
+third of the combined wind-wave and swell height.
 
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
-
-* IMPACTS...Conditions will be hazardous to small craft.
+.TONIGHT...E winds 30 kt. Seas 5 ft.
+.FRI...E winds 30 kt. Seas 5 ft.
+.FRI NIGHT...E winds 25 kt. Seas 5 ft.
+.SAT...E winds 25 kt. Seas 5 ft.
+.SAT NIGHT...E winds 20 kt. Seas 4 ft.
+.SUN...NE winds 10 kt. Seas 2 ft.
+.SUN NIGHT...N winds 15 kt. Seas 3 ft.
+.MON...NW winds 20 kt. Seas 4 ft.
+.TUE...NW winds 25 kt. Seas 5 ft.
 </description>
-        <instruction>Inexperienced mariners, especially those operating smaller
-vessels, should avoid navigating in hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>CWFWCZ</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>FZAK52 PAFG 242349</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>SMALL CRAFT ADVISORY IN EFFECT THROUGH LATE TONIGHT</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +67,25 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.NEW.PAFG.SC.Y.4830.260924T2300Z-260925T1300Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-25T05:00:00-08:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>Cape Espenberg to Motherwood Point out to 10 NM</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>058808</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>PKZ808</value>
             </geocode>
         </area>
     </info>

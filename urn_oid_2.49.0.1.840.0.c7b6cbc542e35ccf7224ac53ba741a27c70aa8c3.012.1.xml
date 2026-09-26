@@ -1,7 +1,7 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.c7b6cbc542e35ccf7224ac53ba741a27c70aa8c3.012.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T14:01:00-08:00</sent>
     <status>Actual</status>
     <msgType>Alert</msgType>
     <source>211803 v2.3.0</source>
@@ -23,37 +23,39 @@
             <valueName>NationalWeatherService</valueName>
             <value>SCY</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
+        <effective>2026-09-24T14:01:00-08:00</effective>
+        <onset>2026-09-25T05:00:00-08:00</onset>
+        <expires>2026-09-25T08:15:00-08:00</expires>
         <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <headline>Small Craft Advisory issued September 24 at 2:01PM AKDT until September 25 at 5:00PM AKDT by NWS Juneau AK</headline>
+        <description>Southeast Alaska Coastal Waters from Dixon Entrance to
+Cape Suckling out 100 NM
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
+Wind forecasts reflect the predominant speed and direction
+expected. Seas forecasts represent the average of the highest
+one-third of the combined windwave and swell height.
 
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
-
-* IMPACTS...Conditions will be hazardous to small craft.
+.TONIGHT...E wind 15 kt. Seas 6 ft.
+.FRI...E wind 20 kt increasing to 30 kt. Seas building to 9 ft.
+.FRI NIGHT...E gale to 35 kt. Seas 13 ft. Showers late.
+.SAT...E gale to 35 kt. Seas 13 ft. Showers.
+.SAT NIGHT...E gale to 35 kt. Seas 14 ft. Showers.
+.SUN...E gale to 35 kt. Seas 13 ft.
+.MON...E wind 25 kt. Seas 9 ft.
+.TUE...E wind 15 kt. Seas 6 ft.
 </description>
-        <instruction>Inexperienced mariners, especially those operating smaller
-vessels, should avoid navigating in hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>CWFAEG</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>FZAK52 PAJK 242201</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>SMALL CRAFT ADVISORY FRIDAY</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +67,25 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.NEW.PAJK.SC.Y.3708.260925T1300Z-260926T0100Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-25T17:00:00-08:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>Icy Cape to Cape Suckling out to 15 NM</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>058652</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>PKZ652</value>
             </geocode>
         </area>
     </info>

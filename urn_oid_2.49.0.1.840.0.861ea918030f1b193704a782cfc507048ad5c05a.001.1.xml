@@ -1,16 +1,17 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.861ea918030f1b193704a782cfc507048ad5c05a.001.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T17:43:00-07:00</sent>
     <status>Actual</status>
-    <msgType>Alert</msgType>
+    <msgType>Update</msgType>
     <source>211803 v2.3.0</source>
     <scope>Public</scope>
     <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.653cd3dddbbeb250f17d297a768a05922280cca8.001.1,2026-09-24T14:38:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a383dae3c2539b57f56955b7e604b7e59973bc37.001.1,2026-09-24T16:09:00-07:00</references>
     <info>
         <language>en-US</language>
         <category>Met</category>
-        <event>Small Craft Advisory</event>
+        <event>Flood Advisory</event>
         <responseType>Avoid</responseType>
         <urgency>Expected</urgency>
         <severity>Minor</severity>
@@ -21,39 +22,32 @@
         </eventCode>
         <eventCode>
             <valueName>NationalWeatherService</valueName>
-            <value>SCY</value>
+            <value>FAY</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
-        <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <effective>2026-09-24T17:43:00-07:00</effective>
+        <onset>2026-09-24T17:43:00-07:00</onset>
+        <expires>2026-09-24T17:53:00-07:00</expires>
+        <senderName>NWS Las Vegas NV</senderName>
+        <headline>Flood Advisory issued September 24 at 5:43PM PDT until September 24 at 5:45PM PDT by NWS Las Vegas NV</headline>
+        <description>The Flood Advisory will expire at 545 PM PDT this afternoon for a
+portion of southern California, including the following area, San
+Bernardino.
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
-
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
-
-* IMPACTS...Conditions will be hazardous to small craft.
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
 </description>
-        <instruction>Inexperienced mariners, especially those operating smaller
-vessels, should avoid navigating in hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>FLSVEF</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>WGUS85 KVEF 250043</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>FLOOD ADVISORY WILL EXPIRE AT 545 PM PDT THIS AFTERNOON</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +59,26 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.EXP.KVEF.FA.Y.0095.000000T0000Z-260925T0045Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-24T17:45:00-07:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>San Bernardino, CA</areaDesc>
+            <polygon>34.34,-115.71 34.04,-115.74 34.03,-116.0 34.08,-116.0 34.08,-116.04 34.11,-116.04 34.11,-116.05 34.12,-116.05 34.12,-116.26 34.08,-116.26 34.08,-116.41 34.33,-116.37 34.34,-115.71</polygon>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>006071</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>CAC071</value>
             </geocode>
         </area>
     </info>

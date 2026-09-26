@@ -1,12 +1,13 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.c944d755716a67ec36af4055d39cdd89882bdcca.002.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T14:21:00-07:00</sent>
     <status>Actual</status>
-    <msgType>Alert</msgType>
+    <msgType>Update</msgType>
     <source>211803 v2.3.0</source>
     <scope>Public</scope>
     <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a31042e41c67b86f6f664b7d80f6ef5da1453794.001.1,2026-09-24T08:44:00-07:00</references>
     <info>
         <language>en-US</language>
         <category>Met</category>
@@ -23,20 +24,17 @@
             <valueName>NationalWeatherService</valueName>
             <value>SCY</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
-        <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <effective>2026-09-24T14:21:00-07:00</effective>
+        <onset>2026-09-25T09:00:00-07:00</onset>
+        <expires>2026-09-24T22:30:00-07:00</expires>
+        <senderName>NWS San Francisco CA</senderName>
+        <headline>Small Craft Advisory issued September 24 at 2:21PM PDT until September 26 at 3:00PM PDT by NWS San Francisco CA</headline>
+        <description>* WHAT...Northwest winds 15 to 25 kt with gusts up to 30 kt and
+seas 8 to 10 ft expected.
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
+* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
 
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
+* WHEN...From 9 AM Friday to 3 PM PDT Saturday.
 
 * IMPACTS...Conditions will be hazardous to small craft.
 </description>
@@ -45,15 +43,15 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>MWWMTR</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>WHUS76 KMTR 242121</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 9 AM FRIDAY TO 3 PM PDT SATURDAY</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +63,29 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.CON.KMTR.SC.Y.0117.260925T1600Z-260926T2200Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-26T15:00:00-07:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8ed99dd09ce76399574dbc239e9ad6e329d361c3.001.2,2026-09-24T02:13:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8abeab3d8e9cbb81e98ac62a4bcad027dc7c0b9e.002.2,2026-09-23T20:47:00-07:00</value>
+        </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>Waters from Point Arena to Point Reyes 10-60 NM</areaDesc>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>057570</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>PZZ570</value>
             </geocode>
         </area>
     </info>

@@ -1,16 +1,17 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.bc85f2f7bf053a7ed4f4fb6b91aae185c29e3dfe.003.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.fd4b9cb4c158f02eca76db7651018c86a2cf7433.001.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T12:47:00-08:00</sent>
+    <sent>2026-09-24T18:58:00-07:00</sent>
     <status>Actual</status>
-    <msgType>Alert</msgType>
+    <msgType>Update</msgType>
     <source>211803 v2.3.0</source>
     <scope>Public</scope>
     <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3f6c8c302eb111c20d9bec1b7a8ab744584efb9b.001.1,2026-09-24T16:07:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.712c7cb92e7b45fe2c66714bb922e92e4b30afe7.001.1,2026-09-24T17:50:00-07:00</references>
     <info>
         <language>en-US</language>
         <category>Met</category>
-        <event>Small Craft Advisory</event>
+        <event>Flood Advisory</event>
         <responseType>Avoid</responseType>
         <urgency>Expected</urgency>
         <severity>Minor</severity>
@@ -21,39 +22,32 @@
         </eventCode>
         <eventCode>
             <valueName>NationalWeatherService</valueName>
-            <value>SCY</value>
+            <value>FAY</value>
         </eventCode>
-        <effective>2026-09-24T12:47:00-08:00</effective>
-        <onset>2026-09-25T07:00:00-08:00</onset>
-        <expires>2026-09-24T21:00:00-08:00</expires>
-        <senderName>NWS Juneau AK</senderName>
-        <headline>Small Craft Advisory issued September 24 at 12:47PM AKDT until September 25 at 6:00PM AKDT by NWS Juneau AK</headline>
-        <description>* WHAT...For the first Small Craft Advisory, seas 6 to 9 ft. For
-the second Small Craft Advisory, southeast winds 20 to 25 kt
-and seas 6 to 9 ft expected.
+        <effective>2026-09-24T18:58:00-07:00</effective>
+        <onset>2026-09-24T18:58:00-07:00</onset>
+        <expires>2026-09-24T19:08:00-07:00</expires>
+        <senderName>NWS Las Vegas NV</senderName>
+        <headline>Flood Advisory issued September 24 at 6:58PM PDT until September 24 at 7:00PM PDT by NWS Las Vegas NV</headline>
+        <description>The Flood Advisory will expire at 7 PM MST this evening for a portion
+of northwest Arizona, including the following area, Mohave.
 
-* WHERE...Icy Cape to Cape Suckling from 15 to 80 NM.
-
-* WHEN...For the first Small Craft Advisory, until 7 PM AKDT
-this evening. For the second Small Craft Advisory, from 7 AM
-to 6 PM AKDT Friday.
-
-* IMPACTS...Conditions will be hazardous to small craft.
+Flood waters have receded. The heavy rain has ended. Flooding is no
+longer expected to pose a threat. Please continue to heed remaining
+road closures.
 </description>
-        <instruction>Inexperienced mariners, especially those operating smaller
-vessels, should avoid navigating in hazardous conditions.</instruction>
         <web>http://www.weather.gov</web>
         <parameter>
             <valueName>AWIPSidentifier</valueName>
-            <value>MWWAJK</value>
+            <value>FLSVEF</value>
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WHAK77 PAJK 242047</value>
+            <value>WGUS85 KVEF 250158</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
-            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 7 PM AKDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 7 AM TO 6 PM AKDT FRIDAY</value>
+            <value>FLOOD ADVISORY WILL EXPIRE AT 7 PM MST THIS EVENING</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
@@ -65,25 +59,26 @@ vessels, should avoid navigating in hazardous conditions.</instruction>
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.NEW.PAJK.SC.Y.0308.260925T1500Z-260926T0200Z/</value>
+            <value>/O.EXP.KVEF.FA.Y.0096.000000T0000Z-260925T0200Z/</value>
         </parameter>
         <parameter>
             <valueName>eventEndingTime</valueName>
-            <value>2026-09-25T18:00:00-08:00</value>
+            <value>2026-09-24T19:00:00-07:00</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
         <area>
-            <areaDesc>Icy Cape to Cape Suckling from 15 to 80 NM</areaDesc>
+            <areaDesc>Mohave, AZ</areaDesc>
+            <polygon>35.29,-113.97 35.29,-113.91 35.42,-113.81 35.55,-114.11 35.46,-114.14 35.34,-114.11 35.29,-113.97</polygon>
             <geocode>
                 <valueName>SAME</valueName>
-                <value>058672</value>
+                <value>004015</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>PKZ672</value>
+                <value>AZC015</value>
             </geocode>
         </area>
     </info>
