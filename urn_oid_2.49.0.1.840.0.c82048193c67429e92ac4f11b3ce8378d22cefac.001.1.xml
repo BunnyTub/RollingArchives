@@ -1,0 +1,108 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.c82048193c67429e92ac4f11b3ce8378d22cefac.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T10:58:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Beach Hazards Statement</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>BHS</value>
+        </eventCode>
+        <effective>2026-09-25T10:58:00-07:00</effective>
+        <onset>2026-09-25T10:58:00-07:00</onset>
+        <expires>2026-09-25T19:00:00-07:00</expires>
+        <senderName>NWS Los Angeles/Oxnard CA</senderName>
+        <headline>Beach Hazards Statement issued September 25 at 10:58AM PDT until September 30 at 4:00PM PDT by NWS Los Angeles/Oxnard CA</headline>
+        <description>* WHAT...Dangerous rip currents and breaking waves due to elevated
+surf. There is a risk of moderate coastal flooding especially
+Monday and Tuesday.
+
+* WHERE...Catalina and Santa Barbara Islands, Malibu Coast and Los
+Angeles County Beaches. Primarily south-facing beaches.
+
+* WHEN...Through Wednesday afternoon.
+
+* IMPACTS...There is an increased risk of ocean drowning. Rip
+currents can pull swimmers and surfers out to sea. Waves can
+wash people off beaches and rocks, and capsize small boats
+nearshore. Moderate flooding of sea water is possibly over some
+vulnerable low-lying coastal areas, especially around the late
+morning high tide, including over beach parking lots, bike
+paths, and harbor walkways. Moderate beach erosion is likely.
+Isolated damage is possible.
+
+* ADDITIONAL DETAILS....Coastal Flood Advisory products will
+likely be needed for Monday and Tuesday.
+</description>
+        <instruction>Remain out of the water due to hazardous swimming conditions, or
+stay near occupied lifeguard towers. Rock jetties can be deadly
+in such conditions, stay off the rocks.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWLOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS46 KLOX 251758</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>BEACH HAZARDS STATEMENT IN EFFECT THROUGH WEDNESDAY AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KLOX.BH.S.0018.260925T1758Z-260930T2300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-30T16:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Catalina and Santa Barbara Islands; Malibu Coast; Los Angeles County Beaches</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>006037</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CAZ087</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CAZ362</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CAZ366</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
