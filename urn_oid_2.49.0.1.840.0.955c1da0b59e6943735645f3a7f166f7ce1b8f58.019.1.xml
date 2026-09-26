@@ -1,0 +1,91 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.955c1da0b59e6943735645f3a7f166f7ce1b8f58.019.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T05:09:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-25T05:09:00-08:00</effective>
+        <onset>2026-09-25T05:00:00-08:00</onset>
+        <expires>2026-09-25T17:30:00-08:00</expires>
+        <senderName>NWS Anchorage AK</senderName>
+        <headline>Gale Warning issued September 25 at 5:09AM AKDT until September 26 at 5:00PM AKDT by NWS Anchorage AK</headline>
+        <description>Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
+
+.TODAY...SW wind 45 kt. Seas 28 ft. Rain showers.
+.TONIGHT...SW wind 45 kt. Seas 25 ft. Rain showers.
+.SAT...W wind 40 kt diminishing to 30 kt in the afternoon. Seas
+21 ft.
+.SAT NIGHT...W wind 25 kt. Seas 13 ft.
+.SUN...NW wind 25 kt. Seas 10 ft.
+.MON THROUGH TUE...W wind 20 kt. Seas 7 ft.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CWFALU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK52 PAFC 251309</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING THROUGH SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.PAFC.GL.W.4734.260925T1300Z-260927T0100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T17:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Nikolski to Seguam Bering Side from 15 to 85 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058776</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ776</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
