@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.cc27ec0ceec3db52776a486cd989ebdf8dee8a9a.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T10:13:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6c7804432898c2fed5d557a4bb5e47345dfd2f80.001.1,2026-09-24T09:06:00-08:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>High Wind Warning</event>
+        <responseType>Prepare</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <effective>2026-09-24T10:13:00-08:00</effective>
+        <onset>2026-09-24T10:13:00-08:00</onset>
+        <expires>2026-09-24T11:15:00-08:00</expires>
+        <senderName>NWS Anchorage AK</senderName>
+        <headline>High Wind Warning issued September 24 at 10:13AM AKDT until September 24 at 11:00AM AKDT by NWS Anchorage AK</headline>
+        <description>* WHAT...Southeast winds 25 to 40 mph with gusts 45 to 60 mph.
+Localized gusts up to 75 mph for Akutan and 85 mph for Cold Bay.
+
+* WHERE...Aleutians East Borough.
+
+* WHEN...Until 11 AM AKDT this morning.
+
+* IMPACTS...High winds may move loose debris, damage property, and
+cause power outages. Travel will be difficult.
+
+* ADDITIONAL DETAILS...A strong front and low pressure system will
+move across the Alaska Peninsula this morning. Expect strong
+southerly wind gusts with the highest gusts around Cold Bay and
+westerly gusts around Akutan. Winds will quickly turn westerly
+later this morning and will slowly diminish before turning
+southerly and becoming gusty again, with gusts 40 to 60 mph, this
+evening.
+</description>
+        <instruction>People are urged to secure loose objects that could be blown around
+or damaged by the wind. Prepare for the possibility of widespread
+power outages. Use caution if you must drive.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWALU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWAK72 PAFC 241813</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH WIND WARNING REMAINS IN EFFECT UNTIL 11 AM AKDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PAFC.HW.W.0009.000000T0000Z-260924T1900Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T11:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Aleutians East Borough</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002013</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ781</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
