@@ -1,0 +1,93 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.6817fe221d13642f84bd335d39db75c1401373b4.004.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T03:56:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.804863faf3021715b215012040d25413aeadc076.003.1,2026-09-25T21:30:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-26T03:56:00-07:00</effective>
+        <onset>2026-09-26T03:56:00-07:00</onset>
+        <expires>2026-09-26T12:00:00-07:00</expires>
+        <senderName>NWS Eureka CA</senderName>
+        <headline>Small Craft Advisory issued September 26 at 3:56AM PDT until September 26 at 11:00PM PDT by NWS Eureka CA</headline>
+        <description>* WHAT...North winds 10 to 20 kt with gusts up to 25 kt and seas
+5 to 8 feet.
+
+* WHERE...Coastal waters from Pt. St. George to Cape Mendocino
+CA out 10 nm.
+
+* WHEN...Until 11 PM PDT this evening.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWEKA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KEKA 261056</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 11 PM PDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KEKA.SC.Y.0085.000000T0000Z-260927T0600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T23:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5dc263614b2e5a5d5426c688fa946a5ce1e85f94.003.1,2026-09-25T14:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e7a6d06d6b5da2a08afb41caba031c68401174db.003.1,2026-09-25T08:50:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d479bcf98f8ef67bdbc65eb580c1cbcd52882a03.002.1,2026-09-25T08:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.eee529826d12f9e1d28a81485e44c6feeddf38fd.001.1,2026-09-25T03:08:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.373253ebd2515314b151ec14c2e12525ce87f460.002.1,2026-09-24T21:15:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1df8808bc864fcf856bca608bef9cf7b98dcb060.004.1,2026-09-24T14:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.461ac051830166abaf51126f20c525e63381c12a.002.1,2026-09-24T09:33:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.753dac45ee86e070456a7bffc49f23138d2c6566.003.1,2026-09-24T03:13:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fc8c029bdd9d09e621d2c39a47e4bf8c15087cba.004.1,2026-09-23T20:57:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.49eb52f5c0d054f095df7c9091c99f42a55f4589.003.1,2026-09-23T14:31:00-07:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Pt. St. George to Cape Mendocino CA out 10 nm</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057450</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ450</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
