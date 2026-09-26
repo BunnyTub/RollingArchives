@@ -1,0 +1,101 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.73657c3a79d61a5739a48bb15b821bde14488edc.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T14:28:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T14:28:00-06:00</effective>
+        <onset>2026-09-24T14:28:00-06:00</onset>
+        <expires>2026-09-24T16:30:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flood Advisory issued September 24 at 2:28PM MDT until September 24 at 4:30PM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>* WHAT...Arroyo and small stream flooding caused by excessive
+rainfall is expected.
+
+* WHERE...Southwestern Otero County in south central New Mexico...
+
+* WHEN...Until 430 PM MDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+- At 228 PM MDT, Doppler radar indicated heavy rain due to
+thunderstorms. This  will cause arroyo and small stream flooding.
+Between 1.5 and 2 inches of rain have fallen.
+- Some locations that will experience flooding include...
+Mainly rural areas of Southwestern Otero County.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Flooding is occurring or is imminent. It is important to know where
+you are relative to streams, rivers, or creeks which can become
+killers in heavy rains. Campers and hikers should avoid streams or
+creeks.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KEPZ 242028</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 430 PM MDT THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KEPZ.FA.Y.0366.260924T2028Z-260924T2230Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T16:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Otero, NM</areaDesc>
+            <polygon>32.1,-106.07 32.05,-105.95 32.25,-105.86 32.37,-106.06 32.15,-106.21 32.1,-106.07</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035035</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC035</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
