@@ -1,0 +1,107 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8e296fcd6162d5126a3a8b78482cd5c290076716.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T19:23:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed134ff5fa7c0f0e2e944891470b506e51f3529b.001.1,2026-09-24T14:34:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <effective>2026-09-24T19:23:00-04:00</effective>
+        <onset>2026-09-24T19:23:00-04:00</onset>
+        <expires>2026-09-25T05:00:00-04:00</expires>
+        <senderName>NWS Baltimore MD/Washington DC</senderName>
+        <headline>Coastal Flood Warning issued September 24 at 7:23PM EDT until September 25 at 5:00PM EDT by NWS Baltimore MD/Washington DC</headline>
+        <description>* WHAT...Up to one foot of inundation above ground level in low
+lying areas due to tidal flooding.
+
+* WHERE...Shoreline in St. Marys County.
+
+* WHEN...Until 5 PM EDT Friday, especially around the time of
+high tide.
+
+* IMPACTS...At 3.5 feet, water covers roads on Saint George
+Island, is in yards, and is approaching structures. To the
+east, inundation is occurring at multiple marinas off St.
+Mary's River, Smith Creek, and Jutland Creek.
+
+* ADDITIONAL DETAILS...Tides two to two and a half feet above
+normal. The next high tide at Point Lookout is at 12:40 AM and
+1:10 PM. The next high tide at Coltons Point is at 2:27 AM and
+2:45 PM. The next high tide at Piney Point is at 1:51 AM and
+2:09 PM.
+</description>
+        <instruction>Take the necessary actions to protect flood-prone property. If
+travel is required, do not drive around barricades or through
+water of unknown depth.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWLWX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KLWX 242323</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL 5 PM EDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KLWX.CF.W.0002.000000T0000Z-260925T2100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T17:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0ae204ad2caa5ae0881ae87483774b2061e78915.001.1,2026-09-24T10:47:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.baeb7b568831b592ac62703c9c7c0b29a52f4253.002.1,2026-09-24T03:10:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6281288e4dfc267920594d3f607da741e16589a3.001.1,2026-09-23T22:41:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7ffea5f088e04ca8470438a249d1127e87f1b4bb.001.3,2026-09-23T15:08:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4072cf7e18df95e72cdf6c954e23a78a4e00c62f.001.1,2026-09-23T08:42:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>St. Marys</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>024037</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MDZ017</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
