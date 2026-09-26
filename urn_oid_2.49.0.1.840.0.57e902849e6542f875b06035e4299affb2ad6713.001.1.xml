@@ -1,0 +1,126 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.57e902849e6542f875b06035e4299affb2ad6713.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T21:05:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-24T21:05:00-05:00</effective>
+        <onset>2026-09-24T21:05:00-05:00</onset>
+        <expires>2026-09-24T21:45:00-05:00</expires>
+        <senderName>NWS Midland/Odessa TX</senderName>
+        <headline>Special Weather Statement issued September 24 at 9:05PM CDT by NWS Midland/Odessa TX</headline>
+        <description>At 905 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Plateau, or 18 miles west of Kent, moving north at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+Locations impacted include...
+Plateau.
+
+This includes Interstate 10 between mile markers 153 and 162.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSMAF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS84 KMAF 250205</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A STRONG THUNDERSTORM WILL IMPACT CENTRAL CULBERSON COUNTY THROUGH 945 PM CDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T02:05:00-00:00...storm...189DEG...16KT...31.11,-104.53</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.75</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Van Horn and Highway 54 Corridor; Eastern Culberson County; Davis Mountains Foothills</areaDesc>
+            <polygon>31.04,-104.47 31.05,-104.62 31.37,-104.6 31.33,-104.31 31.04,-104.47</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048109</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048043</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048243</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048389</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ272</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ273</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXZ278</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
