@@ -1,0 +1,108 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.547e624bb4d32345ffd972232e375003ad5323f7.003.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T13:30:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af290d98b2d9c281141740f37b74a3d0c61d00cf.003.2,2026-09-25T00:07:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Hazardous Seas Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SEW</value>
+        </eventCode>
+        <effective>2026-09-25T13:30:00-07:00</effective>
+        <onset>2026-09-25T13:30:00-07:00</onset>
+        <expires>2026-09-26T05:30:00-07:00</expires>
+        <senderName>NWS Portland OR</senderName>
+        <headline>Hazardous Seas Warning issued September 25 at 1:30PM PDT until September 25 at 5:00PM PDT by NWS Portland OR</headline>
+        <description>* WHAT...Rough bar conditions expected. For the Hazardous Seas
+Warning, very steep and hazardous seas 11 to 14 ft at 9 seconds
+and west winds 20 to 25 kt with gusts up to 30 kt. For the first
+Small Craft Advisory, seas 8 to 9 ft at 9 seconds and northwest
+winds 10 to 15 kt expected. For the second Small Craft Advisory,
+seas 5 to 7 ft at 8 seconds and north winds 10 to 20 kt with
+gusts up to 25 kt expected.
+
+* WHERE...In the Main Channel of the Columbia River Bar.
+
+* WHEN...Hazardous Seas Warning, until 5 PM PDT this afternoon.
+Small Craft Advisory, from 5 PM this afternoon to 11 PM PDT
+this evening. Small Craft Advisory, from 5 PM Saturday to 5 AM
+PDT Sunday.
+
+* IMPACTS...Very steep and hazardous seas could capsize or cause
+damage to vessels.
+
+* ADDITIONAL DETAILS...Ebb current of 4.9 kt at 444 PM Friday.
+Seas 8 to 9 ft. Ebb current of 4.96 kt at 456 AM Saturday. Seas
+5 ft. Ebb current of 5.5 kt at 517 PM Saturday. Seas 5 to 6 ft.
+</description>
+        <instruction>A Hazardous Seas Warning means hazardous sea conditions are
+imminent or occurring. Recreational boaters should remain in
+port, or take shelter until waves subside.  Commercial vessels
+should prepare for rough seas and consider remaining in port or
+taking shelter in port until hazardous seas subside.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWPQR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KPQR 252030</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HAZARDOUS SEAS WARNING NOW IN EFFECT UNTIL 5 PM PDT THIS AFTERNOON... ...SMALL CRAFT ADVISORY IN EFFECT FROM 5 PM THIS AFTERNOON TO 11 PM PDT THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 5 PM SATURDAY TO 5 AM PDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KPQR.SE.W.0012.260925T2030Z-260926T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T17:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d6258a55a0b21b0053a42781368e96cc3b6c6070.003.2,2026-09-24T13:12:00-07:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Columbia River Bar</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057210</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ210</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
