@@ -1,0 +1,115 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.09da9239e27c09f2f108f355d23e6195fa5ba352.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T21:17:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.40c57e7a2db44089a1015be9e9dea88bb6e43952.001.1,2026-09-25T21:07:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Tornado Warning</event>
+        <responseType>Shelter</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Extreme</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>TOW</value>
+        </eventCode>
+        <effective>2026-09-25T21:17:00-06:00</effective>
+        <onset>2026-09-25T21:17:00-06:00</onset>
+        <expires>2026-09-25T21:30:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Tornado Warning issued September 25 at 9:17PM MDT until September 25 at 9:30PM MDT by NWS Albuquerque NM</headline>
+        <description>At 917 PM MDT, a severe thunderstorm capable of producing a tornado
+was located 9 miles northeast of Clovis, moving northeast at 25 mph.
+
+HAZARD...Tornado and half dollar size hail.
+
+SOURCE...Radar indicated rotation.
+
+IMPACT...Flying debris will be dangerous to those caught without
+shelter. Mobile homes will be damaged or destroyed. Damage
+to roofs, windows and vehicles will occur. Tree damage is
+likely.
+
+Locations impacted include...
+Clovis and Pleasant Hill.
+</description>
+        <instruction>Move to an interior room on the lowest floor of a well-built building
+away from windows. If you are outdoors, in a mobile home, or in a
+vehicle, move to the closest substantial shelter and protect yourself
+from flying debris.
+
+Tornadoes are difficult to observe at night. Take cover now!</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SVSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS55 KABQ 260317</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>TORNADO WARNING REMAINS IN EFFECT UNTIL 930 PM MDT FOR EASTERN CURRY COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-26T03:07:00-00:00...storm...247DEG...20KT...34.51,-103.15</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>1.25</value>
+        </parameter>
+        <parameter>
+            <valueName>tornadoDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.TO.W.0002.000000T0000Z-260926T0330Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T21:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Curry, NM</areaDesc>
+            <polygon>34.55,-103.18 34.62,-103.04 34.5,-103.04 34.49,-103.15 34.55,-103.18</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035009</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC009</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
