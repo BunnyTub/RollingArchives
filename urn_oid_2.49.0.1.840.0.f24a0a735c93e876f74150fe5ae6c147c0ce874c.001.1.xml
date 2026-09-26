@@ -1,0 +1,230 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.f24a0a735c93e876f74150fe5ae6c147c0ce874c.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T02:25:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T02:25:00-06:00</effective>
+        <onset>2026-09-25T02:25:00-06:00</onset>
+        <expires>2026-09-25T05:30:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 2:25AM MDT until September 25 at 5:30AM MDT by NWS Albuquerque NM</headline>
+        <description>FFWABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Flash Flood Warning for...
+Southwestern Chaves County in southeastern New Mexico...
+
+* Until 530 AM MDT.
+
+* At 225 AM MDT, satellite estimates indicate thunderstorms producing
+heavy rain across the warned area. Flash flooding is ongoing or
+expected to begin shortly.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Satellite estimates.
+
+IMPACT...Life threatening flash flooding of creeks and streams,
+urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+Dunken and Elk.
+
+Rio Penasco and Bluewater Creek.
+
+Locally heavy rainfall has fallen in southern areas of this warning,
+including on Russel Gap Rd., Bear Canyon Rd., and Canyon Rd..
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS55 KABQ 250825</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KABQ.FF.W.0191.260925T0825Z-260925T1130Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T05:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>NWS: FLASH FLOOD WARNING this area til 5:30 AM MDT. Avoid flooded areas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>National Weather Service: A FLASH FLOOD WARNING is in effect for this area until 5:30 AM MDT. This is a dangerous and life-threatening situation. Do not attempt to travel unless you are fleeing an area subject to flooding or under an evacuation order.</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves, NM</areaDesc>
+            <polygon>32.98,-105.32 32.87,-104.84 32.52,-104.84 32.52,-105.35 32.96,-105.35 32.96,-105.32 32.98,-105.32</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC005</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>es-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T02:25:00-06:00</effective>
+        <onset>2026-09-25T02:25:00-06:00</onset>
+        <expires>2026-09-25T05:30:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 2:25AM MDT until September 25 at 5:30AM MDT by NWS Albuquerque NM</headline>
+        <description>FFWABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Flash Flood Warning for...
+Southwestern Chaves County in southeastern New Mexico...
+
+* Until 530 AM MDT.
+
+* At 225 AM MDT, satellite estimates indicate thunderstorms producing
+heavy rain across the warned area. Flash flooding is ongoing or
+expected to begin shortly.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Satellite estimates.
+
+IMPACT...Life threatening flash flooding of creeks and streams,
+urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+Dunken and Elk.
+
+Rio Penasco and Bluewater Creek.
+
+Locally heavy rainfall has fallen in southern areas of this warning,
+including on Russel Gap Rd., Bear Canyon Rd., and Canyon Rd..
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS55 KABQ 250825</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KABQ.FF.W.0191.260925T0825Z-260925T1130Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T05:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>SNM: AVISO DE INUNDACIONES REPENTINAS hasta 5:30 AM MDT. Evite areas inundadas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>Servicio Nacional de Meteorologia: AVISO DE INUNDACIONES REPENTINAS en efecto para esta area hasta las 5:30 AM MDT. Esta es una situacion peligrosa y amenaza la vida. No intente viajar a menos que sea para abandonar un area propensa a inundaciones o bajo una orden de desalojo.</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves, NM</areaDesc>
+            <polygon>32.98,-105.32 32.87,-104.84 32.52,-104.84 32.52,-105.35 32.96,-105.35 32.96,-105.32 32.98,-105.32</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC005</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
