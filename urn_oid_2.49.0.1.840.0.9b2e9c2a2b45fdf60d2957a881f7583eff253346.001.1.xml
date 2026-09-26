@@ -1,0 +1,116 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9b2e9c2a2b45fdf60d2957a881f7583eff253346.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T03:35:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAW</value>
+        </eventCode>
+        <effective>2026-09-25T03:35:00-06:00</effective>
+        <onset>2026-09-25T03:35:00-06:00</onset>
+        <expires>2026-09-25T06:30:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flood Warning issued September 25 at 3:35AM MDT until September 25 at 6:30AM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...East Central El Paso County in western Texas...
+Northwestern Hudspeth County in western Texas...
+
+* WHEN...Until 630 AM MDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone locations is imminent or occurring. Expect many
+areas of slow moving or standing water.
+
+* ADDITIONAL DETAILS...
+- At 335 AM MDT, Doppler radar indicated heavy rain due to
+thunderstorms. Flooding is ongoing or expected to begin shortly
+in the warned area. Between 2 and 3 inches of rain have fallen.
+- Flooding impacts will continue, but no additional rainfall is
+expected.
+- Some locations that will experience flooding include...
+Mainly rural areas of East Central El Paso and Northwestern
+Hudspeth Counties.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLWEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS44 KEPZ 250935</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING IN EFFECT UNTIL 630 AM MDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KEPZ.FA.W.0007.260925T0935Z-260925T1230Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T06:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>El Paso, TX; Hudspeth, TX</areaDesc>
+            <polygon>31.76,-106.0 31.82,-105.84 31.67,-105.71 31.45,-105.9 31.45,-105.96 31.52,-106.03 31.67,-106.04 31.75,-106.02 31.76,-106.0</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048141</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048229</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC141</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC229</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
