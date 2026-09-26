@@ -1,0 +1,92 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a87a4506b2d023b3ed3502ad9da2ae69f9c883e3.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T15:33:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T15:33:00-08:00</effective>
+        <onset>2026-09-26T05:00:00-08:00</onset>
+        <expires>2026-09-26T09:45:00-08:00</expires>
+        <senderName>NWS Juneau AK</senderName>
+        <headline>Small Craft Advisory issued September 25 at 3:33PM AKDT until September 26 at 5:00PM AKDT by NWS Juneau AK</headline>
+        <description>Southeast Alaska Coastal Waters from Dixon Entrance to
+Cape Suckling out 100 NM
+
+Wind forecasts reflect the predominant speed and direction
+expected. Seas forecasts represent the average of the highest
+one-third of the combined windwave and swell height.
+
+.TONIGHT...W wind 10 kt becoming S 20 kt late. Seas 5 ft.
+.SAT...S wind 25 kt. Seas 9 ft. Rain in the morning.
+.SAT NIGHT...S wind 20 kt. Seas 8 ft. Rain late.
+.SUN...S wind 25 kt. Seas 10 ft. Rain.
+.SUN NIGHT...S wind 30 kt. Seas 11 ft. Showers.
+.MON...S wind 15 kt. Seas 10 ft.
+.TUE...SW wind 15 kt. Seas 9 ft.
+.WED...S wind 15 kt. Seas 9 ft.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CWFAEG</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK52 PAJK 252333</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.PAJK.SC.Y.7546.260926T1300Z-260927T0100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T17:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Dixon Entrance to Cape Decision out to 15 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058641</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ641</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
