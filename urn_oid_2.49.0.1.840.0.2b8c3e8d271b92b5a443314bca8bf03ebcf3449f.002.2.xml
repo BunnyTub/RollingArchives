@@ -1,0 +1,109 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.2b8c3e8d271b92b5a443314bca8bf03ebcf3449f.002.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T04:42:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8639e82c08df5e4750a4980442ba0a69ee577db0.002.1,2026-09-24T20:35:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Beach Hazards Statement</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>BHS</value>
+        </eventCode>
+        <effective>2026-09-25T04:42:00-04:00</effective>
+        <onset>2026-09-25T08:00:00-04:00</onset>
+        <expires>2026-09-25T17:00:00-04:00</expires>
+        <senderName>NWS Newport/Morehead City NC</senderName>
+        <headline>Beach Hazards Statement issued September 25 at 4:42AM EDT until September 25 at 8:00PM EDT by NWS Newport/Morehead City NC</headline>
+        <description>* WHAT...For the Coastal Flood Warning, up to 2 to 4 feet of
+inundation above ground level expected in low-lying areas near
+shorelines and tidal waterways. Up to 1 foot of inundation is
+possible for sound-side flooding as strong N'rly winds remain
+in place today. For the Beach Hazards Statement, dangerous rip
+currents and large breaking waves expected in the surf zone.
+
+* WHERE...Ocracoke Island.
+
+* WHEN...For the Coastal Flood Warning, until 11 PM EDT Friday.
+For the Beach Hazards Statement, from 8 AM EDT Friday through
+Friday evening.
+
+* IMPACTS...Numerous roads may be closed. Portions of Highway 12
+will be inundated. Low lying property including homes,
+businesses, and some critical infrastructure will be
+inundated. Rip currents can sweep even the best swimmers away
+from shore into deeper water. Dangerous shore break can throw
+a swimmer or surfer head first into the bottom causing neck
+and back injuries.
+
+* ADDITIONAL DETAILS...High tide Friday is 7:02 AM and 7:22 PM.
+The most likely time for strong rip currents to occur is a
+couple hours either side of low tide, which will occur around
+1:15 PM Friday.
+</description>
+        <instruction>Take the necessary actions to protect flood-prone property. If
+travel is required, do not drive around barricades or through
+water of unknown depth.
+
+Swimmers should remain out of the water due to dangerous surf
+conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWMHX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KMHX 250842</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL 11 PM EDT THIS EVENING... ...BEACH HAZARDS STATEMENT REMAINS IN EFFECT FROM 8 AM EDT THIS MORNING THROUGH THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KMHX.BH.S.0065.260925T1200Z-260926T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Ocracoke Island</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>037095</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NCZ204</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
