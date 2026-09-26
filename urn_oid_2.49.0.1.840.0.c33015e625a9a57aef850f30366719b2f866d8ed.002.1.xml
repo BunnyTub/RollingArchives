@@ -1,0 +1,91 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.c33015e625a9a57aef850f30366719b2f866d8ed.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T15:54:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.092d5ec9b862ba1b377f0d5d5a430a1042d9ab4b.001.2,2026-09-26T13:00:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.63983ed1a431c1f0a186459fd50ff7145b5b0596.003.1,2026-09-26T13:04:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-26T15:54:00-04:00</effective>
+        <onset>2026-09-26T15:54:00-04:00</onset>
+        <expires>2026-09-27T00:00:00-04:00</expires>
+        <senderName>NWS Wakefield VA</senderName>
+        <headline>Gale Warning issued September 26 at 3:54PM EDT until September 27 at 7:00AM EDT by NWS Wakefield VA</headline>
+        <description>* WHAT...Northwest winds 25 to 35 kt with gusts up to 45 kt and
+seas 11 to 16 ft.
+
+* WHERE...Waters from Fenwick Island DE to Chintoteague VA from
+20 to 60 NM.
+
+* WHEN...Until 7 AM EDT Sunday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should alter plans to avoid these hazardous conditions.
+Remain in port, seek safe harbor, alter course, and/or secure the
+vessel for hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWAKQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KAKQ 261954</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING NOW IN EFFECT UNTIL 7 AM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KAKQ.GL.W.0017.000000T0000Z-260927T1100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T07:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Waters from Fenwick Island DE to Chintoteague VA from 20 to 60 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073680</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ680</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
