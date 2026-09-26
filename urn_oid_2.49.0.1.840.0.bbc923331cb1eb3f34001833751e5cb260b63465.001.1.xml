@@ -1,0 +1,117 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.bbc923331cb1eb3f34001833751e5cb260b63465.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T15:43:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bc51868b12123319966177d3fb43f1e797e280b0.001.1,2026-09-24T13:56:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T15:43:00-06:00</effective>
+        <onset>2026-09-24T15:43:00-06:00</onset>
+        <expires>2026-09-24T17:00:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 3:43PM MDT until September 24 at 5:00PM MDT by NWS Albuquerque NM</headline>
+        <description>At 343 PM MDT, Doppler radar indicated thunderstorms producing heavy
+rain over the Seven Cabins Burn Scar. Between 0.5 and 1.5 inches of
+rain have fallen. The expected rainfall rate is 1 to 2 inches in 1
+hour. Additional rainfall amounts up to 1 inch are possible in the
+warned area. Flash flooding is ongoing or expected to begin shortly.
+
+Excessive rainfall over the burn scar will impact Highway 246 as well
+as Forest Service Roads 56 and 616. This will also impact Las Tablas
+Creek and Arroyo Seco. The debris flow can consist of rock, mud,
+vegetation and other loose materials.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding in and around the Seven Cabins Burn Scar.
+
+SOURCE...Radar indicated.
+
+IMPACT...Life threatening flash flooding of areas in and around the
+Seven Cabins Burn Scar.
+
+Some locations that will experience flash flooding include...
+Mainly rural areas of East Central Lincoln County.
+</description>
+        <instruction>This is a life threatening situation. Heavy rainfall will cause
+extensive and severe flash flooding of creeks, streams and ditches in
+the Seven Cabins Burn Scar. Severe debris flows can also be
+anticipated across roads. Roads and driveways may be washed away in
+places. If you encounter flood waters, climb to safety.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 242143</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING FOR THE SEVEN CABINS BURN SCAR REMAINS IN EFFECT UNTIL 5 PM MDT THIS AFTERNOON FOR EAST CENTRAL LINCOLN COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.FF.W.0179.000000T0000Z-260924T2300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T17:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Lincoln, NM</areaDesc>
+            <polygon>33.67,-105.37 33.69,-105.33 33.71,-105.25 33.71,-105.08 33.7,-105.04 33.68,-105.14 33.68,-105.21 33.64,-105.25 33.6,-105.23 33.58,-105.24 33.55,-105.27 33.53,-105.3 33.52,-105.33 33.54,-105.42 33.59,-105.43 33.67,-105.37</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC027</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
