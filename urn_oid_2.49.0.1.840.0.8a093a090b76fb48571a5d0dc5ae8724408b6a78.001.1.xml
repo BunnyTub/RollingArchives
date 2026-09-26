@@ -1,0 +1,115 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8a093a090b76fb48571a5d0dc5ae8724408b6a78.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T12:49:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Beach Hazards Statement</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>BHS</value>
+        </eventCode>
+        <effective>2026-09-24T12:49:00-05:00</effective>
+        <onset>2026-09-24T12:49:00-05:00</onset>
+        <expires>2026-09-24T14:00:00-05:00</expires>
+        <senderName>NWS Milwaukee/Sullivan WI</senderName>
+        <headline>Beach Hazards Statement issued September 24 at 12:49PM CDT until September 24 at 1:00PM CDT by NWS Milwaukee/Sullivan WI</headline>
+        <description>Waves have fallen below criteria for high swim risk. Therefore the
+Beach Hazards Statement will be allowed to expire.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWMKX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS43 KMKX 241749</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>BEACH HAZARDS STATEMENT WILL EXPIRE AT 1 PM CDT THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KMKX.BH.S.0022.000000T0000Z-260924T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T13:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3a84191da7e6b4db606df2c36fabcc02466648f9.001.1,2026-09-24T03:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5d67b111992cfd8864b64bb69b6b1c4be5ac2c08.001.1,2026-09-23T23:19:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.45cf3c105edc6692f139bc9536587fb2c66e1ea9.001.1,2026-09-23T18:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.24bf209c44ddec98986e4d02c97f57f30ce24f44.001.1,2026-09-23T14:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dfeb8400d906ad65271e222f10d9f3baf0a9da49.001.1,2026-09-23T08:59:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9be48d4a7c6cafedd6ddd5fbf640789ed16ec0bc.001.1,2026-09-23T03:15:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed542b98d1005b04ab38e07b5199cf39420c38bc.001.1,2026-09-22T23:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9b137c3b768e2d7262e024474278f5d1b044cd2a.001.1,2026-09-22T21:03:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c203320322ea0600b426a42c9a684c56ab2d3a89.001.1,2026-09-22T18:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fcf91353b76c1d6367f5331aa309d84602bfaa7c.001.1,2026-09-22T13:39:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1ecc1e9bcdcd7da17f7112f060fd0588b91edade.001.1,2026-09-22T09:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d9743e85001fa49e59e9c7c6a0e46e9b00ffc102.001.1,2026-09-22T03:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.df289763e0100922341682d0c82c119e783b3179.001.1,2026-09-21T23:44:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9354fc645e29b8e600e5a53e802c64dc66b7902f.001.1,2026-09-21T18:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.257d216bc579990141551d2537c68c040030cf2b.001.1,2026-09-21T12:28:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.252dbe8bb88167117c3ba7267a7847e181ce3e56.001.1,2026-09-21T03:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e6b4f097d458b7eba4d10e787f238e34a2e6f413.001.1,2026-09-20T23:45:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.beed5dad77d8bd9e10b2ff6ad11ebf12fdc69439.001.1,2026-09-20T18:21:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.02dbd2bb9e57f612cb30364e34c62eaf0c485af2.001.1,2026-09-20T13:22:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5393289933e38517bc9daad2608c16e0b4b3feac.001.1,2026-09-20T06:30:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bde238ca55bad99fabefae30cbfefa362faa8a62.001.1,2026-09-20T00:05:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93360fe9bbe7ffc3a7901e42f1fb4bb017e8a2af.001.1,2026-09-19T16:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a9895fe777ef8aee26b3f6e21e3fd5f23efdeaeb.001.1,2026-09-19T11:47:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7de006560706d2dd37b0c60f6f38d552440bd90c.001.1,2026-09-19T04:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c8399996e50eb7575bb7ae62a7e6d94ccec7f8c6.001.1,2026-09-18T21:53:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c40a2d29537d89671267ac424860e1eb7fff62ec.001.1,2026-09-18T18:13:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a3e6c52c1e96b5e6c6a44510ca831aa9c7726037.002.1,2026-09-18T14:03:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a3e6c52c1e96b5e6c6a44510ca831aa9c7726037.001.2,2026-09-18T14:03:00-05:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Sheboygan; Ozaukee; Milwaukee; Racine; Kenosha</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055117</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055089</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055079</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055101</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055059</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ052</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ060</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ066</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ072</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
