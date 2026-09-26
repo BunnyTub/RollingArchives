@@ -1,0 +1,103 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.4b29c5499ba6f148bb5b3ba9e1f448568f1faa60.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T00:56:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-25T00:56:00-06:00</effective>
+        <onset>2026-09-25T00:56:00-06:00</onset>
+        <expires>2026-09-25T03:00:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flood Advisory issued September 25 at 12:56AM MDT until September 25 at 3:00AM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>* WHAT...Arroyo and small stream flooding caused by excessive
+rainfall is expected.
+
+* WHERE...Central Otero County in south central New Mexico...
+
+* WHEN...Until 300 AM MDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+Rises in small streams and normally dry arroyos.
+
+* ADDITIONAL DETAILS...
+- At 1256 AM MDT, Doppler radar indicated heavy rain due to
+thunderstorms. This  will cause arroyo and small stream flooding.
+Up to 1 inch of rain has fallen.
+- Additional rainfall of up to 0.5 inches is expected over the
+area. This additional rain will result in minor flooding.
+- Some locations that will experience flooding include...
+Sacramento, Mayhill, Weed, Hay Canyon, Cox Canyon, James Canyon
+and Benson Ridge.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KEPZ 250656</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 3 AM MDT EARLY THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KEPZ.FA.Y.0377.260925T0656Z-260925T0900Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T03:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Otero, NM</areaDesc>
+            <polygon>32.79,-105.35 32.73,-105.48 32.68,-105.68 32.69,-105.79 32.87,-105.77 32.93,-105.66 32.98,-105.5 32.96,-105.35 32.79,-105.35</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035035</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC035</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
