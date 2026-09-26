@@ -1,0 +1,146 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.2fe88f52115f1b3d5684a7e3fa474a91a0648c60.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T08:12:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-25T08:12:00-05:00</effective>
+        <onset>2026-09-25T08:12:00-05:00</onset>
+        <expires>2026-09-25T11:15:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Flood Advisory issued September 25 at 8:12AM CDT until September 25 at 11:15AM CDT by NWS Amarillo TX</headline>
+        <description>* WHAT...Urban area and small stream flooding caused by excessive
+rainfall is expected.
+
+* WHERE...Western Armstrong County in the panhandle of Texas...
+Carson County in the panhandle of Texas...
+Deaf Smith County in the panhandle of Texas...
+Southeastern Oldham County in the panhandle of Texas...
+Southern Potter County in the panhandle of Texas...
+Randall County in the panhandle of Texas...
+
+* WHEN...Until 1115 AM CDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+- At 812 AM CDT, Doppler radar indicated heavy rain due to
+thunderstorms. This  is causing urban and small stream flooding.
+Between 1 and 3 inches of rain have fallen.
+- Additional rainfall amounts up to 1 inch are expected over the
+area. This additional rain will result in minor flooding.
+- Some locations that will experience flooding include...
+Amarillo, Hereford, Canyon, Panhandle, Claude, White Deer, Lake
+Tanglewood, Skellytown, Mescalero Park, Bushland, Umbarger, Palo
+Duro Canyon, Buffalo Lake, Dawn, Wildorado, Washburn, Wayside,
+Simms, Bootleg and Timbercreek Canyon.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KAMA 251312</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 1115 AM CDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KAMA.FA.Y.0091.260925T1312Z-260925T1615Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T11:15:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Armstrong, TX; Carson, TX; Deaf Smith, TX; Oldham, TX; Potter, TX; Randall, TX</areaDesc>
+            <polygon>34.96,-103.04 35.29,-102.06 35.6,-101.62 35.61,-101.11 35.23,-101.1 35.12,-101.19 35.05,-101.24 34.86,-101.41 34.75,-101.56 34.75,-103.04 34.96,-103.04</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048011</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048065</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048117</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048359</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048375</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048381</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC011</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC065</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC117</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC359</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC375</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC381</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
