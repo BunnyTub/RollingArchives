@@ -1,0 +1,1087 @@
+<SharpAlertSource>NAADS Backup</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.124.1371814791.2026</identifier>
+    <sender>cap-pac@canada.ca</sender>
+    <sent>2026-09-25T08:33:08-00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>Env. Can. - Can. Met. Ctr. – Montréal</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.0</code>
+    <code>layer:EC-MSC-SMC:1.1</code>
+    <code>layer:SOREM:2.0</code>
+    <note>Notification de service – juillet 2026: Le service du PAC d’Environnement et Changement climatique Canada (ECCC) subit périodiquement des changements à mesure que le système d’alerte évolue. Pour le printemps 2026, il y aura des changements incluant... 1) Le déploiement par ECCC visant à introduire des polygones de forme libre pour représenter la zone réelle de menace d’un aléa météorologique, qui était initialement prévu pour juin 2026, est retardé. Nous communiquerons la nouvelle date lorsqu’elle sera disponible. Surveiller https://dd.weather.gc.ca/doc/genots/ pour les notifications concernant la nouvelle date de lancement. Les informations concernant les polygones de forme libre représentant la zone réelle de menace d’un aléa météorologique demeurent sous embargo médiatique jusqu’au lancement, 2) les alertes marines seront désormais émises pour des subdivisions de zones plus petites dans certaines régions des eaux de l’Atlantique et du Pacifique et 3) d’autres améliorations et corrections mineures. Pour plus d’informations sur ces changements: https://comm.collab.science.gc.ca/mailman3/hyperkitty/list/dd_info@comm.collab.science.gc.ca/ | Service Notice – July 2026: The Environment and Climate Change Canada (ECCC) CAP Service undergoes changes from time to time as the business of alerting evolves. For Spring 2026, changes are expected to include... 1) ECCC's deployment to introduce free-form polygons to represent the true threat area of a weather hazard, which was originally scheduled for June 2026, is delayed. We will communicate the new date when it is available. Monitor https://dd.weather.gc.ca/doc/genots/ for notifications on the new launch date. Information about free-form polygons representing the true threat area of a weather hazard remains under media embargo until launch, 2) marine alerts will now be issued for smaller zone splits in certain areas of Atlantic and Pacific waters and 3) other minor improvements and corrections. For more information on these changes: https://comm.collab.science.gc.ca/mailman3/hyperkitty/list/dd_info@comm.collab.science.gc.ca/</note>
+    <references>cap-pac@canada.ca,urn:oid:2.49.0.1.124.1799364225.2026,2026-09-23T19:38:05-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2513845653.2026,2026-09-24T04:09:01-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1179950504.2026,2026-09-24T04:10:54-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2096485807.2026,2026-09-24T08:30:45-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2185295075.2026,2026-09-24T16:46:30-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2359864317.2026,2026-09-24T20:03:13-00:00</references>
+    <info>
+        <language>fr-CA</language>
+        <category>Met</category>
+        <event>gel</event>
+        <responseType>AllClear</responseType>
+        <urgency>Past</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>frost</value>
+        </eventCode>
+        <effective>2026-09-25T08:33:08-00:00</effective>
+        <expires>2026-09-25T09:33:08-00:00</expires>
+        <senderName>Environnement Canada</senderName>
+        <headline>avis jaune - gel - terminé</headline>
+        <description>
+On ne prévoit plus de gel généralisé.
+
+
+###
+</description>
+        <instruction />
+        <web>https://meteo.gc.ca/</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>advisory</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20260925083308243/WO_10_70_CWUL/FTA/185529585799305519202609230504_WO_10_70_CWUL/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:23886 M:123062 C:142284</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>avis jaune - gel</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Québec</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_10_70_CWUL</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <area>
+            <areaDesc>secteur de La Sarre</areaDesc>
+            <polygon>48.4498,-78.4996 48.4498,-79.5174 48.5242,-79.5246 48.6069,-79.5174 48.9206,-79.5289 49.1428,-79.5172 49.2829,-79.5172 49.2934,-78.5004 48.4498,-78.4996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031410</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2486</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2487</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488080</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488085</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488904</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499060</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur d'Amos</areaDesc>
+            <polygon>48.4498,-77.7996 48.4498,-78.4996 49.2934,-78.5004 49.2924,-77.3232 49.2831,-77.333 48.6998,-77.2163 48.4498,-77.7996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031420</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488055</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488060</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488065</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488070</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488075</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488080</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488085</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488904</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499060</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur de Lebel-sur-Quévillon</areaDesc>
+            <polygon>48.6998,-77.2163 49.2831,-77.333 49.2924,-77.3232 49.2832,-76.4997 49.2832,-76.4994 48.6998,-76.4994 48.6998,-77.2163</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031430</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499060</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur de Senneterre</areaDesc>
+            <polygon>48.3331,-76.4994 48.0998,-76.4994 48.1007,-77.1458 48.1241,-77.1775 48.146,-77.3997 48.2831,-77.3996 48.4498,-77.7996 48.6998,-77.2163 48.6998,-76.4994 48.3331,-76.4994</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031440</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489050</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur de Rouyn</areaDesc>
+            <polygon>48.4498,-78.4996 47.8372,-78.4996 47.833,-79.5176 48.2511,-79.5175 48.3407,-79.5258 48.4498,-79.5174 48.4498,-78.4996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031450</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2485100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2485105</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2486</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2487005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2487902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur de Malartic</areaDesc>
+            <polygon>47.8365,-78.249 47.8372,-78.4996 48.4498,-78.4996 48.4498,-77.7996 48.2747,-77.9422 48.2562,-78.0301 48.1868,-77.9663 47.9849,-77.9663 47.9491,-78.1852 47.8363,-78.191 47.8365,-78.249</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031460</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2486</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489015</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur de Val d'Or - Louvicourt</areaDesc>
+            <polygon>48.2831,-77.3996 48.146,-77.3997 48.1654,-77.1189 48.1007,-77.1458 48.0998,-76.4994 47.8332,-76.4994 47.8116,-77.5445 47.6774,-77.5445 47.6815,-77.7494 47.6815,-77.7495 47.6845,-78.2518 47.8365,-78.249 47.8365,-78.249 47.9666,-78.2427 48.001,-78.1768 48.0122,-78.0345 48.1945,-78.0672 48.1907,-78.1248 48.249,-78.151 48.3097,-78.0743 48.3058,-77.9891 48.4498,-77.7996 48.2831,-77.3996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031470</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489804</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489908</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489912</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur de Mont-Laurier</areaDesc>
+            <polygon>46.3624,-75.3789 46.6332,-76.3327 46.9998,-75.8328 47.0065,-75.2722 46.9999,-74.7495 46.9987,-74.7495 46.6477,-75.0826 46.3624,-75.3789</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031810</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479060</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479065</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479078</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479088</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479097</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479105</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479110</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479115</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479914</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479922</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479926</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483085</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483088</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483095</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483904</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>secteur de La Minerve - rivière Rouge</areaDesc>
+            <polygon>46.9921,-74.7381 46.3257,-74.7099 46.3248,-74.6646 46.211,-74.6615 46.2102,-74.7066 46.1682,-74.7041 46.1675,-74.7194 46.1718,-74.7337 46.3624,-75.3789 46.654,-75.1048 46.9881,-74.7605 46.9987,-74.7495 46.9987,-74.7383 46.9921,-74.7381</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031820</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2478115</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2478120</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2478130</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479047</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479060</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479920</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479922</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479924</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-CA</language>
+        <category>Met</category>
+        <event>frost</event>
+        <responseType>AllClear</responseType>
+        <urgency>Past</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>frost</value>
+        </eventCode>
+        <effective>2026-09-25T08:33:08-00:00</effective>
+        <expires>2026-09-25T09:33:08-00:00</expires>
+        <senderName>Environment Canada</senderName>
+        <headline>yellow advisory - frost - ended</headline>
+        <description>
+Widespread frost is no longer expected.
+
+###
+</description>
+        <instruction />
+        <web>https://weather.gc.ca/</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>advisory</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20260925083308243/WO_10_70_CWUL/FTA/185529585799305519202609230504_WO_10_70_CWUL/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:23886 M:123062 C:142284</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>yellow advisory - frost</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Quebec</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WO_10_70_CWUL</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <area>
+            <areaDesc>La Sarre area</areaDesc>
+            <polygon>48.4498,-78.4996 48.4498,-79.5174 48.5242,-79.5246 48.6069,-79.5174 48.9206,-79.5289 49.1428,-79.5172 49.2829,-79.5172 49.2934,-78.5004 48.4498,-78.4996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031410</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2486</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2487</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488080</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488085</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488904</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499060</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Amos area</areaDesc>
+            <polygon>48.4498,-77.7996 48.4498,-78.4996 49.2934,-78.5004 49.2924,-77.3232 49.2831,-77.333 48.6998,-77.2163 48.4498,-77.7996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031420</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488055</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488060</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488065</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488070</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488075</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488080</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488085</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488904</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499060</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Lebel-sur-Quévillon area</areaDesc>
+            <polygon>48.6998,-77.2163 49.2831,-77.333 49.2924,-77.3232 49.2832,-76.4997 49.2832,-76.4994 48.6998,-76.4994 48.6998,-77.2163</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031430</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2499060</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Senneterre area</areaDesc>
+            <polygon>48.3331,-76.4994 48.0998,-76.4994 48.1007,-77.1458 48.1241,-77.1775 48.146,-77.3997 48.2831,-77.3996 48.4498,-77.7996 48.6998,-77.2163 48.6998,-76.4994 48.3331,-76.4994</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031440</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489050</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Rouyn area</areaDesc>
+            <polygon>48.4498,-78.4996 47.8372,-78.4996 47.833,-79.5176 48.2511,-79.5175 48.3407,-79.5258 48.4498,-79.5174 48.4498,-78.4996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031450</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2485100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2485105</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2486</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2487005</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2487902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Malartic area</areaDesc>
+            <polygon>47.8365,-78.249 47.8372,-78.4996 48.4498,-78.4996 48.4498,-77.7996 48.2747,-77.9422 48.2562,-78.0301 48.1868,-77.9663 47.9849,-77.9663 47.9491,-78.1852 47.8363,-78.191 47.8365,-78.249</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031460</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2486</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489015</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Val d'Or - Louvicourt area</areaDesc>
+            <polygon>48.2831,-77.3996 48.146,-77.3997 48.1654,-77.1189 48.1007,-77.1458 48.0998,-76.4994 47.8332,-76.4994 47.8116,-77.5445 47.6774,-77.5445 47.6815,-77.7494 47.6815,-77.7495 47.6845,-78.2518 47.8365,-78.249 47.8365,-78.249 47.9666,-78.2427 48.001,-78.1768 48.0122,-78.0345 48.1945,-78.0672 48.1907,-78.1248 48.249,-78.151 48.3097,-78.0743 48.3058,-77.9891 48.4498,-77.7996 48.2831,-77.3996</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031470</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2488030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489008</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489804</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489902</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489908</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2489912</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Mont-Laurier area</areaDesc>
+            <polygon>46.3624,-75.3789 46.6332,-76.3327 46.9998,-75.8328 47.0065,-75.2722 46.9999,-74.7495 46.9987,-74.7495 46.6477,-75.0826 46.3624,-75.3789</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031810</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479060</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479065</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479078</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479088</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479097</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479105</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479110</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479115</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479914</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479922</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479926</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483085</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483088</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483090</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483095</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2483904</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>La Minerve - Rouge River area</areaDesc>
+            <polygon>46.9921,-74.7381 46.3257,-74.7099 46.3248,-74.6646 46.211,-74.6615 46.2102,-74.7066 46.1682,-74.7041 46.1675,-74.7194 46.1718,-74.7337 46.3624,-75.3789 46.654,-75.1048 46.9881,-74.7605 46.9987,-74.7495 46.9987,-74.7383 46.9921,-74.7381</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>031820</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2478115</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2478120</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2478130</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479037</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479047</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479060</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479920</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479922</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>2479924</value>
+            </geocode>
+        </area>
+    </info>
+<Signature Id="NAADS Signature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>wstq7KhE8FHkVFMw4A46YbvkeV93zz4f7SaPs6NLv+Y=</DigestValue></Reference></SignedInfo><SignatureValue>CNrUpj3eEHs61T7lDOh7KMIGJ3TC61NuJlDtDvtC/z4Ce/qMbhvhurjdLIH7g0LRaPpNwpPiFKgVOALGxkMIAtOo3Z5zlV1z7d9WcCqeduCA/1PWXf6deXRpefze8tiHV0O4BIWwXz3Try3k29cCsvVOCB2sP9ZMySZckoQq733hmjSy+eTs7T0XGPkhfx2scwqlFRNcirOemnOww0WYI1tHOjFRQnS3ETWqfSk+62gaiXC/WK8vVFyFE5c1tfLRtFyL4ZCuPvMQg7LX4ldMsgH5jiZZH6fLVRlaOC7CjH0ddaiq64zkbE226b7UtxEjEiAd2GZO0jaf2GuHwimqDA==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo><Object xmlns=""><SignatureProperties><SignatureProperty Id="NAADS-DSS1" Target="https://dss1.naad-adna.pelmorex.com"><xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" /></SignatureProperty><SignatureProperty Id="NAADS-DSS2" Target="https://dss2.naad-adna.pelmorex.com"><xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" /></SignatureProperty></SignatureProperties></Object></Signature><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Environment Canada">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<DigestValue>wstq7KhE8FHkVFMw4A46YbvkeV93zz4f7SaPs6NLv+Y=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>XwX3UwogCwfe5gIsRvi/ofISuu4FqS6ZcRnNLJYW081tX8eSmewrjYCWDl7hDxZK
+QXV8VtT63O7C/KQauHJ4OYhAZXR6tg7g4zgFuxXAbT9FmENY4RGDsS1OAxcXf7es
+6cwFhBkvP0xeEopAIkwt5DrqcbkvKpKIfq+v5NICuYv8ge5fh5TEqHXB1CX3pvJM
+5yfk+bccUh1/wMdICeFGf1PyCLy9thBHmUCu+bcLjy0nfHk4jEEne/5WMh6asq5S
+az7PN1/eubTrHcUJGJCppoYJyC6v70HCG59HT44jRDC2zA9eryusIjohxLU+tHHD
+sv1ogdy1EJtjoKlgEHIvaQ==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHDDCCBfSgAwIBAgIQM2dJyev0XEPJoQlSaOQgYDANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+NDA0MTkwOTQ3MDZaFw0yNTA1MTkwOTQ3MDRaMGwxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIEwZRdWViZWMxETAPBgNVBAcTCEdhdGluZWF1MR8wHQYDVQQKExZTaGFyZWQg
+U2VydmljZXMgQ2FuYWRhMRgwFgYDVQQDDA8qLndlYXRoZXIuZ2MuY2EwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDARd6fBVAjKlOvocp442ydQbSCoxHW
+91i1r5TkucsGLkzm92HQsj4eVNCl6Uti3hd3yYL1QxFTImdyUs2ETlDoU/hVFEey
+IevKo3m3ufuv9YryXGtoRcthMITEPrIy6vOyNbGaxJw1J6/AkOs7oAm3kUlx6PS8
+vOnuoyik1r6Q9qx1XP9Z05cIyyIBhsyjdS124Jj01quCjz5COPMXKU1LlaU8LeSA
+qILe9DyC3XWluZGxZH+tGiw42mpiCD3JGlCsXQujU5y4jg2fq8/ePsM3OUzM/Dxs
+kGMMN7LAG9/H4CINJ+aXZQvlgTfIZp2eWLvHy5dnsbi3VAJOEtgRVzedAgMBAAGj
+ggNZMIIDVTAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSSLKB4osVSIvgfhk+6NayJ
+BDAXuDAfBgNVHSMEGDAWgBSConB03bxTP8971PfNf6dgxgpMvzBoBggrBgEFBQcB
+AQRcMFowIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVudHJ1c3QubmV0MDMGCCsG
+AQUFBzAChidodHRwOi8vYWlhLmVudHJ1c3QubmV0L2wxay1jaGFpbjI1Ni5jZXIw
+MwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5ldC9sZXZlbDFr
+LmNybDCBnQYDVR0RBIGVMIGSgg8qLndlYXRoZXIuZ2MuY2GCDXdlYXRoZXIuZ2Mu
+Y2GCC21ldGVvLmdjLmNhgg0qLm1ldGVvLmdjLmNhghUqLmFscGhhLndlYXRoZXIu
+Z2MuY2GCEyouYWxwaGEubWV0ZW8uZ2MuY2GCFCouYmV0YS53ZWF0aGVyLmdjLmNh
+ghIqLmJldGEubWV0ZW8uZ2MuY2EwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjATBgNVHSAEDDAKMAgGBmeBDAECAjCCAYAGCisG
+AQQB1nkCBAIEggFwBIIBbAFqAHYAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzE
+uVCkR+cAAAGO9cCizQAABAMARzBFAiEA7hlkvyyYsnhbas5WDwoTkdGWf92Ukckw
+rGyUqMPZQjkCID8oQlHWS11haifx+i9tBr0epmrzkh2/bbneb9WNrlUvAHcATnWj
+J1yaEMM4W2zU3z9S6x3w4I4bjWnAsfpksWKaOd8AAAGO9cCi2AAABAMASDBGAiEA
+iE1jLaXrlPxrkIiq7NU0gH/sDiUlHCmMrT79KUy2V+YCIQCb2GrTID6NO3hb8bGs
+ctd8ipYRuu1FnDY8X3MGVDcWnAB3AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocy
+Hf0eN45QAAABjvXAovkAAAQDAEgwRgIhALRWB9aVOe3Zi9j6MEVKJl1NKQKIycr3
+8IfKeHxckblpAiEA85xjN3iBFvEVT4yIxO4qKRelbpFGomgSrYnfwTSUwHIwDQYJ
+KoZIhvcNAQELBQADggEBADGEK5tU92TqoTWPh1lfSRTDVCpk5qhqmIuaTeYQMonV
+AgHF5rktrUhXmMzRJEef8XRwLvApT4zOn+TV+NOUpi8q6tDWxx7dE8+moIf6tXq8
+d4OQ+VDO/C6nz/xA8FqvxAbPfqCJ6DqgitSyXhF01XkNMfVcknGAzhc/HemuukI1
+3DTuaATlbaXkHjSp+O0mXCykCIgH/9eMuOoFMzhdQhtJiLf2MMVclJ72/YzgVveA
+XrSTVE5F4BYdp9hX+0BTg5zNgg1wwvVVOwuIOTFqSSJCzGHjl/1i8IyyPLKB3ilt
+B+0V7IdmIxlvPbL//qNkzyUVufkewAoLMqCOUIZA0eY=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></alert>
