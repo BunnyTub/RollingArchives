@@ -1,0 +1,37 @@
+<SharpAlertSource>FEMA IPAWS (WEA)</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"><identifier>72ecb7e5-9676-4fee-8b84-7aa5ee71ab1c</identifier><sender>OTG:dispatch@lake.sd.gov</sender><sent>2026-09-25T13:01:45-04:00</sent><status>Actual</status><msgType>Alert</msgType><source>110701 v4.2.6</source><scope>Public</scope><addresses>201979</addresses><code>IPAWSv1.0</code><info><language>en-US</language><category>Safety</category><event>Practice/Demo Warning</event><responseType>Prepare</responseType><urgency>Expected</urgency><severity>Extreme</severity><certainty>Likely</certainty><eventCode><valueName>SAME</valueName><value>DMO</value></eventCode><effective>2026-09-25T12:57:00-04:00</effective><onset>2026-09-25T12:57:00-04:00</onset><expires>2026-09-25T13:15:00-04:00</expires><senderName>SD Lake County,Madison,SD</senderName><headline>Test of Lake County Public Alerting System</headline><description>This is a test of the Lake County Public Alerting System. This test is held on the last Friday of the month along with the Lake County Siren Test. </description><instruction></instruction><parameter><valueName>CMAMtext</valueName><value>This is a test of the Lake County Public Alerting System.</value></parameter><parameter><valueName>CMAMlongtext</valueName><value>This is a test of the Lake County Public Alerting System. This test is held on the last Friday of the month along with the Lake County Siren Test. </value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>NWEM</value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>EAS</value></parameter><parameter><valueName>WEAHandling</valueName><value>WEA Test</value></parameter><area><areaDesc>Test of Lake County Public Alerting System</areaDesc><geocode><valueName>SAME</valueName><value>046079</value></geocode></area></info><info><language>es-US</language><category>Safety</category><event>Practice/Demo Warning</event><responseType>Prepare</responseType><urgency>Expected</urgency><severity>Extreme</severity><certainty>Likely</certainty><eventCode><valueName>SAME</valueName><value>DMO</value></eventCode><effective>2026-09-25T12:57:00-04:00</effective><onset>2026-09-25T12:57:00-04:00</onset><expires>2026-09-25T13:15:00-04:00</expires><senderName>SD Lake County,Madison,SD</senderName><headline>Prueba del Sistema de Alerta Publica del Condado de Lake</headline><description>Esta es una prueba del Sistema de Alerta Publica del Condado de Lake. Esta prueba se lleva a cabo el ultimo viernes del mes junto con la Prueba de Sirena del Condado de Lake.</description><instruction></instruction><parameter><valueName>CMAMtext</valueName><value>Esta es una prueba del Sistema de Alerta Publica del Condado de Lake.</value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>NWEM</value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>EAS</value></parameter><parameter><valueName>WEAHandling</valueName><value>WEA Test</value></parameter><area><areaDesc>Test of Lake County Public Alerting System</areaDesc><geocode><valueName>SAME</valueName><value>046079</value></geocode></area></info><capsig:Signature xmlns:capsig="http://www.w3.org/2000/09/xmldsig#" xmlns:edx="http://gov.fema.ipaws.services/IPAWS_CAPService/"><capsig:SignedInfo><capsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><capsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><capsig:Reference URI=""><capsig:Transforms><capsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></capsig:Transforms><capsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><capsig:DigestValue>chVvkJIb3hl0z/UmTDUBLGg5AVX5tyKPEUZfK1twkX8=</capsig:DigestValue></capsig:Reference></capsig:SignedInfo><capsig:SignatureValue>MGDCqT5GlUjwHwvxNLxv6h5YSGa22AGqFMTCtKADU4eeqQBQNIyObCRGvsXWfb5f5/yx4wKEeY8H
+mnhlXHWC00FgA8qv874Ose6yjBrwsxsD8iCzJewh7hXz8nwoA61LU3vMKj/PLx2VfilfwpPI/ddT
+mYWY2P81qa8vbeB5Knlo3NROGrO7sXs0PudmF/N68foXGg6S9On1KhvP84eRTEqbbCaYbObN7AHN
+Q1KcoFRJoZPvM+WVD5XXRUChTmZ76535c0tUWx2q8uE60MUUMqFHIv6VRyoAvKBBhMzARu+OVA5H
+JOHrRDsKTLKEFut2DJiPF08EITyO2otjgjOEjw==</capsig:SignatureValue><capsig:KeyInfo><capsig:X509Data><capsig:X509SubjectName>CN=IPAWSOPEN201979,OU=A01410C0000019EFF0B4FE60015F3C8,OU=Devices IPAWS,OU=National Continuity Programs,O=FEMA IPAWS,C=US</capsig:X509SubjectName><capsig:X509Certificate>MIIHPzCCBSegAwIBAgIQQAGe/wtP/F0A1Mp02AEE/DANBgkqhkiG9w0BAQsFADBdMQswCQYDVQQG
+EwJVUzESMBAGA1UEChMJSWRlblRydXN0MSAwHgYDVQQLExdJZGVuVHJ1c3QgR2xvYmFsIENvbW1v
+bjEYMBYGA1UEAxMPSUdDIERldmljZSBDQSAyMB4XDTI2MDYyNTEzNDk1MVoXDTI5MDYyNDEzNDg1
+MVowgaUxCzAJBgNVBAYTAlVTMRMwEQYDVQQKEwpGRU1BIElQQVdTMSUwIwYDVQQLExxOYXRpb25h
+bCBDb250aW51aXR5IFByb2dyYW1zMRYwFAYDVQQLEw1EZXZpY2VzIElQQVdTMSgwJgYDVQQLEx9B
+MDE0MTBDMDAwMDAxOUVGRjBCNEZFNjAwMTVGM0M4MRgwFgYDVQQDEw9JUEFXU09QRU4yMDE5Nzkw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC13dnT4qxxSDURgmZRiaz79HqG7mq7jDfm
+Xlqc01bNPTR6JVHJ1Ah6+cvsAibXA3PYyl1+kATe2nNkpRNHM7hqTWjm6Y0yzPOz+RvaPqBh9GTe
+zaJNTnC/C/kJYcyzrZTs+UtUiGcBSWxa7sdnzfu4XC+npzatZpT5bDF7hYLfBXflT/6kyKBgboP4
+h3QMFAb+d97p4MPclOts2ctgI/Zg7cktRaxjcVJ4iHiu7givaDt+vaEiQw3VJuiFSLBjwGz97Tss
+oXLp2wgoKBKnImNhUmteP666abR592pQEOvGTKD8tNt0es1KUfqwHOzzcwsBKDzzt3LOGgedXkOS
+FJMNAgMBAAGjggKwMIICrDAOBgNVHQ8BAf8EBAMCBaAwfQYIKwYBBQUHAQEEcTBvMCkGCCsGAQUF
+BzABhh1odHRwOi8vaWdjLm9jc3AuaWRlbnRydXN0LmNvbTBCBggrBgEFBQcwAoY2aHR0cDovL3Zh
+bGlkYXRpb24uaWRlbnRydXN0LmNvbS9jZXJ0cy9pZ2NkZXZpY2VjYTIucDdjMB8GA1UdIwQYMBaA
+FD+LR65hHetlI5XEOi3tu0jVIykiMIIBQwYDVR0gBIIBOjCCATYwDQYLYIZIAYb5LwBkJQEwggEj
+BgtghkgBhvkvAGQmATCCARIwSwYIKwYBBQUHAgEWP2h0dHBzOi8vc2VjdXJlLmlkZW50cnVzdC5j
+b20vY2VydGlmaWNhdGVzL3BvbGljeS9JR0MvaW5kZXguaHRtbDCBwgYIKwYBBQUHAgIwgbUMgbJD
+ZXJ0aWZpY2F0ZSB1c2UgcmVzdHJpY3RlZCB0byBSZWx5aW5nIFBhcnR5KHMpIGluIGFjY29yZGFu
+Y2Ugd2l0aCBJR0MtQ1AgKHNlZSBodHRwczovL3NlY3VyZS5pZGVudHJ1c3QuY29tL2NlcnRpZmlj
+YXRlcy9wb2xpY3kvaWdjL2luZGV4Lmh0bWwpLiBJR0MtQ1BTIGluY29ycG9yYXRlZCBieSByZWZl
+cmVuY2UuMEUGA1UdHwQ+MDwwOqA4oDaGNGh0dHA6Ly92YWxpZGF0aW9uLmlkZW50cnVzdC5jb20v
+Y3JsL2lnY2RldmljZWNhMi5jcmwwGgYDVR0RBBMwEYIPSVBBV1NPUEVOMjAxOTc5MB0GA1UdDgQW
+BBQJWiiAwwF8wBBlcKO/iIWJ1cCsBjAxBgNVHSUEKjAoBggrBgEFBQcDAgYIKwYBBQUHAwUGCCsG
+AQUFBwMGBggrBgEFBQcDBzANBgkqhkiG9w0BAQsFAAOCAgEAhqTcY775XMizx+PGtyFmfWCpQArV
+X2aieRdOaZW/lgaJc35aBR65W1TxHzRNA2CSIAKnLVWiBBAt4tMLjtnzSGGpOp9Wf2NA8tWwqVeX
+WU9Lnxvkng8eQqbAO1S9IqQgi6Bl7qIhCPQamubTyxtkvh41G3kXVXMrY7ZBZ1rVhq4MPxD5kSJz
+SaY3Pa29ZiWCY5yUT/PDwDzUn9nzyVQ1/7slcjxrR3Ez1/kOICr/JQpKsuFt/X8ZK9oSy6N6eZxj
+u/DbK28dwNMC6r2hm6j0n/sJon/sg8a/T9rjRM4QG4gR/gX9hAlr5VO6uFrJTk4iqGQhm7jxnzRk
+AmKejf76wQwCdEOAJ4pn/luVs3iP/xPbLYgRiHJjxGmm75J5TQx/qgk1X/zdLgGy3MOpKGXkvS9x
+BTfol4ND6nuUe/yMdjRwR5QDSXbHoZaeiLBptIqc41bfe0xpyD62e0cU0kF2tHU8CSc8aEt8614R
+glUlTfDnLY1NXsTbmpwTgEEPg+g2i1k0s/JKa1SsKsjSt2alqPk4cVuUtxsS9kx/zs/2A6BnAbzH
+nfBTspo7dGHsxT4F8bowESa5EOYTyJSCCbcW7GfZZDnGlHLyOTrnl/TM7eiyyqEPPuO8sLj82OZv
+5OCG88z+tmrEUtTGBQ6vmZoQx1t7YN0cF7Uj2KM3/fJfXvw=</capsig:X509Certificate></capsig:X509Data></capsig:KeyInfo></capsig:Signature></alert>
