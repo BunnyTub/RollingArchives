@@ -1,0 +1,237 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.f3ca8cfa47afcfa80e3556bfccab122f6e90e078.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T16:53:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2609c4167e5dad455fefbf4e67127606b96285d7.001.1,2026-09-24T15:26:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.74914631a9ec1538c87f748fd867dd86d266e50b.001.1,2026-09-24T16:16:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1c9810a7f96d3e9d910c669f85ab4ad814054f82.001.1,2026-09-24T16:32:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T16:53:00-06:00</effective>
+        <onset>2026-09-24T16:53:00-06:00</onset>
+        <expires>2026-09-24T18:30:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 4:53PM MDT until September 24 at 6:30PM MDT by NWS Albuquerque NM</headline>
+        <description>At 453 PM MDT, the public reported flash flooding across the warned
+area. Between 1 and 2.5 inches of rain have fallen. Additional
+rainfall amounts of 1 to 2 inches are possible in the warned area.
+Flash flooding is already occurring.
+
+HAZARD...Life threatening flash flooding. Heavy rain producing flash
+flooding.
+
+SOURCE...Public reported.
+
+IMPACT...Life threatening flash flooding of creeks and streams, urban
+areas, highways, streets and underpasses.
+
+Some locations that will experience flash flooding include...
+Clovis, Cannon Air Force Base and Portair.
+
+This includes Highway 60 between Mile Markers 380 and 391.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Excessive runoff from heavy rainfall will cause flooding of normally
+dry arroyos and streambeds, low water crossings, intersections and
+underpasses as well as other poor drainage and low lying areas.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 242253</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 630 PM MDT THIS EVENING FOR SOUTHEASTERN CURRY COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>OBSERVED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.FF.W.0180.000000T0000Z-260925T0030Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T18:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>NWS: FLASH FLOOD WARNING this area til 6:30 PM MDT. Avoid flooded areas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>National Weather Service: A FLASH FLOOD WARNING is in effect for this area until 6:30 PM MDT. This is a dangerous and life-threatening situation. Do not attempt to travel unless you are fleeing an area subject to flooding or under an evacuation order.</value>
+        </parameter>
+        <area>
+            <areaDesc>Curry, NM</areaDesc>
+            <polygon>34.34,-103.2 34.38,-103.15 34.45,-103.14 34.49,-103.15 34.49,-103.23 34.47,-103.29 34.42,-103.34 34.34,-103.34 34.34,-103.2</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035009</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC009</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>es-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T16:53:00-06:00</effective>
+        <onset>2026-09-24T16:53:00-06:00</onset>
+        <expires>2026-09-24T18:30:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 4:53PM MDT until September 24 at 6:30PM MDT by NWS Albuquerque NM</headline>
+        <description>At 453 PM MDT, the public reported flash flooding across the warned
+area. Between 1 and 2.5 inches of rain have fallen. Additional
+rainfall amounts of 1 to 2 inches are possible in the warned area.
+Flash flooding is already occurring.
+
+HAZARD...Life threatening flash flooding. Heavy rain producing flash
+flooding.
+
+SOURCE...Public reported.
+
+IMPACT...Life threatening flash flooding of creeks and streams, urban
+areas, highways, streets and underpasses.
+
+Some locations that will experience flash flooding include...
+Clovis, Cannon Air Force Base and Portair.
+
+This includes Highway 60 between Mile Markers 380 and 391.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Excessive runoff from heavy rainfall will cause flooding of normally
+dry arroyos and streambeds, low water crossings, intersections and
+underpasses as well as other poor drainage and low lying areas.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 242253</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 630 PM MDT THIS EVENING FOR SOUTHEASTERN CURRY COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>OBSERVED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.FF.W.0180.000000T0000Z-260925T0030Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T18:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>SNM: AVISO DE INUNDACIONES REPENTINAS hasta 6:30 PM MDT. Evite areas inundadas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>Servicio Nacional de Meteorologia: AVISO DE INUNDACIONES REPENTINAS en efecto para esta area hasta las 6:30 PM MDT. Esta es una situacion peligrosa y amenaza la vida. No intente viajar a menos que sea para abandonar un area propensa a inundaciones o bajo una orden de desalojo.</value>
+        </parameter>
+        <area>
+            <areaDesc>Curry, NM</areaDesc>
+            <polygon>34.34,-103.2 34.38,-103.15 34.45,-103.14 34.49,-103.15 34.49,-103.23 34.47,-103.29 34.42,-103.34 34.34,-103.34 34.34,-103.2</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035009</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC009</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
