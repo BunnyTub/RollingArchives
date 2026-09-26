@@ -1,0 +1,182 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.ce67801ec73048f07c44dd0418c6a50edd1c8fdc.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T14:21:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Hydrologic Outlook</event>
+        <responseType>Monitor</responseType>
+        <urgency>Future</urgency>
+        <severity>Unknown</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>ESF</value>
+        </eventCode>
+        <effective>2026-09-25T14:21:00-06:00</effective>
+        <onset>2026-09-25T14:21:00-06:00</onset>
+        <expires>2026-09-30T06:00:00-06:00</expires>
+        <senderName>NWS Grand Junction CO</senderName>
+        <headline>Hydrologic Outlook issued September 25 at 2:21PM MDT by NWS Grand Junction CO</headline>
+        <description>ESFGJT
+
+In the wake of today's precipitation, our attention will turn to the
+Eastern Pacific. Tropical moisture is anticipated to spread across
+the Desert Southwest early next week, drawing moisture from a pair of
+Hurricanes; Odalys and Polo. The forecast becomes increasing complex
+due to a closed low currently forecast to drive across the Southwest
+CONUS as Hurricane Polo approaches the Baja California Peninsula.
+Strong southerly winds ahead of the low are expected to pull tropical
+moisture towards eastern Utah and western Colorado as early as Monday
+morning. The challenge and uncertainty in our precipitation forecast
+increase as the week progresses and the low traverses our southern
+States. Excessive rainfall is most probable over AZ and NM, attm, but
+the northerly extent poses a threat to our southern San Juan river
+basins. Current forecasts suggests 1 to 3 inches of rain over Monday
+morning through Wednesday. At face value, rivers and tributaries will
+see a bump up due to said moisture. However, localized heavier
+amounts could result in minor flooding across the southern San Juan
+foothills and communities further downstream.
+
+Rivers have responded rapidly to recent rainfall due to saturated
+soils and increased runoff potential. Thus, prolonged periods of
+additional rainfall over these regions would trigger a similar
+response. The current precipitation forecast suggests larger peaks in
+several creeks and rivers than what has been observed over the
+previous 7 days. However, high end probabilistic rainfall amounts
+(i.e. above 90th percentile) may lead to rivers exceeding action
+stage to minor flooding. Most probable basins to see significant
+rises include; the Rio Blanco, San Juan, Piedra, Los Pinos/Vallecito
+Creek, and the Animas River Basins.
+
+Convective storms and periods of heavy rainfall fed from said
+tropical moisture could result in localized flooding impacts across
+the CWA, however, confidence decreases rapidly north of the San
+Juans. Please continue to monitor the forecast as these systems
+evolve. Especially for those who reside and/or plan to recreate in
+the southwest quadrant of the forecast area.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>ESFGJT</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FGUS75 KGJT 252021</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Archuleta, CO; Dolores, CO; Gunnison, CO; Hinsdale, CO; La Plata, CO; Montezuma, CO; Ouray, CO; San Juan, CO; San Miguel, CO; Grand, UT; San Juan, UT</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008007</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008033</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008051</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008053</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008067</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008083</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008091</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008111</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008113</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>049019</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>049037</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC007</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC033</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC051</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC053</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC067</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC083</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC091</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC111</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC113</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>UTC019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>UTC037</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
