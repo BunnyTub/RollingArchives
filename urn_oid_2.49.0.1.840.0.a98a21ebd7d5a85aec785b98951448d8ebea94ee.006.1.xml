@@ -1,0 +1,99 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a98a21ebd7d5a85aec785b98951448d8ebea94ee.006.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T05:46:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9eecbdf3e594ae149b39219330b58eb050115754.004.1,2026-09-24T22:11:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf5a07f0f4777766e99ddf4342f633e87cc05b56.004.1,2026-09-25T01:52:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T05:46:00-04:00</effective>
+        <onset>2026-09-25T05:46:00-04:00</onset>
+        <expires>2026-09-25T19:00:00-04:00</expires>
+        <senderName>NWS Mount Holly NJ</senderName>
+        <headline>Small Craft Advisory issued September 25 at 5:46AM EDT until September 25 at 6:00PM EDT by NWS Mount Holly NJ</headline>
+        <description>* WHAT...For the Small Craft Advisory, north winds 15 to 25 kt
+with gusts up to 30 kt and rough waters. For the Gale Warning,
+north winds 20 to 30 kt with gusts up to 40 kt and very rough
+waters expected.
+
+* WHERE...Delaware Bay waters north of East Point NJ to
+Slaughter Beach DE.
+
+* WHEN...For the Small Craft Advisory, until 6 PM EDT this
+evening. For the Gale Warning, from 6 PM this evening to 6 AM
+EDT Sunday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should alter plans to avoid these hazardous conditions.
+Remain in port, seek safe harbor, alter course, and/or secure the
+vessel for hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWPHI</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KPHI 250946</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 6 PM EDT THIS EVENING... ...GALE WARNING REMAINS IN EFFECT FROM 6 PM THIS EVENING TO 6 AM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KPHI.SC.Y.0078.000000T0000Z-260925T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T18:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9b27f95bb302a60bb6dfd7d90dbb94c6dc7bd8d7.004.1,2026-09-24T13:12:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc3349f4f2b7c9b97c0da736c83cd27ec6bd6c9b.004.1,2026-09-24T08:35:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b3bb5c0ed68c778b4bdee1783a2fb41c65f547d1.001.2,2026-09-24T05:45:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Delaware Bay waters north of East Point NJ to Slaughter Beach DE</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073430</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ430</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
