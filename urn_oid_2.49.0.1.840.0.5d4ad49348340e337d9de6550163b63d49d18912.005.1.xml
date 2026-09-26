@@ -1,0 +1,140 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.5d4ad49348340e337d9de6550163b63d49d18912.005.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T13:17:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2e627dc8d0c746e25d7851729953103a2a30f6f9.003.1,2026-09-26T04:08:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>WIY</value>
+        </eventCode>
+        <effective>2026-09-26T13:17:00-04:00</effective>
+        <onset>2026-09-26T13:17:00-04:00</onset>
+        <expires>2026-09-27T02:30:00-04:00</expires>
+        <senderName>NWS Mount Holly NJ</senderName>
+        <headline>Wind Advisory issued September 26 at 1:17PM EDT until September 27 at 12:00PM EDT by NWS Mount Holly NJ</headline>
+        <description>* WHAT...North winds 10 to 20 mph with gusts up to 50 mph.
+
+* WHERE...In Delaware, Inland Sussex County. In New Jersey, Western
+Monmouth, Atlantic, Cape May, Ocean, and Southeastern Burlington
+Counties.
+
+* WHEN...Until noon EDT Sunday.
+
+* IMPACTS...Gusty winds will blow around unsecured objects. Tree
+limbs could be blown down and a few power outages may result.
+
+* ADDITIONAL DETAILS...While there may be a lull in winds later today
+into this evening, winds are expected to increase again overnight
+into Sunday morning.
+</description>
+        <instruction>Winds this strong can make driving difficult, especially for high
+profile vehicles. Use extra caution.
+
+Secure outdoor objects.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWPHI</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS71 KPHI 261717</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>WIND ADVISORY NOW IN EFFECT UNTIL NOON EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KPHI.WI.Y.0007.000000T0000Z-260927T1600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T12:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e9c816b86ee398a7b039a2e304f32055ea3fc4dd.003.1,2026-09-25T14:22:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8e6791d8ed2827446f32ce7316226316c570a2a8.004.1,2026-09-25T04:43:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f053f30816a13bec515bb2b5b137b42f17d3ceae.003.1,2026-09-25T03:15:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Inland Sussex; Western Monmouth; Ocean; Atlantic; Cape May; Southeastern Burlington</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>010005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034025</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034029</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034001</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>DEZ003</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ013</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ020</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ022</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ023</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ027</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
