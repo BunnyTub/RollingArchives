@@ -1,0 +1,92 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.39374b0cc15212fe608634adf524ffbb429b07d8.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T13:46:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a6be6ad1a5a17c8c4295d7c7dcc1f67b444ece94.001.1,2026-09-24T13:53:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6403c4bc6f69dabee5350527e7a857b0b2d94151.003.1,2026-09-25T00:55:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T13:46:00-04:00</effective>
+        <onset>2026-09-25T13:46:00-04:00</onset>
+        <expires>2026-09-25T22:00:00-04:00</expires>
+        <senderName>NWS Jacksonville FL</senderName>
+        <headline>Small Craft Advisory issued September 25 at 1:46PM EDT until September 25 at 10:00PM EDT by NWS Jacksonville FL</headline>
+        <description>* WHAT...Seas 5 to 8 ft.
+
+* WHERE...Coastal waters from Altamaha Sound to Fernandina Beach
+FL out 20 NM.
+
+* WHEN...Until 10 PM EDT this evening.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWJAX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS72 KJAX 251746</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 10 PM EDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KJAX.SC.Y.0034.000000T0000Z-260926T0200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T22:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.450478f19d4c76086b77d415902a0266d263ce79.001.1,2026-09-24T02:42:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7ccd941c0d4086a3045967775e8d78aa39933c01.001.1,2026-09-23T15:24:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.610a48285c2a7411312558a04c5758246ef11624.001.1,2026-09-23T01:54:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.09d547603af5ac96706ed7d3f6c8d0072c533d7f.001.1,2026-09-22T18:57:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f695264c63570321c6210424c359d3532a2a6ed5.001.1,2026-09-22T12:19:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Altamaha Sound to Fernandina Beach FL out 20 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075450</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ450</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
