@@ -1,0 +1,125 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.066896e4ceb9425b759cf9d4010e1260306a4564.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T16:21:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a0ce6181bc227c31a0d5c331ba26612da7a568e3.001.1,2026-09-24T14:01:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T16:21:00-04:00</effective>
+        <onset>2026-09-24T16:21:00-04:00</onset>
+        <expires>2026-09-24T16:31:00-04:00</expires>
+        <senderName>NWS San Juan PR</senderName>
+        <headline>Flood Advisory issued September 24 at 4:21PM AST until September 24 at 4:30PM AST by NWS San Juan PR</headline>
+        <description>The Flood Advisory will expire at 430 PM AST this afternoon for a
+portion of Puerto Rico, including the following areas, Aguadilla,
+Camuy, Isabela, Moca, Quebradillas and San Sebastian.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSSJU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGCA82 TJSJ 242021</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY WILL EXPIRE AT 430 PM AST THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.TJSJ.FA.Y.0284.000000T0000Z-260924T2030Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T16:30:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Aguadilla, PR; Camuy, PR; Isabela, PR; Moca, PR; Quebradillas, PR; San Sebastian, PR</areaDesc>
+            <polygon>18.4,-67.15 18.48,-67.17 18.51,-67.14 18.52,-67.09 18.51,-67.02 18.49,-66.99 18.48,-66.92 18.49,-66.85 18.47,-66.83 18.39,-66.81 18.37,-66.81 18.35,-66.82 18.34,-66.82 18.37,-66.89 18.32,-66.91 18.26,-66.91 18.28,-67.03 18.31,-67.05 18.32,-67.13 18.39,-67.13 18.4,-67.15</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072027</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072071</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072099</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072115</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072131</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC099</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC115</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC131</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
