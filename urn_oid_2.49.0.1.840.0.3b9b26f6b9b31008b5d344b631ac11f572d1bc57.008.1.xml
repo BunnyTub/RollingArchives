@@ -1,0 +1,93 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.3b9b26f6b9b31008b5d344b631ac11f572d1bc57.008.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T04:18:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-26T04:18:00-08:00</effective>
+        <onset>2026-09-26T04:00:00-08:00</onset>
+        <expires>2026-09-26T16:45:00-08:00</expires>
+        <senderName>NWS Anchorage AK</senderName>
+        <headline>Small Craft Advisory issued September 26 at 4:18AM AKDT until September 27 at 5:00AM AKDT by NWS Anchorage AK</headline>
+        <description>Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
+
+.TODAY...E wind 30 kt. Seas 7 ft. Rain.
+.TONIGHT...E wind 25 kt. Seas 6 ft subsiding to 4 ft after
+midnight.
+Widespread rain showers.
+.SUN...E wind 20 kt. Seas 4 ft. Widespread rain showers.
+.SUN NIGHT...NE wind 20 kt. Seas 4 ft.
+.MON...N wind 15 kt. Seas 2 ft.
+.TUE...NW wind 10 kt. Seas 2 ft.
+.WED...NE wind 10 kt. Seas 2 ft.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CWFAER</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK51 PAFC 261218</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY THROUGH TONIGHT</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.PAFC.SC.Y.3182.260926T1200Z-260927T1300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T05:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Northwest Prince William Sound</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058724</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ724</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
