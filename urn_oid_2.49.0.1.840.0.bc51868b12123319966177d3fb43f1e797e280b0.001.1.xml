@@ -1,0 +1,252 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.bc51868b12123319966177d3fb43f1e797e280b0.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T13:56:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T13:56:00-06:00</effective>
+        <onset>2026-09-24T13:56:00-06:00</onset>
+        <expires>2026-09-24T17:00:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 1:56PM MDT until September 24 at 5:00PM MDT by NWS Albuquerque NM</headline>
+        <description>FFWABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Flash Flood Warning for...
+The Seven Cabins burn scar in...
+East Central Lincoln County in central New Mexico...
+
+* Until 500 PM MDT.
+
+* At 156 PM MDT, Doppler radar indicated thunderstorms producing
+heavy rain over the Seven Cabins Burn Scar. Up to 0.5 inches of
+rain have fallen. The expected rainfall rate is 1 to 2 inches in 1
+hour. Additional rainfall amounts up to 1.5 inches are possible in
+the warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+Excessive rainfall over the burn scar will impact Highway 246 as well
+as Forest Service Roads 56 and 616. This will also impact Las Tablas
+Creek and Arroyo Seco. The debris flow can consist of rock, mud,
+vegetation and other loose materials.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding in and around the Seven Cabins Burn Scar.
+
+SOURCE...Radar indicated.
+
+IMPACT...Life threatening flash flooding of areas in and around the
+Seven Cabins Burn Scar.
+
+* Some locations that will experience flash flooding include...
+Mainly rural areas of East Central Lincoln County.
+</description>
+        <instruction>This is a life threatening situation. Heavy rainfall will cause
+extensive and severe flash flooding of creeks, streams and ditches in
+the Seven Cabins Burn Scar. Severe debris flows can also be
+anticipated across roads. Roads and driveways may be washed away in
+places. If you encounter flood waters, climb to safety.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS55 KABQ 241956</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KABQ.FF.W.0179.260924T1956Z-260924T2300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T17:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>NWS: FLASH FLOOD WARNING this area til 5:00 PM MDT. Avoid flooded areas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>National Weather Service: A FLASH FLOOD WARNING is in effect for this area until 5:00 PM MDT. This is a dangerous and life-threatening situation. Do not attempt to travel unless you are fleeing an area subject to flooding or under an evacuation order.</value>
+        </parameter>
+        <area>
+            <areaDesc>Lincoln, NM</areaDesc>
+            <polygon>33.67,-105.37 33.69,-105.33 33.71,-105.25 33.71,-105.08 33.7,-105.04 33.68,-105.14 33.68,-105.21 33.64,-105.25 33.6,-105.23 33.58,-105.24 33.55,-105.27 33.53,-105.3 33.52,-105.33 33.54,-105.42 33.59,-105.43 33.67,-105.37</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC027</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>es-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T13:56:00-06:00</effective>
+        <onset>2026-09-24T13:56:00-06:00</onset>
+        <expires>2026-09-24T17:00:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 1:56PM MDT until September 24 at 5:00PM MDT by NWS Albuquerque NM</headline>
+        <description>FFWABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Flash Flood Warning for...
+The Seven Cabins burn scar in...
+East Central Lincoln County in central New Mexico...
+
+* Until 500 PM MDT.
+
+* At 156 PM MDT, Doppler radar indicated thunderstorms producing
+heavy rain over the Seven Cabins Burn Scar. Up to 0.5 inches of
+rain have fallen. The expected rainfall rate is 1 to 2 inches in 1
+hour. Additional rainfall amounts up to 1.5 inches are possible in
+the warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+Excessive rainfall over the burn scar will impact Highway 246 as well
+as Forest Service Roads 56 and 616. This will also impact Las Tablas
+Creek and Arroyo Seco. The debris flow can consist of rock, mud,
+vegetation and other loose materials.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding in and around the Seven Cabins Burn Scar.
+
+SOURCE...Radar indicated.
+
+IMPACT...Life threatening flash flooding of areas in and around the
+Seven Cabins Burn Scar.
+
+* Some locations that will experience flash flooding include...
+Mainly rural areas of East Central Lincoln County.
+</description>
+        <instruction>This is a life threatening situation. Heavy rainfall will cause
+extensive and severe flash flooding of creeks, streams and ditches in
+the Seven Cabins Burn Scar. Severe debris flows can also be
+anticipated across roads. Roads and driveways may be washed away in
+places. If you encounter flood waters, climb to safety.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS55 KABQ 241956</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KABQ.FF.W.0179.260924T1956Z-260924T2300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T17:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>SNM: AVISO DE INUNDACIONES REPENTINAS hasta 5:00 PM MDT. Evite areas inundadas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>Servicio Nacional de Meteorologia: AVISO DE INUNDACIONES REPENTINAS en efecto para esta area hasta las 5:00 PM MDT. Esta es una situacion peligrosa y amenaza la vida. No intente viajar a menos que sea para abandonar un area propensa a inundaciones o bajo una orden de desalojo.</value>
+        </parameter>
+        <area>
+            <areaDesc>Lincoln, NM</areaDesc>
+            <polygon>33.67,-105.37 33.69,-105.33 33.71,-105.25 33.71,-105.08 33.7,-105.04 33.68,-105.14 33.68,-105.21 33.64,-105.25 33.6,-105.23 33.58,-105.24 33.55,-105.27 33.53,-105.3 33.52,-105.33 33.54,-105.42 33.59,-105.43 33.67,-105.37</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC027</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
