@@ -1,0 +1,104 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.c8ae87154c00798a321a3325dc9f8ec6002aae0e.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T14:46:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T14:46:00-06:00</effective>
+        <onset>2026-09-25T14:46:00-06:00</onset>
+        <expires>2026-09-25T15:15:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Special Weather Statement issued September 25 at 2:46PM MDT by NWS Albuquerque NM</headline>
+        <description>At 246 PM MDT, Doppler radar was tracking a strong thunderstorm 8
+miles northeast of Vaughn, moving northeast at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor damage to outdoor objects is
+possible.
+
+Locations impacted include...
+Vaughn.
+</description>
+        <instruction>Monitor the weather situation closely and be alert for threatening
+weather conditions.
+
+Motorists can expect brief but sudden changes in visibility and
+ponding of water on roadways as storms move through the area.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KABQ 252046</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A STRONG THUNDERSTORM WILL IMPACT WEST CENTRAL GUADALUPE COUNTY UNTIL 315 PM MDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T20:46:00-00:00...storm...239DEG...11KT...34.71,-105.13</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.75</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Guadalupe County</areaDesc>
+            <polygon>34.58,-105.21 34.72,-105.29 34.74,-105.29 34.89,-105.02 34.7,-104.89 34.58,-105.21</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ233</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
