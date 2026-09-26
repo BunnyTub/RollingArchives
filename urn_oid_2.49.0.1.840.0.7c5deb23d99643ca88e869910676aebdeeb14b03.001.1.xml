@@ -1,0 +1,103 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.7c5deb23d99643ca88e869910676aebdeeb14b03.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T00:05:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-25T00:05:00-06:00</effective>
+        <onset>2026-09-25T00:05:00-06:00</onset>
+        <expires>2026-09-25T02:00:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flood Advisory issued September 25 at 12:05AM MDT until September 25 at 2:00AM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>* WHAT...Urban area and small stream flooding caused by excessive
+rainfall is expected.
+
+* WHERE...Southeastern El Paso County in western Texas...
+
+* WHEN...Until 200 AM MDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+Water over roadways.
+
+* ADDITIONAL DETAILS...
+- At 1205 AM MDT, Doppler radar indicated heavy rain due to
+thunderstorms. This  will cause urban and small stream flooding.
+Up to 0.75 inches of rain have fallen.
+- Additional rainfall of up to 0.5 inches is expected over the
+area. This additional rain will result in minor flooding.
+- Some locations that will experience flooding include...
+Horizon City, Clint, Fabens, San Elizario, Socorro, Sparks, Agua
+Dulce, Dairyland and Lake Way Estates.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS84 KEPZ 250605</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 2 AM MDT EARLY THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KEPZ.FA.Y.0374.260925T0605Z-260925T0800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T02:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>El Paso, TX</areaDesc>
+            <polygon>31.64,-106.31 31.66,-106.28 31.74,-106.17 31.8,-106.06 31.8,-106.0 31.74,-106.0 31.74,-106.02 31.59,-106.06 31.58,-106.13 31.46,-106.19 31.46,-106.2 31.48,-106.22 31.5,-106.22 31.51,-106.24 31.54,-106.25 31.56,-106.28 31.58,-106.29 31.61,-106.3 31.62,-106.3 31.64,-106.31</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048141</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC141</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
