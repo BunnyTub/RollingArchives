@@ -1,0 +1,144 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.ef568e5ec22ed528b4dd4d519af7f3753a533654.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T20:34:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9c9592e585be66fd55b61c1390cccbcf2572d5e3.002.1,2026-09-23T21:13:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.27a88fa0fb471b6681202d1018f8aa998b1dd3bd.001.1,2026-09-24T11:02:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <effective>2026-09-24T20:34:00-05:00</effective>
+        <onset>2026-09-24T20:34:00-05:00</onset>
+        <expires>2026-09-25T19:00:00-05:00</expires>
+        <senderName>NWS Quad Cities IA IL</senderName>
+        <headline>Flood Warning issued September 24 at 8:34PM CDT until September 25 at 7:00PM CDT by NWS Quad Cities IA IL</headline>
+        <description>...The Flood Warning continues for the following rivers in Iowa...
+Illinois...
+
+Mississippi River at Burlington affecting Hancock, Lee, Henderson
+and Des Moines Counties.
+
+Mississippi River at Gladstone LD18 affecting Henderson and Des
+Moines Counties.
+
+* WHAT...Minor flooding is occurring and minor flooding is forecast.
+
+* WHERE...Mississippi River at Burlington.
+
+* WHEN...Until Friday evening.
+
+* IMPACTS...At 15.0 feet, Agricultural flooding occurs.
+
+* ADDITIONAL DETAILS...
+- At 8:00 PM CDT Thursday the stage was 15.1 feet.
+- Forecast...The river is expected to fall below flood stage just
+after midnight tonight and continue falling to 10.3 feet
+Thursday, October 01.
+- Flood stage is 15.0 feet.
+</description>
+        <instruction>
+
+Motorists should not attempt to drive around barricades or drive cars
+through flooded areas.
+
+Caution is urged when walking near riverbanks.
+
+Additional information is available at www.weather.gov/quadcities.
+
+The next statement will be issued by Friday evening.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSDVN</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS83 KDVN 250134</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING NOW IN EFFECT UNTIL FRIDAY EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KDVN.FL.W.0079.000000T0000Z-260926T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T19:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6520a607ace3281dcdb7d754412046359c27b8a6.002.1,2026-09-23T11:05:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6ab98279a7febfd707ff5d5dc4b9211d2211fcd6.002.1,2026-09-22T21:31:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.15d47231194509b62f8173ef3f722c8ed7a4793a.001.1,2026-09-22T11:52:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3ed01defc641d77d7fa593c1e7abf9598913a661.003.1,2026-09-21T21:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d210340ea192127be7321c503468af3276db047e.003.1,2026-09-21T11:47:00-05:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Des Moines, IA; Lee, IA; Hancock, IL; Henderson, IL</areaDesc>
+            <polygon>40.86,-91.1 40.84,-91.05 40.62,-91.08 40.61,-91.42 40.67,-91.18 40.86,-91.1</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>019057</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>019111</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>017067</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>017071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>IAC057</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>IAC111</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ILC067</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ILC071</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
