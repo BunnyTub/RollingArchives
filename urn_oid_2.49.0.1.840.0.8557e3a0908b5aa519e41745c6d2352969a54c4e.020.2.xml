@@ -1,0 +1,216 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8557e3a0908b5aa519e41745c6d2352969a54c4e.020.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T04:59:00-10:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4ddc2b465ec1aed8541c9a2013ad70c4bced1b08.020.2,2026-09-24T23:00:00-10:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Tropical Storm Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>TRW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>TRW</value>
+        </eventCode>
+        <effective>2026-09-25T04:59:00-10:00</effective>
+        <onset>2026-09-25T04:59:00-10:00</onset>
+        <expires>2026-09-25T13:00:00-10:00</expires>
+        <senderName>NWS Honolulu HI</senderName>
+        <headline>Tropical Storm Warning issued September 25 at 4:59AM HST by NWS Honolulu HI</headline>
+        <description>* LOCATIONS AFFECTED
+- Kailua-Kona
+- Captain Cook
+- Milolii
+
+* WIND
+- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
+- Peak Wind Forecast: 30-40 mph with gusts to 60 mph
+- Window for Tropical Storm force winds: early this evening
+until Saturday afternoon
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58
+to 73 mph
+- The wind threat has remained nearly steady from the
+previous assessment.
+- PLAN: Plan for dangerous wind of equivalent strong tropical
+storm force.
+- PREPARE: Remaining efforts to protect life and property
+should be completed as soon as possible. Prepare for
+significant wind damage.
+- ACT: Move to safe shelter before the wind becomes hazardous.
+
+- POTENTIAL IMPACTS: Significant
+- Some damage to roofing and siding materials, along with
+damage to porches, awnings, carports, and sheds. A few
+buildings experiencing window, door, and garage door
+failures. Mobile homes damaged, especially if unanchored.
+Unsecured lightweight objects become dangerous projectiles.
+- Several large trees snapped or uprooted, but with greater
+numbers in places where trees are shallow rooted. Several
+fences and roadway signs blown over.
+- Some roads impassable from large debris, and more within
+urban or heavily wooded places. A few bridges, causeways,
+and access routes impassable.
+- Scattered power and communications outages, but more
+prevalent in areas with above ground lines.
+
+* STORM SURGE
+- LATEST LOCAL FORECAST: Localized storm surge possible
+- Peak Storm Surge Inundation: The potential for 1-3 feet
+above ground somewhere within surge prone areas
+- Window of concern: Begins early this morning
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm
+surge flooding greater than 1 foot above ground
+- The storm surge threat has remained nearly steady from the
+previous assessment.
+- PLAN: Plan for storm surge flooding greater than 1 foot
+above ground.
+- PREPARE: Complete preparations for storm surge flooding,
+especially in low-lying vulnerable areas, before conditions
+become unsafe.
+- ACT: Leave immediately if evacuation orders are given for
+your area.
+
+- POTENTIAL IMPACTS: Limited
+- Localized inundation with storm surge flooding mainly along
+immediate shorelines and in low-lying spots, or in areas
+farther inland near where higher surge waters move ashore.
+- Sections of near-shore roads and parking lots become
+overspread with surge water. Driving conditions dangerous
+in places where surge water covers the road.
+- Moderate beach erosion. Heavy surf also breaching dunes,
+mainly in usually vulnerable locations. Strong rip currents.
+- Minor to locally moderate damage to marinas, docks,
+boardwalks, and piers. A few small craft broken away from
+moorings.
+
+* FLOODING RAIN
+- LATEST LOCAL FORECAST: Flood Watch is in effect
+- Peak Rainfall Amounts: Additional 1-3 inches, with locally
+higher amounts
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for
+moderate flooding rain
+- The flooding rain threat has remained nearly steady from
+the previous assessment.
+- PLAN: Emergency plans should include the potential for
+moderate flooding from heavy rain. Evacuations and rescues
+are possible.
+- PREPARE: Consider protective actions if you are in an area
+vulnerable to flooding.
+- ACT: Heed any flood watches and warnings. Failure to take
+action may result in serious injury or loss of life.
+
+- POTENTIAL IMPACTS: Significant
+- Moderate rainfall flooding may prompt several evacuations
+and rescues.
+- Rivers and tributaries may quickly become swollen with
+swifter currents and overspill their banks in a few places,
+especially in usually vulnerable spots. Small streams,
+creeks, canals, arroyos, and ditches overflow.
+- Flood waters can enter some structures or weaken
+foundations. Several places may experience expanded areas
+of rapid inundation at underpasses, low-lying spots, and
+poor drainage areas. Some streets and parking lots take on
+moving water as storm drains and retention ponds overflow.
+Driving conditions become hazardous. Some road and bridge
+closures.
+
+* TORNADO
+- LATEST LOCAL FORECAST:
+- Situation is somewhat favorable for tornadoes
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few
+tornadoes
+- The tornado threat has remained nearly steady from the
+previous assessment.
+- PLAN: Emergency plans should include the potential for a
+few tornadoes.
+- PREPARE: If your shelter is particularly vulnerable to
+tornadoes, prepare to relocate to safe shelter before
+hazardous weather arrives.
+- ACT: If a tornado warning is issued, be ready to shelter
+quickly.
+
+- POTENTIAL IMPACTS: Limited
+- The occurrence of isolated tornadoes can hinder the
+execution of emergency plans during tropical events.
+- A few places may experience tornado damage, along with
+power and communications disruptions.
+- Locations could realize roofs peeled off buildings,
+chimneys toppled, mobile homes pushed off foundations or
+overturned, large tree tops and branches snapped off,
+shallow-rooted trees knocked over, moving vehicles blown
+off roads, and small boats pulled from moorings.
+
+* FOR MORE INFORMATION:
+- https://www.weather.gov/hfo
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>TCVHFO</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WTHW80 PHFO 251459</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>TROPICAL STORM WARNING REMAINS IN EFFECT... ...HURRICANE WATCH REMAINS IN EFFECT</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PHFO.TR.W.2015.000000T0000Z-000000T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c7c48b3a72ac7ab3a795372b13d94f0820f4b52d.020.2,2026-09-24T16:53:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3126c4ccaa67bc07dfa47e9cdbf46d65f9328cf.020.2,2026-09-24T11:19:00-10:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Kona</areaDesc>
+            <polygon>19.715,-155.924 19.709,-155.921 19.657,-155.885 19.630,-155.851 19.603,-155.800 19.586,-155.794 19.462,-155.797 19.275,-155.814 19.218,-155.797 19.176,-155.772 19.118,-155.789 19.075,-155.813 19.014,-155.873 19.038,-155.888 19.054,-155.892 19.071,-155.908 19.082,-155.915 19.118,-155.924 19.138,-155.924 19.153,-155.915 19.160,-155.921 19.172,-155.912 19.206,-155.912 19.215,-155.904 19.229,-155.908 19.243,-155.903 19.259,-155.905 19.292,-155.894 19.323,-155.896 19.336,-155.890 19.379,-155.901 19.400,-155.916 19.408,-155.910 19.425,-155.924 19.449,-155.927 19.456,-155.933 19.469,-155.923 19.478,-155.932 19.475,-155.942 19.482,-155.955 19.503,-155.956 19.515,-155.965 19.521,-155.960 19.540,-155.962 19.549,-155.971 19.559,-155.967 19.565,-155.973 19.577,-155.971 19.600,-155.979 19.638,-156.001 19.635,-156.007 19.648,-156.036 19.664,-156.037 19.685,-156.039 19.691,-156.051 19.717,-156.060 19.727,-156.071 19.715,-155.924</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>015001</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ023</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
