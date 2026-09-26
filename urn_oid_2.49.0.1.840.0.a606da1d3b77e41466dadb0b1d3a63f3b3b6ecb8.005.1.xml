@@ -1,0 +1,105 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a606da1d3b77e41466dadb0b1d3a63f3b3b6ecb8.005.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T18:03:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Moderate</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFA</value>
+        </eventCode>
+        <effective>2026-09-24T18:03:00-04:00</effective>
+        <onset>2026-09-25T17:00:00-04:00</onset>
+        <expires>2026-09-25T06:15:00-04:00</expires>
+        <senderName>NWS Upton NY</senderName>
+        <headline>Coastal Flood Watch issued September 24 at 6:03PM EDT until September 26 at 12:00PM EDT by NWS Upton NY</headline>
+        <description>* WHAT...For the Coastal Flood Statement, up to one to two feet
+of inundation above ground level expected in vulnerable areas
+near the waterfront and shoreline. For the Coastal Flood Watch,
+one to two feet of inundation above ground level possible in
+vulnerable areas near the waterfront and shoreline.
+
+* WHERE...Richmond (Staten Island) County.
+
+* WHEN...For the Coastal Flood Statement, through Friday
+morning. For the Coastal Flood Watch, from Friday afternoon
+through Saturday morning.
+
+* IMPACTS...Late Friday afternoon into early Saturday, widespread
+flooding of vulnerable areas near the waterfront and shoreline,
+including roads, parking lots, parks, lawns, and homes and
+businesses with basements near the waterfront. Numerous road
+closures are likely, and vehicles parked in vulnerable areas
+near the waterfront will likely become flooded. Flooding will
+also extend inland from the waterfront along tidal rivers and
+bays.
+</description>
+        <instruction>If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWOKX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KOKX 242203</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD STATEMENT NOW IN EFFECT THROUGH FRIDAY MORNING... ...COASTAL FLOOD WATCH IN EFFECT FROM FRIDAY AFTERNOON THROUGH SATURDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXB.KOKX.CF.A.0002.260925T2100Z-260926T1600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T12:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Richmond (Staten Is.)</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036085</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYZ074</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
