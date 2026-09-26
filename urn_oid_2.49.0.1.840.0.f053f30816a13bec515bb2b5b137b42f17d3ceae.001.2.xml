@@ -1,0 +1,138 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.f053f30816a13bec515bb2b5b137b42f17d3ceae.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T03:15:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>High Wind Warning</event>
+        <responseType>Prepare</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <effective>2026-09-25T03:15:00-04:00</effective>
+        <onset>2026-09-25T18:00:00-04:00</onset>
+        <expires>2026-09-25T16:00:00-04:00</expires>
+        <senderName>NWS Mount Holly NJ</senderName>
+        <headline>High Wind Warning issued September 25 at 3:15AM EDT until September 27 at 6:00AM EDT by NWS Mount Holly NJ</headline>
+        <description>* WHAT...For the Wind Advisory, northeast winds 25 to 35 mph with
+gusts up to 45 mph. For the High Wind Warning, north winds 30 to 40
+mph with gusts up to 60 mph expected.
+
+* WHERE...In Delaware, Delaware Beaches County. In New Jersey,
+Eastern Monmouth, Atlantic Coastal Cape May, Coastal Atlantic, and
+Coastal Ocean Counties.
+
+* WHEN...For the Wind Advisory, until 6 PM EDT this evening. For the
+High Wind Warning, from 6 PM this evening to 6 AM EDT Sunday.
+
+* IMPACTS...Damaging winds will blow down trees and power lines.
+Power outages are possible. Travel will be difficult, especially
+for high profile vehicles. Gusty winds will blow around unsecured
+objects.
+
+* ADDITIONAL DETAILS...Strong winds may continue into Sunday,
+depending on the track of the storm.
+</description>
+        <instruction>People are urged to secure loose objects that could be blown around
+or damaged by the wind.
+
+Winds this strong can make driving difficult, especially for high
+profile vehicles. Use extra caution.
+
+Secure outdoor objects.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWPHI</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS71 KPHI 250715</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH WIND WARNING IN EFFECT FROM 6 PM THIS EVENING TO 6 AM EDT SUNDAY... ...WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM EDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KPHI.HW.W.0002.260925T2200Z-260927T1000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T06:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Delaware Beaches; Eastern Monmouth; Atlantic Coastal Cape May; Coastal Atlantic; Coastal Ocean</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>010005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034025</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034001</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034029</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>DEZ004</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ014</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ024</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ025</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ026</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
