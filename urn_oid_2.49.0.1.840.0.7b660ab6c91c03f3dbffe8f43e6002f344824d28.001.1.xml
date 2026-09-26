@@ -1,0 +1,100 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.7b660ab6c91c03f3dbffe8f43e6002f344824d28.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T09:03:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fb613cb5de9218f1c9aa4a39eb26ae77f14407a1.001.2,2026-09-25T05:48:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T09:03:00-04:00</effective>
+        <onset>2026-09-25T09:03:00-04:00</onset>
+        <expires>2026-09-25T18:30:00-04:00</expires>
+        <senderName>NWS Wilmington NC</senderName>
+        <headline>Small Craft Advisory issued September 25 at 9:03AM EDT until September 26 at 8:00AM EDT by NWS Wilmington NC</headline>
+        <description>* WHAT...North winds 15 to 25 kt with gusts up to 30 kt and seas
+5 to 8 ft.
+
+* WHERE...Southeast North Carolina coastal waters out 20 NM.
+
+* WHEN...Until 8 AM EDT Saturday.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWILM</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS72 KILM 251303</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 8 AM EDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KILM.SC.Y.0037.000000T0000Z-260926T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T08:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6b6b397babf5bda8496f2d299d7cd55e22575e03.002.1,2026-09-23T02:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8a3e13dd664a4780661d61891510804928e9bdb1.001.1,2026-09-23T13:18:37-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.00ebd1e46e3ae42ada4c07cc2c4f2a1e3c923d78.001.1,2026-09-22T18:13:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3efce968b42ff7deb5e992cdf10775ec8cb01e2.001.1,2026-09-22T14:20:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Surf City to Cape Fear NC out 20 nm; Coastal waters from Cape Fear NC to Little River Inlet SC out 20 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075250</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075252</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ250</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ252</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
