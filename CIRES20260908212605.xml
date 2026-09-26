@@ -1,0 +1,41 @@
+<SharpAlertSource>SASMEX</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.1">
+				<identifier>CIRES20260908212605</identifier>
+				<sender>cires.org.mx</sender>
+				<sent>2026-09-08T21:26:05-06:00</sent>
+				<status>Actual</status>
+				<msgType>Alert</msgType>
+				<scope>Public</scope>
+				<info>
+					<language>es-MX</language>
+					<category>Geo</category>
+					<event>SASMEX: Sismo Moderado en Costa Mich</event>
+					<responseType>Monitor</responseType>
+					<urgency>Immediate</urgency>
+					<severity>Unknown</severity>
+					<certainty>Observed</certainty>
+					<eventCode>
+						<valueName>SAME</valueName>
+						<value>EQW</value>
+					</eventCode>
+					<effective>2026-09-08T21:26:05-06:00</effective>
+					<expires>2026-09-08T21:27:05-06:00</expires>
+					<senderName>SASMEX - CIRES</senderName>
+					<headline>Sismo Moderado en Costa Mich</headline>
+					<description>Sismo Moderado en Costa Mich, a 144km de Michoacan</description>
+					<instruction>Realice procedimiento en caso de sismo</instruction>
+					<web>https://rss.sasmex.net</web>
+					<contact>infoCAP@cires-ac.mx</contact>
+					<parameter>
+						<valueName>SAME</valueName>
+						<value>CIV</value>
+					</parameter>
+					<parameter>
+						<valueName>messageIdentifier</valueName>
+						<value>4370</value>
+					</parameter>
+					<area>
+						<areaDesc>Zona Probable Epicentro</areaDesc>
+						<circle>18.27,-101.89 70.0</circle>
+					</area>
+				</info>
+			</alert>
