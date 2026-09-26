@@ -1,0 +1,127 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.f82784b3a0c3c7b53e38fb6ffeb46889d1b2f837.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T01:07:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.027e0ff7a9cb6ef7dd37c3087b74bef50fcfe909.001.1,2026-09-25T01:04:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Lake Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>LWY</value>
+        </eventCode>
+        <effective>2026-09-26T01:07:00-06:00</effective>
+        <onset>2026-09-26T01:07:00-06:00</onset>
+        <expires>2026-09-26T09:00:00-06:00</expires>
+        <senderName>NWS Glasgow MT</senderName>
+        <headline>Lake Wind Advisory issued September 26 at 1:07AM MDT until September 26 at 9:00AM MDT by NWS Glasgow MT</headline>
+        <description>* WHAT...Northwest winds 15 to 25 mph with gusts up to 40 mph.
+
+* WHERE...Fort Peck Lake
+
+* WHEN...Until 9 AM MDT this morning.
+
+* IMPACTS...Strong winds and rough waves on area lakes will create
+hazardous conditions for small craft.
+
+* ADDITIONAL DETAILS...Waves up to 4 feet are possible through the
+morning.
+</description>
+        <instruction>Boaters on Fort Peck Lake should use extra caution since strong winds
+and rough waves can overturn small craft.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWGGW</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS75 KGGW 260707</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 9 AM MDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KGGW.LW.Y.0047.000000T0000Z-260926T1500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T09:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3577241f5b8ed540e660080c7372e186ee4a2dfc.001.1,2026-09-24T11:28:00-06:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Central and Southeast Phillips; Central and Southern Valley; Petroleum; Garfield; McCone</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030071</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030105</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030069</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030033</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030055</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ016</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ017</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ021</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ022</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ023</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

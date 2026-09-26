@@ -1,0 +1,91 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8afa7becb4a71527bd26d85a9840e9039c45f862.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T00:51:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.007ba67e788ca0c070c86bcc9762127e3b2285fd.004.1,2026-09-25T23:27:00-08:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-26T00:51:00-08:00</effective>
+        <onset>2026-09-26T01:00:00-08:00</onset>
+        <expires>2026-09-26T09:00:00-08:00</expires>
+        <senderName>NWS Juneau AK</senderName>
+        <headline>Small Craft Advisory issued September 26 at 12:51AM AKDT until September 26 at 6:00PM AKDT by NWS Juneau AK</headline>
+        <description>* WHAT...South winds 15 to 25 kt and seas 7 to 10 ft expected.
+
+* WHERE...Cape Decision to Cape Edgecumbe from 15 to 80 NM.
+
+* WHEN...Until 6 PM AKDT this evening.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWAJK</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHAK77 PAJK 260851</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 6 PM AKDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PAJK.SC.Y.0308.260926T0900Z-260927T0200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T18:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bf9433c20a4ae9c15b32d2a340439cfdbafa272a.004.1,2026-09-25T15:40:00-08:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Cape Decision to Cape Edgecumbe from 15 to 80 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058662</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ662</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
