@@ -1,34 +1,34 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.c7c48b3a72ac7ab3a795372b13d94f0820f4b52d.027.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.4ddc2b465ec1aed8541c9a2013ad70c4bced1b08.027.1</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T16:53:00-10:00</sent>
+    <sent>2026-09-24T23:00:00-10:00</sent>
     <status>Actual</status>
     <msgType>Update</msgType>
     <source>211803 v2.3.0</source>
     <scope>Public</scope>
     <code>IPAWSv1.0</code>
-    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3126c4ccaa67bc07dfa47e9cdbf46d65f9328cf.027.2,2026-09-24T11:19:00-10:00</references>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c7c48b3a72ac7ab3a795372b13d94f0820f4b52d.027.1,2026-09-24T16:53:00-10:00</references>
     <info>
         <language>en-US</language>
         <category>Met</category>
-        <event>Tropical Storm Warning</event>
-        <responseType>Avoid</responseType>
-        <urgency>Immediate</urgency>
+        <event>Hurricane Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
         <severity>Severe</severity>
-        <certainty>Likely</certainty>
+        <certainty>Possible</certainty>
         <eventCode>
             <valueName>SAME</valueName>
-            <value>TRW</value>
+            <value>HUA</value>
         </eventCode>
         <eventCode>
             <valueName>NationalWeatherService</valueName>
-            <value>TRW</value>
+            <value>HUA</value>
         </eventCode>
-        <effective>2026-09-24T16:53:00-10:00</effective>
-        <onset>2026-09-24T16:53:00-10:00</onset>
-        <expires>2026-09-25T01:00:00-10:00</expires>
+        <effective>2026-09-24T23:00:00-10:00</effective>
+        <onset>2026-09-24T23:00:00-10:00</onset>
+        <expires>2026-09-25T07:00:00-10:00</expires>
         <senderName>NWS Honolulu HI</senderName>
-        <headline>Tropical Storm Warning issued September 24 at 4:53PM HST by NWS Honolulu HI</headline>
+        <headline>Hurricane Watch issued September 24 at 11:00PM HST by NWS Honolulu HI</headline>
         <description>* LOCATIONS AFFECTED
 - Mauna Kea Summit
 - Mauna Loa Summit
@@ -37,33 +37,22 @@
 - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
 - Peak Wind Forecast: 45-55 mph with gusts to 65 mph
 - Window for Tropical Storm force winds: early Friday morning
-until Saturday afternoon
+until Saturday morning
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58
 to 73 mph
-- The wind threat has decreased from the previous assessment.
+- The wind threat has remained nearly steady from the
+previous assessment.
 - PLAN: Plan for dangerous wind of equivalent strong tropical
 storm force.
-- PREPARE: Remaining efforts to protect life and property
-should be completed as soon as possible. Prepare for
+- PREPARE: Last minute efforts to protect life and property
+should now be complete. The area remains subject to
 significant wind damage.
-- ACT: Move to safe shelter before the wind becomes hazardous.
+- ACT: Now is the time to shelter from dangerous wind.
 
-- POTENTIAL IMPACTS: Significant
-- Some damage to roofing and siding materials, along with
-damage to porches, awnings, carports, and sheds. A few
-buildings experiencing window, door, and garage door
-failures. Mobile homes damaged, especially if unanchored.
-Unsecured lightweight objects become dangerous projectiles.
-- Several large trees snapped or uprooted, but with greater
-numbers in places where trees are shallow rooted. Several
-fences and roadway signs blown over.
-- Some roads impassable from large debris, and more within
-urban or heavily wooded places. A few bridges, causeways,
-and access routes impassable.
-- Scattered power and communications outages, but more
-prevalent in areas with above ground lines.
+- POTENTIAL IMPACTS: Unfolding
+- Potential impacts from the main wind event are unfolding.
 
 * FLOODING RAIN
 - LATEST LOCAL FORECAST: Flood Watch is in effect
@@ -110,13 +99,12 @@ UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few
 tornadoes
 - The tornado threat has remained nearly steady from the
 previous assessment.
-- PLAN: Emergency plans should include the potential for a
-few tornadoes.
-- PREPARE: If your shelter is particularly vulnerable to
-tornadoes, prepare to relocate to safe shelter before
-hazardous weather arrives.
-- ACT: If a tornado warning is issued, be ready to shelter
-quickly.
+- PLAN: Emergency plans should continue to include possible
+tornadoes.
+- PREPARE: Stay within your shelter keeping informed of the
+latest tornado situation.
+- ACT: Move quickly to the safest place within your shelter
+if a tornado warning is issued.
 
 - POTENTIAL IMPACTS: Limited
 - The occurrence of isolated tornadoes can hinder the
@@ -139,7 +127,7 @@ off roads, and small boats pulled from moorings.
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WTHW80 PHFO 250253</value>
+            <value>WTHW80 PHFO 250900</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
@@ -159,11 +147,15 @@ off roads, and small boats pulled from moorings.
         </parameter>
         <parameter>
             <valueName>VTEC</valueName>
-            <value>/O.CON.PHFO.TR.W.2015.000000T0000Z-000000T0000Z/</value>
+            <value>/O.CON.PHFO.HU.A.2015.000000T0000Z-000000T0000Z/</value>
         </parameter>
         <parameter>
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3126c4ccaa67bc07dfa47e9cdbf46d65f9328cf.027.1,2026-09-24T11:19:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.505969b4cd80e20f3a4aca9eec7fe4dbd80d59ec.008.1,2026-09-24T04:54:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aaa3742406865941224d445b556f7686eedf4f02.008.1,2026-09-23T22:44:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e4252018d6318bfb2a7a9a9d020c61228bd36409.008.1,2026-09-23T16:56:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9a0ced30397152a87983a212c3eb87437d305097.008.1,2026-09-23T11:01:00-10:00</value>
         </parameter>
         <area>
             <areaDesc>Big Island Summit</areaDesc>

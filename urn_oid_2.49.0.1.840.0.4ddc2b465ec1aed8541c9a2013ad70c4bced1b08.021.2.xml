@@ -1,13 +1,13 @@
 <SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier>urn:oid:2.49.0.1.840.0.c7c48b3a72ac7ab3a795372b13d94f0820f4b52d.027.2</identifier>
+    <identifier>urn:oid:2.49.0.1.840.0.4ddc2b465ec1aed8541c9a2013ad70c4bced1b08.021.2</identifier>
     <sender>w-nws.webmaster@noaa.gov</sender>
-    <sent>2026-09-24T16:53:00-10:00</sent>
+    <sent>2026-09-24T23:00:00-10:00</sent>
     <status>Actual</status>
     <msgType>Update</msgType>
     <source>211803 v2.3.0</source>
     <scope>Public</scope>
     <code>IPAWSv1.0</code>
-    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3126c4ccaa67bc07dfa47e9cdbf46d65f9328cf.027.2,2026-09-24T11:19:00-10:00</references>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c7c48b3a72ac7ab3a795372b13d94f0820f4b52d.021.2,2026-09-24T16:53:00-10:00</references>
     <info>
         <language>en-US</language>
         <category>Met</category>
@@ -24,50 +24,69 @@
             <valueName>NationalWeatherService</valueName>
             <value>TRW</value>
         </eventCode>
-        <effective>2026-09-24T16:53:00-10:00</effective>
-        <onset>2026-09-24T16:53:00-10:00</onset>
-        <expires>2026-09-25T01:00:00-10:00</expires>
+        <effective>2026-09-24T23:00:00-10:00</effective>
+        <onset>2026-09-24T23:00:00-10:00</onset>
+        <expires>2026-09-25T07:00:00-10:00</expires>
         <senderName>NWS Honolulu HI</senderName>
-        <headline>Tropical Storm Warning issued September 24 at 4:53PM HST by NWS Honolulu HI</headline>
+        <headline>Tropical Storm Warning issued September 24 at 11:00PM HST by NWS Honolulu HI</headline>
         <description>* LOCATIONS AFFECTED
-- Mauna Kea Summit
-- Mauna Loa Summit
+- Hawaiian Ocean View Estates
 
 * WIND
 - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
-- Peak Wind Forecast: 45-55 mph with gusts to 65 mph
-- Window for Tropical Storm force winds: early Friday morning
-until Saturday afternoon
+- Peak Wind Forecast: 35-45 mph with gusts to 60 mph
+- Window for Tropical Storm force winds: until Sunday evening
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 58
 to 73 mph
-- The wind threat has decreased from the previous assessment.
+- The wind threat has remained nearly steady from the
+previous assessment.
 - PLAN: Plan for dangerous wind of equivalent strong tropical
 storm force.
-- PREPARE: Remaining efforts to protect life and property
-should be completed as soon as possible. Prepare for
+- PREPARE: Last minute efforts to protect life and property
+should now be complete. The area remains subject to
 significant wind damage.
-- ACT: Move to safe shelter before the wind becomes hazardous.
+- ACT: Now is the time to shelter from dangerous wind.
 
-- POTENTIAL IMPACTS: Significant
-- Some damage to roofing and siding materials, along with
-damage to porches, awnings, carports, and sheds. A few
-buildings experiencing window, door, and garage door
-failures. Mobile homes damaged, especially if unanchored.
-Unsecured lightweight objects become dangerous projectiles.
-- Several large trees snapped or uprooted, but with greater
-numbers in places where trees are shallow rooted. Several
-fences and roadway signs blown over.
-- Some roads impassable from large debris, and more within
-urban or heavily wooded places. A few bridges, causeways,
-and access routes impassable.
-- Scattered power and communications outages, but more
-prevalent in areas with above ground lines.
+- POTENTIAL IMPACTS: Unfolding
+- Potential impacts from the main wind event are unfolding.
+
+* STORM SURGE
+- LATEST LOCAL FORECAST: Localized storm surge possible
+- Peak Storm Surge Inundation: The potential for 1-3 feet
+above ground somewhere within surge prone areas
+- Window of concern: Begins early Friday morning
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for storm
+surge flooding greater than 1 foot above ground
+- The storm surge threat has remained nearly steady from the
+previous assessment.
+- PLAN: Plan for storm surge flooding greater than 1 foot
+above ground.
+- PREPARE: Complete preparations for storm surge flooding,
+especially in low-lying vulnerable areas, before conditions
+become unsafe.
+- ACT: Leave immediately if evacuation orders are given for
+your area.
+
+- POTENTIAL IMPACTS: Limited
+- Localized inundation with storm surge flooding mainly along
+immediate shorelines and in low-lying spots, or in areas
+farther inland near where higher surge waters move ashore.
+- Sections of near-shore roads and parking lots become
+overspread with surge water. Driving conditions dangerous
+in places where surge water covers the road.
+- Moderate beach erosion. Heavy surf also breaching dunes,
+mainly in usually vulnerable locations. Strong rip currents.
+- Minor to locally moderate damage to marinas, docks,
+boardwalks, and piers. A few small craft broken away from
+moorings.
 
 * FLOODING RAIN
 - LATEST LOCAL FORECAST: Flood Watch is in effect
-- Peak Rainfall Amounts: Additional 8-12 inches, with locally
+- Peak Rainfall Amounts: Additional 6-10 inches, with locally
 higher amounts
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
@@ -110,13 +129,12 @@ UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for a few
 tornadoes
 - The tornado threat has remained nearly steady from the
 previous assessment.
-- PLAN: Emergency plans should include the potential for a
-few tornadoes.
-- PREPARE: If your shelter is particularly vulnerable to
-tornadoes, prepare to relocate to safe shelter before
-hazardous weather arrives.
-- ACT: If a tornado warning is issued, be ready to shelter
-quickly.
+- PLAN: Emergency plans should continue to include possible
+tornadoes.
+- PREPARE: Stay within your shelter keeping informed of the
+latest tornado situation.
+- ACT: Move quickly to the safest place within your shelter
+if a tornado warning is issued.
 
 - POTENTIAL IMPACTS: Limited
 - The occurrence of isolated tornadoes can hinder the
@@ -139,7 +157,7 @@ off roads, and small boats pulled from moorings.
         </parameter>
         <parameter>
             <valueName>WMOidentifier</valueName>
-            <value>WTHW80 PHFO 250253</value>
+            <value>WTHW80 PHFO 250900</value>
         </parameter>
         <parameter>
             <valueName>NWSheadline</valueName>
@@ -165,17 +183,20 @@ off roads, and small boats pulled from moorings.
             <valueName>BLOCKCHANNEL</valueName>
             <value>CMAS</value>
         </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3126c4ccaa67bc07dfa47e9cdbf46d65f9328cf.021.2,2026-09-24T11:19:00-10:00</value>
+        </parameter>
         <area>
-            <areaDesc>Big Island Summit</areaDesc>
-            <polygon>19.324,-155.582 19.298,-155.636 19.281,-155.713 19.317,-155.732 19.398,-155.724 19.462,-155.711 19.528,-155.695 19.572,-155.656 19.606,-155.569 19.609,-155.516 19.595,-155.459 19.567,-155.415 19.536,-155.396 19.483,-155.434 19.427,-155.477 19.367,-155.528 19.324,-155.582</polygon>
-            <polygon>19.740,-155.412 19.737,-155.455 19.763,-155.505 19.795,-155.556 19.805,-155.570 19.824,-155.577 19.850,-155.566 19.877,-155.522 19.899,-155.478 19.893,-155.439 19.895,-155.401 19.871,-155.370 19.813,-155.368 19.779,-155.383 19.740,-155.412</polygon>
+            <areaDesc>Big Island South</areaDesc>
+            <polygon>19.162,-155.677 19.105,-155.664 19.025,-155.660 18.945,-155.673 18.916,-155.683 18.929,-155.685 18.958,-155.727 18.970,-155.764 18.999,-155.805 19.014,-155.873 19.075,-155.813 19.118,-155.789 19.176,-155.772 19.158,-155.753 19.159,-155.682 19.162,-155.677</polygon>
             <geocode>
                 <valueName>SAME</valueName>
                 <value>015001</value>
             </geocode>
             <geocode>
                 <valueName>UGC</valueName>
-                <value>HIZ028</value>
+                <value>HIZ051</value>
             </geocode>
         </area>
     </info>
