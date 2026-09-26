@@ -1,0 +1,119 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.012e28d50aa5880845111255f3e5efc2f3ccf0aa.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T21:04:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.90bbe30e07b77276b59e9ff240663f985897f4e3.001.1,2026-09-24T20:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.54c267477163c836491a7ca1d074d48d11ae24b4.001.1,2026-09-24T20:42:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Severe Thunderstorm Warning</event>
+        <responseType>Shelter</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SVW</value>
+        </eventCode>
+        <effective>2026-09-24T21:04:00-05:00</effective>
+        <onset>2026-09-24T21:04:00-05:00</onset>
+        <expires>2026-09-24T21:15:00-05:00</expires>
+        <senderName>NWS Midland/Odessa TX</senderName>
+        <headline>Severe Thunderstorm Warning issued September 24 at 9:04PM CDT until September 24 at 9:15PM CDT by NWS Midland/Odessa TX</headline>
+        <description>At 904 PM CDT, a severe thunderstorm was located 8 miles northeast of
+Terlingua, or 17 miles northeast of Lajitas, moving north at 20 mph.
+
+HAZARD...60 mph wind gusts and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect damage to roofs, siding, and trees.
+
+Locations impacted include...
+Study Butte.
+</description>
+        <instruction>For your protection move to an interior room on the lowest floor of a
+building.
+
+Torrential rainfall is occurring with this storm, and may lead to
+flash flooding. Do not drive your vehicle through flooded roadways.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SVSMAF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS54 KMAF 250204</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 915 PM CDT FOR WEST CENTRAL BREWSTER COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T02:04:00-00:00...storm...190DEG...17KT...29.43,-103.56</value>
+        </parameter>
+        <parameter>
+            <valueName>windThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>60 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>hailThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.88</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KMAF.SV.W.0268.000000T0000Z-260925T0215Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T21:15:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Brewster, TX</areaDesc>
+            <polygon>29.33,-103.51 29.36,-103.68 29.57,-103.66 29.54,-103.41 29.33,-103.51</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048043</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC043</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
