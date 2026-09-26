@@ -1,0 +1,96 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.3be3b8ce4e46809214511d9c8f11a413af3f98e2.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T08:40:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1a65c7d2470cc30c08386473284f5002105fe83c.003.1,2026-09-26T03:10:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-26T08:40:00-07:00</effective>
+        <onset>2026-09-26T08:40:00-07:00</onset>
+        <expires>2026-09-26T14:00:00-07:00</expires>
+        <senderName>NWS Los Angeles/Oxnard CA</senderName>
+        <headline>Small Craft Advisory issued September 26 at 8:40AM PDT until September 28 at 3:00AM PDT by NWS Los Angeles/Oxnard CA</headline>
+        <description>* WHAT...Hazardous sea conditions.
+
+* WHERE...Outer waters from Santa Cruz Island to San Clemente
+Island to 60 NM offshore including San Nicolas and Santa
+Barbara Islands.
+
+* WHEN...Until 3 AM PDT Monday.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+
+* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFLOX)
+for more.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWLOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KLOX 261540</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 3 AM PDT MONDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KLOX.SC.Y.0139.260926T1540Z-260928T1000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-28T03:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.76660025d5fab131f5a52f595dc73a15d3c8e130.001.1,2026-09-25T19:48:00-07:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Outer waters from Santa Cruz Island to San Clemente Island to 60 NM offshore including San Nicolas and Santa Barbara Islands</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057676</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ676</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
