@@ -1,0 +1,103 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.937a4af7bd7c8454b0cc055baecac1e78a3c4c7e.006.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T05:02:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.75f50c5d0e02845375244f41525c8e654c9e4758.006.1,2026-09-23T18:18:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Beach Hazards Statement</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>BHS</value>
+        </eventCode>
+        <effective>2026-09-24T05:02:00-04:00</effective>
+        <onset>2026-09-24T08:00:00-04:00</onset>
+        <expires>2026-09-24T17:15:00-04:00</expires>
+        <senderName>NWS Newport/Morehead City NC</senderName>
+        <headline>Beach Hazards Statement issued September 24 at 5:02AM EDT until September 24 at 8:00PM EDT by NWS Newport/Morehead City NC</headline>
+        <description>* WHAT...For the Beach Hazards Statement, dangerous rip currents
+and strong longshore currents in the surf zone.
+
+* WHERE...Onslow County beaches.
+
+* WHEN...For the Beach Hazards Statement, until 8 PM EDT this
+evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into deeper water. Strong longshore currents will
+create dangerous swimming conditions.
+
+* ADDITIONAL DETAILS...The most likely time for strong rip
+currents to occur is a couple hours either side of low tide,
+which will occur around 12:12 PM Thursday.
+</description>
+        <instruction>Life-threatening rip currents. If caught in a rip current, remain
+calm. Swim in a direction following the shoreline. If tired,
+float or tread water until out of the rip current. If unable to
+escape, face the shore and call or wave for help.
+
+Strong longshore currents can sweep swimmers and surfers into rip
+currents, piers, jetties and other hazardous areas. In many
+cases, the longshore current is strong enough to prevent swimmers
+from being able to keep their feet on the bottom making it
+difficult to return to shore.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWMHX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KMHX 240902</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>BEACH HAZARDS STATEMENT REMAINS IN EFFECT FROM 8 AM EDT THIS MORNING THROUGH THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KMHX.BH.S.0064.260924T1200Z-260925T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal Onslow</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>037133</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NCZ199</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
