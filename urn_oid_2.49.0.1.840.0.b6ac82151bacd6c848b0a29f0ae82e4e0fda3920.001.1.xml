@@ -1,0 +1,155 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.b6ac82151bacd6c848b0a29f0ae82e4e0fda3920.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T04:36:00-10:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.de7b83f45bf11c362b3e7df34f6173aa7f3c9951.001.1,2026-09-25T09:02:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e2fb99917d0a1355f398062bd4457a9456f6007f.001.1,2026-09-25T16:12:00-10:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>WIY</value>
+        </eventCode>
+        <effective>2026-09-26T04:36:00-10:00</effective>
+        <onset>2026-09-26T06:00:00-10:00</onset>
+        <expires>2026-09-26T17:45:00-10:00</expires>
+        <senderName>NWS Honolulu HI</senderName>
+        <headline>Wind Advisory issued September 26 at 4:36AM HST until September 27 at 6:00PM HST by NWS Honolulu HI</headline>
+        <description>* WHAT...East winds 25 to 35 mph with gusts to 55 mph.
+
+* WHERE...Niihau, Kauai, and Oahu. The strongest winds are expected
+on Oahu, especially over and downwind of terrain.
+
+* WHEN...Until 6 PM HST Sunday.
+
+* IMPACTS...Winds this strong can tear off shingles, knock down tree
+branches, blow away tents and awnings and make it difficult to
+steer, especially for drivers of high profile vehicles.
+</description>
+        <instruction>Watch out for falling tree branches when walking or driving. Make
+sure tents and awnings are secure or take them down. Be prepared for
+power outages.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWHFO</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWHW70 PHFO 261436</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM HST SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PHFO.WI.Y.0019.260926T1600Z-260928T0400Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T18:00:00-10:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Niihau; Kauai Southwest; Kauai Mountains; Waianae Coast; Oahu North Shore; Olomana; Central Oahu; Waianae Mountains; Kauai North; Kauai East; Kauai South; East Honolulu; Honolulu Metro; Ewa Plain; Koolau Windward; Koolau Leeward</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>015007</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>015003</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ001</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ003</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ004</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ006</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ007</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ009</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ010</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ011</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ029</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ030</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ031</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ032</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ033</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ034</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ035</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>HIZ036</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
