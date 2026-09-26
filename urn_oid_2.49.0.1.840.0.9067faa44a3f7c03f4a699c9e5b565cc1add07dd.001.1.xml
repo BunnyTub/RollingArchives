@@ -1,0 +1,89 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9067faa44a3f7c03f4a699c9e5b565cc1add07dd.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T01:09:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.171d9dee41e50e8befdba201b1ca62b4c4a0c015.001.1,2026-09-25T22:22:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9b9ca1f9fd02338a3a7b5de502927a38fcb8bd36.001.1,2026-09-25T23:17:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-26T01:09:00-06:00</effective>
+        <onset>2026-09-26T01:09:00-06:00</onset>
+        <expires>2026-09-26T01:19:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 26 at 1:09AM MDT until September 26 at 1:15AM MDT by NWS Albuquerque NM</headline>
+        <description>The heavy rain has ended. Flash flooding is no longer expected to
+pose a threat. Please continue to heed any remaining road closures.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 260709</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING WILL EXPIRE AT 115 AM MDT EARLY THIS MORNING FOR CENTRAL SOCORRO COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KABQ.FF.W.0200.000000T0000Z-260926T0715Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T01:15:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a7de70388349ece26c41ff924e875082d24ea296.001.1,2026-09-25T21:31:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.075c0cc5f2cb2cc5044e6f9aada66e396fda0c46.001.1,2026-09-25T19:39:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0490e3388d9aa99cbfbd4e7fbfc5f46f6fd9f73b.001.1,2026-09-25T18:40:00-06:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Socorro, NM</areaDesc>
+            <polygon>34.02,-107.3 33.83,-107.27 33.93,-106.77 34.04,-106.62 34.27,-106.62 34.2,-106.92 34.08,-107.13 34.02,-107.3</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035053</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC053</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
