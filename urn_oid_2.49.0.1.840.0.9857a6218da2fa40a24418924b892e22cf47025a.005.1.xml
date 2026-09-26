@@ -1,0 +1,119 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9857a6218da2fa40a24418924b892e22cf47025a.005.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T11:51:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.40b9cdcabd2591f7e1a1d0dcd1d95c2366bf7e7a.005.1,2026-09-26T04:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f4d1d7c65c7f32440cf6714bbf2b04d64ac12875.005.1,2026-09-26T11:40:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <effective>2026-09-26T11:51:00-04:00</effective>
+        <onset>2026-09-26T11:51:00-04:00</onset>
+        <expires>2026-09-27T02:00:00-04:00</expires>
+        <senderName>NWS Mount Holly NJ</senderName>
+        <headline>Coastal Flood Warning issued September 26 at 11:51AM EDT until September 27 at 2:00PM EDT by NWS Mount Holly NJ</headline>
+        <description>* WHAT...One to two feet of inundation above ground level in low-
+lying areas near shorelines and tidal waterways.
+
+* WHERE...Middlesex and Western Monmouth.
+
+* WHEN...Until 2 PM EDT Sunday.
+
+* IMPACTS...At this level, widespread roadway flooding occurs in
+coastal and bayside communities and along inland tidal
+waterways. Many roads become impassable. Some damage to
+vulnerable structures may begin to occur.
+</description>
+        <instruction>A Coastal Flood Warning means that moderate or major tidal
+flooding is occurring or imminent. Be prepared for rising water
+levels and take appropriate action to protect life and property.
+Follow the recommendations of local emergency management
+officials.
+
+Do not drive your vehicle through flood waters. The water may be
+deeper than you think it is. You will be putting yourself in
+danger and your vehicle may be damaged, leading to costly
+repairs.
+
+Visit the National Water Prediction Service at
+https://water.noaa.gov/wfo/phi for additional water level and
+flood impact information for your local tide gauge.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWPHI</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KPHI 261551 CCA</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL 2 PM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KPHI.CF.W.0002.000000T0000Z-260927T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T14:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aeb6718f9fe47b7d28ac71f228fdab32e42dfcc7.007.1,2026-09-25T14:34:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bf1cc4299e6b8079b30d71d80da99131d9f6dad2.009.1,2026-09-25T07:33:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c91fe2f6bf966ebf81259b33dcf2c6ba528dffd3.008.1,2026-09-25T06:18:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9ef904efb0cbb96125572a91e3572d862fb12a83.002.2,2026-09-24T22:50:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Middlesex; Western Monmouth</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034023</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>034025</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ012</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NJZ013</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
