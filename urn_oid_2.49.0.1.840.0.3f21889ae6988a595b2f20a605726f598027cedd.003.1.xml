@@ -1,0 +1,100 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.3f21889ae6988a595b2f20a605726f598027cedd.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T14:03:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6edd0fb3028c08ba530088ba0447e4e8824bba0.006.1,2026-09-26T02:28:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed1a186a04ef5b57d46e934b6439aa4e92ad8603.006.1,2026-09-26T06:10:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.10099bed6defbca877e678ceb398590345a85c93.005.1,2026-09-26T08:55:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-26T14:03:00-04:00</effective>
+        <onset>2026-09-26T14:03:00-04:00</onset>
+        <expires>2026-09-27T02:00:00-04:00</expires>
+        <senderName>NWS Newport/Morehead City NC</senderName>
+        <headline>Small Craft Advisory issued September 26 at 2:03PM EDT until September 27 at 2:00AM EDT by NWS Newport/Morehead City NC</headline>
+        <description>* WHAT...Northwest winds 15 to 20 kt with gusts up to 25 kt and
+choppy waters.
+
+* WHERE...Albemarle Sound and Alligator River.
+
+* WHEN...Until 2 AM EDT Sunday.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWMHX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS72 KMHX 261803</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 2 AM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KMHX.SC.Y.0085.000000T0000Z-260927T0600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T02:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.15489335f5d2c9b97a3fab5e9b649b2694f5364f.007.1,2026-09-25T20:07:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.61ab6eeea20c285c374d6b940ba873dbc7a3f919.007.1,2026-09-25T14:28:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.31005eb400aaa0a5a362f74c0efdbdcf55d87bd5.007.1,2026-09-25T09:37:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2cfb3693eaa67fda52fd97392ec866670a2ea645.002.2,2026-09-25T06:19:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Alligator River; Albemarle Sound</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075131</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075230</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ131</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ230</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
