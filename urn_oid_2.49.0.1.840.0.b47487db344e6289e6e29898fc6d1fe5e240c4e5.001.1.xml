@@ -1,0 +1,89 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.b47487db344e6289e6e29898fc6d1fe5e240c4e5.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T13:51:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aea1657e6a7efbedb1d5b36222adff11344fd164.001.1,2026-09-24T13:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fb3c8fcc91842510c77a7652467207aac0728ce9.002.1,2026-09-24T13:29:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Severe Thunderstorm Warning</event>
+        <responseType>Shelter</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SVW</value>
+        </eventCode>
+        <effective>2026-09-24T13:51:00-05:00</effective>
+        <onset>2026-09-24T13:51:00-05:00</onset>
+        <expires>2026-09-24T14:01:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Severe Thunderstorm Warning issued September 24 at 1:51PM CDT until September 24 at 2:00PM CDT by NWS Amarillo TX</headline>
+        <description>The storm which prompted the warning has moved out of the area.
+Therefore, the warning will be allowed to expire.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SVSAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS54 KAMA 241851</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>THE SEVERE THUNDERSTORM WARNING FOR SOUTHWESTERN COLLINGSWORTH COUNTY WILL EXPIRE AT 200 PM CDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-24T18:51:00-00:00...storm...228DEG...20KT...34.9,-100.31</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KAMA.SV.W.0321.000000T0000Z-260924T1900Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T14:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Collingsworth, TX</areaDesc>
+            <polygon>34.82,-100.54 34.88,-100.54 35.05,-100.41 34.84,-100.13 34.75,-100.32 34.75,-100.48 34.82,-100.54</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048087</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC087</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

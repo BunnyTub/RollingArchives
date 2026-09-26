@@ -1,0 +1,106 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.eab952878eeca53ad1e5707f99aa3441557d43f3.002.3</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-23T22:26:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Hazardous Seas Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SEW</value>
+        </eventCode>
+        <effective>2026-09-23T22:26:00-07:00</effective>
+        <onset>2026-09-24T23:00:00-07:00</onset>
+        <expires>2026-09-24T11:30:00-07:00</expires>
+        <senderName>NWS Medford OR</senderName>
+        <headline>Hazardous Seas Warning issued September 23 at 10:26PM PDT until September 25 at 2:00PM PDT by NWS Medford OR</headline>
+        <description>* WHAT...For the Small Craft Advisory, north winds 15 to 20 kt
+with gusts up to 25 kt and seas 6 to 9 ft at 7 seconds. For the
+Hazardous Seas Warning, very steep and hazardous seas 9 to 13
+ft at 10 seconds expected.
+
+* WHERE...Small Craft Advisory south of Port Orford overnight.
+Hazardous Seas Warning for all of the area late Thursday night
+into Friday afternoon.
+
+* WHEN...For the Small Craft Advisory, until 2 AM PDT Thursday.
+For the Hazardous Seas Warning, from 11 PM Thursday to 2 PM
+PDT Friday.
+
+* IMPACTS...Very steep and hazardous seas could capsize or
+damage vessels. Bar crossings will become especially
+treacherous.
+
+* View the hazard area in detail at https://go.usa.gov/x6hks
+</description>
+        <instruction>Recreational boaters should remain in port. Commercial vessels
+should prepare for very steep seas and consider remaining in port
+until conditions improve.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWMFR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KMFR 240526</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 2 AM PDT THURSDAY... ...HAZARDOUS SEAS WARNING IN EFFECT FROM 11 PM THURSDAY TO 2 PM PDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KMFR.SE.W.0036.260925T0600Z-260925T2100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T14:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 nm; Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 nm</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057356</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057376</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ356</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ376</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
