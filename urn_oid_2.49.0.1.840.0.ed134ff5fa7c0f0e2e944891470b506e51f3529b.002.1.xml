@@ -1,0 +1,104 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.ed134ff5fa7c0f0e2e944891470b506e51f3529b.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T14:34:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0ae204ad2caa5ae0881ae87483774b2061e78915.002.1,2026-09-24T10:47:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <effective>2026-09-24T14:34:00-04:00</effective>
+        <onset>2026-09-24T14:34:00-04:00</onset>
+        <expires>2026-09-24T23:00:00-04:00</expires>
+        <senderName>NWS Baltimore MD/Washington DC</senderName>
+        <headline>Coastal Flood Warning issued September 24 at 2:34PM EDT until September 25 at 11:00AM EDT by NWS Baltimore MD/Washington DC</headline>
+        <description>* WHAT...Up to one foot of inundation above ground level in low
+lying areas due to tidal flooding.
+
+* WHERE...Shoreline in Anne Arundel County.
+
+* WHEN...Until 11 AM EDT Friday, especially around the time of
+high tide.
+
+* IMPACTS...At 3.2 feet, water begins to approach businesses on
+Dock Street in Annapolis. The City Dock parking lot is
+flooded. Compromise Street is flooded.
+
+* ADDITIONAL DETAILS...Tides one and a half to two feet above
+normal. The next high tide at Annapolis U.S. Naval Academy is at
+4:25 PM and 4:42 AM.
+</description>
+        <instruction>Take the necessary actions to protect flood-prone property. If
+travel is required, do not drive around barricades or through
+water of unknown depth.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWLWX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KLWX 241834</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL 11 AM EDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KLWX.CF.W.0002.000000T0000Z-260925T1500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T11:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.baeb7b568831b592ac62703c9c7c0b29a52f4253.003.1,2026-09-24T03:10:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6281288e4dfc267920594d3f607da741e16589a3.002.1,2026-09-23T22:41:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7ffea5f088e04ca8470438a249d1127e87f1b4bb.002.2,2026-09-23T15:08:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Anne Arundel</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>024003</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MDZ014</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
