@@ -1,0 +1,95 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.6df2a6dbf4f9c1169b8b2ae6e8b8ae18157489fb.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T11:09:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.22c540c2aa313d9138da6678f61938a4f9edb8c9.001.1,2026-09-25T04:10:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f89b4de499f50dd66e6efa55ddbf8973d3b815ee.001.1,2026-09-25T08:57:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T11:09:00-07:00</effective>
+        <onset>2026-09-25T15:00:00-07:00</onset>
+        <expires>2026-09-25T19:15:00-07:00</expires>
+        <senderName>NWS Los Angeles/Oxnard CA</senderName>
+        <headline>Small Craft Advisory issued September 25 at 11:09AM PDT until September 25 at 9:00PM PDT by NWS Los Angeles/Oxnard CA</headline>
+        <description>* WHAT...Hazardous sea conditions.
+
+* WHERE...Point Piedras Blancas to Point Sal westward out to 10
+NM.
+
+* WHEN...From 3 PM this afternoon to 9 PM PDT this evening.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+
+* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFLOX)
+for more.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWLOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KLOX 251809</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO 9 PM PDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KLOX.SC.Y.0139.260925T2200Z-260926T0400Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T21:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a01e8823f6d6cc4a921ff6622017f72599d228c1.002.1,2026-09-24T20:04:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ec01c224ddbf6b121cb0fb3ffb6b3254407d0588.001.1,2026-09-24T13:30:00-07:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Point Piedras Blancas to Point Sal westward out to 10 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057645</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ645</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
