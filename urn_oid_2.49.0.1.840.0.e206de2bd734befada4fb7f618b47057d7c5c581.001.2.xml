@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.e206de2bd734befada4fb7f618b47057d7c5c581.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T01:29:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-24T01:29:00-07:00</effective>
+        <onset>2026-09-24T20:00:00-07:00</onset>
+        <expires>2026-09-24T17:30:00-07:00</expires>
+        <senderName>NWS Portland OR</senderName>
+        <headline>Gale Warning issued September 24 at 1:29AM PDT until September 25 at 11:00AM PDT by NWS Portland OR</headline>
+        <description>* WHAT...Seas 12 to 16 ft at 9 to 10 seconds and south to
+southwest winds 20 to 30 kt with gusts up to 40 kt expected.
+Isolated gusts as high as 45 kt possible.
+
+* WHERE...Coastal waters from Cape Foulweather to Florence OR
+out 10 NM and Waters from Cape Foulweather to Florence OR from
+10 to 60 NM.
+
+* WHEN...From 8 PM this evening to 11 AM PDT Friday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>A Gale Warning means winds of 34 to 47 knots are imminent or
+occurring. Operating a vessel in gale conditions requires
+experience and properly equipped vessels. It is highly
+recommended that mariners without the proper experience seek safe
+harbor prior to the onset of gale conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWPQR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KPQR 240829</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING IN EFFECT FROM 8 PM THIS EVENING TO 11 AM PDT FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KPQR.GL.W.0012.260925T0300Z-260925T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T11:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Cape Foulweather to Florence OR out 10 nm; Waters from Cape Foulweather to Florence OR from 10 to 60 nm</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057253</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057273</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ253</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ273</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
