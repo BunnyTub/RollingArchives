@@ -1,0 +1,91 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.1e61eeb506f279df58c7d126f23951214cee7111.004.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T03:05:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T03:05:00-04:00</effective>
+        <onset>2026-09-25T03:05:00-04:00</onset>
+        <expires>2026-09-25T11:15:00-04:00</expires>
+        <senderName>NWS Charleston SC</senderName>
+        <headline>Small Craft Advisory issued September 25 at 3:05AM EDT until September 26 at 2:00AM EDT by NWS Charleston SC</headline>
+        <description>* WHAT...North winds 15 to 25 kt with gusts up to 30 kt and seas
+4 to 7 ft.
+
+* WHERE...Savannah to Altamaha Sound out 20 NM.
+
+* WHEN...Until 2 AM EDT Saturday.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWCHS</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS72 KCHS 250705</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 2 AM EDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KCHS.SC.Y.0050.000000T0000Z-260926T0600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T02:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.abdf29f9f0bedb864336421a9b5c35df1e12b906.007.1,2026-09-24T14:02:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bfe2db5c7beb5c1471afc25d92efd6615c7a2fe0.007.1,2026-09-24T18:29:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6a752591e308a3f0b24200f8f857e670ccc89d3.007.1,2026-09-24T14:01:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f9ceeabfdba8fe7c68d68e7ab9b092bf6ca30a7d.007.1,2026-09-24T08:19:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.df6f6bee6c563b5cd1cc3af2cabdbed356f6b9ed.004.1,2026-09-24T02:32:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.706285c84964bab9f28ec5abe1985eaa48a8b5a1.007.1,2026-09-23T13:37:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.43a277bd944c8868487e2a014fb3a017aa9b8860.007.1,2026-09-23T18:46:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ffbca6d3691b98d314f143a725e7410cda1d66c5.004.1,2026-09-23T08:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4a3b6eb11c9ae47b89cf374114dce6be725c982e.004.1,2026-09-23T02:13:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dfe0edb52850e4029a0f53ef9259182f265388d1.003.1,2026-09-22T19:58:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1a987f18b505b8a72825bfc4e24dc425eb218e44.003.1,2026-09-22T14:13:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Savannah GA to Altamaha Sound GA out 20 nm, including Grays Reef National Marine Sanctuary</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075364</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ364</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
