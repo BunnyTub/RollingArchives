@@ -1,0 +1,91 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.dba414054a16e8f946250293dea05c45c601c6d9.006.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T03:46:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T03:46:00-08:00</effective>
+        <onset>2026-09-25T03:00:00-08:00</onset>
+        <expires>2026-09-25T18:00:00-08:00</expires>
+        <senderName>NWS Fairbanks AK</senderName>
+        <headline>Small Craft Advisory issued September 25 at 3:46AM AKDT until September 26 at 5:00AM AKDT by NWS Fairbanks AK</headline>
+        <description>Northwestern Alaska Coastal Waters out 100 NM
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent the average of the highest one-
+third of the combined wind-wave and swell height.
+
+.TODAY...E winds 25 kt. Seas 5 ft.
+.TONIGHT...E winds 25 kt. Seas 5 ft.
+.SAT...E winds 20 kt. Seas 4 ft.
+.SAT NIGHT...N winds 20 kt. Seas 4 ft.
+.SUN...N winds 25 kt. Seas 4 ft.
+.SUN NIGHT...N winds 20 kt. Seas 6 ft.
+.MON...N winds 30 kt. Seas 7 ft.
+.TUE...N winds 35 kt. Seas 7 ft.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CWFWCZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK52 PAFG 251146</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY IN EFFECT THROUGH LATE TONIGHT</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.PAFG.SC.Y.6955.260925T1100Z-260926T1300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T05:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Sledge Island to Wales out to 15 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058806</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ806</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
