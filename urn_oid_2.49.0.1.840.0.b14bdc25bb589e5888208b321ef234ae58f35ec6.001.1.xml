@@ -1,0 +1,85 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.b14bdc25bb589e5888208b321ef234ae58f35ec6.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T16:12:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f0aa3bda31f06caccbc9d808077a54904a71cbc4.001.1,2026-09-24T14:13:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T16:12:00-07:00</effective>
+        <onset>2026-09-24T16:12:00-07:00</onset>
+        <expires>2026-09-24T16:22:00-07:00</expires>
+        <senderName>NWS San Diego CA</senderName>
+        <headline>Flood Advisory issued September 24 at 4:12PM PDT until September 24 at 4:15PM PDT by NWS San Diego CA</headline>
+        <description>The Flood Advisory will expire at 415 PM PDT this afternoon for a
+portion of Southwest California, including the following area,
+Riverside.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSSGX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS86 KSGX 242312</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY WILL EXPIRE AT 415 PM PDT THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KSGX.FA.Y.0058.000000T0000Z-260924T2315Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T16:15:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Riverside, CA</areaDesc>
+            <polygon>33.68,-116.78 33.66,-116.58 33.58,-116.34 33.46,-116.38 33.61,-116.8 33.68,-116.78</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>006065</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CAC065</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
