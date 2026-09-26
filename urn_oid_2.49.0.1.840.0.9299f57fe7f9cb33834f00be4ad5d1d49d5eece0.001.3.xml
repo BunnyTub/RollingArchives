@@ -1,0 +1,119 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9299f57fe7f9cb33834f00be4ad5d1d49d5eece0.001.3</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T12:09:00-10:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7f7987172262de72de54a9ba4197c716c0d335e0.001.2,2026-09-24T04:32:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7f7987172262de72de54a9ba4197c716c0d335e0.004.2,2026-09-24T04:32:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.16c0da5abaf69bca5cd0f6f1e73e576ce81a790e.002.3,2026-09-24T11:29:00-10:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Hurricane Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HUA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>HUA</value>
+        </eventCode>
+        <effective>2026-09-24T12:09:00-10:00</effective>
+        <onset>2026-09-24T12:09:00-10:00</onset>
+        <expires>2026-09-25T01:15:00-10:00</expires>
+        <senderName>NWS Honolulu HI</senderName>
+        <headline>Hurricane Watch issued September 24 at 12:09PM HST by NWS Honolulu HI</headline>
+        <description>* WHAT...East winds 35 to 45 kt and seas 15 to 20 feet.
+
+* WHERE...Alenuihaha Channel, Big Island Windward Waters, Big
+Island Leeward Waters and Big Island Southeast Waters.
+
+* WHEN...Through Saturday afternoon.
+
+* IMPACTS...Extremely strong winds will cause hazardous seas
+which will likely capsize or damage vessels and severely
+reduce visibility.
+</description>
+        <instruction>Mariners should remain in port, alter course, and/or secure the
+vessel for extreme conditions before conditions deteriorate
+further.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWHFO</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHHW70 PHFO 242209</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>TROPICAL STORM WARNING REMAINS IN EFFECT... ...HURRICANE WATCH REMAINS IN EFFECT... ...SMALL CRAFT ADVISORY IS CANCELLED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PHFO.HU.A.2015.000000T0000Z-000000T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.922e995cefe87e9380ae1dc85779c56483356aa7.005.1,2026-09-23T16:56:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.922e995cefe87e9380ae1dc85779c56483356aa7.004.2,2026-09-23T16:56:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a33a4b1093ba762e32db98db42144a7bab008570.003.1,2026-09-23T11:03:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a33a4b1093ba762e32db98db42144a7bab008570.001.1,2026-09-23T11:03:00-10:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Alenuihaha Channel; Big Island Windward Waters; Big Island Leeward Waters; Big Island Southeast Waters</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>059121</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>059122</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>059123</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>059124</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PHZ121</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PHZ122</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PHZ123</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PHZ124</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
