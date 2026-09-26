@@ -1,0 +1,119 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.81dae428882d906144a008340ec636be211cf90f.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T07:06:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <effective>2026-09-25T07:06:00-06:00</effective>
+        <onset>2026-09-25T23:54:00-06:00</onset>
+        <expires>2026-09-25T21:00:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flood Warning issued September 25 at 7:06AM MDT until September 27 at 6:00AM MDT by NWS Albuquerque NM</headline>
+        <description>...The National Weather Service in Albuquerque has issued a Flood
+Warning for the following rivers in New Mexico...
+
+Pecos River Near Lake Arthur affecting Chaves County.
+
+.Heavy rains North and East of Lake Arthur will result in significant
+and dangerous rises in the river throughout today and tomorrow. Pay
+attention to river forecasts for changes in height and timing
+information.
+
+* WHAT...Moderate flooding is forecast. This approaches the flood of
+record.
+
+* WHERE...Pecos River near Lake Arthur.
+
+* WHEN...From this evening to Sunday morning.
+
+* ADDITIONAL DETAILS...
+- At 6:15 AM MDT Friday the stage was 5.1 feet.
+- Bankfull stage is 17.5 feet.
+- Forecast...The river is expected to rise above flood stage late
+this evening to a crest of 22.6 feet tomorrow morning. It will
+then fall below flood stage tomorrow evening.
+- Flood stage is 20.0 feet.
+- Flood History...This crest compares to a previous crest of 21.9
+feet on 09/24/1941.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>
+
+Motorists should not attempt to drive around barricades or drive cars
+through flooded areas.
+
+Caution is urged when walking near riverbanks.
+
+Additional information is available at www.weather.gov/abq.
+
+The next statement will be issued this evening at 900 PM MDT.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS45 KABQ 251306</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING IN EFFECT FROM THIS EVENING TO SUNDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KABQ.FL.W.0003.260926T0554Z-260927T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T06:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves, NM</areaDesc>
+            <polygon>33.43,-104.32 33.2,-104.25 32.96,-104.22 32.96,-104.4 33.18,-104.38 33.43,-104.45 33.43,-104.32</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC005</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
