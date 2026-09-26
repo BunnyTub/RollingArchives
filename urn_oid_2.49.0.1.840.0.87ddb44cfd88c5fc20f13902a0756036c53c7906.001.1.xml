@@ -1,0 +1,107 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.87ddb44cfd88c5fc20f13902a0756036c53c7906.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T14:50:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <effective>2026-09-26T14:50:00-04:00</effective>
+        <onset>2026-09-26T23:00:00-04:00</onset>
+        <expires>2026-09-26T23:00:00-04:00</expires>
+        <senderName>NWS Baltimore MD/Washington DC</senderName>
+        <headline>Coastal Flood Warning issued September 26 at 2:50PM EDT until September 27 at 6:00PM EDT by NWS Baltimore MD/Washington DC</headline>
+        <description>* WHAT...For the Coastal Flood Advisory, up to two feet of
+inundation above ground level in low lying areas due to tidal
+flooding. For the Coastal Flood Warning, up to two and a half
+feet of inundation above ground level expected in low lying
+areas due to tidal flooding.
+
+* WHERE...Shoreline in St. Marys County.
+
+* WHEN...For the Coastal Flood Advisory, until 11 PM EDT this
+evening, especially around the time of high tide. For the
+Coastal Flood Warning, from 11 PM this evening to 6 PM EDT
+Sunday, especially around the time of high tide.
+
+* IMPACTS...At 3.5 feet, water covers roads on Saint George
+Island, is in yards, and is approaching structures. To the
+east, inundation is occurring at multiple marinas off St.
+Mary's River, Smith Creek, and Jutland Creek.
+
+* ADDITIONAL DETAILS...Tides two and a half to three feet above
+normal. The next high tide at Piney Point is at 3:07 AM and 3:19
+PM. The next high tide at Coltons Point is at 3:19 PM and 3:43
+AM. The next high tide at Point Lookout is at 1:55 AM and 2:36
+PM.
+</description>
+        <instruction>Take the necessary actions to protect flood-prone property. If
+travel is required, do not drive around barricades or through
+water of unknown depth.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWLWX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KLWX 261850</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD ADVISORY NOW IN EFFECT UNTIL 11 PM EDT THIS EVENING... ...COASTAL FLOOD WARNING IN EFFECT FROM 11 PM THIS EVENING TO 6 PM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KLWX.CF.W.0003.260927T0300Z-260927T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T18:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>St. Marys</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>024037</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MDZ017</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
