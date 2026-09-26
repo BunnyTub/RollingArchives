@@ -1,0 +1,112 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.dd368d22fd6acf8c9eec180a04ada697f666e3b6.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T15:53:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T15:53:00-06:00</effective>
+        <onset>2026-09-24T15:53:00-06:00</onset>
+        <expires>2026-09-24T19:00:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 3:53PM MDT until September 24 at 7:00PM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>FFWEPZ
+
+The National Weather Service in El Paso Tx/Santa Teresa has issued a
+
+* Flash Flood Warning for...
+Central El Paso County in western Texas...
+
+* Until 700 PM MDT.
+
+* At 353 PM MDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 0.5 and 1 inch of rain
+has fallen. Additional rainfall amounts up to 1 inch are possible
+in the warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+East El Paso, Far East El Paso, Mission Valley, Horizon City,
+Clint, San Elizario, Socorro and Sparks.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS54 KEPZ 242153</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KEPZ.FF.W.0164.260924T2153Z-260925T0100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T19:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>El Paso, TX</areaDesc>
+            <polygon>31.69,-106.35 31.75,-106.25 31.69,-106.17 31.65,-106.18 31.56,-106.27 31.56,-106.28 31.58,-106.29 31.61,-106.3 31.62,-106.3 31.66,-106.33 31.69,-106.35</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048141</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC141</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
