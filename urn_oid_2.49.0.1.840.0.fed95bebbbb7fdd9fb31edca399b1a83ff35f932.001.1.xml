@@ -1,0 +1,108 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.fed95bebbbb7fdd9fb31edca399b1a83ff35f932.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T15:54:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-25T15:54:00-06:00</effective>
+        <onset>2026-09-25T15:54:00-06:00</onset>
+        <expires>2026-09-25T18:00:00-06:00</expires>
+        <senderName>NWS Denver CO</senderName>
+        <headline>Flood Advisory issued September 25 at 3:54PM MDT until September 25 at 6:00PM MDT by NWS Denver CO</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Northeastern Jefferson County in central Colorado...
+
+* WHEN...Until 600 PM MDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+
+- At 354 PM MDT, Doppler radar indicated heavy rain due to
+thunderstorms. Minor flooding is ongoing or expected to begin
+shortly in the advisory area. Up to 1.25 inchES of rain has
+fallen.
+
+- This includes the following streams and drainages...
+Clear Creek, Tucker Gulch, Ralston Creek and Van Bibber Creek.
+Additional rainfall amounts up to 0.5 inches are expected over
+the area. This additional rain will result in minor flooding.
+
+- Some locations that will experience flooding include...
+Southwestern Arvada, western Wheat Ridge, northwestern Golden and
+White Ranch Open Space.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Excessive runoff from heavy rainfall will cause flooding of small
+creeks and streams, highways and underpasses. Additionally, country
+roads, farmlands along the banks of creeks, and other low lying areas
+are subject to flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSBOU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS85 KBOU 252154</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 6 PM MDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KBOU.FA.Y.0162.260925T2154Z-260926T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T18:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Jefferson, CO</areaDesc>
+            <polygon>39.85,-105.32 39.82,-105.32 39.8,-105.3 39.8,-105.29 39.79,-105.29 39.78,-105.26 39.77,-105.26 39.77,-105.23 39.76,-105.22 39.76,-105.11 39.78,-105.11 39.78,-105.1 39.79,-105.11 39.81,-105.11 39.81,-105.12 39.82,-105.12 39.82,-105.14 39.83,-105.14 39.83,-105.18 39.84,-105.18 39.85,-105.32</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008059</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COC059</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
