@@ -1,0 +1,88 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.255a0ed910f9ecc079fa9ba424c017a718cfa34f.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T00:57:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.734f249b97b1d892b581924969e1d5c9d5304a31.001.1,2026-09-24T22:02:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T00:57:00-06:00</effective>
+        <onset>2026-09-25T00:57:00-06:00</onset>
+        <expires>2026-09-25T01:07:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 12:57AM MDT until September 25 at 1:00AM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>Flood waters have receded. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+
+A Flood Watch remains in effect until 600 AM MDT for a portion of
+southwest Texas.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS74 KEPZ 250657</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING WILL EXPIRE AT 1 AM MDT EARLY THIS MORNING FOR SOUTHEASTERN EL PASO COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KEPZ.FF.W.0167.000000T0000Z-260925T0700Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T01:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>El Paso, TX</areaDesc>
+            <polygon>31.46,-106.2 31.58,-106.14 31.59,-106.06 31.51,-106.03 31.4,-106.08 31.42,-106.11 31.43,-106.13 31.44,-106.16 31.46,-106.18 31.46,-106.2</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048141</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC141</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
