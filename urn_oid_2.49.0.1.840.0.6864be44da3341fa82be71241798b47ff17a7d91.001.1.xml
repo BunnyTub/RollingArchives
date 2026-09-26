@@ -1,0 +1,266 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.6864be44da3341fa82be71241798b47ff17a7d91.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T01:30:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T01:30:00-06:00</effective>
+        <onset>2026-09-25T01:30:00-06:00</onset>
+        <expires>2026-09-25T07:30:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 1:30AM MDT until September 25 at 7:30AM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>FFWEPZ
+
+The National Weather Service in El Paso Tx/Santa Teresa has issued a
+
+* Flash Flood Warning for...
+Central Otero County in south central New Mexico...
+
+* Until 730 AM MDT.
+
+* At 130 AM MDT, Moderate to heavy rainfall falling over highly
+saturated ground in the eastern Sacramento Mountains will lead to
+considerable flooding in area streams overnight. Impacts will be
+worse the further downstream, or east you go, as runoff builds up.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Radar indicated.
+
+IMPACT...Life threatening flash flooding of creeks and streams,
+roads, and low water crossings. Washouts and stream bank
+erosion are likely.
+
+* Some locations that will experience flash flooding include...
+Sacramento, Mayhill, Weed, Sixteen Springs, James Canyon, Cox
+Canyon and Hay Canyon.
+
+
+
+Impacted streams include, but are not limited to...
+Rio Penasco, Agua Chiquita Creek, Bluewater Creek, Dry Burnt Canyon,
+Elk Canyon, Lower Portions of Hay Canyon, Cox Canyon, and James
+Canyon.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Please report observed flooding to local emergency services or law
+enforcement and request they pass this information to the National
+Weather Service when you can do so safely.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS54 KEPZ 250730</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KEPZ.FF.W.0175.260925T0730Z-260925T1330Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T07:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>NWS: FLASH FLOOD WARNING this area til 7:30 AM MDT. Avoid flooded areas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>National Weather Service: A FLASH FLOOD WARNING is in effect for this area until 7:30 AM MDT. This is a dangerous and life-threatening situation. Do not attempt to travel unless you are fleeing an area subject to flooding or under an evacuation order.</value>
+        </parameter>
+        <area>
+            <areaDesc>Otero, NM</areaDesc>
+            <polygon>32.73,-105.35 32.75,-105.41 32.71,-105.5 32.68,-105.6 32.71,-105.66 32.73,-105.71 32.76,-105.73 32.81,-105.74 32.87,-105.71 32.92,-105.66 33.0,-105.51 33.03,-105.44 33.01,-105.38 32.97,-105.32 32.96,-105.32 32.96,-105.35 32.73,-105.35</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035035</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC035</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>es-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T01:30:00-06:00</effective>
+        <onset>2026-09-25T01:30:00-06:00</onset>
+        <expires>2026-09-25T07:30:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 1:30AM MDT until September 25 at 7:30AM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>FFWEPZ
+
+The National Weather Service in El Paso Tx/Santa Teresa has issued a
+
+* Flash Flood Warning for...
+Central Otero County in south central New Mexico...
+
+* Until 730 AM MDT.
+
+* At 130 AM MDT, Moderate to heavy rainfall falling over highly
+saturated ground in the eastern Sacramento Mountains will lead to
+considerable flooding in area streams overnight. Impacts will be
+worse the further downstream, or east you go, as runoff builds up.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Radar indicated.
+
+IMPACT...Life threatening flash flooding of creeks and streams,
+roads, and low water crossings. Washouts and stream bank
+erosion are likely.
+
+* Some locations that will experience flash flooding include...
+Sacramento, Mayhill, Weed, Sixteen Springs, James Canyon, Cox
+Canyon and Hay Canyon.
+
+
+
+Impacted streams include, but are not limited to...
+Rio Penasco, Agua Chiquita Creek, Bluewater Creek, Dry Burnt Canyon,
+Elk Canyon, Lower Portions of Hay Canyon, Cox Canyon, and James
+Canyon.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Please report observed flooding to local emergency services or law
+enforcement and request they pass this information to the National
+Weather Service when you can do so safely.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS54 KEPZ 250730</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KEPZ.FF.W.0175.260925T0730Z-260925T1330Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T07:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>WEAHandling</valueName>
+            <value>Imminent Threat</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMtext</valueName>
+            <value>SNM: AVISO DE INUNDACIONES REPENTINAS hasta 7:30 AM MDT. Evite areas inundadas.</value>
+        </parameter>
+        <parameter>
+            <valueName>CMAMlongtext</valueName>
+            <value>Servicio Nacional de Meteorologia: AVISO DE INUNDACIONES REPENTINAS en efecto para esta area hasta las 7:30 AM MDT. Esta es una situacion peligrosa y amenaza la vida. No intente viajar a menos que sea para abandonar un area propensa a inundaciones o bajo una orden de desalojo.</value>
+        </parameter>
+        <area>
+            <areaDesc>Otero, NM</areaDesc>
+            <polygon>32.73,-105.35 32.75,-105.41 32.71,-105.5 32.68,-105.6 32.71,-105.66 32.73,-105.71 32.76,-105.73 32.81,-105.74 32.87,-105.71 32.92,-105.66 33.0,-105.51 33.03,-105.44 33.01,-105.38 32.97,-105.32 32.96,-105.32 32.96,-105.35 32.73,-105.35</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035035</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC035</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
