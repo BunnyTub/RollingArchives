@@ -1,0 +1,110 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.f5cb8aff25803c716998fe7ad961b885c6f232ce.006.3</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T05:27:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <effective>2026-09-25T05:27:00-04:00</effective>
+        <onset>2026-09-25T18:00:00-04:00</onset>
+        <expires>2026-09-25T13:30:00-04:00</expires>
+        <senderName>NWS Upton NY</senderName>
+        <headline>Coastal Flood Warning issued September 25 at 5:27AM EDT until September 27 at 6:00PM EDT by NWS Upton NY</headline>
+        <description>* WHAT...Two to three feet of inundation above ground level
+expected in vulnerable areas near the waterfront and shoreline.
+
+* WHERE...Northwest Suffolk and Northern Nassau Counties.
+
+* WHEN...From 6 PM this evening to 6 PM EDT Sunday.
+
+* IMPACTS...Widespread flooding of vulnerable areas near the
+waterfront and shoreline, including roads, parking lots, parks,
+lawns, and homes and businesses with basements near the
+waterfront. Numerous road closures are likely, and vehicles
+parked in vulnerable areas near the waterfront will likely
+become flooded. Flooding will also extend inland from the
+waterfront along tidal rivers and bays.
+
+* ADDITIONAL DETAILS...Moderate flooding will occur over multiple
+high tide cycles tonight through Sunday. The worst flooding is
+expected with the daytime high tide cycles Saturday and Sunday.
+</description>
+        <instruction>Take the necessary actions to protect flood-prone property. If
+travel is required, do not drive around barricades or through
+water of unknown depth.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWOKX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KOKX 250927</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD WARNING IN EFFECT FROM 6 PM THIS EVENING TO 6 PM EDT SUNDAY... ...COASTAL FLOOD STATEMENT IS CANCELLED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KOKX.CF.W.0002.260925T2200Z-260927T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T18:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Northwest Suffolk; Northern Nassau</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036103</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036059</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYZ078</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYZ177</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
