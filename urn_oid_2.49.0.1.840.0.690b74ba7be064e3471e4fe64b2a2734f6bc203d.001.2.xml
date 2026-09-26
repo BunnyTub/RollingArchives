@@ -1,0 +1,103 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.690b74ba7be064e3471e4fe64b2a2734f6bc203d.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T06:41:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T06:41:00-07:00</effective>
+        <onset>2026-09-25T14:00:00-07:00</onset>
+        <expires>2026-09-25T19:45:00-07:00</expires>
+        <senderName>NWS Medford OR</senderName>
+        <headline>Small Craft Advisory issued September 25 at 6:41AM PDT until September 25 at 11:00PM PDT by NWS Medford OR</headline>
+        <description>* WHAT...Very steep and hazardous seas 9 to 11 ft at 8 to 9
+seconds gradually subsiding to 7 to 9 ft at 9 seconds this
+afternoon and evening. W winds easing to 10 to 20 kt today.
+
+* WHERE...All areas, except highest seas north of Reedsport.
+
+* WHEN...For the Hazardous Seas Warning, until 2 PM PDT this
+afternoon. For the Small Craft Advisory, from 2 PM this
+afternoon to 11 PM PDT this evening.
+
+* IMPACTS...Very steep and hazardous seas could capsize or
+damage vessels. Bar crossings will become especially
+treacherous.
+
+* View the hazard area in detail at https://go.usa.gov/x6hks
+</description>
+        <instruction>Recreational boaters should remain in port. Commercial vessels
+should prepare for very steep seas and consider remaining in port
+until conditions improve.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWMFR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KMFR 251341 AAA</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HAZARDOUS SEAS WARNING REMAINS IN EFFECT UNTIL 2 PM PDT THIS AFTERNOON... ...SMALL CRAFT ADVISORY IN EFFECT FROM 2 PM THIS AFTERNOON TO 11 PM PDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXB.KMFR.SC.Y.0078.260925T2100Z-260926T0600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T23:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Florence to Cape Blanco OR out 10 nm; Waters from Florence to Cape Blanco OR from 10 to 60 nm</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057350</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057370</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ350</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ370</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
