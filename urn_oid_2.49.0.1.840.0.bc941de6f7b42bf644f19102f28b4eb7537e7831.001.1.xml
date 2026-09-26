@@ -1,0 +1,126 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.bc941de6f7b42bf644f19102f28b4eb7537e7831.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T19:37:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c1083d3affb3776dcb3be7036ce0f8ed0fa2381b.001.1,2026-09-24T16:56:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a6771c1ec2012d23923d0878657bdcce77088520.001.1,2026-09-24T18:44:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T19:37:00-06:00</effective>
+        <onset>2026-09-24T19:37:00-06:00</onset>
+        <expires>2026-09-24T21:45:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 7:37PM MDT until September 24 at 9:45PM MDT by NWS Albuquerque NM</headline>
+        <description>FFWABQ
+
+The National Weather Service in Albuquerque has extended the
+
+* Flash Flood Warning for...
+South Central Curry County in east central New Mexico...
+Central Roosevelt County in east central New Mexico...
+
+* Until 945 PM MDT.
+
+* At 737 PM MDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 2 and 4 inches of rain
+have fallen. Additional rainfall amounts of 0.5 to 1.5 inches are
+possible in the warned area. Flash flooding is ongoing or expected
+to begin shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+Oasis State Park, Saint Vrain and Floyd.
+
+This includes Highway 60 between Mile Markers 370 and 380.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS55 KABQ 250137</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KABQ.FF.W.0183.000000T0000Z-260925T0345Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T21:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Curry, NM; Roosevelt, NM</areaDesc>
+            <polygon>34.3,-103.59 34.43,-103.51 34.42,-103.34 34.34,-103.34 34.34,-103.3 34.3,-103.3 33.99,-103.65 34.05,-103.71 34.2,-103.65 34.3,-103.59</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035041</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC009</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC041</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
