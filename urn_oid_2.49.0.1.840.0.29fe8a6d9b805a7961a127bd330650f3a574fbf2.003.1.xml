@@ -1,0 +1,108 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.29fe8a6d9b805a7961a127bd330650f3a574fbf2.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T13:27:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Advisory</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFY</value>
+        </eventCode>
+        <effective>2026-09-26T13:27:00-04:00</effective>
+        <onset>2026-09-26T18:00:00-04:00</onset>
+        <expires>2026-09-26T20:00:00-04:00</expires>
+        <senderName>NWS Wilmington NC</senderName>
+        <headline>Coastal Flood Advisory issued September 26 at 1:27PM EDT until September 26 at 10:00PM EDT by NWS Wilmington NC</headline>
+        <description>* WHAT...Up to one half foot of inundation above ground level
+expected in low-lying areas near shorelines and tidal
+waterways.
+
+* WHERE...Coastal Horry and Coastal Georgetown Counties.
+
+* WHEN...From 6 PM to 10 PM EDT this evening.
+
+* IMPACTS...Vulnerable causeways to and from local beaches may
+experience minor coastal flooding. Low-lying roads and
+locations along the Intracoastal Waterway and adjacent tidal
+creeks may observe minor coastal flooding. Check with local
+officials for the latest information regarding coastal flood
+impacts and closures.
+
+* ADDITIONAL DETAILS...Affected areas listed are based on
+average tide conditions. Additional locations may experience
+flooding during periods of heavy rainfall, high winds, or
+other factors.
+</description>
+        <instruction>If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWILM</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KILM 261727</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD ADVISORY IN EFFECT FROM 6 PM TO 10 PM EDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KILM.CF.Y.0055.260926T2200Z-260927T0200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T22:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal Horry; Coastal Georgetown</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>045051</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>045043</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>SCZ054</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>SCZ056</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
