@@ -1,0 +1,108 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.f63c9b84a0b6d4d6b655e5f56c69ff1da592f604.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T19:23:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T19:23:00-06:00</effective>
+        <onset>2026-09-25T19:23:00-06:00</onset>
+        <expires>2026-09-25T20:00:00-06:00</expires>
+        <senderName>NWS Great Falls MT</senderName>
+        <headline>Special Weather Statement issued September 25 at 7:23PM MDT by NWS Great Falls MT</headline>
+        <description>At 723 PM MDT, Doppler radar was tracking gusty showers 10 miles
+northwest of Highwood, or 16 miles southwest of Fort Benton, moving
+northeast at 40 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted include...
+Fort Benton, Carter, and Floweree.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSTFX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KTFX 260123</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GUSTY SHOWERS WILL IMPACT SOUTHWESTERN CHOUTEAU AND NORTHEASTERN CASCADE COUNTIES THROUGH 800 PM MDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-26T01:23:00-00:00...storm...224DEG...36KT...47.7,-110.95</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>55 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Western and Central Chouteau County; Cascade County below 5000ft</areaDesc>
+            <polygon>47.58,-110.93 47.7,-111.12 48.12,-110.78 47.76,-110.28 47.58,-110.93</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030015</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>030013</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ310</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MTZ312</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
