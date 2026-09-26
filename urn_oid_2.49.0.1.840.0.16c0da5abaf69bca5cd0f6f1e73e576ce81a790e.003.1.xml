@@ -1,0 +1,108 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.16c0da5abaf69bca5cd0f6f1e73e576ce81a790e.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T11:29:00-10:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Tropical Storm Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>TRA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>TRA</value>
+        </eventCode>
+        <effective>2026-09-24T11:29:00-10:00</effective>
+        <onset>2026-09-24T11:29:00-10:00</onset>
+        <expires>2026-09-25T00:30:00-10:00</expires>
+        <senderName>NWS Honolulu HI</senderName>
+        <headline>Tropical Storm Watch issued September 24 at 11:29AM HST by NWS Honolulu HI</headline>
+        <description>* WHAT...For the Small Craft Advisory, east winds to 25 kt and
+seas 7 to 10 feet. For the Tropical Storm Watch, east winds 25
+to 35 kt and seas 9 to 14 feet.
+
+* WHERE...Kaiwi Channel, Maui County Windward Waters and Maui
+County Leeward Waters.
+
+* WHEN...For the Small Craft Advisory, until 6 AM HST Friday. For
+the Tropical Storm Watch, beginning at 6 AM HST Friday.
+
+* IMPACTS...Very strong winds will cause hazardous seas which
+could capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should consider altering plans to avoid possible
+hazardous conditions. Remain in port, seek safe harbor, alter
+course, and/or secure the vessel for severe wind and seas.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWHFO</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHHW70 PHFO 242129</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>TROPICAL STORM WATCH IN EFFECT... ...SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 6 AM HST FRIDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.PHFO.TR.A.2015.260924T2129Z-000000T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Kaiwi Channel; Maui County Windward Waters; Maui County Leeward Waters</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>059116</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>059117</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>059118</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PHZ116</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PHZ117</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PHZ118</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
