@@ -1,0 +1,89 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.46584403c5fdeeb703fa07edc9dd1d72c4e13279.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T08:44:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6d25587f8734d1472bc803d10da226bdee6389c9.001.1,2026-09-25T03:05:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Advisory</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFY</value>
+        </eventCode>
+        <effective>2026-09-25T08:44:00-04:00</effective>
+        <onset>2026-09-25T08:44:00-04:00</onset>
+        <expires>2026-09-25T09:45:00-04:00</expires>
+        <senderName>NWS Charleston SC</senderName>
+        <headline>Coastal Flood Advisory issued September 25 at 8:44AM EDT until September 25 at 9:00AM EDT by NWS Charleston SC</headline>
+        <description>Another round of coastal flooding is likely to occur with high
+tide this evening and another Coastal Flood Advisory will be
+needed.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWCHS</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KCHS 251244</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD ADVISORY WILL EXPIRE AT 9 AM EDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KCHS.CF.Y.0029.000000T0000Z-260925T1300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T09:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal Colleton; Charleston</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>045029</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>045019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>SCZ149</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>SCZ150</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
