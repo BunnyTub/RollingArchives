@@ -1,0 +1,93 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.50f49eb9fd2ca2d4cf4802ec110202104e6afb9e.001.3</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T02:23:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-24T02:23:00-04:00</effective>
+        <onset>2026-09-25T20:00:00-04:00</onset>
+        <expires>2026-09-24T16:30:00-04:00</expires>
+        <senderName>NWS Gray ME</senderName>
+        <headline>Gale Warning issued September 24 at 2:23AM EDT until September 27 at 8:00PM EDT by NWS Gray ME</headline>
+        <description>* WHAT...For the Small Craft Advisory, northeast winds 10 to 20
+kt with gusts up to 30 kt and seas 6 to 9 ft. For the Gale
+Warning, northeast winds 20 to 30 kt with gusts up to 45 kt
+and seas 9 to 14 ft expected.
+
+* WHERE...Coastal Waters from Cape Elizabeth, ME to Merrimack
+River, MA out 25 NM.
+
+* WHEN...For the Small Craft Advisory, until 8 AM EDT Friday.
+For the Gale Warning, from 8 PM Friday to 8 PM EDT Sunday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should alter plans to avoid these hazardous conditions.
+Remain in port, seek safe harbor, alter course, and/or secure the
+vessel for severe conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWGYX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KGYX 240623</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 8 AM EDT FRIDAY... ...GALE WARNING IN EFFECT FROM 8 PM FRIDAY TO 8 PM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KGYX.GL.W.0022.260926T0000Z-260928T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal Waters from Cape Elizabeth, ME to Merrimack River, MA out 25 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073154</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ154</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
