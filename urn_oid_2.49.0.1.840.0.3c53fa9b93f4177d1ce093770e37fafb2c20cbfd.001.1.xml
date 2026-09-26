@@ -1,0 +1,122 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.3c53fa9b93f4177d1ce093770e37fafb2c20cbfd.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T13:26:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8485cc1a58af57c7f76b77f4283c56132b8ba833.001.1,2026-09-24T13:07:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Severe Thunderstorm Warning</event>
+        <responseType>Shelter</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SVW</value>
+        </eventCode>
+        <effective>2026-09-24T13:26:00-07:00</effective>
+        <onset>2026-09-24T13:26:00-07:00</onset>
+        <expires>2026-09-24T13:45:00-07:00</expires>
+        <senderName>NWS Tucson AZ</senderName>
+        <headline>Severe Thunderstorm Warning issued September 24 at 1:26PM MST until September 24 at 1:45PM MST by NWS Tucson AZ</headline>
+        <description>At 126 PM MST, a severe thunderstorm was located near Corona De
+Tucson, moving north at 5 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, siding, and trees.
+
+Locations impacted include...
+Tucson, Vail and Rita Ranch.
+
+This includes the following highways...
+Interstate 10 between mile markers 266 and 282. Route 83 near mile
+marker 58.
+</description>
+        <instruction>Seek shelter inside a well-built structure and stay away from
+windows. This storm is capable of producing damaging winds and large
+hail.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SVSTWC</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS55 KTWC 242026</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 145 PM MST FOR EASTERN PIMA COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-24T20:07:00-00:00...storm...182DEG...5KT...32.0,-110.8</value>
+        </parameter>
+        <parameter>
+            <valueName>windThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>60 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>hailThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>1.00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KTWC.SV.W.0287.000000T0000Z-260924T2045Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T13:45:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Pima, AZ</areaDesc>
+            <polygon>31.98,-110.69 31.99,-110.86 32.15,-110.91 32.14,-110.62 31.98,-110.69</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>004019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AZC019</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

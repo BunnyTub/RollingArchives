@@ -1,0 +1,133 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.ad90fa09282d0b561be84bd85061aa3cae2799f9.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T12:27:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T12:27:00-04:00</effective>
+        <onset>2026-09-24T12:27:00-04:00</onset>
+        <expires>2026-09-24T15:30:00-04:00</expires>
+        <senderName>NWS San Juan PR</senderName>
+        <headline>Flood Advisory issued September 24 at 12:27PM AST until September 24 at 3:30PM AST by NWS San Juan PR</headline>
+        <description>* WHAT...Small stream flooding caused by excessive rainfall is
+expected.
+
+* WHERE...Ceiba in Puerto Rico...
+Fajardo in Puerto Rico...
+Southern Luquillo in Puerto Rico...
+Naguabo in Puerto Rico...
+Southern Rio Grande in Puerto Rico...
+
+* WHEN...Until 330 PM AST.
+
+* IMPACTS...Rises in small streams and normally dry arroyos.
+Dangerous flows over low-water crossings. Water over roadways.
+
+* ADDITIONAL DETAILS...
+- At 1227 PM AST, Doppler radar indicated heavy rain due to
+thunderstorms. This will cause small stream flooding. Up to 0.5
+inches of rain have fallen.
+- Additional rainfall amounts of 1 to 2 inches are expected over
+the area. This additional rain will result in minor flooding.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSSJU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGCA82 TJSJ 241627</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 330 PM AST THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.TJSJ.FA.Y.0282.260924T1627Z-260924T1930Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T15:30:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Ceiba, PR; Fajardo, PR; Luquillo, PR; Naguabo, PR; Rio Grande, PR</areaDesc>
+            <polygon>18.36,-65.81 18.36,-65.77 18.33,-65.72 18.31,-65.72 18.34,-65.68 18.32,-65.67 18.34,-65.63 18.28,-65.64 18.23,-65.59 18.24,-65.63 18.2,-65.63 18.21,-65.66 18.18,-65.69 18.19,-65.72 18.18,-65.75 18.2,-65.77 18.2,-65.82 18.26,-65.82 18.32,-65.87 18.36,-65.81</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072037</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072053</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072089</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072103</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>072119</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC037</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC053</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC089</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC103</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PRC119</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
