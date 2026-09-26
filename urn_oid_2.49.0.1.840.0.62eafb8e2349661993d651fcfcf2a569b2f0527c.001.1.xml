@@ -1,0 +1,117 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.62eafb8e2349661993d651fcfcf2a569b2f0527c.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T10:25:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Marine Weather Statement</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>MWS</value>
+        </eventCode>
+        <effective>2026-09-24T10:25:00-08:00</effective>
+        <onset>2026-09-24T10:25:00-08:00</onset>
+        <expires>2026-09-24T18:30:00-08:00</expires>
+        <senderName>NWS Juneau AK</senderName>
+        <headline>Marine Weather Statement issued September 24 at 10:25AM AKDT by NWS Juneau AK</headline>
+        <description>Thunderstorms continue to develop across the eastern Gulf, with
+the highest activity focused along the Chichagof, Baranof and
+Prince of Wales coast. While these storms are producing some
+lightning, the primary threat is erratic gusty winds of 15 to 25
+knots and heavy rainfall reducing visibility below 3 NM. Mariners
+navigating Cape Decision to Cross Sound should be aware of this
+threat and be ready for gusty winds. Thunderstorm activity should
+diminish later Thursday evening.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWSAJK</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK77 PAJK 241825</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>...THUNDERSTORM POTENTIAL CONTINUES INTO THURSDAY AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Dixon Entrance to Cape Decision out to 15 NM; Cape Decision to Cape Edgecumbe out to 15 NM; Cape Edgecumbe to Cape Spencer out to 15 NM; Dixon Entrance to Cape Decision from 15 to 90 NM; Cape Decision to Cape Edgecumbe from 15 to 80 NM; Cape Edgecumbe to Cape Spencer from 15 to 80 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058641</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058642</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058643</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058661</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058662</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058663</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ641</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ642</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ643</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ661</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ662</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ663</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
