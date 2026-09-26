@@ -1,0 +1,100 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a5576910a1d80b30907d368178198ddce5f6ae41.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T13:24:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T13:24:00-07:00</effective>
+        <onset>2026-09-25T13:24:00-07:00</onset>
+        <expires>2026-09-25T14:15:00-07:00</expires>
+        <senderName>NWS Spokane WA</senderName>
+        <headline>Special Weather Statement issued September 25 at 1:24PM PDT by NWS Spokane WA</headline>
+        <description>At 124 PM PDT, Doppler radar was tracking a strong thunderstorm 24
+miles west of Omak, moving northeast at 10 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to outdoor objects is
+possible.
+
+This storm will remain over mainly rural areas of central Okanogan
+County.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSOTX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS86 KOTX 252024</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A strong thunderstorm will impact portions of central Okanogan County through 215 PM PDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T20:24:00-00:00...storm...203DEG...10KT...48.54,-120.02</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.25</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Western Okanogan County</areaDesc>
+            <polygon>48.47,-120.02 48.5,-120.12 48.68,-120.09 48.61,-119.8 48.47,-120.02</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>053047</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WAZ049</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
