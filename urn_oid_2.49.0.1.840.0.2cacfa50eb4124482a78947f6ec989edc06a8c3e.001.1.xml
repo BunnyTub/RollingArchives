@@ -1,0 +1,92 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.2cacfa50eb4124482a78947f6ec989edc06a8c3e.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T21:23:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dececb84ebf77badb9f3603740d7bfe23699ba8f.001.1,2026-09-24T19:20:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T21:23:00-06:00</effective>
+        <onset>2026-09-24T21:23:00-06:00</onset>
+        <expires>2026-09-24T21:33:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 9:23PM MDT until September 24 at 9:30PM MDT by NWS Albuquerque NM</headline>
+        <description>Flood waters are receding. Flash flooding is no longer expected to
+pose a threat. Please continue to heed any remaining road closures.
+
+A Flood Watch remains in effect until 600 AM MDT Friday for portions
+of central, east central, and southeast New Mexico.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 250323</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING WILL EXPIRE AT 930 PM MDT THIS EVENING FOR SOUTHEASTERN LINCOLN COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KABQ.FF.W.0181.000000T0000Z-260925T0330Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T21:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.39402f125d7a27e2f975c115091ffad8821c5572.001.1,2026-09-24T17:05:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.eb7b5fc7848d2bbf9309f10be8dcbd63e0f73271.001.1,2026-09-24T16:51:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bc730ca37a6a15baa093554b8d0aac12aa3e2c8e.001.1,2026-09-24T16:30:00-06:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Lincoln, NM</areaDesc>
+            <polygon>33.52,-105.33 33.46,-105.28 33.38,-105.22 33.37,-105.19 33.34,-105.19 33.35,-105.26 33.46,-105.37 33.52,-105.33</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC027</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
