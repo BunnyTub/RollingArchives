@@ -1,0 +1,127 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.e7a4aab02ab82637fe30eb283ae7cb1520763d32.004.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T15:31:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e976e234dca0ff04fd03219b1a89a76c7d643d11.001.1,2026-09-24T10:11:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.20d16c221fb058d4988e944c55ce469ae7100fdc.001.1,2026-09-25T10:44:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf810dd653144e615e2676545eba77a43d9027c2.002.1,2026-09-25T11:09:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.181d44b88ac53ed4b8e062af33d8a572feec2ffa.003.1,2026-09-25T14:26:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>WIY</value>
+        </eventCode>
+        <effective>2026-09-25T15:31:00-07:00</effective>
+        <onset>2026-09-25T15:31:00-07:00</onset>
+        <expires>2026-09-25T19:00:00-07:00</expires>
+        <senderName>NWS Spokane WA</senderName>
+        <headline>Wind Advisory issued September 25 at 3:31PM PDT until September 25 at 9:00PM PDT by NWS Spokane WA</headline>
+        <description>* WHAT...Southwest winds around 20 to 30 mph with gusts up to 45 mph
+expected.
+
+* WHERE...Anatone, Moscow, Cloverland Road, Waterville, Alpowa
+Summit, Plummer, Peola, Badger Mountain Road, Mountain Road,
+Mansfield, Pomeroy, Genesee, Potlatch, and Clarkston.
+
+* WHEN...Until 9 PM PDT this evening.
+
+* IMPACTS...Gusty winds will blow around unsecured objects. Tree
+limbs could be blown down and a few power outages may result.
+</description>
+        <instruction>Winds this strong can make driving difficult, especially for high
+profile vehicles. Use extra caution.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWOTX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS76 KOTX 252231</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>WIND ADVISORY REMAINS IN EFFECT UNTIL 9 PM PDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KOTX.WI.Y.0007.000000T0000Z-260926T0400Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T21:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.16d71ae601fb20a142b53846c7c8d840e995f817.002.1,2026-09-24T17:38:00-07:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Idaho Palouse; Northeast Blue Mountains; Lower Garfield and Asotin Counties; Waterville Plateau</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>016009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>016057</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>053003</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>053023</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>053017</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>053025</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>IDZ003</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WAZ031</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WAZ032</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WAZ044</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
