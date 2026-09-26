@@ -1,0 +1,98 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.e4e6768ee8f15583fe4af410fde19eafc2dca7b4.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T03:21:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b9fe437eec8b8a8e0020c75a621f2051d120d62f.001.1,2026-09-24T11:29:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Rip Current Statement</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>RPS</value>
+        </eventCode>
+        <effective>2026-09-25T03:21:00-04:00</effective>
+        <onset>2026-09-25T03:21:00-04:00</onset>
+        <expires>2026-09-25T14:00:00-04:00</expires>
+        <senderName>NWS Tallahassee FL</senderName>
+        <headline>Rip Current Statement issued September 25 at 3:21AM EDT until September 25 at 2:00PM EDT by NWS Tallahassee FL</headline>
+        <description>* WHAT...Dangerous rip currents.
+
+* WHERE...Franklin County Beaches.
+
+* WHEN...Until 2 PM EDT this afternoon.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into deeper water.
+
+* ADDITIONAL DETAILS...Breezy northeast winds following a cold
+front will produce a longshore current along St George Island
+and surf near 2 feet.
+</description>
+        <instruction>Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWTAE</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KTAE 250721</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 2 PM EDT THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KTAE.RP.S.0069.000000T0000Z-260925T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T14:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.afda35e3b3d2f0332c0a038cdd59dd2e84c2ec1e.001.1,2026-09-24T03:42:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal Franklin</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012037</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ115</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
