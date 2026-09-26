@@ -1,0 +1,163 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.984eb22df268966f70859e671c6914f47a12ec7b.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T02:08:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2240f31cda240d201f27b1da7f8bab40350bd08f.001.1,2026-09-23T15:09:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Moderate</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFA</value>
+        </eventCode>
+        <effective>2026-09-24T02:08:00-04:00</effective>
+        <onset>2026-09-25T17:00:00-04:00</onset>
+        <expires>2026-09-24T15:15:00-04:00</expires>
+        <senderName>NWS Boston/Norton MA</senderName>
+        <headline>Coastal Flood Watch issued September 24 at 2:08AM EDT until September 26 at 5:00PM EDT by NWS Boston/Norton MA</headline>
+        <description>* WHAT...For the High Surf Advisory, large breaking waves of 6
+to 17 feet possible in the surf zone. For the Coastal Flood
+Watch, up to one foot of inundation above
+ground level possible in low-lying areas near shorelines and
+tidal waterways (3.7 to 12.9 feet Mean Lower Low Water).
+
+* WHERE...Eastern Essex MA, Suffolk MA, Eastern Norfolk MA,
+Eastern Plymouth MA, Barnstable MA, Dukes MA and Nantucket MA
+Counties.
+
+* WHEN...For the High Surf Advisory, from 5 AM Friday to 8 PM
+EDT Sunday. For the Coastal Flood Watch, from Friday afternoon
+through Saturday afternoon.
+
+* IMPACTS...Numerous roads may be closed. Low lying property
+including homes, businesses, and some critical infrastructure
+may be inundated. Some shoreline erosion may occur. Dangerous
+swimming and surfing conditions and localized beach erosion.
+
+* ADDITIONAL DETAILS...The exact timing for an approaching
+coastal low pressure remains uncertain. That will become
+important for peak surge around the times of high tides.
+Multiple tide cycles will be impacted, which combined with
+strong onshore flow may result in tides not lowering as well.
+Beach erosion will also be a concern, mainly for east-facing
+beaches.
+</description>
+        <instruction>If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Inexperienced swimmers should remain out of the water due to
+dangerous surf conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWBOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KBOX 240608</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH SURF ADVISORY IN EFFECT FROM 5 AM FRIDAY TO 8 PM EDT SUNDAY... ...COASTAL FLOOD WATCH REMAINS IN EFFECT FROM FRIDAY AFTERNOON THROUGH SATURDAY AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KBOX.CF.A.0004.260925T2100Z-260926T2100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T17:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Eastern Essex; Suffolk; Eastern Norfolk; Eastern Plymouth; Barnstable; Dukes; Nantucket</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025021</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025025</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025023</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025001</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025007</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ007</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ015</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ016</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ022</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ023</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ024</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
