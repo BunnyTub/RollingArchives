@@ -1,0 +1,118 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.d90249739547b971382e9ac1332cf347914021cd.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T13:36:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.246a6be6c8e6757f3a40da3d6ba3af7525d5a7a8.001.1,2026-09-24T07:48:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-24T13:36:00-05:00</effective>
+        <onset>2026-09-24T13:36:00-05:00</onset>
+        <expires>2026-09-24T13:46:00-05:00</expires>
+        <senderName>NWS Goodland KS</senderName>
+        <headline>Flood Advisory issued September 24 at 1:36PM CDT until September 24 at 1:45PM CDT by NWS Goodland KS</headline>
+        <description>The Flood Advisory will expire at 145 PM CDT /1245 PM MDT/ this
+afternoon for portions of northwest and west central Kansas,
+including the following areas, in northwest Kansas, Sheridan and
+Thomas. In west central Kansas, Gove, Logan and Wallace.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSGLD</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS83 KGLD 241836</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY WILL EXPIRE AT 145 PM CDT /1245 PM MDT/ THIS AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KGLD.FA.Y.0046.000000T0000Z-260924T1845Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T13:45:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Gove, KS; Logan, KS; Sheridan, KS; Thomas, KS; Wallace, KS</areaDesc>
+            <polygon>38.7,-101.71 39.13,-101.48 39.13,-101.44 39.14,-101.39 39.3,-101.39 39.56,-101.25 39.57,-100.69 39.57,-100.36 38.7,-100.82 38.7,-101.71</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020063</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020109</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020179</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020193</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>020199</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC063</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC109</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC179</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC193</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>KSC199</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
