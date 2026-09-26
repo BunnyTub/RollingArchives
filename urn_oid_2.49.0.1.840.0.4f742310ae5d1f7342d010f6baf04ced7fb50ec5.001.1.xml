@@ -1,0 +1,99 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.4f742310ae5d1f7342d010f6baf04ced7fb50ec5.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T17:44:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T17:44:00-05:00</effective>
+        <onset>2026-09-25T17:44:00-05:00</onset>
+        <expires>2026-09-25T18:15:00-05:00</expires>
+        <senderName>NWS Norman OK</senderName>
+        <headline>Special Weather Statement issued September 25 at 5:44PM CDT by NWS Norman OK</headline>
+        <description>At 544 PM CDT, Doppler radar was tracking a strong thunderstorm 10
+miles north of Avard, moving northeast at 35 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+This storm will remain over mainly rural areas of northeastern Woods
+County west and northwest of Alva and Capron.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSOUN</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS84 KOUN 252244</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A strong thunderstorm will impact portions of northeastern Woods County through 615 PM CDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T22:44:00-00:00...storm...223DEG...31KT...36.84,-98.85</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Woods</areaDesc>
+            <polygon>36.92,-98.54 36.71,-98.93 36.78,-99.02 37.0,-98.83 37.0,-98.54 36.92,-98.54</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>040151</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>OKZ005</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
