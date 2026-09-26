@@ -1,0 +1,110 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.55595e268b425efeedfe28b38940e26cdb78e76b.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T01:49:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b9a604563a8aadde35afc197fcc6c02a8c724394.001.1,2026-09-26T00:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f821a5aa92b1a44fc77428a255b91ca23b1fead6.001.1,2026-09-26T01:12:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-26T01:49:00-05:00</effective>
+        <onset>2026-09-26T01:49:00-05:00</onset>
+        <expires>2026-09-26T03:30:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Flash Flood Warning issued September 26 at 1:49AM CDT until September 26 at 3:30AM CDT by NWS Amarillo TX</headline>
+        <description>At 149 AM CDT, Doppler radar and automated rain gauges indicated
+thunderstorms producing heavy rain across the warned area. Between
+1.5 and 2.5 inches of rain have fallen. Additional rainfall amounts
+up to 0.5 inches are possible in the warned area. Flash flooding is
+ongoing or expected to begin shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar and automated gauges.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+Some locations that will experience flash flooding include...
+Canyon, Umbarger, Mescalero Park and Buffalo Lake.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS74 KAMA 260649</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 330 AM CDT EARLY THIS MORNING FOR WESTERN RANDALL COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR AND GAUGE INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KAMA.FF.W.0032.000000T0000Z-260926T0830Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T03:30:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Randall, TX</areaDesc>
+            <polygon>35.1,-101.98 35.03,-102.16 34.86,-102.16 34.81,-102.12 34.94,-101.85 35.1,-101.85 35.1,-101.98</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048381</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC381</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
