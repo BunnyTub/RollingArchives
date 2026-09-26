@@ -1,0 +1,107 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.b85c245c3deb0c8071a243ba52f168affcaf2fc6.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T01:42:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Marine Weather Statement</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>MWS</value>
+        </eventCode>
+        <effective>2026-09-25T01:42:00-08:00</effective>
+        <onset>2026-09-25T01:42:00-08:00</onset>
+        <expires>2026-09-25T10:00:00-08:00</expires>
+        <senderName>NWS Juneau AK</senderName>
+        <headline>Marine Weather Statement issued September 25 at 1:42AM AKDT by NWS Juneau AK</headline>
+        <description>Patchy dense fog may occasionally reduce visibilities to a
+quarter of a mile or less until conditions gradually improve by
+late morning.
+
+Mariners should exercise additional caution and be prepared for
+possible rapid reductions in visibility.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWSAJK</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK77 PAJK 250942</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>PATCHY DENSE FOG THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Southern Chatham Strait; Frederick Sound; Sumner Strait; Clarence Strait; Dixon Entrance to Cape Decision out to 15 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058033</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058034</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058035</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058036</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058641</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ033</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ034</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ035</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ036</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ641</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
