@@ -1,0 +1,117 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.29f9eb2c31ce86f96ecc4b204f7ccbcde94c8e8c.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T09:06:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T09:06:00-05:00</effective>
+        <onset>2026-09-25T09:06:00-05:00</onset>
+        <expires>2026-09-25T12:00:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Flash Flood Warning issued September 25 at 9:06AM CDT until September 25 at 12:00PM CDT by NWS Amarillo TX</headline>
+        <description>FFWAMA
+
+The National Weather Service in Amarillo has issued a
+
+* Flash Flood Warning for...
+Southeastern Randall County in the panhandle of Texas...
+
+* Until noon CDT.
+
+* At 906 AM CDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 1 and 3 inches of rain
+have fallen. The expected rainfall rate is 1 to 3 inches in 1
+hours. Additional rainfall amounts of 1 to 3 inches are possible in
+the warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+Palo Duro Canyon.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Flooding is occurring or is imminent. It is important to know where
+you are relative to streams, rivers, or creeks which can become
+killers in heavy rains. Campers and hikers should avoid streams or
+creeks.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS54 KAMA 251406</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KAMA.FF.W.0030.260925T1406Z-260925T1700Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T12:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Randall, TX</areaDesc>
+            <polygon>35.08,-101.77 35.08,-101.62 34.94,-101.63 34.83,-101.63 34.82,-101.76 35.04,-101.78 35.08,-101.77</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048381</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC381</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
