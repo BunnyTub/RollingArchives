@@ -1,0 +1,121 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.80c841d6f474a807c90cbfaa3451bd5dbdc94c2b.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T07:34:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9bd510854a76444f65ccfeff8e65ffb67a351d2f.001.3,2026-09-25T02:31:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-25T07:34:00-04:00</effective>
+        <onset>2026-09-25T18:00:00-04:00</onset>
+        <expires>2026-09-25T15:45:00-04:00</expires>
+        <senderName>NWS Baltimore MD/Washington DC</senderName>
+        <headline>Gale Warning issued September 25 at 7:34AM EDT until September 26 at 6:00PM EDT by NWS Baltimore MD/Washington DC</headline>
+        <description>* WHAT...For the Small Craft Advisory, north winds 20 to 25 kt
+with gusts up to 30 kt and waves 2 to 4 ft. For the Gale
+Warning, north winds 20 to 30 kt with gusts up to 35 kt and
+waves 2 to 5 ft expected.
+
+* WHERE...Chesapeake Bay from North Beach MD to Smith Point VA,
+Tidal Potomac from Cobb Island MD to Smith Point VA, and
+Tangier Sound and the inland waters surrounding Bloodsworth
+Island.
+
+* WHEN...For the Small Craft Advisory, until 6 PM EDT this
+evening. For the Gale Warning, from 6 PM this evening to 6 PM
+EDT Saturday.
+
+* IMPACTS...Strong winds will cause hazardous waves which could
+capsize or damage vessels.
+</description>
+        <instruction>Mariners should alter plans to avoid these hazardous conditions.
+Remain in port, seek safe harbor, alter course, and/or secure the
+vessel for hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWLWX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KLWX 251134</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 6 PM EDT THIS EVENING... ...GALE WARNING REMAINS IN EFFECT FROM 6 PM THIS EVENING TO 6 PM EDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KLWX.GL.W.0014.260925T2200Z-260926T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T18:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Chesapeake Bay from North Beach to Drum Point MD; Chesapeake Bay from Drum Point MD to Smith Point VA; Tidal Potomac from Cobb Island MD to Smith Point VA; Tangier Sound and the inland waters surrounding Bloodsworth Island</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073533</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073534</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073537</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073543</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ533</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ534</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ537</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ543</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
