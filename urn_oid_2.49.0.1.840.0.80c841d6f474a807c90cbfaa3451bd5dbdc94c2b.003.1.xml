@@ -1,0 +1,105 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.80c841d6f474a807c90cbfaa3451bd5dbdc94c2b.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T07:34:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9bd510854a76444f65ccfeff8e65ffb67a351d2f.003.1,2026-09-25T02:31:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T07:34:00-04:00</effective>
+        <onset>2026-09-25T07:34:00-04:00</onset>
+        <expires>2026-09-25T15:45:00-04:00</expires>
+        <senderName>NWS Baltimore MD/Washington DC</senderName>
+        <headline>Small Craft Advisory issued September 25 at 7:34AM EDT until September 26 at 6:00AM EDT by NWS Baltimore MD/Washington DC</headline>
+        <description>* WHAT...For the Small Craft Advisory, north winds 15 to 25 kt
+with gusts up to 30 kt. For the Gale Warning, north winds 20
+to 25 kt with gusts up to 35 kt and waves 2 to 4 ft expected.
+
+* WHERE...Choptank River to Cambridge MD and the Little Choptank
+River and Patuxent River to Broomes Island MD.
+
+* WHEN...For the Small Craft Advisory, until 6 AM EDT Saturday.
+For the Gale Warning, from 6 AM to 6 PM EDT Saturday.
+
+* IMPACTS...Strong winds will cause hazardous waves which could
+capsize or damage vessels.
+</description>
+        <instruction>Mariners should alter plans to avoid these hazardous conditions.
+Remain in port, seek safe harbor, alter course, and/or secure the
+vessel for hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWLWX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KLWX 251134</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 6 AM EDT SATURDAY... ...GALE WARNING REMAINS IN EFFECT FROM 6 AM TO 6 PM EDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KLWX.SC.Y.0149.000000T0000Z-260926T1000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T06:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b01e29a63e402316a0c8db4b843c4fa257291a9e.003.1,2026-09-24T21:41:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8dde6acac0c81fa6ddcd0dc160680fe90e4501a5.003.1,2026-09-24T14:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d59c8896382de8cff1eb2822d1576c9111170de8.003.1,2026-09-24T09:40:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.784e30a7cd40b3f8d23166502d0ff086adac2af6.001.2,2026-09-24T06:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6a340820ec4d1d9c40d4c0b18e84099383a22489.001.2,2026-09-24T03:11:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.273a2170d8f99cc137248814dca2ab080a91d435.001.2,2026-09-23T18:22:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3b8ec9ca612c74c54922646f17a98598b36fd71d.001.2,2026-09-23T15:28:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c0a4022605414916843814adc26141228700f6e4.001.2,2026-09-23T09:01:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.16430078365a8550c2adc48652e252f40125b701.001.3,2026-09-23T00:12:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Choptank River to Cambridge MD and the Little Choptank River; Patuxent River to Broomes Island MD</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073541</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073542</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ541</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ542</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
