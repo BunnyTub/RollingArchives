@@ -1,0 +1,94 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.31005eb400aaa0a5a362f74c0efdbdcf55d87bd5.004.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T09:37:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a0d5ced7f2853d7e84a10e4928cf450f8eec9dd4.005.1,2026-09-25T01:46:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2cfb3693eaa67fda52fd97392ec866670a2ea645.008.1,2026-09-25T06:19:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-25T09:37:00-04:00</effective>
+        <onset>2026-09-25T09:37:00-04:00</onset>
+        <expires>2026-09-25T20:00:00-04:00</expires>
+        <senderName>NWS Newport/Morehead City NC</senderName>
+        <headline>Gale Warning issued September 25 at 9:37AM EDT until September 25 at 8:00PM EDT by NWS Newport/Morehead City NC</headline>
+        <description>* WHAT...North winds 20 to 30 kt with gusts up to 35 kt and rough
+waters.
+
+* WHERE...Croatan and Roanoke Sounds.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should alter plans to avoid these hazardous conditions.
+Remain in port, seek safe harbor, alter course, and/or secure the
+vessel for hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWMHX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS72 KMHX 251337</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING REMAINS IN EFFECT UNTIL 8 PM EDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KMHX.GL.W.0026.000000T0000Z-260926T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7b14e45e3dd221d636038a515eeead1ffa2d3ef3.005.1,2026-09-24T21:03:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.12b29f02e8fadc5e3089663e478ad8fa6cfa46b7.005.1,2026-09-24T14:52:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7570a6ba634bda5fa0fbe0de5582bd65f6604b3f.005.1,2026-09-24T09:57:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.977253ab7696fceec1d0c0a9cff731735cfbdc43.005.1,2026-09-24T02:01:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bf33c9676eeff7f6c81087bd8a3588e0604a8557.005.1,2026-09-23T15:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.17dfc6372c5704e277ca7f3f17a72c4a83481af9.004.1,2026-09-23T03:06:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.061d5a4196007926089641f27f75e6b5d2ef3cf0.005.1,2026-09-23T02:20:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bcfd206785581a656ba8ed4bd6817c7f2bf98ca7.001.1,2026-09-22T14:33:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf63c6fb6024c5155958c1bba1c5eeed4fc0d39f.006.1,2026-09-22T05:46:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7fa8dde9ec9421c085fc3fb489744b086adfea50.001.2,2026-09-22T03:00:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Croatan and Roanoke Sounds</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075231</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ231</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
