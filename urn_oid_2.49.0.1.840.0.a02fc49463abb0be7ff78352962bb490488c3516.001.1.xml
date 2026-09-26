@@ -1,0 +1,87 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a02fc49463abb0be7ff78352962bb490488c3516.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T10:39:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-24T10:39:00-08:00</effective>
+        <onset>2026-09-24T10:39:00-08:00</onset>
+        <expires>2026-09-25T06:00:00-08:00</expires>
+        <senderName>NWS Anchorage AK</senderName>
+        <headline>Special Weather Statement issued September 24 at 10:39AM AKDT by NWS Anchorage AK</headline>
+        <description>A gale force front enters the western Gulf this afternoon and
+quickly begins to move across Kodiak Island later this evening.
+Accompanying the front will be an axis of moderate rainfall,
+adding up to around one inch of rainfall for Kodiak City, with
+areas such as Old Harbor seeing up to 2 inches of rainfall.
+Southeast winds are expected to gust as high as 55 mph during the
+frontal passage. The front clears the area and moves northeastward
+by midday Friday.
+
+-AM
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSAER</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWAK81 PAFC 241839</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>STRONG GUSTY WINDS AND A PERIOD OF MODERATE TO HEAVY RAINFALL EXPECTED THURSDAY EVENING THROUGH FRIDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Kodiak Island Northeast; Kodiak Island Southwest</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002150</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ771</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ772</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
