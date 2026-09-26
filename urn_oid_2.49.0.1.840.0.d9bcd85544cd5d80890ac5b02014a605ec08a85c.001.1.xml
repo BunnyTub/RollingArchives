@@ -1,0 +1,93 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.d9bcd85544cd5d80890ac5b02014a605ec08a85c.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T12:25:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.69f9c8bff5c2ef5d42c77e293e1b407522937738.001.1,2026-09-25T09:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.231190b355e72a55d5ca846eaf076082246bc2af.001.1,2026-09-25T11:00:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T12:25:00-05:00</effective>
+        <onset>2026-09-25T12:25:00-05:00</onset>
+        <expires>2026-09-25T12:35:00-05:00</expires>
+        <senderName>NWS Amarillo TX</senderName>
+        <headline>Flash Flood Warning issued September 25 at 12:25PM CDT until September 25 at 12:30PM CDT by NWS Amarillo TX</headline>
+        <description>The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSAMA</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS74 KAMA 251725</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING WILL EXPIRE AT 1230 PM CDT THIS AFTERNOON FOR SOUTHEASTERN POTTER AND NORTH CENTRAL RANDALL COUNTIES</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KAMA.FF.W.0031.000000T0000Z-260925T1730Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T12:30:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Potter, TX; Randall, TX</areaDesc>
+            <polygon>35.18,-101.96 35.27,-101.95 35.27,-101.69 35.22,-101.69 35.09,-101.77 35.09,-101.97 35.18,-101.96</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048375</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048381</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC375</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC381</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
