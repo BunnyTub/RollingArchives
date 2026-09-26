@@ -1,0 +1,97 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.96cf3b0da1fcad84fd4aa24589864a8a2b1b8547.007.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T02:05:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3f2fa615f75ba0ab41741bad82d2778b442e0c35.001.2,2026-09-23T15:58:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Gale Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>GLW</value>
+        </eventCode>
+        <effective>2026-09-24T02:05:00-04:00</effective>
+        <onset>2026-09-24T02:05:00-04:00</onset>
+        <expires>2026-09-24T15:15:00-04:00</expires>
+        <senderName>NWS Boston/Norton MA</senderName>
+        <headline>Gale Warning issued September 24 at 2:05AM EDT until September 25 at 8:00AM EDT by NWS Boston/Norton MA</headline>
+        <description>* WHAT...For the Gale Warning, northeast winds 20 to 30 kt with
+gusts up to 45 kt and seas 9 to 14 feet. For the Storm Watch,
+northeast winds 30 to 40 kt with gusts up to 50 kt and seas 12
+to 17 feet possible.
+
+* WHERE...Coastal waters from Provincetown MA to Chatham MA to
+Nantucket MA out 20 NM.
+
+* WHEN...For the Gale Warning, until 8 AM EDT Friday. For the
+Storm Watch, from Friday morning through Saturday evening.
+
+* IMPACTS...Storm force winds and hazardous seas could capsize
+or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should prepare to remain in port, alter course, and/or
+secure the vessel before the onset of severe conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWBOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KBOX 240605</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING REMAINS IN EFFECT UNTIL 8 AM EDT FRIDAY... ...STORM WATCH REMAINS IN EFFECT FROM FRIDAY MORNING THROUGH SATURDAY EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KBOX.GL.W.0021.000000T0000Z-260925T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T08:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.22080b684e3dc39866cab6f9cf7ef56c037fbbd9.005.2,2026-09-23T02:24:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.df451fb3f6cd2435ea6db0531db9480f6f7a9b79.006.1,2026-09-22T16:29:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.37a74d0a6a8d747f0bc6a51e7981ca23fe11cd7e.005.2,2026-09-22T06:35:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3747c68c6814167ab1fa9225947b57722d95d7e2.002.3,2026-09-22T01:58:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Provincetown MA to Chatham MA to Nantucket MA out 20 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073254</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ254</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
