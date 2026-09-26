@@ -1,0 +1,118 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.c1a323472293aa21ee61219141892cc257cacb42.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T15:01:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-24T15:01:00-06:00</effective>
+        <onset>2026-09-24T15:01:00-06:00</onset>
+        <expires>2026-09-24T15:30:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Special Weather Statement issued September 24 at 3:01PM MDT by NWS Albuquerque NM</headline>
+        <description>At 301 PM MDT, Doppler radar was tracking a strong thunderstorm 21
+miles northeast of Arabela, or 42 miles northwest of Roswell, moving
+northeast at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor damage to outdoor objects is
+possible.
+
+Locations impacted include...
+Mainly rural areas of Northeastern Lincoln and North Central Chaves
+Counties.
+</description>
+        <instruction>Monitor the weather situation closely and be alert for threatening
+weather conditions.
+
+Torrential rainfall is also occurring with this storm and may lead to
+flash flooding. Do not drive your vehicle through flooded roadways.
+
+Heavy rains from severe thunderstorms can produce sudden and
+dangerous flows in arroyos, ditches and over low water crossings. Do
+not attempt to drive through areas where water covers the roadway.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KABQ 242101</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A STRONG THUNDERSTORM WILL IMPACT NORTHEASTERN LINCOLN AND NORTH CENTRAL CHAVES COUNTIES UNTIL 330 PM MDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-24T21:00:00-00:00...storm...230DEG...20KT...33.85,-104.98</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.75</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves County Plains; Eastern Lincoln County</areaDesc>
+            <polygon>33.73,-104.98 33.88,-105.12 34.12,-104.89 34.09,-104.89 34.09,-104.85 34.03,-104.79 34.0,-104.79 34.0,-104.75 33.88,-104.62 33.73,-104.98</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035027</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ238</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ239</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
