@@ -1,0 +1,115 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.a6771c1ec2012d23923d0878657bdcce77088520.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T18:44:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c1083d3affb3776dcb3be7036ce0f8ed0fa2381b.001.1,2026-09-24T16:56:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T18:44:00-06:00</effective>
+        <onset>2026-09-24T18:44:00-06:00</onset>
+        <expires>2026-09-24T19:45:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 24 at 6:44PM MDT until September 24 at 7:45PM MDT by NWS Albuquerque NM</headline>
+        <description>At 644 PM MDT, Doppler radar and automated rain gauges indicated
+thunderstorms producing heavy rain across the warned area. Between 1
+and 3 inches of rain have fallen. Additional rainfall amounts up to 1
+inch are possible in the warned area. Flash flooding is ongoing or
+expected to begin shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar and automated gauges.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+Some locations that will experience flash flooding include...
+Oasis State Park, Saint Vrain and Floyd.
+
+This includes Highway 60 between Mile Markers 370 and 380.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 250044</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 745 PM MDT THIS EVENING FOR SOUTH CENTRAL CURRY AND CENTRAL ROOSEVELT COUNTIES</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR AND GAUGE INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.FF.W.0183.000000T0000Z-260925T0145Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T19:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Curry, NM; Roosevelt, NM</areaDesc>
+            <polygon>34.3,-103.59 34.43,-103.51 34.42,-103.34 34.34,-103.34 34.34,-103.3 34.3,-103.3 33.99,-103.65 34.05,-103.71 34.2,-103.65 34.3,-103.59</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035041</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC009</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC041</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
