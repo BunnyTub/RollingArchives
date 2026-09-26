@@ -1,0 +1,151 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.54661e554cfb2b267dca88f782974a2ed0da4bc3.004.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-23T18:46:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f14645d4c8fc900fb3c192f5cb28e48d641dc286.002.1,2026-09-23T11:40:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFA</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAA</value>
+        </eventCode>
+        <effective>2026-09-23T18:46:00-06:00</effective>
+        <onset>2026-09-23T18:46:00-06:00</onset>
+        <expires>2026-09-24T12:15:00-06:00</expires>
+        <senderName>NWS El Paso Tx/Santa Teresa NM</senderName>
+        <headline>Flood Watch issued September 23 at 6:46PM MDT until September 25 at 6:00AM MDT by NWS El Paso Tx/Santa Teresa NM</headline>
+        <description>* WHAT...Flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...All of Dona Ana and Otero Counties in south-central New
+Mexico, as well as the far northern Tularosa Basin in far eastern
+Sierra County, New Mexico.
+
+* WHEN...Through 6 AM Friday.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+creeks, streams, and other low-lying and flood-prone locations.
+Creeks and streams may rise out of their banks. Low-water crossings
+may be flooded.
+
+* ADDITIONAL DETAILS...
+- Deep moisture will remain in place through at least Friday
+morning, with weak disturbances producing periods of showers and
+thunderstorms. These storms will be far more localized than the
+rain we have already seen, and confidence in precise timing is
+low. But given the saturated conditions in the area, even brief
+storms could lead to localized flooding.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFAEPZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS64 KEPZ 240046</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WATCH NOW IN EFFECT THROUGH EARLY FRIDAY MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KEPZ.FA.A.0015.000000T0000Z-260925T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T06:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.61a0240ebec7c11a349d781a738d59daf24eebea.001.1,2026-09-23T06:16:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0c4b5b643e5d8d2b0f467b91595a634a23d27a4a.002.2,2026-09-22T21:09:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c3ff6a146599f5173c4c632ae2f238b0a6fd7bff.001.1,2026-09-22T21:54:00-06:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Northern Dona Ana County; Southern Dona Ana County/Mesilla Valley; West Slopes Sacramento Mountains Below 7500 Feet; Sacramento Mountains Above 7500 Feet; East Slopes Sacramento Mountains Below 7500 Feet; Otero Mesa; West Central Tularosa Basin/White Sands; East Central Tularosa Basin/Alamogordo; Southeast Tularosa Basin</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035013</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035035</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035051</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ410</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ411</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ414</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ415</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ416</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ417</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ427</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ428</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMZ429</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
