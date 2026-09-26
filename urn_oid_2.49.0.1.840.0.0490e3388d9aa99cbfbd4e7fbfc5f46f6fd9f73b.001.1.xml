@@ -1,0 +1,117 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.0490e3388d9aa99cbfbd4e7fbfc5f46f6fd9f73b.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T18:40:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T18:40:00-06:00</effective>
+        <onset>2026-09-25T18:40:00-06:00</onset>
+        <expires>2026-09-25T21:45:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 6:40PM MDT until September 25 at 9:45PM MDT by NWS Albuquerque NM</headline>
+        <description>FFWABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Flash Flood Warning for...
+Central Socorro County in central New Mexico...
+
+* Until 945 PM MDT.
+
+* At 640 PM MDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Up to 1.5 inches of rain have
+fallen. Additional rainfall amounts up to 1 inch are possible in
+the warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+Socorro, Escondida, Lemitar, San Antonio, Luis Lopez and Laborcita.
+
+This includes the following highways...
+Highway 60 between Mile Markers 122 and 138. Interstate 25 between
+Mile Markers 139 and 158.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+In hilly or mountainous terrain there are numerous low water
+crossings which are potentially dangerous in heavy rain. Do not
+attempt to cross flooded roads. Find an alternate route.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFWABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS55 KABQ 260040</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KABQ.FF.W.0200.260926T0040Z-260926T0345Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T21:45:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Socorro, NM</areaDesc>
+            <polygon>34.02,-107.3 33.83,-107.27 33.93,-106.77 34.04,-106.62 34.27,-106.62 34.2,-106.92 34.08,-107.13 34.02,-107.3</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035053</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC053</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
