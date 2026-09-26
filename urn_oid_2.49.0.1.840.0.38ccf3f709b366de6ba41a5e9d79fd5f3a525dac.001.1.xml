@@ -1,0 +1,111 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.38ccf3f709b366de6ba41a5e9d79fd5f3a525dac.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T04:09:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f24a0a735c93e876f74150fe5ae6c147c0ce874c.001.1,2026-09-25T02:25:00-06:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-25T04:09:00-06:00</effective>
+        <onset>2026-09-25T04:09:00-06:00</onset>
+        <expires>2026-09-25T05:30:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flash Flood Warning issued September 25 at 4:09AM MDT until September 25 at 5:30AM MDT by NWS Albuquerque NM</headline>
+        <description>At 409 AM MDT, satellite estimates indicate thunderstorms producing
+heavy rain across the warned area. Flash flooding is ongoing or
+expected to begin shortly.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Satellite estimates.
+
+IMPACT...Life threatening flash flooding of creeks and streams, urban
+areas, highways, streets and underpasses.
+
+Some locations that will experience flash flooding include...
+Dunken and Elk.
+
+Rio Penasco and Bluewater Creek.
+
+Locally heavy rainfall has fallen in southern areas of this warning,
+including on Russel Gap Rd., Bear Canyon Rd., and Canyon Rd..
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS75 KABQ 251009</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 530 AM MDT EARLY THIS MORNING FOR SOUTHWESTERN CHAVES COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDamageThreat</valueName>
+            <value>CONSIDERABLE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KABQ.FF.W.0191.000000T0000Z-260925T1130Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T05:30:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Chaves, NM</areaDesc>
+            <polygon>32.98,-105.32 32.87,-104.84 32.52,-104.84 32.52,-105.35 32.96,-105.35 32.96,-105.32 32.98,-105.32</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC005</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
