@@ -1,0 +1,96 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.386a291499dac62761dadd6457356fc132559a83.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T20:17:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Statement</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFS</value>
+        </eventCode>
+        <effective>2026-09-24T20:17:00-04:00</effective>
+        <onset>2026-09-24T20:17:00-04:00</onset>
+        <expires>2026-09-25T04:30:00-04:00</expires>
+        <senderName>NWS Key West FL</senderName>
+        <headline>Coastal Flood Statement issued September 24 at 8:17PM EDT until September 25 at 5:00AM EDT by NWS Key West FL</headline>
+        <description>* WHAT...Minor saltwater flooding.
+
+* WHERE...Middle and Lower Florida Keys.
+
+* WHEN...Until 5 AM EDT Friday.
+
+* IMPACTS...Minor saltwater flooding of low elevation streets and
+lots is likely. Some storm drains will overflow, and some
+seawalls and docks will be overtopped. Boaters can expect less
+clearance under fixed bridges. Motorists should remember that
+persistent puddles around the times of high tide are almost
+certain to contain a mix of saltwater.
+
+* ADDITIONAL DETAILS...
+</description>
+        <instruction>Do not drive through flooded roadways.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWKEY</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KKEY 250017</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD STATEMENT IN EFFECT</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXB.KKEY.CF.S.0007.000000T0000Z-260925T0900Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T05:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Monroe Middle Keys; Monroe Lower Keys</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012087</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ077</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ078</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
