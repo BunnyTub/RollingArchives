@@ -1,0 +1,89 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8c1be4521613786f40aae1d299861c85ee4b208f.004.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T00:29:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.547e624bb4d32345ffd972232e375003ad5323f7.004.3,2026-09-25T13:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.13778c7624aa07e514d50a488171dd2479efe3f8.002.2,2026-09-25T17:48:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-26T00:29:00-07:00</effective>
+        <onset>2026-09-26T14:00:00-07:00</onset>
+        <expires>2026-09-26T16:30:00-07:00</expires>
+        <senderName>NWS Portland OR</senderName>
+        <headline>Small Craft Advisory issued September 26 at 12:29AM PDT until September 27 at 5:00AM PDT by NWS Portland OR</headline>
+        <description>* WHAT...Seas 4 to 7 ft at 8 seconds and north winds 10 to 20 kt
+with gusts up to 25 kt expected.
+
+* WHERE...Coastal waters from Cape Foulweather to Florence OR
+out 10 NM.
+
+* WHEN...From 2 PM this afternoon to 5 AM PDT Sunday.
+
+* IMPACTS...Conditions will be hazardous to small craft.
+</description>
+        <instruction>Inexperienced mariners, especially those operating smaller
+vessels, should avoid navigating in hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWPQR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS76 KPQR 260729</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 2 PM THIS AFTERNOON TO 5 AM PDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KPQR.SC.Y.0099.260926T2100Z-260927T1200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T05:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Cape Foulweather to Florence OR out 10 nm</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>057253</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PZZ253</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
