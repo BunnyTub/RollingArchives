@@ -1,0 +1,96 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9eecbdf3e594ae149b39219330b58eb050115754.003.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T22:11:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-24T22:11:00-04:00</effective>
+        <onset>2026-09-24T22:11:00-04:00</onset>
+        <expires>2026-09-25T11:00:00-04:00</expires>
+        <senderName>NWS Mount Holly NJ</senderName>
+        <headline>Small Craft Advisory issued September 24 at 10:11PM EDT until September 25 at 6:00AM EDT by NWS Mount Holly NJ</headline>
+        <description>* WHAT...For the Small Craft Advisory, northeast winds 20 to 25 kt
+with gusts up to 30 kt and rough waters. For the Gale Watch,
+north winds 20 to 35 kt with gusts up to 40 kt and very rough
+waters possible.
+
+* WHERE...Delaware Bay waters south of East Point NJ to
+Slaughter Beach DE.
+
+* WHEN...For the Small Craft Advisory, until 6 AM EDT Friday.
+For the Gale Watch, from 6 AM EDT Friday through Saturday
+afternoon.
+
+* IMPACTS...Strong winds can cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+
+* ADDITIONAL DETAILS...
+</description>
+        <instruction>Mariners should consider altering plans to avoid possible
+hazardous conditions.  Remain in port, seek safe harbor, alter
+course, and/or secure the vessel for severe wind and seas.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWPHI</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KPHI 250211</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SMALL CRAFT ADVISORY IN EFFECT UNTIL 6 AM EDT FRIDAY... ...GALE WATCH REMAINS IN EFFECT FROM 6 AM EDT FRIDAY THROUGH SATURDAY AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXA.KPHI.SC.Y.0078.000000T0000Z-260925T1000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T06:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Delaware Bay waters south of East Point NJ to Slaughter Beach DE</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073431</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ431</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
