@@ -1,0 +1,92 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.1e61eeb506f279df58c7d126f23951214cee7111.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T03:05:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-25T03:05:00-04:00</effective>
+        <onset>2026-09-25T06:00:00-04:00</onset>
+        <expires>2026-09-25T11:15:00-04:00</expires>
+        <senderName>NWS Charleston SC</senderName>
+        <headline>Small Craft Advisory issued September 25 at 3:05AM EDT until September 26 at 2:00PM EDT by NWS Charleston SC</headline>
+        <description>* WHAT...For the Gale Warning, north winds around 25 kt with
+gusts up to 35 kt and seas 8 to 10 ft. For the Small Craft
+Advisory, north winds 15 to 25 kt with gusts up to 35 kt and
+seas 7 to 10 ft expected.
+
+* WHERE...Savannah to Altamaha Sound from 20 to 60 NM.
+
+* WHEN...For the Gale Warning, until 6 AM EDT early this
+morning. For the Small Craft Advisory, until 2 PM EDT Saturday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should alter plans to avoid these hazardous conditions.
+Remain in port, seek safe harbor, alter course, and/or secure the
+vessel for hazardous conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWCHS</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS72 KCHS 250705</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING REMAINS IN EFFECT UNTIL 6 AM EDT EARLY THIS MORNING... ...SMALL CRAFT ADVISORY IN EFFECT UNTIL 2 PM EDT SATURDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXB.KCHS.SC.Y.0050.260925T1000Z-260926T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T14:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Waters from Savannah GA to Altamaha Sound GA extending from 20 to 60 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>075384</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AMZ384</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
