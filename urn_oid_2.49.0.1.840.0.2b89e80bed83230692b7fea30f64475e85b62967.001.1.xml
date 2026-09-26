@@ -1,0 +1,116 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.2b89e80bed83230692b7fea30f64475e85b62967.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T09:48:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1e30ae3dd906e83575ac6b37e3f9647a04848ca2.001.1,2026-09-25T01:07:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fe00fe9d0cdf0713d70e30a66a288c7f17af71c3.001.1,2026-09-25T04:32:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fe00fe9d0cdf0713d70e30a66a288c7f17af71c3.002.1,2026-09-25T04:32:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9e52f058ae5325e6b797a903426f019c80ac8fc6.001.1,2026-09-25T05:53:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9e52f058ae5325e6b797a903426f019c80ac8fc6.002.1,2026-09-25T05:53:00-08:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Dense Fog Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FGY</value>
+        </eventCode>
+        <effective>2026-09-25T09:48:00-08:00</effective>
+        <onset>2026-09-25T09:48:00-08:00</onset>
+        <expires>2026-09-25T11:00:00-08:00</expires>
+        <senderName>NWS Juneau AK</senderName>
+        <headline>Dense Fog Advisory issued September 25 at 9:48AM AKDT until September 25 at 10:00AM AKDT by NWS Juneau AK</headline>
+        <description>Most of the dense fog in the area has dissipated. Some patches of fog
+will persist further into the morning.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWAJK</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWAK77 PAJK 251748</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>DENSE FOG ADVISORY WILL EXPIRE AT 10 AM AKDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.PAJK.FG.Y.0034.000000T0000Z-260925T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T10:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Admiralty Island; Petersburg Borough; Western Kupreanof and Kuiu Island; Prince of Wales Island; City and Borough of Wrangell; Ketchikan Gateway Borough</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002105</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002195</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002198</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002275</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002130</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ324</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ326</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ327</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ328</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ329</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ330</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
