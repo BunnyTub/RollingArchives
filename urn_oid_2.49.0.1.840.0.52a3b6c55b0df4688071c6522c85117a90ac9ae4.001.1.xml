@@ -1,0 +1,94 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.52a3b6c55b0df4688071c6522c85117a90ac9ae4.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T15:00:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.76eb0f2def5d6dbef702aa1aee06d3bc86164f9e.001.2,2026-09-25T22:46:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Advisory</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFY</value>
+        </eventCode>
+        <effective>2026-09-26T15:00:00-04:00</effective>
+        <onset>2026-09-26T15:00:00-04:00</onset>
+        <expires>2026-09-26T23:00:00-04:00</expires>
+        <senderName>NWS Key West FL</senderName>
+        <headline>Coastal Flood Advisory issued September 26 at 3:00PM EDT until September 27 at 6:00AM EDT by NWS Key West FL</headline>
+        <description>* WHAT...Saltwater flooding.
+
+* WHERE...Upper Florida Keys.
+
+* WHEN...Until 6 AM EDT Sunday.
+
+* IMPACTS...Saltwater flooding of low elevation streets and lots
+is expected. Some storm drains will overflow, and some
+seawalls and docks will be overtopped. Boaters can expect less
+clearance under fixed bridges. Motorists should remember that
+persistent puddles around the times of high tide are almost
+certain to contain a mix of saltwater.
+</description>
+        <instruction>If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWKEY</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS42 KKEY 261900</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD ADVISORY IN EFFECT</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KKEY.CF.Y.0002.000000T0000Z-260927T1000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T06:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Monroe Upper Keys</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012087</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLZ076</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
