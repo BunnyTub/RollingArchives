@@ -1,0 +1,84 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.74b71332a020a9c5e4063ebd8897d1998bb3e858.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T19:44:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7b25f213f56e12333bc605454acd7aa096994d86.001.1,2026-09-25T15:53:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Lake Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>LWY</value>
+        </eventCode>
+        <effective>2026-09-25T19:44:00-07:00</effective>
+        <onset>2026-09-25T19:44:00-07:00</onset>
+        <expires>2026-09-25T20:45:00-07:00</expires>
+        <senderName>NWS Hanford CA</senderName>
+        <headline>Lake Wind Advisory issued September 25 at 7:44PM PDT until September 25 at 8:00PM PDT by NWS Hanford CA</headline>
+        <description>The elevated wind gusts prompting the advisory are not expected to
+continue. Therefore, the advisory will be allowed to expire.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWHNX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS76 KHNX 260244</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>LAKE WIND ADVISORY WILL EXPIRE AT 8 PM PDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KHNX.LW.Y.0032.000000T0000Z-260926T0300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T20:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Kern River Valley</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>006029</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>006107</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CAZ332</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
