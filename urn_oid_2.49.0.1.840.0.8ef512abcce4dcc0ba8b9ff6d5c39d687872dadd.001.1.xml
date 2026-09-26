@@ -1,0 +1,122 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.8ef512abcce4dcc0ba8b9ff6d5c39d687872dadd.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T06:12:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-25T06:12:00-04:00</effective>
+        <onset>2026-09-25T06:12:00-04:00</onset>
+        <expires>2026-09-27T14:00:00-04:00</expires>
+        <senderName>NWS Upton NY</senderName>
+        <headline>Flood Advisory issued September 25 at 6:12AM EDT until September 27 at 2:00PM EDT by NWS Upton NY</headline>
+        <description>* WHAT...Minor to locally moderate tidal flooding is expected around
+the times of high tide from Saturday into Sunday.
+
+* WHERE...The Hudson River in Westchester, Rockland, Orange and
+Putnam counties in southeastern New York...
+
+* WHEN...Until 200 PM EDT Sunday.
+
+* IMPACTS...Minor to locally moderate tidal flooding in low lying
+areas along the river around the times of high tide.
+
+* ADDITIONAL DETAILS...
+- At 612 AM EDT, Water levels along the Hudson River will increase
+with successive high tide cycles. The worst flooding is expected
+with the Saturday morning high tide.
+
+Gauge reports indicated heavy rain due to thunderstorms. Minor
+flooding is ongoing or expected to begin shortly in the advisory
+area.
+- http://www.weather.gov/safety/flood
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSOKX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS81 KOKX 251012</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 2 PM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KOKX.FA.Y.0134.260925T1012Z-260927T1800Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T14:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Orange, NY; Putnam, NY; Rockland, NY; Westchester, NY</areaDesc>
+            <polygon>41.58,-74.01 41.59,-73.95 41.52,-74.0 41.46,-74.0 41.44,-73.98 41.48,-73.94 41.4,-73.91 41.32,-73.93 41.24,-73.91 41.13,-73.84 40.91,-73.89 40.92,-73.92 41.0,-73.89 41.01,-73.94 41.13,-73.92 41.25,-74.02 41.58,-74.01</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036071</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036079</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036087</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>036119</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYC071</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYC079</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYC087</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NYC119</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
