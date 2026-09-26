@@ -1,0 +1,122 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.70f55c0c654856bc192c0d3f68b6c3037b2f4683.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T01:53:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Advisory</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFY</value>
+        </eventCode>
+        <effective>2026-09-25T01:53:00-04:00</effective>
+        <onset>2026-09-25T17:00:00-04:00</onset>
+        <expires>2026-09-25T17:00:00-04:00</expires>
+        <senderName>NWS Boston/Norton MA</senderName>
+        <headline>Coastal Flood Advisory issued September 25 at 1:53AM EDT until September 27 at 8:00PM EDT by NWS Boston/Norton MA</headline>
+        <description>* WHAT...Up to one foot of inundation above ground level
+expected in low-lying areas near shorelines and tidal
+waterways (5.8 to 7.2 feet Mean Lower Low Water).
+
+* WHERE...Washington, Southern Bristol MA, Southern Plymouth MA,
+and Newport RI Counties.
+
+* WHEN...From 5 PM this afternoon to 8 PM EDT Sunday.
+
+* IMPACTS...Minor coastal flooding is expected in the lowest
+lying areas along the south coast of Rhode Island and
+Massachusetts. A few immediate coastal roads may briefly flood
+due to wave action.
+</description>
+        <instruction>If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWBOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KBOX 250553</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>COASTAL FLOOD ADVISORY IN EFFECT FROM 5 PM THIS AFTERNOON TO 8 PM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KBOX.CF.Y.0008.260925T2100Z-260928T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Southern Bristol; Southern Plymouth; Washington; Newport; Block Island</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025005</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025023</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>044009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>044005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ020</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ021</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>RIZ006</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>RIZ007</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>RIZ008</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
