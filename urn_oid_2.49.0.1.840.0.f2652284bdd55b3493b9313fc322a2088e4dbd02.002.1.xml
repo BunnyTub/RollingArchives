@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.f2652284bdd55b3493b9313fc322a2088e4dbd02.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T14:35:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e077cf05bce0289e128ad10e5782688c792f3cb4.001.1,2026-09-25T02:47:00-08:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>High Wind Warning</event>
+        <responseType>Prepare</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>HWW</value>
+        </eventCode>
+        <effective>2026-09-25T14:35:00-08:00</effective>
+        <onset>2026-09-25T14:35:00-08:00</onset>
+        <expires>2026-09-25T21:00:00-08:00</expires>
+        <senderName>NWS Anchorage AK</senderName>
+        <headline>High Wind Warning issued September 25 at 2:35PM AKDT until September 25 at 9:00PM AKDT by NWS Anchorage AK</headline>
+        <description>* WHAT...West winds 45 to 60 mph with gusts up to 75 mph expected.
+
+* WHERE...Atka and Adak.
+
+* WHEN...Until 9 PM AKDT this evening.
+
+* IMPACTS...High winds may move loose debris, damage property, and
+cause power outages. Travel will be difficult.
+
+* ADDITIONAL DETAILS...Very strong westerly winds, due to a deep low
+pressure system in the southern Bering Sea, will persist. Gusts of
+60 to 70 mph are expected tonight into Saturday morning, with winds
+coming down by late Saturday morning.
+</description>
+        <instruction>People are urged to secure loose objects that could be blown around
+or damaged by the wind. Prepare for the possibility of widespread
+power outages. Use caution if you must drive.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWALU</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWAK72 PAFC 252235</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH WIND WARNING REMAINS IN EFFECT UNTIL 9 PM AKDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.PAFC.HW.W.0009.000000T0000Z-260926T0500Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T21:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.60a5147a2ba5aa9e8117a2078ce80bf87e83f010.002.1,2026-09-24T22:39:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.92bc8be478183cacc5234c41c8c03cc7acf403e2.004.1,2026-09-24T22:00:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c62ff457d5759464818206290eeeccadba148f9b.004.1,2026-09-24T11:08:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cc27ec0ceec3db52776a486cd989ebdf8dee8a9a.004.1,2026-09-24T10:13:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b53b246fa1b75886ca3daffe7fe31cfdfb868152.002.1,2026-09-24T08:28:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6c7804432898c2fed5d557a4bb5e47345dfd2f80.003.1,2026-09-24T09:06:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c20cc1d18bb6670f41a7e15a127793c1c16d164b.002.1,2026-09-24T05:22:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.15777627cae4bbbed76775ca4ca53113d641631e.002.1,2026-09-23T10:54:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1a48d39c44e758f88d0f29ec7e0e5710aeeea6ee.002.1,2026-09-23T05:20:00-08:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1ba091a6ef28ca6c7ca7436aed187ec38b3330e3.001.1,2026-09-22T13:03:00-08:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Atka and Adak</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>002016</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AKZ787</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
