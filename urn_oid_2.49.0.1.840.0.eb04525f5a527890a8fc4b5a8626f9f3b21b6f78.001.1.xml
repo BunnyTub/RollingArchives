@@ -1,0 +1,119 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.eb04525f5a527890a8fc4b5a8626f9f3b21b6f78.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T17:40:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8150088e5a710b0e2bb61ede932da4af60284f3c.001.1,2026-09-24T16:44:00-05:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flash Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FFS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FFW</value>
+        </eventCode>
+        <effective>2026-09-24T17:40:00-05:00</effective>
+        <onset>2026-09-24T17:40:00-05:00</onset>
+        <expires>2026-09-24T19:45:00-05:00</expires>
+        <senderName>NWS Midland/Odessa TX</senderName>
+        <headline>Flash Flood Warning issued September 24 at 5:40PM CDT until September 24 at 7:45PM CDT by NWS Midland/Odessa TX</headline>
+        <description>At 540 PM CDT /440 PM MDT/, Doppler radar indicated thunderstorms
+producing heavy rain across the warned area. Between 1.5 and 2.5
+inches of rain have fallen. Additional rainfall amounts up to 1 inch
+are possible in the warned area. Flash flooding is ongoing or
+expected to begin shortly.
+
+HAZARD...Flash flooding caused by thunderstorms.
+
+SOURCE...Radar indicated.
+
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, streets and underpasses as well as other poor
+drainage and low-lying areas.
+
+Some locations that will experience flash flooding include...
+Toyah.
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Please report observed flooding to local emergency services or law
+enforcement and request they pass this information to the National
+Weather Service when you can do so safely.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FFSMAF</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS74 KMAF 242240</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 745 PM CDT /645 PM MDT/ THIS EVENING FOR EAST CENTRAL CULBERSON AND WEST CENTRAL REEVES COUNTIES</value>
+        </parameter>
+        <parameter>
+            <valueName>flashFloodDetection</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KMAF.FF.W.0204.000000T0000Z-260925T0045Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T19:45:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Culberson, TX; Reeves, TX</areaDesc>
+            <polygon>31.65,-104.11 31.67,-103.86 31.51,-103.71 31.41,-103.7 31.2,-103.84 31.12,-103.99 31.13,-104.11 31.11,-104.24 31.17,-104.31 31.33,-104.33 31.46,-104.3 31.54,-104.24 31.65,-104.11</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048109</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>048389</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC109</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>TXC389</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
