@@ -1,0 +1,96 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.669c03476eaebb812c1685655aed158358bbeccd.002.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T13:28:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9f085963bac510a1b73776ae0a3dc6a06b678fe0.001.1,2026-09-26T02:53:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>WIY</value>
+        </eventCode>
+        <effective>2026-09-26T13:28:00-04:00</effective>
+        <onset>2026-09-26T13:28:00-04:00</onset>
+        <expires>2026-09-27T05:00:00-04:00</expires>
+        <senderName>NWS Albany NY</senderName>
+        <headline>Wind Advisory issued September 26 at 1:28PM EDT until September 27 at 12:00PM EDT by NWS Albany NY</headline>
+        <description>* WHAT...Northeast winds 15 to 25 mph with gusts 40 to 45 mph.
+
+* WHERE...Litchfield County.
+
+* WHEN...Until noon EDT Sunday.
+
+* IMPACTS...Gusty winds will blow around unsecured objects. Tree
+limbs could be blown down and a few power outages may result.
+</description>
+        <instruction>Winds this strong can make driving difficult, especially for high
+profile vehicles. Use extra caution.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWALY</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS71 KALY 261728</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>WIND ADVISORY NOW IN EFFECT UNTIL NOON EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXT.KALY.WI.Y.0006.000000T0000Z-260927T1600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T12:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1a7896d2dd91c99efdfd3d50ab9aec4e4d5e46a8.001.1,2026-09-25T13:57:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bdbfcbe70243028bf21c51bcbb4542ba0913e376.001.1,2026-09-25T02:02:00-04:00</value>
+        </parameter>
+        <area>
+            <areaDesc>Northern Litchfield; Southern Litchfield</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>009005</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CTZ001</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CTZ013</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
