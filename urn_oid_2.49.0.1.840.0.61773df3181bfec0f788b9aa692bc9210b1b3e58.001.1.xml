@@ -1,0 +1,110 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.61773df3181bfec0f788b9aa692bc9210b1b3e58.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T06:48:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Dense Fog Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FGY</value>
+        </eventCode>
+        <effective>2026-09-25T06:48:00-05:00</effective>
+        <onset>2026-09-25T06:48:00-05:00</onset>
+        <expires>2026-09-25T11:00:00-05:00</expires>
+        <senderName>NWS Bismarck ND</senderName>
+        <headline>Dense Fog Advisory issued September 25 at 6:48AM CDT until September 25 at 11:00AM CDT by NWS Bismarck ND</headline>
+        <description>* WHAT...Visibility one quarter mile or less in dense fog.
+
+* WHERE...Northwest Ward, Mountrail, Adams, and Hettinger Counties.
+
+* WHEN...Until 11 AM CDT /10 AM MDT/ this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+</description>
+        <instruction>If driving, slow down, use your headlights, and leave plenty of
+distance ahead of you.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWBIS</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS73 KBIS 251148</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>DENSE FOG ADVISORY IN EFFECT UNTIL 11 AM CDT /10 AM MDT/ THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXA.KBIS.FG.Y.0019.000000T0000Z-260925T1600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T11:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Mountrail; Hettinger; Adams; Northwest Ward</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>038061</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>038041</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>038001</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>038101</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NDZ010</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NDZ041</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NDZ044</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NDZ055</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
