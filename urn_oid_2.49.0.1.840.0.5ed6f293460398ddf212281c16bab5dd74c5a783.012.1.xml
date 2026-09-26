@@ -1,0 +1,92 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.5ed6f293460398ddf212281c16bab5dd74c5a783.012.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T20:22:00-08:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Small Craft Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SCY</value>
+        </eventCode>
+        <effective>2026-09-24T20:22:00-08:00</effective>
+        <onset>2026-09-25T05:00:00-08:00</onset>
+        <expires>2026-09-25T14:30:00-08:00</expires>
+        <senderName>NWS Juneau AK</senderName>
+        <headline>Small Craft Advisory issued September 24 at 8:22PM AKDT until September 25 at 5:00PM AKDT by NWS Juneau AK</headline>
+        <description>Southeast Alaska Coastal Waters from Dixon Entrance to
+Cape Suckling out 100 NM
+
+Wind forecasts reflect the predominant speed and direction
+expected. Seas forecasts represent the average of the highest
+one-third of the combined windwave and swell height.
+
+UPDATED
+
+...SMALL CRAFT ADVISORY FRIDAY...
+
+.REST OF TONIGHT...E wind 20 kt. Seas 6 ft.
+.FRI...E wind 20 kt increasing to 30 kt. Seas building to 9 ft.
+.FRI NIGHT...E gale to 35 kt. Seas 13 ft. Showers late.
+.SAT...E gale to 35 kt. Seas 13 ft. Showers.
+.SAT NIGHT...E gale to 35 kt. Seas 14 ft. Showers.
+.SUN...E gale to 35 kt. Seas 13 ft.
+.MON...E wind 25 kt. Seas 9 ft.
+.TUE...E wind 15 kt. Seas 6 ft.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CWFAEG</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>FZAK52 PAJK 250422</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.PAJK.SC.Y.8829.260925T1300Z-260926T0100Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T17:00:00-08:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Icy Cape to Cape Suckling out to 15 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>058652</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PKZ652</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
