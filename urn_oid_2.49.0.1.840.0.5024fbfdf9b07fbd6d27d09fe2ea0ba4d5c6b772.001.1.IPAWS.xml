@@ -1,0 +1,95 @@
+<SharpAlertSource>FEMA IPAWS (WEA)</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"><identifier>urn:oid:2.49.0.1.840.0.5024fbfdf9b07fbd6d27d09fe2ea0ba4d5c6b772.001.1.IPAWS</identifier><sender>w-nws.webmaster@noaa.gov</sender><sent>2026-09-24T18:24:00-06:00</sent><status>Actual</status><msgType>Alert</msgType><source>211803 v2.3.0</source><scope>Public</scope><code>IPAWSv1.0</code><info><language>en-US</language><category>Met</category><event>Flash Flood Warning</event><responseType>Avoid</responseType><urgency>Immediate</urgency><severity>Severe</severity><certainty>Likely</certainty><eventCode><valueName>SAME</valueName><value>FFW</value></eventCode><eventCode><valueName>NationalWeatherService</valueName><value>FFW</value></eventCode><effective>2026-09-24T18:24:00-06:00</effective><onset>2026-09-24T18:24:00-06:00</onset><expires>2026-09-24T23:30:00-06:00</expires><senderName>NWS Albuquerque NM</senderName><headline>Flash Flood Warning issued September 24 at 6:24PM MDT until September 24 at 11:30PM MDT by NWS Albuquerque NM</headline><description>FFWABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Flash Flood Warning for...
+Southeastern Lincoln County in central New Mexico...
+Western Chaves County in southeastern New Mexico...
+
+* Until 1130 PM MDT.
+
+* At 624 PM MDT, gauge reports in Hondo show a significant and
+dangerous flood wave in the Rio Hondo. This flood wave will
+continue to impact communities downstream to and past the Chaves
+County line.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Gauges reported.
+
+IMPACT...Life threatening flash flooding of creeks and streams,
+urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+Picacho and Sunset.
+
+Stay away from river banks as this flood wave will develop rapidly.
+Those near the Rio Hondo should consider seeking higher ground.
+</description><instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction><web>http://www.weather.gov</web><parameter><valueName>AWIPSidentifier</valueName><value>FFWABQ</value></parameter><parameter><valueName>WMOidentifier</valueName><value>WGUS55 KABQ 250024</value></parameter><parameter><valueName>flashFloodDamageThreat</valueName><value>CONSIDERABLE</value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>EAS</value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>NWEM</value></parameter><parameter><valueName>EAS-ORG</valueName><value>WXR</value></parameter><parameter><valueName>VTEC</valueName><value>/O.NEW.KABQ.FF.W.0187.260925T0024Z-260925T0530Z/</value></parameter><parameter><valueName>eventEndingTime</valueName><value>2026-09-24T23:30:00-06:00</value></parameter><parameter><valueName>WEAHandling</valueName><value>Imminent Threat</value></parameter><parameter><valueName>CMAMtext</valueName><value>NWS: FLASH FLOOD WARNING this area til 11:30 PM MDT. Avoid flooded areas.</value></parameter><parameter><valueName>CMAMlongtext</valueName><value>National Weather Service: A FLASH FLOOD WARNING is in effect for this area until 11:30 PM MDT. This is a dangerous and life-threatening situation. Do not attempt to travel unless you are fleeing an area subject to flooding or under an evacuation order.</value></parameter><area><areaDesc>Chaves, NM; Lincoln, NM</areaDesc><polygon>33.34,-105.19 33.37,-105.19 33.35,-105.1 33.34,-104.99 33.33,-104.95 33.36,-104.89 33.36,-104.85 33.33,-104.8 33.31,-104.82 33.34,-104.86 33.33,-104.89 33.3,-104.93 33.31,-105.1 33.34,-105.17 33.34,-105.19</polygon><geocode><valueName>SAME</valueName><value>035005</value></geocode><geocode><valueName>SAME</valueName><value>035027</value></geocode><geocode><valueName>UGC</valueName><value>NMC005</value></geocode><geocode><valueName>UGC</valueName><value>NMC027</value></geocode></area></info><info><language>es-US</language><category>Met</category><event>Flash Flood Warning</event><responseType>Avoid</responseType><urgency>Immediate</urgency><severity>Severe</severity><certainty>Likely</certainty><eventCode><valueName>SAME</valueName><value>FFW</value></eventCode><eventCode><valueName>NationalWeatherService</valueName><value>FFW</value></eventCode><effective>2026-09-24T18:24:00-06:00</effective><onset>2026-09-24T18:24:00-06:00</onset><expires>2026-09-24T23:30:00-06:00</expires><senderName>NWS Albuquerque NM</senderName><headline>Flash Flood Warning issued September 24 at 6:24PM MDT until September 24 at 11:30PM MDT by NWS Albuquerque NM</headline><description>FFWABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Flash Flood Warning for...
+Southeastern Lincoln County in central New Mexico...
+Western Chaves County in southeastern New Mexico...
+
+* Until 1130 PM MDT.
+
+* At 624 PM MDT, gauge reports in Hondo show a significant and
+dangerous flood wave in the Rio Hondo. This flood wave will
+continue to impact communities downstream to and past the Chaves
+County line.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+flash flooding.
+
+SOURCE...Gauges reported.
+
+IMPACT...Life threatening flash flooding of creeks and streams,
+urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+Picacho and Sunset.
+
+Stay away from river banks as this flood wave will develop rapidly.
+Those near the Rio Hondo should consider seeking higher ground.
+</description><instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.</instruction><web>http://www.weather.gov</web><parameter><valueName>AWIPSidentifier</valueName><value>FFWABQ</value></parameter><parameter><valueName>WMOidentifier</valueName><value>WGUS55 KABQ 250024</value></parameter><parameter><valueName>flashFloodDamageThreat</valueName><value>CONSIDERABLE</value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>EAS</value></parameter><parameter><valueName>BLOCKCHANNEL</valueName><value>NWEM</value></parameter><parameter><valueName>EAS-ORG</valueName><value>WXR</value></parameter><parameter><valueName>VTEC</valueName><value>/O.NEW.KABQ.FF.W.0187.260925T0024Z-260925T0530Z/</value></parameter><parameter><valueName>eventEndingTime</valueName><value>2026-09-24T23:30:00-06:00</value></parameter><parameter><valueName>WEAHandling</valueName><value>Imminent Threat</value></parameter><parameter><valueName>CMAMtext</valueName><value>SNM: AVISO DE INUNDACIONES REPENTINAS hasta 11:30 PM MDT. Evite areas inundadas.</value></parameter><parameter><valueName>CMAMlongtext</valueName><value>Servicio Nacional de Meteorologia: AVISO DE INUNDACIONES REPENTINAS en efecto para esta area hasta las 11:30 PM MDT. Esta es una situacion peligrosa y amenaza la vida. No intente viajar a menos que sea para abandonar un area propensa a inundaciones o bajo una orden de desalojo.</value></parameter><area><areaDesc>Chaves, NM; Lincoln, NM</areaDesc><polygon>33.34,-105.19 33.37,-105.19 33.35,-105.1 33.34,-104.99 33.33,-104.95 33.36,-104.89 33.36,-104.85 33.33,-104.8 33.31,-104.82 33.34,-104.86 33.33,-104.89 33.3,-104.93 33.31,-105.1 33.34,-105.17 33.34,-105.19</polygon><geocode><valueName>SAME</valueName><value>035005</value></geocode><geocode><valueName>SAME</valueName><value>035027</value></geocode><geocode><valueName>UGC</valueName><value>NMC005</value></geocode><geocode><valueName>UGC</valueName><value>NMC027</value></geocode></area></info><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" xmlns:ns5="http://gov.fema.ipaws.services/IPAWS_CAPService/" xmlns:ns2="urn:oasis:names:tc:emergency:cap:1.2" xmlns:ns4="http://gov.fema.ipaws.services/capresponse" xmlns:ns3="http://gov.fema.ipaws.services/caprequest"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>YZ69+kNrtPIPpqG4USDpcUN2pjaPd+hYoLZgzClbL+I=</DigestValue></Reference></SignedInfo><SignatureValue>Al4xR7cBmzE0DUUidlEY6/UDzYQai24yymU9/uDgcFQa4AiusK0mk4BBaPtv0QBSMD7OVJD7819s&#13;
+ovtCPukrncmGluO8/zCHx9HGOI74jSozWepOUPlgkR2QmQCquhFFJnuOcFCibN3xAllPPg2X4eRC&#13;
+6v2P3wzYh6jcKvayWSlguuBpBVIExaiZwig28C+B4OtXVpJQZI1eUR0MdDYWrD2SAqgopG5DUaxA&#13;
+s6R7lFM9SASCMI0n5TYuAJQfqCWGuOmi7r3zTVIOdwxEueN/EEIq6jzPXKuOL0rXzOhSIDcPeMdW&#13;
+h+J6wBL0hBaJV+WZv7+JS6/Mzq9js5GcY9SgWw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=IPAWSOPEN200032,OU=A01410D0000019A5E4549540014DF2C,OU=Devices IPAWS,OU=National Continuity Programs,O=FEMA IPAWS,C=US</X509SubjectName><X509Certificate>MIIHPzCCBSegAwIBAgIQQAGaXkVJb3yj70Q8FAqMbzANBgkqhkiG9w0BAQsFADBdMQswCQYDVQQG&#13;
+EwJVUzESMBAGA1UEChMJSWRlblRydXN0MSAwHgYDVQQLExdJZGVuVHJ1c3QgR2xvYmFsIENvbW1v&#13;
+bjEYMBYGA1UEAxMPSUdDIERldmljZSBDQSAyMB4XDTI1MTEwNzEyMjMxMFoXDTI4MTEwNjEyMjIx&#13;
+MFowgaUxCzAJBgNVBAYTAlVTMRMwEQYDVQQKEwpGRU1BIElQQVdTMSUwIwYDVQQLExxOYXRpb25h&#13;
+bCBDb250aW51aXR5IFByb2dyYW1zMRYwFAYDVQQLEw1EZXZpY2VzIElQQVdTMSgwJgYDVQQLEx9B&#13;
+MDE0MTBEMDAwMDAxOUE1RTQ1NDk1NDAwMTRERjJDMRgwFgYDVQQDEw9JUEFXU09QRU4yMDAwMzIw&#13;
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCOdhA5DPitMFp6DUbiQZi/anJ6L9qtPrRz&#13;
+gZksP2aOSve50875b4yi2eMv2caKpF+lxtbmzxdZjRuV55TnCkn7HaaLpi+7nFP4aDB9DDw/Gnop&#13;
+65nNzLvZ7MXpCC3ikJk09iSgwVaw6RGte9X2WyUoPaEmygjv1lsVx+JGohgvPxTtiZhQJyxkxbM5&#13;
+rR2MAC5VjsrZNu3idfvd1B0EEGM1cVU9jpVuyiWK53k+vPuSOH/UWMXezzrBEwjtw1SMVv2/dxKz&#13;
+79gaITMmF6z5QqDFV0cstzmyEZWhyoavCpXW4W+vU+FLO0IgXINzY34IsnFQ/cqGEJ6MtC63uM8f&#13;
+2L7dAgMBAAGjggKwMIICrDAOBgNVHQ8BAf8EBAMCBaAwfQYIKwYBBQUHAQEEcTBvMCkGCCsGAQUF&#13;
+BzABhh1odHRwOi8vaWdjLm9jc3AuaWRlbnRydXN0LmNvbTBCBggrBgEFBQcwAoY2aHR0cDovL3Zh&#13;
+bGlkYXRpb24uaWRlbnRydXN0LmNvbS9jZXJ0cy9pZ2NkZXZpY2VjYTIucDdjMB8GA1UdIwQYMBaA&#13;
+FD+LR65hHetlI5XEOi3tu0jVIykiMIIBQwYDVR0gBIIBOjCCATYwDQYLYIZIAYb5LwBkJQEwggEj&#13;
+BgtghkgBhvkvAGQmATCCARIwSwYIKwYBBQUHAgEWP2h0dHBzOi8vc2VjdXJlLmlkZW50cnVzdC5j&#13;
+b20vY2VydGlmaWNhdGVzL3BvbGljeS9JR0MvaW5kZXguaHRtbDCBwgYIKwYBBQUHAgIwgbUMgbJD&#13;
+ZXJ0aWZpY2F0ZSB1c2UgcmVzdHJpY3RlZCB0byBSZWx5aW5nIFBhcnR5KHMpIGluIGFjY29yZGFu&#13;
+Y2Ugd2l0aCBJR0MtQ1AgKHNlZSBodHRwczovL3NlY3VyZS5pZGVudHJ1c3QuY29tL2NlcnRpZmlj&#13;
+YXRlcy9wb2xpY3kvaWdjL2luZGV4Lmh0bWwpLiBJR0MtQ1BTIGluY29ycG9yYXRlZCBieSByZWZl&#13;
+cmVuY2UuMEUGA1UdHwQ+MDwwOqA4oDaGNGh0dHA6Ly92YWxpZGF0aW9uLmlkZW50cnVzdC5jb20v&#13;
+Y3JsL2lnY2RldmljZWNhMi5jcmwwGgYDVR0RBBMwEYIPSVBBV1NPUEVOMjAwMDMyMB0GA1UdDgQW&#13;
+BBQ8QhNU0KQ6GUEOz5peBrNTppU+fDAxBgNVHSUEKjAoBggrBgEFBQcDAgYIKwYBBQUHAwUGCCsG&#13;
+AQUFBwMGBggrBgEFBQcDBzANBgkqhkiG9w0BAQsFAAOCAgEAXiYe+0catdoGF4nXiIoyywVkVTaG&#13;
+BacaUIjTceAJv35LhC5gwAM+O3OudKQQbMeIzOcjJluFc4vFjmzL/DxLLKk6IVVZQ+MXO8O5UZ6e&#13;
+0hSwQv3mO+9JkCYL7M/GIJwiq6XuEiLS7wESwnHq2tIppZNfpcZcMSlQC+4hoUPJuVNU7QVFtvXe&#13;
+6FaB/zDMTU3pzOuCxn/SNIhBKHVesE8n5soIp5q8U/R/I9vYM52NISzZcYPGUp6Snyd9mVqmxAo+&#13;
+t3pAgsojLOrSBPLQoPoip/KeKCMahrumQuaHi6t3ML6IlCIuOeNnHEaxnUIWGD7kAswOKsqGGjMN&#13;
+JwXw6TeqrddvCg8Nd0SH7mWI/vjOq/ykZs2q6lB3b/5ur7YjGOdT3310R0VhZ8pxuyUTrR6EFlFR&#13;
+PkWhg46BaEiP1GtzmEW7wT0YStf4wvwDR3HkjpzNoBO92+iwhVHPKyl7T4METnDyTAD+aDn/Xtp/&#13;
+pZePlh9uOkCqS7NOm6B4Hjra/iL3BQG2gwcE6XOzbETH6/ibKwMroFDAgqe8AA6xdmcajHBf7/wA&#13;
+maMrAQmgbINPpZWjMo3wf2IccUTVHxLaZj+yQZcWMuX9R2H84eTo/CfqmG1RyxcqO0Nd1BS8i8Ii&#13;
+YnCXXUlXkpl0xFj1R1xiGv8bd4l5AGjorijY2Wnub1m4Y4k=</X509Certificate></X509Data></KeyInfo></Signature></alert>
