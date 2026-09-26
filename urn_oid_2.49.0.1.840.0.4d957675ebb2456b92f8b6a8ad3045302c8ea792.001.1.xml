@@ -1,0 +1,119 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.4d957675ebb2456b92f8b6a8ad3045302c8ea792.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T16:33:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ba7a969c0141026386f5cf60abbebd6a71a0779.001.1,2026-09-24T16:22:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Severe Thunderstorm Warning</event>
+        <responseType>Shelter</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Severe</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SVW</value>
+        </eventCode>
+        <effective>2026-09-24T16:33:00-07:00</effective>
+        <onset>2026-09-24T16:33:00-07:00</onset>
+        <expires>2026-09-24T17:00:00-07:00</expires>
+        <senderName>NWS Phoenix AZ</senderName>
+        <headline>Severe Thunderstorm Warning issued September 24 at 4:33PM MST until September 24 at 5:00PM MST by NWS Phoenix AZ</headline>
+        <description>At 433 PM MST, a severe thunderstorm was located over Boyce Thompson
+Arboretum, or over Superior, moving west at 15 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, siding, and trees.
+
+Locations impacted include...
+Superior, Boyce Thompson Arboretum, Queen Valley, Florence Junction
+and Top-Of-The-World.
+</description>
+        <instruction>Seek shelter inside a well-built structure and stay away from
+windows. This storm is capable of producing damaging winds and large
+hail.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SVSPSR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS55 KPSR 242333</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 5 PM MST FOR PINAL COUNTY</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-24T23:22:00-00:00...storm...106DEG...13KT...33.25,-111.09</value>
+        </parameter>
+        <parameter>
+            <valueName>windThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>60 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>hailThreat</valueName>
+            <value>RADAR INDICATED</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>1.00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KPSR.SV.W.0137.000000T0000Z-260925T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T17:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Pinal, AZ</areaDesc>
+            <polygon>33.35,-111.0 33.17,-111.05 33.15,-111.09 33.12,-111.4 33.3,-111.4 33.46,-111.32 33.35,-111.0</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>004021</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>AZC021</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
