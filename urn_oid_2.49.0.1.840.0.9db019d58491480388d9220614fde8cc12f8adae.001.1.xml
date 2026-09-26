@@ -1,0 +1,101 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.9db019d58491480388d9220614fde8cc12f8adae.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T17:48:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-25T17:48:00-06:00</effective>
+        <onset>2026-09-25T17:48:00-06:00</onset>
+        <expires>2026-09-25T18:30:00-06:00</expires>
+        <senderName>NWS Pueblo CO</senderName>
+        <headline>Special Weather Statement issued September 25 at 5:48PM MDT by NWS Pueblo CO</headline>
+        <description>At 548 PM MDT, Doppler radar was tracking a strong thunderstorm 13
+miles north of Two Buttes Reservoir, or 17 miles south of Lamar,
+moving northeast at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+This storm will remain over mainly rural areas of west central
+Prowers County.
+</description>
+        <instruction>If outdoors, consider seeking shelter inside a building.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSPUB</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS85 KPUB 252348</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>A STRONG THUNDERSTORM WILL IMPACT WEST CENTRAL PROWERS COUNTY THROUGH 630 PM MDT</value>
+        </parameter>
+        <parameter>
+            <valueName>eventMotionDescription</valueName>
+            <value>2026-09-25T23:48:00-00:00...storm...244DEG...16KT...37.83,-102.68</value>
+        </parameter>
+        <parameter>
+            <valueName>maxWindGust</valueName>
+            <value>50 MPH</value>
+        </parameter>
+        <parameter>
+            <valueName>maxHailSize</valueName>
+            <value>0.75</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Lamar Vicinity/Prowers County</areaDesc>
+            <polygon>37.77,-102.74 37.9,-102.74 37.99,-102.5 37.88,-102.37 37.77,-102.74</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>008099</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>COZ098</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
