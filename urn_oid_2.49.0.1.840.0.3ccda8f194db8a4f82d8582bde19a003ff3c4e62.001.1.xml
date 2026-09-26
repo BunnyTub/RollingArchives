@@ -1,0 +1,133 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.3ccda8f194db8a4f82d8582bde19a003ff3c4e62.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T09:13:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FLW</value>
+        </eventCode>
+        <effective>2026-09-24T09:13:00-04:00</effective>
+        <onset>2026-09-24T09:13:00-04:00</onset>
+        <expires>2026-09-25T11:30:00-04:00</expires>
+        <senderName>NWS Melbourne FL</senderName>
+        <headline>Flood Warning issued September 24 at 9:13AM EDT by NWS Melbourne FL</headline>
+        <description>...The National Weather Service in Melbourne has issued a Flood
+Warning for the following rivers in Florida...
+
+St Johns River Near Astor affecting Lake and Volusia Counties.
+
+.The St Johns River at Astor is currently at Flood Stage 2.3 feet and
+is forecast to continue to rise through Minor Flood Stage into Sunday
+due to an ongoing period of northerly winds and tidal effects.
+
+For the St. Johns River...including Astor...Minor flooding is
+forecast.
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...St Johns River near Astor.
+
+* WHEN...From this morning until further notice.
+
+* IMPACTS...At 2.8 feet, Docks and boat ramps covered at South Moon
+Fish Camp and approaching sea wall at Blair's Jungle Den. Water
+approaching sites closest to the river at Fish Tales RV Resort and
+Astor Landing Campground. Portion of Clair Street covered by river
+water south of the Butler Boat Ramp. Docks underwater at the Astor
+Bridge Marina and along Riveredge Drive. Portions of Fox Road are
+covered with water nearest to the river. Acorn, Hazelnut and Redbud
+roads are underwater with yards inundated.
+
+* ADDITIONAL DETAILS...
+- At 8:30 AM EDT Thursday the stage was 2.3 feet.
+- Bankfull stage is 2.0 feet.
+- Forecast...The river is at flood stage and will continue to rise
+to a crest of 2.8 feet Sunday morning.
+- Flood stage is 2.3 feet.
+- Flood History...This crest compares to a previous crest of 2.9
+feet on 10/17/1999.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>
+
+Caution is urged when walking near riverbanks.
+
+Please report observed flooding to local emergency services or law
+enforcement and request they pass this information to the National
+Weather Service when you can do so safely.
+
+Additional information is available at www.weather.gov.
+
+The next statement will be issued Friday morning at 1130 AM EDT.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLWMLB</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS42 KMLB 241313</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD WARNING IN EFFECT FROM THIS MORNING UNTIL FURTHER NOTICE</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KMLB.FL.W.0002.260924T1313Z-000000T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Lake, FL; Volusia, FL</areaDesc>
+            <polygon>29.08,-81.5 29.32,-81.69 29.35,-81.57 29.1,-81.42 29.08,-81.5</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012069</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>012127</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLC069</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>FLC127</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
