@@ -1,0 +1,86 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.4f19c15d9edbe67af2f337c454b31104698ae60d.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T19:48:00-07:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c7cae5a066a34d3a518153aba590fac4b3d51d7f.001.1,2026-09-24T17:37:00-07:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Lake Wind Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>LWY</value>
+        </eventCode>
+        <effective>2026-09-24T19:48:00-07:00</effective>
+        <onset>2026-09-24T19:48:00-07:00</onset>
+        <expires>2026-09-24T21:00:00-07:00</expires>
+        <senderName>NWS Hanford CA</senderName>
+        <headline>Lake Wind Advisory issued September 24 at 7:48PM PDT until September 24 at 8:00PM PDT by NWS Hanford CA</headline>
+        <description></description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWHNX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS76 KHNX 250248</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>LAKE WIND ADVISORY WILL EXPIRE AT 8 PM PDT THIS EVENING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.EXP.KHNX.LW.Y.0031.000000T0000Z-260925T0300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-24T20:00:00-07:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <parameter>
+            <valueName>expiredReferences</valueName>
+            <value>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.10f6c58932d6035da105ddb4f33bd7b302b2016d.001.1,2026-09-24T09:58:00-07:00</value>
+        </parameter>
+        <area>
+            <areaDesc>West Side Mountains north of 198</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>006019</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>006047</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>CAZ300</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
