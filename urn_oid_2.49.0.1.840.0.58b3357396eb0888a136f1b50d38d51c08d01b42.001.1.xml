@@ -1,0 +1,103 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.58b3357396eb0888a136f1b50d38d51c08d01b42.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T09:02:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-24T09:02:00-05:00</effective>
+        <onset>2026-09-24T09:02:00-05:00</onset>
+        <expires>2026-09-24T11:15:00-05:00</expires>
+        <senderName>NWS La Crosse WI</senderName>
+        <headline>Special Weather Statement issued September 24 at 9:02AM CDT by NWS La Crosse WI</headline>
+        <description>If traveling through central Wisconsin this morning, be prepared
+for fog that could suddenly reduce visibilities to 1/4 mile or
+less.
+
+Expect the fog to dissipate between 10 am and 11 am! Slow down
+and allow extra time to reach your destination.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSARX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS83 KARX 241402</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>Areas of Dense Fog in Central Wisconsin this morning</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Jackson; Monroe; Juneau; Adams</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055053</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055081</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055057</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>055001</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ034</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ042</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ043</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WIZ044</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

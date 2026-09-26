@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.fc79f7a4e0e0755ae3858218f5a89cf3fe68b3a8.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T00:58:00-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Flood Advisory</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FAY</value>
+        </eventCode>
+        <effective>2026-09-26T00:58:00-06:00</effective>
+        <onset>2026-09-26T00:58:00-06:00</onset>
+        <expires>2026-09-26T07:00:00-06:00</expires>
+        <senderName>NWS Albuquerque NM</senderName>
+        <headline>Flood Advisory issued September 26 at 12:58AM MDT until September 26 at 7:00AM MDT by NWS Albuquerque NM</headline>
+        <description>* WHAT...Rapid river rises caused by excessive rainfall is expected.
+
+* WHERE...North Central Guadalupe County in east central New
+Mexico...
+
+* WHEN...Until 700 AM MDT Saturday.
+
+* IMPACTS...River or stream flows are elevated in the Gallinas River
+near Colonias and the Pecos River from near Dilia to near Santa
+Rosa Lake State Park.
+
+* ADDITIONAL DETAILS...
+- At 1257 AM MDT, gauge reports indicated elevated flows in the
+Gallinas River and Pecos River due to heavy rainfall on Friday.
+Rapid river rises may cause minor flooding in the advisory area.
+- Stay awake from river banks.
+- Some locations that will experience flooding include...
+Colonias.
+- http://www.weather.gov/safety/flood
+</description>
+        <instruction>Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the
+dangers of flooding.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>FLSABQ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WGUS85 KABQ 260658</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>FLOOD ADVISORY IN EFFECT UNTIL 7 AM MDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KABQ.FA.Y.0347.260926T0658Z-260926T1300Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T07:00:00-06:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Guadalupe, NM</areaDesc>
+            <polygon>35.21,-104.92 35.21,-104.88 35.16,-104.91 35.14,-104.85 35.06,-104.73 35.07,-104.66 35.05,-104.65 35.03,-104.7 35.04,-104.76 35.08,-104.84 35.12,-104.89 35.13,-104.94 35.16,-104.96 35.18,-104.99 35.16,-105.02 35.16,-105.04 35.18,-105.04 35.2,-105.03 35.21,-104.97 35.19,-104.92 35.21,-104.92</polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>035019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>NMC019</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
