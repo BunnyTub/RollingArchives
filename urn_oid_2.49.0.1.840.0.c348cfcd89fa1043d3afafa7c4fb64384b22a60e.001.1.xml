@@ -1,0 +1,102 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.c348cfcd89fa1043d3afafa7c4fb64384b22a60e.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T05:56:00-05:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Dense Fog Advisory</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>FGY</value>
+        </eventCode>
+        <effective>2026-09-25T05:56:00-05:00</effective>
+        <onset>2026-09-25T06:00:00-05:00</onset>
+        <expires>2026-09-25T11:00:00-05:00</expires>
+        <senderName>NWS Rapid City SD</senderName>
+        <headline>Dense Fog Advisory issued September 25 at 5:56AM CDT until September 25 at 11:00AM CDT by NWS Rapid City SD</headline>
+        <description>* WHAT...Visibility one quarter to one half mile in dense fog.
+
+* WHERE...Mellette, Todd, and Tripp.
+
+* WHEN...Until 11 AM CDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+</description>
+        <instruction>If driving, slow down, use your headlights, and leave plenty of
+distance ahead of you.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>NPWUNR</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS73 KUNR 251056</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>DENSE FOG ADVISORY IN EFFECT UNTIL 11 AM CDT THIS MORNING</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KUNR.FG.Y.0007.260925T1100Z-260925T1600Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-25T11:00:00-05:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Mellette; Todd; Tripp</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>046095</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>046121</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>046123</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>SDZ046</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>SDZ047</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>SDZ049</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
