@@ -1,0 +1,158 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.70f55c0c654856bc192c0d3f68b6c3037b2f4683.001.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-25T01:53:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Coastal Flood Warning</event>
+        <responseType>Avoid</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Likely</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>CFW</value>
+        </eventCode>
+        <effective>2026-09-25T01:53:00-04:00</effective>
+        <onset>2026-09-25T17:00:00-04:00</onset>
+        <expires>2026-09-25T17:00:00-04:00</expires>
+        <senderName>NWS Boston/Norton MA</senderName>
+        <headline>Coastal Flood Warning issued September 25 at 1:53AM EDT until September 27 at 8:00PM EDT by NWS Boston/Norton MA</headline>
+        <description>* WHAT...For the High Surf Advisory, large breaking waves of 6
+to 13 feet expected in the surf zone. For the Coastal Flood
+Warning, up to one foot of inundation above ground level
+possible in low-lying areas near shorelines and tidal
+waterways (4.2 to 12.8 feet Mean Lower Low Water). An extended
+period of beach erosion is also expected.
+
+* WHERE...Eastern Essex MA, Suffolk MA, Eastern Norfolk MA,
+Eastern Plymouth MA, Barnstable MA, Dukes MA and Nantucket MA
+Counties.
+
+* WHEN...For the High Surf Advisory, from 5 AM early this
+morning to 8 PM EDT Sunday. For the Coastal Flood Warning,
+from 5 PM this afternoon to 8 PM EDT Sunday.
+
+* IMPACTS...Strong northeast winds with large waves will result
+in minor coastal flooding with pockets of moderate coastal flooding
+over multiple high tide cycles from late Friday through the weekend.
+The greatest risk for coastal flooding appears to be setting up
+south of Boston and onto the Cape and Islands. In addition...the
+long duration of northeast winds coupled with large waves over
+multiple high tide cycles will result in areas of beach erosion
+for a prolonged period.
+</description>
+        <instruction>Take the necessary actions to protect flood-prone property. If
+travel is required, do not drive around barricades or through
+water of unknown depth.
+
+Inexperienced swimmers should remain out of the water due to
+dangerous surf conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>CFWBOX</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS41 KBOX 250553</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>HIGH SURF ADVISORY REMAINS IN EFFECT FROM 5 AM EARLY THIS MORNING TO 8 PM EDT SUNDAY... ...COASTAL FLOOD WARNING IN EFFECT FROM 5 PM THIS AFTERNOON TO 8 PM EDT SUNDAY</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.NEW.KBOX.CF.W.0003.260925T2100Z-260928T0000Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-27T20:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Eastern Essex; Suffolk; Eastern Norfolk; Eastern Plymouth; Barnstable; Dukes; Nantucket</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025009</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025021</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025025</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025023</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025001</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025007</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>025019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ007</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ015</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ016</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ019</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ022</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ023</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>MAZ024</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
