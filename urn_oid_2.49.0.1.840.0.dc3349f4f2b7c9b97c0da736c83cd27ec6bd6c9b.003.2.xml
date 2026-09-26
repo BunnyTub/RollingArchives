@@ -1,0 +1,132 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.dc3349f4f2b7c9b97c0da736c83cd27ec6bd6c9b.003.2</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-24T08:35:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <references>w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e6e06476466d5ae8e19226c3d7b938c4ee795b67.002.2,2026-09-24T03:09:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b3bb5c0ed68c778b4bdee1783a2fb41c65f547d1.004.2,2026-09-24T05:45:00-04:00</references>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Storm Watch</event>
+        <responseType>Prepare</responseType>
+        <urgency>Future</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>NWS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SRA</value>
+        </eventCode>
+        <effective>2026-09-24T08:35:00-04:00</effective>
+        <onset>2026-09-25T18:00:00-04:00</onset>
+        <expires>2026-09-24T21:45:00-04:00</expires>
+        <senderName>NWS Mount Holly NJ</senderName>
+        <headline>Storm Watch issued September 24 at 8:35AM EDT until September 26 at 6:00PM EDT by NWS Mount Holly NJ</headline>
+        <description>* WHAT...For the Gale Warning, northeast winds 25 to 35 kt with
+gusts up to 45 kt and seas 10 to 13 ft. For the Storm Watch,
+north winds 25 to 35 kt with gusts up to 50 kt and seas 9 to 13
+ft possible.
+
+* WHERE...Portions of Atlantic coastal waters.
+
+* WHEN...For the Gale Warning, until 6 PM EDT Friday. For the
+Storm Watch, from Friday evening through Saturday afternoon.
+
+* IMPACTS...Storm force winds and hazardous seas could capsize
+or damage vessels and reduce visibility.
+</description>
+        <instruction>Mariners should prepare to remain in port, alter course, and/or
+secure the vessel before the onset of severe conditions.</instruction>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>MWWPHI</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WHUS71 KPHI 241235</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>GALE WARNING REMAINS IN EFFECT UNTIL 6 PM EDT FRIDAY... ...STORM WATCH REMAINS IN EFFECT FROM FRIDAY EVENING THROUGH SATURDAY AFTERNOON</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value>/O.CON.KPHI.SR.A.0004.260925T2200Z-260926T2200Z/</value>
+        </parameter>
+        <parameter>
+            <valueName>eventEndingTime</valueName>
+            <value>2026-09-26T18:00:00-04:00</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM; Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM; Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM; Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM; Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM; Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073450</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073451</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073452</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073453</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073454</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>073455</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ450</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ451</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ452</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ453</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ454</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ANZ455</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
