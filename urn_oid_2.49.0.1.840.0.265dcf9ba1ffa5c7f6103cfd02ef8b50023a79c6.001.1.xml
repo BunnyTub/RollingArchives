@@ -1,0 +1,131 @@
+<SharpAlertSource>NWS Atom</SharpAlertSource><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.840.0.265dcf9ba1ffa5c7f6103cfd02ef8b50023a79c6.001.1</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2026-09-26T05:40:00-04:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <source>211803 v2.3.0</source>
+    <scope>Public</scope>
+    <code>IPAWSv1.0</code>
+    <info>
+        <language>en-US</language>
+        <category>Met</category>
+        <event>Special Weather Statement</event>
+        <responseType>Execute</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <eventCode>
+            <valueName>NationalWeatherService</valueName>
+            <value>SPS</value>
+        </eventCode>
+        <effective>2026-09-26T05:40:00-04:00</effective>
+        <onset>2026-09-26T05:40:00-04:00</onset>
+        <expires>2026-09-26T09:00:00-04:00</expires>
+        <senderName>NWS Pittsburgh PA</senderName>
+        <headline>Special Weather Statement issued September 26 at 5:40AM EDT by NWS Pittsburgh PA</headline>
+        <description>Dense fog with visibilities down to one quarter mile or less have
+developed along the rivers from California PA on south into West
+Virginia early this morning.
+
+The fog should continue for a few more hours and then burn off
+rapidly by 8 or 9 am this morning.
+</description>
+        <web>http://www.weather.gov</web>
+        <parameter>
+            <valueName>AWIPSidentifier</valueName>
+            <value>SPSPBZ</value>
+        </parameter>
+        <parameter>
+            <valueName>WMOidentifier</valueName>
+            <value>WWUS81 KPBZ 260940</value>
+        </parameter>
+        <parameter>
+            <valueName>NWSheadline</valueName>
+            <value>Dense valley fog through 9 am for the Cheat Monongahela and Youghiogheny River Valleys</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>EAS</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>NWEM</value>
+        </parameter>
+        <parameter>
+            <valueName>EAS-ORG</valueName>
+            <value>WXR</value>
+        </parameter>
+        <parameter>
+            <valueName>BLOCKCHANNEL</valueName>
+            <value>CMAS</value>
+        </parameter>
+        <area>
+            <areaDesc>Greene; Fayette; Fayette Ridges; Marion; Monongalia; Ridges of Eastern Monongalia and Northwestern Preston; Preston; Eastern Preston; Western Tucker</areaDesc>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>042059</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>042051</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>054049</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>054061</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>054077</value>
+            </geocode>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>054093</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PAZ031</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PAZ075</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>PAZ076</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WVZ021</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WVZ509</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WVZ510</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WVZ511</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WVZ512</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>WVZ513</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
